@@ -4,26 +4,21 @@
   "episode": "EP.01",
   "title": "WHY THE FASTEST BULLET TRAINS HIT AN INVISIBLE WALL OF AIR",
   "variantA": {
-    "headline": "AIR = CONCRETE",
-    "subline": "SHOCKWAVE IN TUNNEL",
-    "badge": "TUNNEL SHOCK",
-    "metric": "350",
-    "metricLabel": "KM/H"
+    "headline": "SAME SHAPE",
+    "leftImage": "assets/thumbs/real_kingfisher.jpg",
+    "rightImage": "assets/thumbs/real_shinkansen.jpg",
+    "accent": "#A3E635",
+    "fontSize": 140
   },
   "variantB": {
     "headline": "350 KM/H TRAP",
-    "subline": "HOT PRESSURE ZONE",
-    "badge": "PRESSURE ZONE",
-    "metric": "5",
-    "metricLabel": "KPA"
+    "background": "assets/thumbs/thumb_bg_B.png",
+    "accent": "#A3E635",
+    "fontSize": 132
   },
   "variantC": {
-    "headline": "WHY IT WORKS",
-    "subline": "BLUNT VS BEAK",
-    "badge": "BEAK HACK",
-    "leftLabel": "BLUNT",
-    "leftValue": "SHOCK",
-    "rightLabel": "BEAK",
-    "rightValue": "FLOW"
+    "headline": "AIR = WALL",
+    "accent": "#F43F5E",
+    "fontSize": 132
   }
 }

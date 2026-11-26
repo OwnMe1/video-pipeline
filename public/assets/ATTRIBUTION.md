@@ -29,3 +29,5 @@ All images below were downloaded from Wikimedia Commons. License and author are 
 | `hbm_package.jpg` | File:AMD Fiji GPU package with GPU, HBM memory and interposer.jpg | CC BY-SA 4.0 | C. Spille/pcgameshardware.de | https://commons.wikimedia.org/wiki/File:AMD_Fiji_GPU_package_with_GPU,_HBM_memory_and_interposer.jpg |
 | `nvidia_logo.png` | File:NVIDIA logo.svg | Apache License 2.0 | Nvidia | https://commons.wikimedia.org/wiki/File:NVIDIA_logo.svg |
 | `taiwan_map.png` | File:Taiwan relief location map.png | CC BY-SA 3.0 | Ksiom | https://commons.wikimedia.org/wiki/File:Taiwan_relief_location_map.png |
+| `real_kingfisher.jpg` | File:Ledňáček říční (Alcedo atthis), říčka Rokytka v Praze 05.jpg | CC BY-SA 4.0 | Skot | https://commons.wikimedia.org/wiki/File:Led%C5%88%C3%A1%C4%8Dek_%C5%99%C3%AD%C4%8Dn%C3%AD_(Alcedo_atthis),_%C5%99%C3%AD%C4%8Dka_Rokytka_v_Praze_05.jpg |
+| `real_shinkansen.jpg` | File:JRW-500-nozomi.jpg | CC BY-SA 3.0 | Mitsuki-2368 | https://commons.wikimedia.org/wiki/File:JRW-500-nozomi.jpg |

@@ -1,0 +1,2240 @@
+[
+  {
+    "text": "A single Nvidia accelerator can sell for",
+    "start": 0.311,
+    "end": 2.953,
+    "scene": "scene_01"
+  },
+  {
+    "text": "$30,000 or more. It is one of",
+    "start": 3.114,
+    "end": 5.075,
+    "scene": "scene_01"
+  },
+  {
+    "text": "the most complex pieces of engineering",
+    "start": 5.095,
+    "end": 7.057,
+    "scene": "scene_01"
+  },
+  {
+    "text": "ever mass produced. Yet without a small",
+    "start": 7.157,
+    "end": 9.519,
+    "scene": "scene_01"
+  },
+  {
+    "text": "stack of memory built by one company",
+    "start": 9.579,
+    "end": 11.381,
+    "scene": "scene_01"
+  },
+  {
+    "text": "in South Korea, that accelerator is a",
+    "start": 11.441,
+    "end": 13.643,
+    "scene": "scene_01"
+  },
+  {
+    "text": "very expensive piece of sand. The memory",
+    "start": 13.683,
+    "end": 16.285,
+    "scene": "scene_01"
+  },
+  {
+    "text": "is high bandwidth memory. The company is",
+    "start": 16.425,
+    "end": 18.807,
+    "scene": "scene_01"
+  },
+  {
+    "text": "SK Hynix. Why Nvidia cannot simply buy",
+    "start": 19.007,
+    "end": 21.87,
+    "scene": "scene_01"
+  },
+  {
+    "text": "it somewhere else is a story about",
+    "start": 21.91,
+    "end": 23.911,
+    "scene": "scene_01"
+  },
+  {
+    "text": "physics, packaging, and a quiet chokehold.",
+    "start": 23.991,
+    "end": 26.754,
+    "scene": "scene_01"
+  },
+  {
+    "text": "The numbers are hard to ignore. NVIDIA",
+    "start": 27.175,
+    "end": 29.416,
+    "scene": "scene_02"
+  },
+  {
+    "text": "became one of the most valuable companies",
+    "start": 29.456,
+    "end": 31.437,
+    "scene": "scene_02"
+  },
+  {
+    "text": "by selling the shovels of the artificial",
+    "start": 31.757,
+    "end": 33.478,
+    "scene": "scene_02"
+  },
+  {
+    "text": "intelligence boom. Every data center GPU",
+    "start": 33.518,
+    "end": 36.339,
+    "scene": "scene_02"
+  },
+  {
+    "text": "needs high bandwidth memory, and the",
+    "start": 36.379,
+    "end": 38.22,
+    "scene": "scene_02"
+  },
+  {
+    "text": "supply is not elastic. SK Hynix says",
+    "start": 38.26,
+    "end": 41.161,
+    "scene": "scene_02"
+  },
+  {
+    "text": "its capacity sold out well before the",
+    "start": 41.221,
+    "end": 43.182,
+    "scene": "scene_02"
+  },
+  {
+    "text": "year began and warns shortages could",
+    "start": 43.202,
+    "end": 45.462,
+    "scene": "scene_02"
+  },
+  {
+    "text": "persist to the end of the decade.",
+    "start": 45.502,
+    "end": 47.043,
+    "scene": "scene_02"
+  },
+  {
+    "text": "When the bottleneck is measured in months",
+    "start": 47.543,
+    "end": 49.404,
+    "scene": "scene_02"
+  },
+  {
+    "text": "of factory time, memory stops being a",
+    "start": 49.444,
+    "end": 51.905,
+    "scene": "scene_02"
+  },
+  {
+    "text": "component. It becomes the schedule.",
+    "start": 51.945,
+    "end": 54.126,
+    "scene": "scene_02"
+  },
+  {
+    "text": "Computer architects have a name for the",
+    "start": 54.567,
+    "end": 56.268,
+    "scene": "scene_03"
+  },
+  {
+    "text": "gap between how fast a processor",
+    "start": 56.308,
+    "end": 58.129,
+    "scene": "scene_03"
+  },
+  {
+    "text": "calculates and how fast memory can feed",
+    "start": 58.189,
+    "end": 60.611,
+    "scene": "scene_03"
+  },
+  {
+    "text": "it. They call it the memory wall.",
+    "start": 60.631,
+    "end": 62.472,
+    "scene": "scene_03"
+  },
+  {
+    "text": "For decades, caches and profetching hid",
+    "start": 62.912,
+    "end": 65.294,
+    "scene": "scene_03"
+  },
+  {
+    "text": "that gap in general computing. Artificial",
+    "start": 65.334,
+    "end": 67.896,
+    "scene": "scene_03"
+  },
+  {
+    "text": "intelligence broke the illusion. A modern",
+    "start": 67.936,
+    "end": 70.497,
+    "scene": "scene_03"
+  },
+  {
+    "text": "model does not read data once. It",
+    "start": 70.557,
+    "end": 72.819,
+    "scene": "scene_03"
+  },
+  {
+    "text": "streams billions of parameters through the",
+    "start": 72.839,
+    "end": 74.86,
+    "scene": "scene_03"
+  },
+  {
+    "text": "chip for every token, and the arithmetic",
+    "start": 74.92,
+    "end": 77.362,
+    "scene": "scene_03"
+  },
+  {
+    "text": "units spend much of their time waiting",
+    "start": 77.482,
+    "end": 79.503,
+    "scene": "scene_03"
+  },
+  {
+    "text": "for the next number to arrive.",
+    "start": 79.563,
+    "end": 80.864,
+    "scene": "scene_03"
+  },
+  {
+    "text": "To understand why high bandwidth memory",
+    "start": 81.305,
+    "end": 83.207,
+    "scene": "scene_04"
+  },
+  {
+    "text": "exists, start with the graphics card you",
+    "start": 83.287,
+    "end": 85.449,
+    "scene": "scene_04"
+  },
+  {
+    "text": "already know. A gaming GPU sits on",
+    "start": 85.489,
+    "end": 87.991,
+    "scene": "scene_04"
+  },
+  {
+    "text": "a circuit board next to a handful",
+    "start": 88.031,
+    "end": 89.672,
+    "scene": "scene_04"
+  },
+  {
+    "text": "of memory chips. Those chips are called",
+    "start": 89.712,
+    "end": 91.834,
+    "scene": "scene_04"
+  },
+  {
+    "text": "graphics double data rate memory or GDDR.",
+    "start": 91.894,
+    "end": 94.877,
+    "scene": "scene_04"
+  },
+  {
+    "text": "They are cheap, dense, and fast in",
+    "start": 95.317,
+    "end": 97.239,
+    "scene": "scene_04"
+  },
+  {
+    "text": "the way a highway is fast when",
+    "start": 97.279,
+    "end": 98.96,
+    "scene": "scene_04"
+  },
+  {
+    "text": "traffic is light. The problem is not",
+    "start": 99.02,
+    "end": 101.122,
+    "scene": "scene_04"
+  },
+  {
+    "text": "the chips themselves. The problem is the",
+    "start": 101.182,
+    "end": 103.564,
+    "scene": "scene_04"
+  },
+  {
+    "text": "road between them and the processor.",
+    "start": 103.644,
+    "end": 105.686,
+    "scene": "scene_04"
+  },
+  {
+    "text": "On a flagship graphics card, the memory",
+    "start": 106.147,
+    "end": 108.329,
+    "scene": "scene_05"
+  },
+  {
+    "text": "bus is wide by historical standards, 384",
+    "start": 108.389,
+    "end": 111.571,
+    "scene": "scene_05"
+  },
+  {
+    "text": "bits on one generation, 512 bits on",
+    "start": 112.291,
+    "end": 115.433,
+    "scene": "scene_05"
+  },
+  {
+    "text": "the next. Each bit is a copper",
+    "start": 115.453,
+    "end": 117.594,
+    "scene": "scene_05"
+  },
+  {
+    "text": "trace rooted across a printed circuit",
+    "start": 117.634,
+    "end": 119.556,
+    "scene": "scene_05"
+  },
+  {
+    "text": "board, and every trace must arrive at",
+    "start": 119.616,
+    "end": 121.837,
+    "scene": "scene_05"
+  },
+  {
+    "text": "the processor at the same time. At",
+    "start": 121.857,
+    "end": 124.199,
+    "scene": "scene_05"
+  },
+  {
+    "text": "multi-gigabit speeds, a few millimeters of",
+    "start": 124.259,
+    "end": 126.92,
+    "scene": "scene_05"
+  },
+  {
+    "text": "extra length is no longer a detail.",
+    "start": 127.08,
+    "end": 129.202,
+    "scene": "scene_05"
+  },
+  {
+    "text": "It is a timing error.",
+    "start": 129.742,
+    "end": 130.903,
+    "scene": "scene_05"
+  },
+  {
+    "text": "Those copper traces behave like",
+    "start": 131.324,
+    "end": 132.906,
+    "scene": "scene_06"
+  },
+  {
+    "text": "transmission lines. They have capacitance,",
+    "start": 132.946,
+    "end": 135.348,
+    "scene": "scene_06"
+  },
+  {
+    "text": "inductance, and resistance. High frequency",
+    "start": 135.588,
+    "end": 138.03,
+    "scene": "scene_06"
+  },
+  {
+    "text": "signals leak, reflect, and interfere with",
+    "start": 138.07,
+    "end": 139.932,
+    "scene": "scene_06"
+  },
+  {
+    "text": "their neighbors. The further a signal",
+    "start": 139.952,
+    "end": 141.773,
+    "scene": "scene_06"
+  },
+  {
+    "text": "travels, the more energy it loses and",
+    "start": 141.813,
+    "end": 143.855,
+    "scene": "scene_06"
+  },
+  {
+    "text": "the more it distorts. Engineers compensate",
+    "start": 143.875,
+    "end": 146.377,
+    "scene": "scene_06"
+  },
+  {
+    "text": "with better substrates, more layers, and",
+    "start": 146.397,
+    "end": 148.419,
+    "scene": "scene_06"
+  },
+  {
+    "text": "careful shielding. But every fixed cost's",
+    "start": 148.459,
+    "end": 150.701,
+    "scene": "scene_06"
+  },
+  {
+    "text": "money adds thickness and consumes power.",
+    "start": 150.781,
+    "end": 153.283,
+    "scene": "scene_06"
+  },
+  {
+    "text": "You can only push a signal across",
+    "start": 153.763,
+    "end": 155.265,
+    "scene": "scene_06"
+  },
+  {
+    "text": "a circuit board so far before the",
+    "start": 155.305,
+    "end": 157.026,
+    "scene": "scene_06"
+  },
+  {
+    "text": "physical cost stops making sense.",
+    "start": 157.046,
+    "end": 159.048,
+    "scene": "scene_06"
+  },
+  {
+    "text": "There is a second cost that matters",
+    "start": 159.469,
+    "end": 161.05,
+    "scene": "scene_07"
+  },
+  {
+    "text": "even more in a data center. Moving",
+    "start": 161.17,
+    "end": 163.23,
+    "scene": "scene_07"
+  },
+  {
+    "text": "a bit of data across a wire",
+    "start": 163.25,
+    "end": 164.67,
+    "scene": "scene_07"
+  },
+  {
+    "text": "takes energy. The longer the wire and",
+    "start": 164.731,
+    "end": 167.011,
+    "scene": "scene_07"
+  },
+  {
+    "text": "the faster the signal, the more energy",
+    "start": 167.031,
+    "end": 169.192,
+    "scene": "scene_07"
+  },
+  {
+    "text": "that bit consumes. On a graphics card,",
+    "start": 169.232,
+    "end": 171.792,
+    "scene": "scene_07"
+  },
+  {
+    "text": "that energy becomes heat, and heat becomes",
+    "start": 172.113,
+    "end": 174.553,
+    "scene": "scene_07"
+  },
+  {
+    "text": "a cooling problem. Multiply it by hundreds",
+    "start": 174.593,
+    "end": 177.234,
+    "scene": "scene_07"
+  },
+  {
+    "text": "of billions of bits per second, and",
+    "start": 177.274,
+    "end": 179.295,
+    "scene": "scene_07"
+  },
+  {
+    "text": "the power bill becomes a design",
+    "start": 179.315,
+    "end": 180.975,
+    "scene": "scene_07"
+  },
+  {
+    "text": "constraint. The industry calls this the",
+    "start": 181.035,
+    "end": 183.396,
+    "scene": "scene_07"
+  },
+  {
+    "text": "energy per bit.",
+    "start": 183.516,
+    "end": 184.396,
+    "scene": "scene_07"
+  },
+  {
+    "text": "The memory wall is not a metaphor.",
+    "start": 184.817,
+    "end": 186.537,
+    "scene": "scene_08"
+  },
+  {
+    "text": "It is a measurable ratio between compute",
+    "start": 186.937,
+    "end": 188.958,
+    "scene": "scene_08"
+  },
+  {
+    "text": "throughput and memory bandwidth. Over the",
+    "start": 189.018,
+    "end": 191.398,
+    "scene": "scene_08"
+  },
+  {
+    "text": "last two decades, floating point",
+    "start": 191.438,
+    "end": 193.319,
+    "scene": "scene_08"
+  },
+  {
+    "text": "performance grew far faster than the",
+    "start": 193.359,
+    "end": 195.099,
+    "scene": "scene_08"
+  },
+  {
+    "text": "bandwidth of ordinary memory. For a while,",
+    "start": 195.139,
+    "end": 197.499,
+    "scene": "scene_08"
+  },
+  {
+    "text": "caches absorbed most of the traffic.",
+    "start": 197.819,
+    "end": 199.66,
+    "scene": "scene_08"
+  },
+  {
+    "text": "Artificial intelligence workloads are",
+    "start": 200.12,
+    "end": 201.92,
+    "scene": "scene_08"
+  },
+  {
+    "text": "different. They are dominated by matrix",
+    "start": 201.96,
+    "end": 204.261,
+    "scene": "scene_08"
+  },
+  {
+    "text": "multiplication, and matrix multiplication",
+    "start": 204.321,
+    "end": 206.841,
+    "scene": "scene_08"
+  },
+  {
+    "text": "is hungry for data. An arithmetic unit",
+    "start": 206.941,
+    "end": 209.561,
+    "scene": "scene_08"
+  },
+  {
+    "text": "with no data is just a very",
+    "start": 209.601,
+    "end": 211.402,
+    "scene": "scene_08"
+  },
+  {
+    "text": "expensive heater.",
+    "start": 211.462,
+    "end": 212.342,
+    "scene": "scene_08"
+  },
+  {
+    "text": "Modern language models make the problem",
+    "start": 212.823,
+    "end": 214.684,
+    "scene": "scene_09"
+  },
+  {
+    "text": "worse in two directions. Training requires",
+    "start": 214.724,
+    "end": 217.286,
+    "scene": "scene_09"
+  },
+  {
+    "text": "enormous data sets and repeated passes",
+    "start": 217.346,
+    "end": 219.607,
+    "scene": "scene_09"
+  },
+  {
+    "text": "over the same weights. Inference requires",
+    "start": 219.707,
+    "end": 221.929,
+    "scene": "scene_09"
+  },
+  {
+    "text": "reading the entire model for every token,",
+    "start": 221.989,
+    "end": 223.93,
+    "scene": "scene_09"
+  },
+  {
+    "text": "plus a growing cache of intermediate state",
+    "start": 224.29,
+    "end": 226.231,
+    "scene": "scene_09"
+  },
+  {
+    "text": "called the key value cache. Both workloads",
+    "start": 226.431,
+    "end": 228.833,
+    "scene": "scene_09"
+  },
+  {
+    "text": "care about capacity as much as bandwidth.",
+    "start": 228.893,
+    "end": 231.014,
+    "scene": "scene_09"
+  },
+  {
+    "text": "A GPU with insufficient memory cannot hold",
+    "start": 231.515,
+    "end": 233.956,
+    "scene": "scene_09"
+  },
+  {
+    "text": "the model, and a GPU with insufficient",
+    "start": 233.976,
+    "end": 236.398,
+    "scene": "scene_09"
+  },
+  {
+    "text": "bandwidth cannot keep its cores busy. You",
+    "start": 236.458,
+    "end": 239.139,
+    "scene": "scene_09"
+  },
+  {
+    "text": "need both at once.",
+    "start": 239.159,
+    "end": 240.1,
+    "scene": "scene_09"
+  },
+  {
+    "text": "So why not simply bolt more GDDR",
+    "start": 240.541,
+    "end": 242.483,
+    "scene": "scene_10"
+  },
+  {
+    "text": "chips onto the board? The answer is",
+    "start": 242.563,
+    "end": 244.564,
+    "scene": "scene_10"
+  },
+  {
+    "text": "pin count, board area and power. Each",
+    "start": 244.644,
+    "end": 247.287,
+    "scene": "scene_10"
+  },
+  {
+    "text": "additional chip needs its own data lanes,",
+    "start": 247.347,
+    "end": 249.368,
+    "scene": "scene_10"
+  },
+  {
+    "text": "its own power delivery, and its own",
+    "start": 249.688,
+    "end": 251.61,
+    "scene": "scene_10"
+  },
+  {
+    "text": "share of the thermal budget. A processor",
+    "start": 251.67,
+    "end": 253.972,
+    "scene": "scene_10"
+  },
+  {
+    "text": "can only drive so many high-speed pins",
+    "start": 254.012,
+    "end": 256.274,
+    "scene": "scene_10"
+  },
+  {
+    "text": "before the package becomes impractical.",
+    "start": 256.494,
+    "end": 258.315,
+    "scene": "scene_10"
+  },
+  {
+    "text": "You can widen the bus, but the",
+    "start": 258.756,
+    "end": 260.377,
+    "scene": "scene_10"
+  },
+  {
+    "text": "traces get longer, and signal integrity",
+    "start": 260.417,
+    "end": 262.899,
+    "scene": "scene_10"
+  },
+  {
+    "text": "gets worse. The architecture runs into a",
+    "start": 263.119,
+    "end": 265.681,
+    "scene": "scene_10"
+  },
+  {
+    "text": "wall made of copper.",
+    "start": 265.741,
+    "end": 266.682,
+    "scene": "scene_10"
+  },
+  {
+    "text": "The solution was to stop treating memory",
+    "start": 267.103,
+    "end": 269.105,
+    "scene": "scene_11"
+  },
+  {
+    "text": "as something that lives across the board,",
+    "start": 269.245,
+    "end": 270.947,
+    "scene": "scene_11"
+  },
+  {
+    "text": "put it directly on top of the",
+    "start": 271.347,
+    "end": 272.708,
+    "scene": "scene_11"
+  },
+  {
+    "text": "processor package. Stack the memory dies",
+    "start": 272.748,
+    "end": 275.311,
+    "scene": "scene_11"
+  },
+  {
+    "text": "vertically and connect the stack to the",
+    "start": 275.371,
+    "end": 277.292,
+    "scene": "scene_11"
+  },
+  {
+    "text": "GPU through a silicon interposer. That",
+    "start": 277.332,
+    "end": 280.035,
+    "scene": "scene_11"
+  },
+  {
+    "text": "idea became high bandwidth memory. Instead",
+    "start": 280.115,
+    "end": 282.777,
+    "scene": "scene_11"
+  },
+  {
+    "text": "of a few hundred bits rooted across",
+    "start": 282.797,
+    "end": 284.439,
+    "scene": "scene_11"
+  },
+  {
+    "text": "centimeters of circuit board, you get a",
+    "start": 284.479,
+    "end": 286.541,
+    "scene": "scene_11"
+  },
+  {
+    "text": "thousand bits rooted across millimeters of",
+    "start": 286.581,
+    "end": 288.763,
+    "scene": "scene_11"
+  },
+  {
+    "text": "silicon. The distance collapses and with",
+    "start": 288.823,
+    "end": 291.725,
+    "scene": "scene_11"
+  },
+  {
+    "text": "it the energy cost.",
+    "start": 291.825,
+    "end": 293.247,
+    "scene": "scene_11"
+  },
+  {
+    "text": "Inside the stack, the dies are connected",
+    "start": 293.708,
+    "end": 295.728,
+    "scene": "scene_12"
+  },
+  {
+    "text": "by through silicon wires or TSVs. These",
+    "start": 295.788,
+    "end": 298.849,
+    "scene": "scene_12"
+  },
+  {
+    "text": "are microscopic holes drilled through each",
+    "start": 298.889,
+    "end": 300.789,
+    "scene": "scene_12"
+  },
+  {
+    "text": "memory die and filled with copper.",
+    "start": 300.849,
+    "end": 302.43,
+    "scene": "scene_12"
+  },
+  {
+    "text": "Thousands run vertically through the",
+    "start": 302.89,
+    "end": 304.27,
+    "scene": "scene_12"
+  },
+  {
+    "text": "stack, carrying power, data and control",
+    "start": 304.31,
+    "end": 306.75,
+    "scene": "scene_12"
+  },
+  {
+    "text": "signals. Building them is brutal. The dies",
+    "start": 306.81,
+    "end": 309.571,
+    "scene": "scene_12"
+  },
+  {
+    "text": "must be thin to a fraction of",
+    "start": 309.611,
+    "end": 310.871,
+    "scene": "scene_12"
+  },
+  {
+    "text": "a millimeter, aligned with micron",
+    "start": 310.911,
+    "end": 312.932,
+    "scene": "scene_12"
+  },
+  {
+    "text": "precision and bonded without cracking. One",
+    "start": 312.992,
+    "end": 315.972,
+    "scene": "scene_12"
+  },
+  {
+    "text": "bad wire can ruin an entire stack,",
+    "start": 316.032,
+    "end": 318.092,
+    "scene": "scene_12"
+  },
+  {
+    "text": "and a stack may hold 16 dies.",
+    "start": 318.453,
+    "end": 319.633,
+    "scene": "scene_12"
+  },
+  {
+    "text": "The stack then sits on a silicon",
+    "start": 320.054,
+    "end": 321.715,
+    "scene": "scene_13"
+  },
+  {
+    "text": "interposer, a piece of silicon that acts",
+    "start": 321.735,
+    "end": 324.116,
+    "scene": "scene_13"
+  },
+  {
+    "text": "like a miniature motherboard. It carries",
+    "start": 324.156,
+    "end": 326.356,
+    "scene": "scene_13"
+  },
+  {
+    "text": "thousands of fine traces between the GPU",
+    "start": 326.436,
+    "end": 328.757,
+    "scene": "scene_13"
+  },
+  {
+    "text": "and the memory stacks. This is called",
+    "start": 328.797,
+    "end": 330.858,
+    "scene": "scene_13"
+  },
+  {
+    "text": "2.5D packaging because the chip sits side",
+    "start": 330.918,
+    "end": 333.959,
+    "scene": "scene_13"
+  },
+  {
+    "text": "by side rather than truly on top",
+    "start": 334.019,
+    "end": 336.0,
+    "scene": "scene_13"
+  },
+  {
+    "text": "of one another. It is expensive,",
+    "start": 336.04,
+    "end": 338.081,
+    "scene": "scene_13"
+  },
+  {
+    "text": "difficult, and the only practical way to",
+    "start": 338.321,
+    "end": 340.462,
+    "scene": "scene_13"
+  },
+  {
+    "text": "deliver enough bandwidth to a modern",
+    "start": 340.502,
+    "end": 342.302,
+    "scene": "scene_13"
+  },
+  {
+    "text": "accelerator. The interposer, not the",
+    "start": 342.342,
+    "end": 344.843,
+    "scene": "scene_13"
+  },
+  {
+    "text": "transistor, became the bottleneck.",
+    "start": 344.863,
+    "end": 346.904,
+    "scene": "scene_13"
+  },
+  {
+    "text": "Highband with memory has evolved through",
+    "start": 347.365,
+    "end": 349.366,
+    "scene": "scene_14"
+  },
+  {
+    "text": "several generations. The first version",
+    "start": 349.426,
+    "end": 351.708,
+    "scene": "scene_14"
+  },
+  {
+    "text": "arrived in 2013. HBM2 doubled the stack",
+    "start": 351.788,
+    "end": 355.21,
+    "scene": "scene_14"
+  },
+  {
+    "text": "height and data rate. HBM2E added 12",
+    "start": 355.25,
+    "end": 358.092,
+    "scene": "scene_14"
+  },
+  {
+    "text": "high stacks, then came HBM3 with a",
+    "start": 358.132,
+    "end": 361.074,
+    "scene": "scene_14"
+  },
+  {
+    "text": "thousand bit interface that pushed one",
+    "start": 361.134,
+    "end": 362.795,
+    "scene": "scene_14"
+  },
+  {
+    "text": "stack past 800 gigabytes per second. Each",
+    "start": 362.855,
+    "end": 365.897,
+    "scene": "scene_14"
+  },
+  {
+    "text": "generation required thinner dies, more",
+    "start": 365.937,
+    "end": 368.298,
+    "scene": "scene_14"
+  },
+  {
+    "text": "wires, and better packaging. By HBM3E, the",
+    "start": 368.358,
+    "end": 372.421,
+    "scene": "scene_14"
+  },
+  {
+    "text": "stack had become a packaging problem.",
+    "start": 372.461,
+    "end": 374.202,
+    "scene": "scene_14"
+  },
+  {
+    "text": "HBM3E is the generation that powered",
+    "start": 374.743,
+    "end": 377.445,
+    "scene": "scene_15"
+  },
+  {
+    "text": "Nvidia's Blackwell accelerators. A 12 high",
+    "start": 377.505,
+    "end": 380.347,
+    "scene": "scene_15"
+  },
+  {
+    "text": "stack holds 36 gigabytes and delivers",
+    "start": 380.367,
+    "end": 382.928,
+    "scene": "scene_15"
+  },
+  {
+    "text": "about 1.2 terabytes per second. Depending",
+    "start": 382.968,
+    "end": 385.89,
+    "scene": "scene_15"
+  },
+  {
+    "text": "on the accelerator, Nvidia pairs 4, 6,",
+    "start": 385.95,
+    "end": 388.672,
+    "scene": "scene_15"
+  },
+  {
+    "text": "or 8 stacks around the GPU. Total",
+    "start": 389.032,
+    "end": 391.454,
+    "scene": "scene_15"
+  },
+  {
+    "text": "bandwidth reaches 8 terabytes per second",
+    "start": 391.514,
+    "end": 393.695,
+    "scene": "scene_15"
+  },
+  {
+    "text": "on a flagship part. That is roughly",
+    "start": 393.775,
+    "end": 395.736,
+    "scene": "scene_15"
+  },
+  {
+    "text": "10 times the fastest consumer graphics",
+    "start": 395.816,
+    "end": 398.038,
+    "scene": "scene_15"
+  },
+  {
+    "text": "card achieved in a package that still",
+    "start": 398.098,
+    "end": 400.579,
+    "scene": "scene_15"
+  },
+  {
+    "text": "fits on a server board.",
+    "start": 400.619,
+    "end": 401.78,
+    "scene": "scene_15"
+  },
+  {
+    "text": "Stacking that many dies creates three",
+    "start": 402.221,
+    "end": 404.043,
+    "scene": "scene_16"
+  },
+  {
+    "text": "problems at once. The first is thickness.",
+    "start": 404.083,
+    "end": 406.525,
+    "scene": "scene_16"
+  },
+  {
+    "text": "To keep the package within a fixed",
+    "start": 406.965,
+    "end": 408.346,
+    "scene": "scene_16"
+  },
+  {
+    "text": "height, each die must be thinned as",
+    "start": 408.406,
+    "end": 410.288,
+    "scene": "scene_16"
+  },
+  {
+    "text": "more layers are added. A 12-high stack",
+    "start": 410.348,
+    "end": 412.83,
+    "scene": "scene_16"
+  },
+  {
+    "text": "uses dies roughly 40% thinner than an",
+    "start": 412.95,
+    "end": 415.212,
+    "scene": "scene_16"
+  },
+  {
+    "text": "8-high stack. The second is warpage. Thin",
+    "start": 415.252,
+    "end": 418.315,
+    "scene": "scene_16"
+  },
+  {
+    "text": "silicon bends under heat and pressure. The",
+    "start": 418.395,
+    "end": 420.757,
+    "scene": "scene_16"
+  },
+  {
+    "text": "third is heat. Every die generates power,",
+    "start": 420.797,
+    "end": 423.559,
+    "scene": "scene_16"
+  },
+  {
+    "text": "and that heat must escape through the",
+    "start": 423.919,
+    "end": 425.501,
+    "scene": "scene_16"
+  },
+  {
+    "text": "same narrow path.",
+    "start": 425.561,
+    "end": 426.562,
+    "scene": "scene_16"
+  },
+  {
+    "text": "To hold the stack together, manufacturers",
+    "start": 427.003,
+    "end": 429.184,
+    "scene": "scene_17"
+  },
+  {
+    "text": "use a packaging process. The conventional",
+    "start": 429.284,
+    "end": 431.504,
+    "scene": "scene_17"
+  },
+  {
+    "text": "approach is called thermal compression",
+    "start": 431.544,
+    "end": 433.324,
+    "scene": "scene_17"
+  },
+  {
+    "text": "non-conductive film or TC-NCF. A film of",
+    "start": 433.424,
+    "end": 436.565,
+    "scene": "scene_17"
+  },
+  {
+    "text": "adhesive is placed between each layer,",
+    "start": 436.625,
+    "end": 438.446,
+    "scene": "scene_17"
+  },
+  {
+    "text": "then heat and pressure bond the stack.",
+    "start": 438.766,
+    "end": 440.506,
+    "scene": "scene_17"
+  },
+  {
+    "text": "Samsung and Micron have stayed with this",
+    "start": 440.986,
+    "end": 442.847,
+    "scene": "scene_17"
+  },
+  {
+    "text": "film-based family. SK Hynix used it too,",
+    "start": 442.887,
+    "end": 445.867,
+    "scene": "scene_17"
+  },
+  {
+    "text": "through the second generation of high",
+    "start": 446.227,
+    "end": 447.888,
+    "scene": "scene_17"
+  },
+  {
+    "text": "bandwidth memory. Then in 2019, SK Hynix",
+    "start": 447.948,
+    "end": 451.848,
+    "scene": "scene_17"
+  },
+  {
+    "text": "made a bet that would define the",
+    "start": 451.908,
+    "end": 453.349,
+    "scene": "scene_17"
+  },
+  {
+    "text": "next decade.",
+    "start": 453.409,
+    "end": 454.109,
+    "scene": "scene_17"
+  },
+  {
+    "text": "TC-NCF has a weakness that becomes serious",
+    "start": 454.55,
+    "end": 457.092,
+    "scene": "scene_18"
+  },
+  {
+    "text": "as stacks get taller. The film is",
+    "start": 457.272,
+    "end": 459.313,
+    "scene": "scene_18"
+  },
+  {
+    "text": "applied one layer at a time, and",
+    "start": 459.373,
+    "end": 461.114,
+    "scene": "scene_18"
+  },
+  {
+    "text": "each layer must be pressed and cured.",
+    "start": 461.175,
+    "end": 462.936,
+    "scene": "scene_18"
+  },
+  {
+    "text": "Trapped air can leave voids. The pressure",
+    "start": 463.336,
+    "end": 465.497,
+    "scene": "scene_18"
+  },
+  {
+    "text": "needed to bond thin dyes can cause",
+    "start": 465.537,
+    "end": 467.439,
+    "scene": "scene_18"
+  },
+  {
+    "text": "warpage, and the film sits between the",
+    "start": 467.479,
+    "end": 469.56,
+    "scene": "scene_18"
+  },
+  {
+    "text": "silicon and the heat spreader, adding",
+    "start": 469.58,
+    "end": 471.601,
+    "scene": "scene_18"
+  },
+  {
+    "text": "thermal resistance where heat needs to",
+    "start": 471.661,
+    "end": 473.643,
+    "scene": "scene_18"
+  },
+  {
+    "text": "escape. At eight layers, the process is",
+    "start": 473.703,
+    "end": 476.445,
+    "scene": "scene_18"
+  },
+  {
+    "text": "difficult. At 12, it becomes a yield",
+    "start": 476.505,
+    "end": 479.446,
+    "scene": "scene_18"
+  },
+  {
+    "text": "problem.",
+    "start": 479.507,
+    "end": 479.907,
+    "scene": "scene_18"
+  },
+  {
+    "text": "SK Hynix's alternative is called mass",
+    "start": 480.368,
+    "end": 482.79,
+    "scene": "scene_19"
+  },
+  {
+    "text": "reflow molded underfill or MR-MUF. Instead",
+    "start": 482.89,
+    "end": 486.552,
+    "scene": "scene_19"
+  },
+  {
+    "text": "of a film between every layer, the",
+    "start": 486.572,
+    "end": 488.353,
+    "scene": "scene_19"
+  },
+  {
+    "text": "entire stack is reflowed at once and",
+    "start": 488.413,
+    "end": 490.574,
+    "scene": "scene_19"
+  },
+  {
+    "text": "filled with a liquid epoxy molding",
+    "start": 490.634,
+    "end": 492.275,
+    "scene": "scene_19"
+  },
+  {
+    "text": "compound. The epoxy flows into the gaps",
+    "start": 492.335,
+    "end": 494.796,
+    "scene": "scene_19"
+  },
+  {
+    "text": "between the dyes and around the bumps,",
+    "start": 494.857,
+    "end": 496.397,
+    "scene": "scene_19"
+  },
+  {
+    "text": "then hardens. Because the material fills",
+    "start": 496.658,
+    "end": 498.979,
+    "scene": "scene_19"
+  },
+  {
+    "text": "the whole stack, it conducts heat better",
+    "start": 499.019,
+    "end": 501.14,
+    "scene": "scene_19"
+  },
+  {
+    "text": "and spreads stress more evenly.",
+    "start": 501.5,
+    "end": 504.062,
+    "scene": "scene_19"
+  },
+  {
+    "text": "SK Hynix also added up to four times",
+    "start": 504.102,
+    "end": 506.283,
+    "scene": "scene_19"
+  },
+  {
+    "text": "more thermal dummy bumps.",
+    "start": 506.343,
+    "end": 507.584,
+    "scene": "scene_19"
+  },
+  {
+    "text": "The results were measurable. SK Hynix",
+    "start": 508.005,
+    "end": 510.386,
+    "scene": "scene_20"
+  },
+  {
+    "text": "says its first MR-MUF process improved",
+    "start": 510.426,
+    "end": 513.226,
+    "scene": "scene_20"
+  },
+  {
+    "text": "heat dissipation by 36%. For 12 high",
+    "start": 513.286,
+    "end": 516.427,
+    "scene": "scene_20"
+  },
+  {
+    "text": "HBM3, it developed advanced MR-MUF with a",
+    "start": 516.627,
+    "end": 520.208,
+    "scene": "scene_20"
+  },
+  {
+    "text": "new molding compound offering 1.6 times",
+    "start": 520.248,
+    "end": 522.848,
+    "scene": "scene_20"
+  },
+  {
+    "text": "the heat dissipation. The process also",
+    "start": 522.888,
+    "end": 525.189,
+    "scene": "scene_20"
+  },
+  {
+    "text": "gave better warpage control and reduced",
+    "start": 525.229,
+    "end": 527.469,
+    "scene": "scene_20"
+  },
+  {
+    "text": "pressure on each die. By HBM3E mass",
+    "start": 527.549,
+    "end": 530.87,
+    "scene": "scene_20"
+  },
+  {
+    "text": "production, SK Hynix was reporting yields",
+    "start": 530.91,
+    "end": 533.971,
+    "scene": "scene_20"
+  },
+  {
+    "text": "around 70%.",
+    "start": 534.031,
+    "end": 534.511,
+    "scene": "scene_20"
+  },
+  {
+    "text": "That yield number is the heart of",
+    "start": 534.952,
+    "end": 536.293,
+    "scene": "scene_21"
+  },
+  {
+    "text": "the story. A memory stack is useless",
+    "start": 536.333,
+    "end": 538.633,
+    "scene": "scene_21"
+  },
+  {
+    "text": "if only half the finished units work.",
+    "start": 538.813,
+    "end": 540.474,
+    "scene": "scene_21"
+  },
+  {
+    "text": "NVIDIA needs millions of stacks on",
+    "start": 540.994,
+    "end": 542.955,
+    "scene": "scene_21"
+  },
+  {
+    "text": "schedule with reliability that survives",
+    "start": 543.035,
+    "end": 545.255,
+    "scene": "scene_21"
+  },
+  {
+    "text": "years in a data center. SK Hynix",
+    "start": 545.295,
+    "end": 547.636,
+    "scene": "scene_21"
+  },
+  {
+    "text": "could deliver them at volume. Samsung,",
+    "start": 547.676,
+    "end": 549.877,
+    "scene": "scene_21"
+  },
+  {
+    "text": "using its film-based process, struggled",
+    "start": 550.157,
+    "end": 552.378,
+    "scene": "scene_21"
+  },
+  {
+    "text": "with heat and yield on early HBM3E.",
+    "start": 552.398,
+    "end": 554.759,
+    "scene": "scene_21"
+  },
+  {
+    "text": "The result was not a permanent monopoly,",
+    "start": 555.299,
+    "end": 557.199,
+    "scene": "scene_21"
+  },
+  {
+    "text": "but it was close.",
+    "start": 557.579,
+    "end": 558.34,
+    "scene": "scene_21"
+  },
+  {
+    "text": "NVIDIA gave the largest share to the",
+    "start": 559.0,
+    "end": 560.781,
+    "scene": "scene_21"
+  },
+  {
+    "text": "supplier that could ship.",
+    "start": 560.821,
+    "end": 561.941,
+    "scene": "scene_21"
+  },
+  {
+    "text": "The irony is that SK Hynix nearly",
+    "start": 562.382,
+    "end": 564.504,
+    "scene": "scene_22"
+  },
+  {
+    "text": "went bankrupt before the boom. In 2023,",
+    "start": 564.544,
+    "end": 567.106,
+    "scene": "scene_22"
+  },
+  {
+    "text": "the memory market collapsed. Prices fell,",
+    "start": 567.166,
+    "end": 570.208,
+    "scene": "scene_22"
+  },
+  {
+    "text": "inventories piled up, and the company",
+    "start": 570.528,
+    "end": 572.63,
+    "scene": "scene_22"
+  },
+  {
+    "text": "reported an operating loss of more than",
+    "start": 572.67,
+    "end": 574.911,
+    "scene": "scene_22"
+  },
+  {
+    "text": "7.7 trillion Korean one. It was the",
+    "start": 574.991,
+    "end": 578.013,
+    "scene": "scene_22"
+  },
+  {
+    "text": "kind of year that forces a memory",
+    "start": 578.053,
+    "end": 579.975,
+    "scene": "scene_22"
+  },
+  {
+    "text": "maker to cut investment and retreat.",
+    "start": 580.015,
+    "end": 582.917,
+    "scene": "scene_22"
+  },
+  {
+    "text": "SK Hynix did the opposite. It kept betting",
+    "start": 582.957,
+    "end": 585.359,
+    "scene": "scene_22"
+  },
+  {
+    "text": "on high bandwidth memory and advanced",
+    "start": 585.459,
+    "end": 587.7,
+    "scene": "scene_22"
+  },
+  {
+    "text": "packaging.",
+    "start": 587.78,
+    "end": 588.241,
+    "scene": "scene_22"
+  },
+  {
+    "text": "The bet paid off faster than expected.",
+    "start": 588.662,
+    "end": 590.624,
+    "scene": "scene_23"
+  },
+  {
+    "text": "In 2024, SK Hynix reported an operating",
+    "start": 591.144,
+    "end": 594.367,
+    "scene": "scene_23"
+  },
+  {
+    "text": "profit of 23.5 trillion one. In 2025,",
+    "start": 594.427,
+    "end": 598.531,
+    "scene": "scene_23"
+  },
+  {
+    "text": "profit nearly doubled to 47.2 trillion one",
+    "start": 598.911,
+    "end": 601.974,
+    "scene": "scene_23"
+  },
+  {
+    "text": "on revenue of 97 trillion one. High",
+    "start": 602.394,
+    "end": 605.116,
+    "scene": "scene_23"
+  },
+  {
+    "text": "bandwidth memory grew into more than 40%",
+    "start": 605.156,
+    "end": 607.879,
+    "scene": "scene_23"
+  },
+  {
+    "text": "of its DRAM revenue. A business written",
+    "start": 607.899,
+    "end": 610.401,
+    "scene": "scene_23"
+  },
+  {
+    "text": "off as a commodity cyclical became the",
+    "start": 610.481,
+    "end": 612.923,
+    "scene": "scene_23"
+  },
+  {
+    "text": "most profitable supplier in the AI supply",
+    "start": 612.963,
+    "end": 615.605,
+    "scene": "scene_23"
+  },
+  {
+    "text": "chain.",
+    "start": 615.665,
+    "end": 615.966,
+    "scene": "scene_23"
+  },
+  {
+    "text": "High bandwidth memory is also a different",
+    "start": 616.407,
+    "end": 618.308,
+    "scene": "scene_24"
+  },
+  {
+    "text": "business from ordinary DRAM. It consumes",
+    "start": 618.348,
+    "end": 620.888,
+    "scene": "scene_24"
+  },
+  {
+    "text": "at least twice the wafer capacity of",
+    "start": 620.949,
+    "end": 622.629,
+    "scene": "scene_24"
+  },
+  {
+    "text": "standard memory for the same output",
+    "start": 622.689,
+    "end": 624.49,
+    "scene": "scene_24"
+  },
+  {
+    "text": "because of stacking and packaging. Every",
+    "start": 624.87,
+    "end": 626.99,
+    "scene": "scene_24"
+  },
+  {
+    "text": "bit of high bandwidth memory displaces two",
+    "start": 627.03,
+    "end": 629.091,
+    "scene": "scene_24"
+  },
+  {
+    "text": "bits of commodity DRAM. When demand",
+    "start": 629.131,
+    "end": 631.272,
+    "scene": "scene_24"
+  },
+  {
+    "text": "surges, supply cannot respond quickly.",
+    "start": 631.332,
+    "end": 633.732,
+    "scene": "scene_24"
+  },
+  {
+    "text": "Fabs take years to build and packaging",
+    "start": 634.213,
+    "end": 636.513,
+    "scene": "scene_24"
+  },
+  {
+    "text": "lines take months to qualify. The result",
+    "start": 636.553,
+    "end": 639.174,
+    "scene": "scene_24"
+  },
+  {
+    "text": "is pricing power that commodity memory",
+    "start": 639.294,
+    "end": 641.375,
+    "scene": "scene_24"
+  },
+  {
+    "text": "never enjoyed and a shortage that shows",
+    "start": 641.435,
+    "end": 643.776,
+    "scene": "scene_24"
+  },
+  {
+    "text": "up downstream.",
+    "start": 643.856,
+    "end": 644.656,
+    "scene": "scene_24"
+  },
+  {
+    "text": "Geography amplifies the concentration.",
+    "start": 645.097,
+    "end": 648.018,
+    "scene": "scene_25"
+  },
+  {
+    "text": "SK Hynix produces DRAM in Icheon and Cheongju,",
+    "start": 648.058,
+    "end": 650.64,
+    "scene": "scene_25"
+  },
+  {
+    "text": "South Korea. Its newest Fab M15X in",
+    "start": 650.76,
+    "end": 654.001,
+    "scene": "scene_25"
+  },
+  {
+    "text": "Chengdu represents an investment of more",
+    "start": 654.041,
+    "end": 656.142,
+    "scene": "scene_25"
+  },
+  {
+    "text": "than 20 trillion won and is designed",
+    "start": 656.182,
+    "end": 658.143,
+    "scene": "scene_25"
+  },
+  {
+    "text": "to ramp high bandwidth memory. A much",
+    "start": 658.183,
+    "end": 660.344,
+    "scene": "scene_25"
+  },
+  {
+    "text": "larger cluster is rising in Yangon with",
+    "start": 660.404,
+    "end": 662.745,
+    "scene": "scene_25"
+  },
+  {
+    "text": "a first Fab targeted for 2027. Advanced",
+    "start": 662.785,
+    "end": 665.986,
+    "scene": "scene_25"
+  },
+  {
+    "text": "packaging lines are being added in Chengdu",
+    "start": 666.066,
+    "end": 668.347,
+    "scene": "scene_25"
+  },
+  {
+    "text": "and Indiana. A single disruption can move",
+    "start": 668.447,
+    "end": 671.489,
+    "scene": "scene_25"
+  },
+  {
+    "text": "the entire artificial intelligence",
+    "start": 671.529,
+    "end": 673.47,
+    "scene": "scene_25"
+  },
+  {
+    "text": "roadmap.",
+    "start": 673.55,
+    "end": 673.99,
+    "scene": "scene_25"
+  },
+  {
+    "text": "The second chokepoint is outside Korea.",
+    "start": 674.411,
+    "end": 676.612,
+    "scene": "scene_26"
+  },
+  {
+    "text": "The GPU and its memory stacks must",
+    "start": 677.072,
+    "end": 679.072,
+    "scene": "scene_26"
+  },
+  {
+    "text": "be assembled on a silicon interposer",
+    "start": 679.112,
+    "end": 680.892,
+    "scene": "scene_26"
+  },
+  {
+    "text": "through a process called chip on wafer",
+    "start": 680.992,
+    "end": 682.833,
+    "scene": "scene_26"
+  },
+  {
+    "text": "on substrate or CoWoS. That process",
+    "start": 682.893,
+    "end": 685.773,
+    "scene": "scene_26"
+  },
+  {
+    "text": "belongs to TSMC. Starting with HBM4, the",
+    "start": 685.813,
+    "end": 689.394,
+    "scene": "scene_26"
+  },
+  {
+    "text": "memory's base die is built on a",
+    "start": 689.434,
+    "end": 690.975,
+    "scene": "scene_26"
+  },
+  {
+    "text": "logic process, bringing TSMC deeper into",
+    "start": 691.015,
+    "end": 693.755,
+    "scene": "scene_26"
+  },
+  {
+    "text": "the chain. Nvidia can design the",
+    "start": 693.795,
+    "end": 695.936,
+    "scene": "scene_26"
+  },
+  {
+    "text": "accelerator, but cannot ship it without",
+    "start": 695.996,
+    "end": 698.196,
+    "scene": "scene_26"
+  },
+  {
+    "text": "Korean memory and Taiwanese packaging.",
+    "start": 698.276,
+    "end": 700.557,
+    "scene": "scene_26"
+  },
+  {
+    "text": "Every side is a bottleneck.",
+    "start": 701.117,
+    "end": 702.657,
+    "scene": "scene_26"
+  },
+  {
+    "text": "That is why monopoly needs a qualifier.",
+    "start": 703.098,
+    "end": 704.919,
+    "scene": "scene_27"
+  },
+  {
+    "text": "SK Hynix does not control all of",
+    "start": 705.42,
+    "end": 707.261,
+    "scene": "scene_27"
+  },
+  {
+    "text": "it. Trend force expects it to hold",
+    "start": 707.341,
+    "end": 709.342,
+    "scene": "scene_27"
+  },
+  {
+    "text": "more than half the market, and Nvidia's",
+    "start": 709.402,
+    "end": 711.403,
+    "scene": "scene_27"
+  },
+  {
+    "text": "first HBM4 allocation reportedly gave",
+    "start": 711.463,
+    "end": 714.685,
+    "scene": "scene_27"
+  },
+  {
+    "text": "SK Hynix the mid 50% range, Samsung the",
+    "start": 714.725,
+    "end": 717.407,
+    "scene": "scene_27"
+  },
+  {
+    "text": "mid 20% range, and micron around 20%.",
+    "start": 717.447,
+    "end": 720.649,
+    "scene": "scene_27"
+  },
+  {
+    "text": "That is not a textbook monopoly. It",
+    "start": 721.13,
+    "end": 723.431,
+    "scene": "scene_27"
+  },
+  {
+    "text": "is a chokehold. The largest customer",
+    "start": 723.491,
+    "end": 725.792,
+    "scene": "scene_27"
+  },
+  {
+    "text": "cannot diversify faster than its second",
+    "start": 725.872,
+    "end": 728.154,
+    "scene": "scene_27"
+  },
+  {
+    "text": "supplier can fix its yield.",
+    "start": 728.194,
+    "end": 729.755,
+    "scene": "scene_27"
+  },
+  {
+    "text": "Concentration cuts both ways. SK Hynix",
+    "start": 730.196,
+    "end": 733.157,
+    "scene": "scene_28"
+  },
+  {
+    "text": "depends on Nvidia for much of its",
+    "start": 733.257,
+    "end": 734.698,
+    "scene": "scene_28"
+  },
+  {
+    "text": "high bandwidth memory revenue, and Nvidia",
+    "start": 734.738,
+    "end": 737.079,
+    "scene": "scene_28"
+  },
+  {
+    "text": "depends on SK Hynix for much of",
+    "start": 737.099,
+    "end": 738.84,
+    "scene": "scene_28"
+  },
+  {
+    "text": "its memory supply. Samsung is spending",
+    "start": 738.9,
+    "end": 741.181,
+    "scene": "scene_28"
+  },
+  {
+    "text": "heavily to close the yield gap, and",
+    "start": 741.241,
+    "end": 743.122,
+    "scene": "scene_28"
+  },
+  {
+    "text": "by 2026, it reported HBM4 yields",
+    "start": 743.142,
+    "end": 746.323,
+    "scene": "scene_28"
+  },
+  {
+    "text": "near 80%.",
+    "start": 746.383,
+    "end": 746.823,
+    "scene": "scene_28"
+  },
+  {
+    "text": "China's CXMT is trying to enter, though",
+    "start": 747.804,
+    "end": 750.405,
+    "scene": "scene_28"
+  },
+  {
+    "text": "its yields remain far behind. The lead",
+    "start": 750.445,
+    "end": 752.946,
+    "scene": "scene_28"
+  },
+  {
+    "text": "is real but not permanent, and that",
+    "start": 753.006,
+    "end": 755.067,
+    "scene": "scene_28"
+  },
+  {
+    "text": "uncertainty is priced into every forecast.",
+    "start": 755.127,
+    "end": 757.428,
+    "scene": "scene_28"
+  },
+  {
+    "text": "Next generation is here. HBM4 doubles the",
+    "start": 757.929,
+    "end": 760.811,
+    "scene": "scene_29"
+  },
+  {
+    "text": "interface from 1,024 bits to 2048 bits.",
+    "start": 760.831,
+    "end": 764.874,
+    "scene": "scene_29"
+  },
+  {
+    "text": "It supports 16 stack dies, 36 gigabytes",
+    "start": 765.434,
+    "end": 768.436,
+    "scene": "scene_29"
+  },
+  {
+    "text": "at 12 high and 48 at 16",
+    "start": 768.477,
+    "end": 770.258,
+    "scene": "scene_29"
+  },
+  {
+    "text": "high, and delivers around two terabytes",
+    "start": 770.298,
+    "end": 772.399,
+    "scene": "scene_29"
+  },
+  {
+    "text": "per second per stack. SK Hynix completed",
+    "start": 772.459,
+    "end": 775.181,
+    "scene": "scene_29"
+  },
+  {
+    "text": "development first in 2025 and is ramping",
+    "start": 775.241,
+    "end": 778.223,
+    "scene": "scene_29"
+  },
+  {
+    "text": "production for Nvidia's Vera Ruben",
+    "start": 778.263,
+    "end": 780.165,
+    "scene": "scene_29"
+  },
+  {
+    "text": "platform, bandwidth doubles again, and so",
+    "start": 780.225,
+    "end": 783.327,
+    "scene": "scene_29"
+  },
+  {
+    "text": "does the packaging difficulty.",
+    "start": 783.407,
+    "end": 784.788,
+    "scene": "scene_29"
+  },
+  {
+    "text": "Beyond HBM4, the industry is preparing to",
+    "start": 785.229,
+    "end": 788.031,
+    "scene": "scene_30"
+  },
+  {
+    "text": "remove the solder bumps entirely. The",
+    "start": 788.071,
+    "end": 790.493,
+    "scene": "scene_30"
+  },
+  {
+    "text": "technique is called hybrid bonding. It",
+    "start": 790.513,
+    "end": 792.755,
+    "scene": "scene_30"
+  },
+  {
+    "text": "presses two surfaces together, so copper",
+    "start": 792.795,
+    "end": 794.957,
+    "scene": "scene_30"
+  },
+  {
+    "text": "pads fuse directly with no solder balls",
+    "start": 795.017,
+    "end": 797.479,
+    "scene": "scene_30"
+  },
+  {
+    "text": "at all. The pitch shrinks from around",
+    "start": 797.539,
+    "end": 799.42,
+    "scene": "scene_30"
+  },
+  {
+    "text": "20 microns to below 1 micron. That",
+    "start": 799.56,
+    "end": 801.982,
+    "scene": "scene_30"
+  },
+  {
+    "text": "means more connections per square",
+    "start": 802.022,
+    "end": 803.463,
+    "scene": "scene_30"
+  },
+  {
+    "text": "millimeter, shorter paths, less heat, and",
+    "start": 803.523,
+    "end": 806.185,
+    "scene": "scene_30"
+  },
+  {
+    "text": "the ability to stack 16 or more",
+    "start": 806.205,
+    "end": 808.207,
+    "scene": "scene_30"
+  },
+  {
+    "text": "dies. SK high-necks has validated 12 high",
+    "start": 808.247,
+    "end": 811.609,
+    "scene": "scene_30"
+  },
+  {
+    "text": "hybrid bonding.",
+    "start": 811.649,
+    "end": 812.45,
+    "scene": "scene_30"
+  },
+  {
+    "text": "But hybrid bonding is not a free",
+    "start": 812.851,
+    "end": 814.492,
+    "scene": "scene_31"
+  },
+  {
+    "text": "lunch. Copper expands when heated, and the",
+    "start": 814.532,
+    "end": 817.054,
+    "scene": "scene_31"
+  },
+  {
+    "text": "surfaces must be almost perfectly flat and",
+    "start": 817.114,
+    "end": 819.295,
+    "scene": "scene_31"
+  },
+  {
+    "text": "clean. A single particle can create a",
+    "start": 819.355,
+    "end": 821.636,
+    "scene": "scene_31"
+  },
+  {
+    "text": "void across an entire interface. The",
+    "start": 821.676,
+    "end": 823.878,
+    "scene": "scene_31"
+  },
+  {
+    "text": "equipment is expensive, the process is",
+    "start": 823.938,
+    "end": 826.079,
+    "scene": "scene_31"
+  },
+  {
+    "text": "slow, and the yield-learning curve is",
+    "start": 826.139,
+    "end": 828.06,
+    "scene": "scene_31"
+  },
+  {
+    "text": "steep. That is why the industry is",
+    "start": 828.12,
+    "end": 830.062,
+    "scene": "scene_31"
+  },
+  {
+    "text": "delaying the transition where it can. The",
+    "start": 830.102,
+    "end": 832.463,
+    "scene": "scene_31"
+  },
+  {
+    "text": "physical limit is no longer the",
+    "start": 832.523,
+    "end": 834.104,
+    "scene": "scene_31"
+  },
+  {
+    "text": "transistor. It is the wire, the bump,",
+    "start": 834.144,
+    "end": 836.706,
+    "scene": "scene_31"
+  },
+  {
+    "text": "the adhesive, and the heat.",
+    "start": 837.006,
+    "end": 838.587,
+    "scene": "scene_31"
+  },
+  {
+    "text": "The lesson of high bandwidth memory is",
+    "start": 839.008,
+    "end": 840.809,
+    "scene": "scene_32"
+  },
+  {
+    "text": "simple. The artificial intelligence boom",
+    "start": 840.889,
+    "end": 843.21,
+    "scene": "scene_32"
+  },
+  {
+    "text": "is usually told as a story about",
+    "start": 843.33,
+    "end": 844.95,
+    "scene": "scene_32"
+  },
+  {
+    "text": "compute. But the companies that control",
+    "start": 845.01,
+    "end": 847.231,
+    "scene": "scene_32"
+  },
+  {
+    "text": "the path between compute and data have",
+    "start": 847.271,
+    "end": 849.072,
+    "scene": "scene_32"
+  },
+  {
+    "text": "as much leverage. Invidia designs the",
+    "start": 849.112,
+    "end": 851.513,
+    "scene": "scene_32"
+  },
+  {
+    "text": "brain. SK Hinex builds the memory that",
+    "start": 851.553,
+    "end": 854.034,
+    "scene": "scene_32"
+  },
+  {
+    "text": "feeds it. TSMC packages the two together.",
+    "start": 854.134,
+    "end": 856.955,
+    "scene": "scene_32"
+  },
+  {
+    "text": "The next battle is advanced packaging,",
+    "start": 857.375,
+    "end": 859.236,
+    "scene": "scene_32"
+  },
+  {
+    "text": "where interposers, hybrid bonding, and",
+    "start": 859.556,
+    "end": 861.917,
+    "scene": "scene_32"
+  },
+  {
+    "text": "eventually silicon photonics decide how",
+    "start": 861.977,
+    "end": 864.298,
+    "scene": "scene_32"
+  },
+  {
+    "text": "fast data can move. That is where",
+    "start": 864.378,
+    "end": 866.539,
+    "scene": "scene_32"
+  },
+  {
+    "text": "we go next.",
+    "start": 866.559,
+    "end": 867.199,
+    "scene": "scene_32"
+  }
+]

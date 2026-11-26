@@ -1,298 +1,183 @@
-import {
-	AbsoluteFill,
-	Audio,
-	Easing,
-	interpolate,
-	staticFile,
-	useCurrentFrame,
-} from 'remotion';
+import React from 'react';
+import { AbsoluteFill, Audio, interpolate, Sequence, staticFile, useCurrentFrame, useVideoConfig } from 'remotion';
+import videoData from './data/video_data.json';
+import { FontLoader } from './fonts';
+import { AssetBeat, Beat } from './components/AssetBeat';
+import { CADShell } from './components/CADShell';
+import { Captions } from './components/Captions';
+import { Hud } from './components/Hud';
+import { LayerStackDiagram } from './components/LayerStackDiagram';
+import { PhysicsComparison } from './components/PhysicsComparison';
+import { SupplyChainMap } from './components/SupplyChainMap';
+import { YieldMeter } from './components/YieldMeter';
+import { C, clamp, easeOut } from './components/theme';
 
-const clamp = {
-	extrapolateLeft: 'clamp',
-	extrapolateRight: 'clamp',
-} as const;
+type BeatData = {
+	kind: string;
+	files?: string[];
+	layout?: string;
+	label: string;
+};
 
-const fade = (
-	frame: number,
-	inStart: number,
-	inEnd: number,
-	outStart: number,
-	outEnd: number,
-) =>
-	interpolate(frame, [inStart, inEnd, outStart, outEnd], [0, 1, 1, 0], clamp);
+type Scene = {
+	id: string;
+	number: number;
+	start: number;
+	duration: number;
+	audio_file: string;
+	narration: string;
+	visual: {
+		kind: 'asset' | 'component';
+		component: string | null;
+		beats: BeatData[];
+	};
+	sfx: { file: string; volume: number } | null;
+	beat_sfx: { beat: number; file: string; volume: number }[];
+};
 
-const fadeIn = (frame: number, start: number, end: number) =>
-	interpolate(frame, [start, end], [0, 1], clamp);
+type VideoData = {
+	title: string;
+	subtitle: string;
+	channel: string;
+	episode: string;
+	fps: number;
+	total_duration: number;
+	scenes: Scene[];
+};
 
-const Grid: React.FC = () => {
-	const frame = useCurrentFrame();
+const DATA = videoData as VideoData;
+const SCENES = DATA.scenes;
+const FPS = DATA.fps || 30;
+
+export const getTotalDurationInFrames = (fps: number) =>
+	SCENES.reduce((total, scene) => total + Math.round(scene.duration * fps), 0);
+
+const beatFrames = (frames: number) => {
+	const a = Math.round(frames / 3);
+	const b = Math.round((frames * 2) / 3) - a;
+	const c = frames - a - b;
+	return [a, b, c];
+};
+
+const ComponentForBeat: React.FC<{ name: string | null; beat: number; sceneNumber: number }> = ({ name, beat, sceneNumber }) => {
+	switch (name) {
+		case 'LayerStackDiagram':
+			return <LayerStackDiagram beat={beat} variant={sceneNumber === 15 ? 'hbm3e' : sceneNumber === 29 ? 'hbm4' : sceneNumber === 30 ? 'bonding' : 'package'} />;
+		case 'PhysicsComparison':
+			return <PhysicsComparison beat={beat} />;
+		case 'YieldMeter':
+			return <YieldMeter beat={beat} />;
+		case 'SupplyChainMap':
+			return <SupplyChainMap beat={beat} />;
+		default:
+			return null;
+	}
+};
+
+const SceneBlock: React.FC<{ scene: Scene }> = ({ scene }) => {
+	const { fps } = useVideoConfig();
+	const frames = Math.max(1, Math.round(scene.duration * fps));
+	const splits = beatFrames(frames);
+	const offsets = [0, splits[0], splits[0] + splits[1]];
+	const letters = ['A', 'B', 'C'];
 
 	return (
-		<AbsoluteFill
-			style={{
-				backgroundImage:
-					'linear-gradient(rgba(79,209,255,0.10) 1px, transparent 1px), linear-gradient(90deg, rgba(79,209,255,0.10) 1px, transparent 1px)',
-				backgroundSize: '80px 80px',
-				backgroundPosition: `${-frame * 0.3}px ${-frame * 0.15}px`,
-				maskImage:
-					'radial-gradient(ellipse at center, black 25%, transparent 75%)',
-				WebkitMaskImage:
-					'radial-gradient(ellipse at center, black 25%, transparent 75%)',
-			}}
-		/>
+		<>
+			{scene.visual.beats.slice(0, 3).map((beat, index) => {
+				const beatData: Beat = {
+					kind: beat.kind,
+					files: beat.files ?? [],
+					layout: beat.layout ?? 'full',
+					label: beat.label,
+				};
+				return (
+					<Sequence key={`${scene.id}-beat-${index}`} from={offsets[index]} durationInFrames={splits[index]} name={`${scene.id} ${letters[index]}`}>
+						<CADShell beat={index} beatLabel={beat.label} figure={`FIG. ${String(scene.number).padStart(2, '0')}.${letters[index]}`}>
+							{scene.visual.kind === 'component' ? (
+								<ComponentForBeat name={scene.visual.component} beat={index} sceneNumber={scene.number} />
+							) : (
+								<AssetBeat beat={beatData} beatIndex={index} sceneNumber={scene.number} durationInFrames={splits[index]} />
+							)}
+						</CADShell>
+					</Sequence>
+				);
+			})}
+		</>
 	);
 };
 
-const TitleScene: React.FC = () => {
-	const frame = useCurrentFrame();
+const SfxLayer: React.FC = () => {
+	const { fps } = useVideoConfig();
+	const cues: React.ReactNode[] = [];
 
-	const opacity = fade(frame, 8, 34, 100, 128);
-	const rise = interpolate(frame, [8, 34, 100, 128], [46, 0, 0, -22], clamp);
-	const subtitleOpacity = fade(frame, 30, 50, 100, 128);
-	const lineWidth = interpolate(frame, [20, 60], [0, 520], {
-		...clamp,
-		easing: Easing.out(Easing.cubic),
-	});
+	for (const scene of SCENES) {
+		const sceneFrom = Math.round(scene.start * fps);
+		const sceneFrames = Math.max(1, Math.round(scene.duration * fps));
+		const splits = beatFrames(sceneFrames);
 
-	return (
-		<AbsoluteFill
-			style={{
-				justifyContent: 'center',
-				alignItems: 'center',
-				opacity,
-			}}
-		>
-			<div
-				style={{
-					transform: `translateY(${rise}px)`,
-					textAlign: 'center',
-					fontFamily: 'Helvetica, Arial, sans-serif',
-				}}
-			>
-				<div
-					style={{
-						color: '#4fd1ff',
-						fontSize: 26,
-						letterSpacing: 14,
-						fontWeight: 600,
-						marginBottom: 28,
-					}}
-				>
-					THE HARDEST MACHINE ON EARTH
-				</div>
-				<div
-					style={{
-						color: '#f2f5ff',
-						fontSize: 132,
-						fontWeight: 800,
-						letterSpacing: 6,
-						lineHeight: 1,
-					}}
-				>
-					EUV
-					<br />
-					LITHOGRAPHY
-				</div>
-				<div
-					style={{
-						height: 4,
-						width: lineWidth,
-						background:
-							'linear-gradient(90deg, transparent, #4fd1ff, transparent)',
-						margin: '34px auto 26px',
-					}}
-				/>
-				<div
-					style={{
-						color: '#a8b3cf',
-						fontSize: 40,
-						fontWeight: 400,
-						opacity: subtitleOpacity,
-						letterSpacing: 1,
-					}}
-				>
-					The most complex technology ever built.
-				</div>
-			</div>
-		</AbsoluteFill>
-	);
+		if (scene.sfx) {
+			cues.push(
+				<Sequence key={`sfx-${scene.id}`} from={sceneFrom} durationInFrames={Math.min(90, sceneFrames)}>
+					<Audio src={staticFile(scene.sfx.file)} volume={scene.sfx.volume} />
+				</Sequence>,
+			);
+		}
+
+		for (const cue of scene.beat_sfx) {
+			const offset = cue.beat === 0 ? 0 : cue.beat === 1 ? splits[0] : splits[0] + splits[1];
+			cues.push(
+				<Sequence key={`sfx-${scene.id}-${cue.beat}`} from={sceneFrom + offset} durationInFrames={Math.min(45, splits[Math.min(2, cue.beat)])}>
+					<Audio src={staticFile(cue.file)} volume={cue.volume} />
+				</Sequence>,
+			);
+		}
+	}
+
+	return <>{cues}</>;
 };
 
-const TinScene: React.FC = () => {
+export const MyComposition: React.FC = () => {
 	const frame = useCurrentFrame();
-
-	const sceneOpacity = fadeIn(frame, 108, 132);
-	const cx = 960;
-	const impactY = 545;
-
-	const dropY = interpolate(frame, [118, 164], [-90, impactY], {
-		...clamp,
-		easing: Easing.in(Easing.quad),
-	});
-	const dropOpacity = interpolate(frame, [118, 124, 164, 172], [0, 1, 1, 0], clamp);
-
-	const beamOpacity = interpolate(frame, [158, 166, 184, 202], [0, 1, 0.9, 0], clamp);
-	const beamLength = interpolate(frame, [158, 166], [0, cx], {
-		...clamp,
-		easing: Easing.out(Easing.cubic),
-	});
-
-	const flashRadius = interpolate(frame, [164, 230], [10, 340], {
-		...clamp,
-		easing: Easing.out(Easing.cubic),
-	});
-	const flashOpacity = interpolate(frame, [164, 172, 230], [0, 0.85, 0], clamp);
-
-	const ringOpacity = (delay: number) =>
-		interpolate(frame, [delay, delay + 12, delay + 60], [0, 0.6, 0], clamp);
-	const ringRadius = (delay: number) =>
-		interpolate(frame, [delay, delay + 80], [20, 330], {
-			...clamp,
-			easing: Easing.out(Easing.quad),
-		});
-
-	const textOpacity = fadeIn(frame, 178, 206);
-	const textRise = interpolate(frame, [178, 206], [28, 0], clamp);
-	const nmOpacity = fadeIn(frame, 210, 240);
-	const nmScale = interpolate(frame, [210, 245], [0.85, 1], {
-		...clamp,
-		easing: Easing.out(Easing.cubic),
-	});
+	const { durationInFrames } = useVideoConfig();
+	const intro = interpolate(frame, [0, 12], [1, 0], { ...clamp, easing: easeOut });
+	const outro = interpolate(frame, [durationInFrames - 18, durationInFrames - 1], [0, 1], { ...clamp, easing: easeOut });
 
 	return (
-		<AbsoluteFill style={{ opacity: sceneOpacity }}>
-			{/* Laser beam */}
-			<div
-				style={{
-					position: 'absolute',
-					left: 0,
-					top: impactY - 4,
-					width: beamLength,
-					height: 8,
-					opacity: beamOpacity,
-					background:
-						'linear-gradient(90deg, rgba(255,122,60,0) 0%, #ff7a3c 60%, #ffd7a8 100%)',
-					boxShadow: '0 0 28px 8px rgba(255,122,60,0.55)',
-					borderRadius: 4,
-				}}
+		<AbsoluteFill style={{ backgroundColor: C.bg }}>
+			<FontLoader />
+			<Audio src={staticFile('full_audio.wav')} />
+			<Audio
+				src={staticFile('audio/music_bed.mp3')}
+				volume={(f) =>
+					interpolate(f, [0, 30, durationInFrames - 60, durationInFrames - 1], [0, 1, 1, 0], clamp)
+				}
 			/>
+			<SfxLayer />
 
-			{/* Impact flash */}
-			<div
-				style={{
-					position: 'absolute',
-					left: cx - flashRadius,
-					top: impactY - flashRadius,
-					width: flashRadius * 2,
-					height: flashRadius * 2,
-					borderRadius: '50%',
-					opacity: flashOpacity,
-					background:
-						'radial-gradient(circle, #ffffff 0%, #ffd7a8 30%, rgba(255,122,60,0) 70%)',
-				}}
-			/>
-
-			{/* Expanding EUV rings */}
-			{[166, 186, 206].map((delay) => (
-				<div
-					key={delay}
-					style={{
-						position: 'absolute',
-						left: cx - ringRadius(delay),
-						top: impactY - ringRadius(delay),
-						width: ringRadius(delay) * 2,
-						height: ringRadius(delay) * 2,
-						borderRadius: '50%',
-						border: '3px solid #9b8cff',
-						opacity: ringOpacity(delay),
-						boxShadow: '0 0 24px rgba(155,140,255,0.6)',
-					}}
-				/>
+			{SCENES.map((scene) => (
+				<Sequence
+					key={scene.id}
+					from={Math.round(scene.start * FPS)}
+					durationInFrames={Math.max(1, Math.round(scene.duration * FPS))}
+					name={scene.id}
+				>
+					<SceneBlock scene={scene} />
+				</Sequence>
 			))}
 
-			{/* Falling tin droplet */}
-			<div
+			<AbsoluteFill
 				style={{
-					position: 'absolute',
-					left: cx - 34,
-					top: dropY - 34,
-					width: 68,
-					height: 68,
-					borderRadius: '50%',
-					opacity: dropOpacity,
+					pointerEvents: 'none',
 					background:
-						'radial-gradient(circle at 32% 28%, #ffffff 0%, #c9d4e8 35%, #7f8aa3 100%)',
-					boxShadow: '0 0 40px rgba(200,220,255,0.5)',
+						'radial-gradient(ellipse at 50% 45%, rgba(0,245,212,0.025) 0%, rgba(0,0,0,0) 55%), radial-gradient(ellipse at 50% 110%, rgba(255,159,28,0.08) 0%, rgba(0,0,0,0) 55%)',
 				}}
 			/>
 
-			{/* Caption */}
-			<div
-				style={{
-					position: 'absolute',
-					left: 0,
-					right: 0,
-					top: 680,
-					textAlign: 'center',
-					fontFamily: 'Helvetica, Arial, sans-serif',
-					transform: `translateY(${textRise}px)`,
-					opacity: textOpacity,
-				}}
-			>
-				<div
-					style={{
-						color: '#f2f5ff',
-						fontSize: 74,
-						fontWeight: 700,
-						letterSpacing: 1,
-					}}
-				>
-					Tin becomes light.
-				</div>
-				<div
-					style={{
-						marginTop: 18,
-						color: '#9b8cff',
-						fontSize: 40,
-						letterSpacing: 6,
-						fontWeight: 600,
-						opacity: nmOpacity,
-						transform: `scale(${nmScale})`,
-					}}
-				>
-					13 NANOMETERS
-				</div>
-			</div>
-		</AbsoluteFill>
-	);
-};
+			<Captions />
+			<Hud />
 
-export const MyComposition = () => {
-	const frame = useCurrentFrame();
-	const endFade = interpolate(frame, [288, 300], [0, 1], clamp);
-
-	return (
-		<AbsoluteFill style={{ backgroundColor: '#070b14' }}>
-			<Audio src={staticFile('euv_0.wav')} />
-			<Grid />
-			<div
-				style={{
-					position: 'absolute',
-					inset: 0,
-					background:
-						'radial-gradient(ellipse at 50% 45%, rgba(30,52,96,0.55) 0%, rgba(7,11,20,0) 65%)',
-				}}
-			/>
-			<TitleScene />
-			<TinScene />
-			<div
-				style={{
-					position: 'absolute',
-					inset: 0,
-					backgroundColor: '#000',
-					opacity: endFade,
-				}}
-			/>
+			<AbsoluteFill style={{ backgroundColor: '#000', opacity: intro, pointerEvents: 'none' }} />
+			<AbsoluteFill style={{ backgroundColor: '#000', opacity: outro, pointerEvents: 'none' }} />
 		</AbsoluteFill>
 	);
 };

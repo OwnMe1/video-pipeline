@@ -1,0 +1,1190 @@
+{
+  "title": "THE HIDDEN BOTTLENECK OF AI",
+  "subtitle": "WHY NVIDIA CAN'T EXIST WITHOUT SK HYNIX",
+  "channel": "tech",
+  "episode": "EP.01",
+  "fps": 30,
+  "total_duration": 867.348792,
+  "scenes": [
+    {
+      "id": "scene-01",
+      "number": 1,
+      "start": 0.0,
+      "duration": 26.904,
+      "audio_file": "scenes/scene_01.wav",
+      "narration": "A single Nvidia accelerator can sell for thirty thousand dollars or more. It is one of the most complex pieces of engineering ever mass produced. Yet without a small stack of memory built by one company in South Korea, that accelerator is a very expensive piece of sand. The memory is high bandwidth memory. The company is SK Hynix. Why Nvidia cannot simply buy it somewhere else is a story about physics, packaging, and a quiet chokehold.",
+      "visual": {
+        "kind": "asset",
+        "component": null,
+        "beats": [
+          {
+            "kind": "photo",
+            "files": [
+              "assets/images/nvidia_blackwell.jpg"
+            ],
+            "layout": "full",
+            "label": "B200 GPU, slow push-in"
+          },
+          {
+            "kind": "photo",
+            "files": [
+              "assets/images/hbm_stack.png",
+              "assets/images/sk_hynix_logo.png"
+            ],
+            "layout": "split",
+            "label": "HBM stack + SK hynix logo"
+          },
+          {
+            "kind": "background",
+            "files": [
+              "assets/backgrounds/cad_gpu_hbm.jpg",
+              "assets/images/nvidia_h100.png"
+            ],
+            "layout": "background",
+            "label": "useful silicon vs expensive sand"
+          }
+        ]
+      },
+      "sfx": {
+        "file": "audio/sfx/sfx_data_whoosh.mp3",
+        "volume": 0.3
+      },
+      "beat_sfx": [
+        {
+          "beat": 1,
+          "file": "audio/sfx/sfx_digital_tick.mp3",
+          "volume": 0.22
+        }
+      ]
+    },
+    {
+      "id": "scene-02",
+      "number": 2,
+      "start": 26.904,
+      "duration": 27.372,
+      "audio_file": "scenes/scene_02.wav",
+      "narration": "The numbers are hard to ignore. Nvidia became one of the most valuable companies by selling the shovels of the artificial intelligence boom. Every data center GPU needs high bandwidth memory, and the supply is not elastic. SK Hynix says its capacity sold out well before the year began, and warns shortages could persist to the end of the decade. When the bottleneck is measured in months of factory time, memory stops being a component. It becomes the schedule.",
+      "visual": {
+        "kind": "asset",
+        "component": null,
+        "beats": [
+          {
+            "kind": "video",
+            "files": [
+              "assets/video/mixkit_data_center_hallway.mp4"
+            ],
+            "layout": "full",
+            "label": "server aisle"
+          },
+          {
+            "kind": "photo",
+            "files": [
+              "assets/images/data_center_servers.jpg"
+            ],
+            "layout": "full",
+            "label": "sold-out capacity overlay"
+          },
+          {
+            "kind": "video",
+            "files": [
+              "assets/video/mixkit_fiber_optics_server_room.mp4"
+            ],
+            "layout": "full",
+            "label": "data-flow macro"
+          }
+        ]
+      },
+      "sfx": null,
+      "beat_sfx": []
+    },
+    {
+      "id": "scene-03",
+      "number": 3,
+      "start": 54.276,
+      "duration": 26.738,
+      "audio_file": "scenes/scene_03.wav",
+      "narration": "Computer architects have a name for the gap between how fast a processor calculates and how fast memory can feed it. They call it the memory wall. For decades, caches and prefetching hid that gap in general computing. Artificial intelligence broke the illusion. A modern model does not read data once. It streams billions of parameters through the chip for every token, and the arithmetic units spend much of their time waiting for the next number to arrive.",
+      "visual": {
+        "kind": "asset",
+        "component": null,
+        "beats": [
+          {
+            "kind": "photo",
+            "files": [
+              "assets/images/microchip_die.jpg"
+            ],
+            "layout": "full",
+            "label": "GPU die macro"
+          },
+          {
+            "kind": "video",
+            "files": [
+              "assets/video/mixkit_circuit_board_processor.mp4"
+            ],
+            "layout": "full",
+            "label": "board/processor"
+          },
+          {
+            "kind": "photo",
+            "files": [
+              "assets/images/nvidia_h100.png",
+              "assets/images/dram_chip.jpg"
+            ],
+            "layout": "split",
+            "label": "compute vs memory gap"
+          }
+        ]
+      },
+      "sfx": null,
+      "beat_sfx": []
+    },
+    {
+      "id": "scene-04",
+      "number": 4,
+      "start": 81.014,
+      "duration": 24.822,
+      "audio_file": "scenes/scene_04.wav",
+      "narration": "To understand why high bandwidth memory exists, start with the graphics card you already know. A gaming GPU sits on a circuit board next to a handful of memory chips. Those chips are called graphics double data rate memory, or GDDR. They are cheap, dense, and fast in the way a highway is fast when traffic is light. The problem is not the chips themselves. The problem is the road between them and the processor.",
+      "visual": {
+        "kind": "component",
+        "component": "PhysicsComparison",
+        "beats": [
+          {
+            "kind": "component",
+            "label": "bus-width schematic"
+          },
+          {
+            "kind": "component",
+            "label": "interposer bus"
+          },
+          {
+            "kind": "component",
+            "label": "distance collapse"
+          }
+        ]
+      },
+      "sfx": {
+        "file": "audio/sfx/sfx_crisp_transition.mp3",
+        "volume": 0.26
+      },
+      "beat_sfx": [
+        {
+          "beat": 1,
+          "file": "audio/sfx/sfx_digital_tick.mp3",
+          "volume": 0.18
+        }
+      ]
+    },
+    {
+      "id": "scene-05",
+      "number": 5,
+      "start": 105.836,
+      "duration": 25.217,
+      "audio_file": "scenes/scene_05.wav",
+      "narration": "On a flagship graphics card, the memory bus is wide by historical standards. Three hundred and eighty four bits on one generation, five hundred and twelve bits on the next. Each bit is a copper trace routed across a printed circuit board, and every trace must arrive at the processor at the same time. At multi gigabit speeds, a few millimetres of extra length is no longer a detail. It is a timing error.",
+      "visual": {
+        "kind": "component",
+        "component": "PhysicsComparison",
+        "beats": [
+          {
+            "kind": "component",
+            "label": "length/impedance"
+          },
+          {
+            "kind": "component",
+            "label": "reflection/noise"
+          },
+          {
+            "kind": "component",
+            "label": "signal integrity"
+          }
+        ]
+      },
+      "sfx": null,
+      "beat_sfx": []
+    },
+    {
+      "id": "scene-06",
+      "number": 6,
+      "start": 131.053,
+      "duration": 28.145,
+      "audio_file": "scenes/scene_06.wav",
+      "narration": "Those copper traces behave like transmission lines. They have capacitance, inductance, and resistance. High frequency signals leak, reflect, and interfere with their neighbours. The further a signal travels, the more energy it loses and the more it distorts. Engineers compensate with better substrates, more layers, and careful shielding. But every fix costs money, adds thickness, and consumes power. You can only push a signal across a circuit board so far before the physical cost stops making sense.",
+      "visual": {
+        "kind": "component",
+        "component": "PhysicsComparison",
+        "beats": [
+          {
+            "kind": "component",
+            "label": "bar chart"
+          },
+          {
+            "kind": "component",
+            "label": "heat spread"
+          },
+          {
+            "kind": "component",
+            "label": "efficiency curve"
+          }
+        ]
+      },
+      "sfx": {
+        "file": "audio/sfx/sfx_warning_pulse.mp3",
+        "volume": 0.22
+      },
+      "beat_sfx": []
+    },
+    {
+      "id": "scene-07",
+      "number": 7,
+      "start": 159.198,
+      "duration": 25.348,
+      "audio_file": "scenes/scene_07.wav",
+      "narration": "There is a second cost that matters even more in a data center. Moving a bit of data across a wire takes energy. The longer the wire and the faster the signal, the more energy that bit consumes. On a graphics card, that energy becomes heat, and heat becomes a cooling problem. Multiply it by hundreds of billions of bits per second and the power bill becomes a design constraint. The industry calls this the energy per bit.",
+      "visual": {
+        "kind": "component",
+        "component": "PhysicsComparison",
+        "beats": [
+          {
+            "kind": "component",
+            "label": "memory wall ratio"
+          },
+          {
+            "kind": "component",
+            "label": "utilization"
+          },
+          {
+            "kind": "component",
+            "label": "roofline"
+          }
+        ]
+      },
+      "sfx": null,
+      "beat_sfx": []
+    },
+    {
+      "id": "scene-08",
+      "number": 8,
+      "start": 184.546,
+      "duration": 27.946,
+      "audio_file": "scenes/scene_08.wav",
+      "narration": "The memory wall is not a metaphor. It is a measurable ratio between compute throughput and memory bandwidth. Over the last two decades, floating point performance grew far faster than the bandwidth of ordinary memory. For a while, caches absorbed most of the traffic. Artificial intelligence workloads are different. They are dominated by matrix multiplication, and matrix multiplication is hungry for data. An arithmetic unit with no data is just a very expensive heater.",
+      "visual": {
+        "kind": "asset",
+        "component": null,
+        "beats": [
+          {
+            "kind": "video",
+            "files": [
+              "assets/video/mixkit_data_center_blue_hallway.mp4"
+            ],
+            "layout": "full",
+            "label": "inference at scale"
+          },
+          {
+            "kind": "photo",
+            "files": [
+              "assets/images/data_center_racks.jpg"
+            ],
+            "layout": "full",
+            "label": "KV-cache/capacity"
+          },
+          {
+            "kind": "background",
+            "files": [
+              "assets/backgrounds/cad_gpu_hbm.jpg",
+              "assets/images/nvidia_h100.png"
+            ],
+            "layout": "background",
+            "label": "capacity vs bandwidth"
+          }
+        ]
+      },
+      "sfx": null,
+      "beat_sfx": []
+    },
+    {
+      "id": "scene-09",
+      "number": 9,
+      "start": 212.492,
+      "duration": 27.758,
+      "audio_file": "scenes/scene_09.wav",
+      "narration": "Modern language models make the problem worse in two directions. Training requires enormous datasets and repeated passes over the same weights. Inference requires reading the entire model for every token, plus a growing cache of intermediate state called the key value cache. Both workloads care about capacity as much as bandwidth. A GPU with insufficient memory cannot hold the model, and a GPU with insufficient bandwidth cannot keep its cores busy. You need both at once.",
+      "visual": {
+        "kind": "asset",
+        "component": null,
+        "beats": [
+          {
+            "kind": "video",
+            "files": [
+              "assets/video/mixkit_circuit_board_macro.mp4"
+            ],
+            "layout": "full",
+            "label": "DRAM traffic"
+          },
+          {
+            "kind": "photo",
+            "files": [
+              "assets/images/dram_chip.jpg"
+            ],
+            "layout": "full",
+            "label": "DRAM banks macro"
+          },
+          {
+            "kind": "photo",
+            "files": [
+              "assets/images/hbm_package.jpg"
+            ],
+            "layout": "full",
+            "label": "HBM capacity stack"
+          }
+        ]
+      },
+      "sfx": null,
+      "beat_sfx": []
+    },
+    {
+      "id": "scene-10",
+      "number": 10,
+      "start": 240.25,
+      "duration": 26.581958,
+      "audio_file": "scenes/scene_10.wav",
+      "narration": "So why not simply bolt more GDDR chips onto the board. The answer is pin count, board area, and power. Each additional chip needs its own data lanes, its own power delivery, and its own share of the thermal budget. A processor can only drive so many high speed pins before the package becomes impractical. You can widen the bus, but the traces get longer and signal integrity gets worse. The architecture runs into a wall made of copper.",
+      "visual": {
+        "kind": "asset",
+        "component": null,
+        "beats": [
+          {
+            "kind": "photo",
+            "files": [
+              "assets/images/pcb_macro.jpg"
+            ],
+            "layout": "full",
+            "label": "pin count / board area"
+          },
+          {
+            "kind": "video",
+            "files": [
+              "assets/video/mixkit_electronics_assembly_line.mp4"
+            ],
+            "layout": "full",
+            "label": "board assembly"
+          },
+          {
+            "kind": "background",
+            "files": [
+              "assets/backgrounds/cad_gpu_hbm.jpg",
+              "assets/images/silicon_interposer.jpg"
+            ],
+            "layout": "background",
+            "label": "why the bus cannot grow"
+          }
+        ]
+      },
+      "sfx": null,
+      "beat_sfx": []
+    },
+    {
+      "id": "scene-11",
+      "number": 11,
+      "start": 266.831958,
+      "duration": 26.565,
+      "audio_file": "scenes/scene_11.wav",
+      "narration": "The solution was to stop treating memory as something that lives across the board. Put it directly on top of the processor package. Stack the memory dies vertically and connect the stack to the GPU through a silicon interposer. That idea became high bandwidth memory. Instead of a few hundred bits routed across centimetres of circuit board, you get a thousand bits routed across millimetres of silicon. The distance collapses, and with it, the energy cost.",
+      "visual": {
+        "kind": "component",
+        "component": "LayerStackDiagram",
+        "beats": [
+          {
+            "kind": "component",
+            "label": "vertical DRAM stack"
+          },
+          {
+            "kind": "component",
+            "label": "GPU + HBM side by side"
+          },
+          {
+            "kind": "component",
+            "label": "board cm to silicon mm"
+          }
+        ]
+      },
+      "sfx": {
+        "file": "audio/sfx/sfx_data_whoosh.mp3",
+        "volume": 0.28
+      },
+      "beat_sfx": [
+        {
+          "beat": 1,
+          "file": "audio/sfx/sfx_digital_tick.mp3",
+          "volume": 0.18
+        }
+      ]
+    },
+    {
+      "id": "scene-12",
+      "number": 12,
+      "start": 293.396958,
+      "duration": 26.386,
+      "audio_file": "scenes/scene_12.wav",
+      "narration": "Inside the stack, the dies are connected by through silicon vias, or TSVs. These are microscopic holes drilled through each memory die and filled with copper. Thousands run vertically through the stack, carrying power, data, and control signals. Building them is brutal. The dies must be thinned to a fraction of a millimetre, aligned with micron precision, and bonded without cracking. One bad via can ruin an entire stack, and a stack may hold sixteen dies.",
+      "visual": {
+        "kind": "component",
+        "component": "LayerStackDiagram",
+        "beats": [
+          {
+            "kind": "component",
+            "label": "through-silicon vias"
+          },
+          {
+            "kind": "component",
+            "label": "thousands of vias"
+          },
+          {
+            "kind": "component",
+            "label": "stack height"
+          }
+        ]
+      },
+      "sfx": null,
+      "beat_sfx": []
+    },
+    {
+      "id": "scene-13",
+      "number": 13,
+      "start": 319.782958,
+      "duration": 27.270959,
+      "audio_file": "scenes/scene_13.wav",
+      "narration": "The stack then sits on a silicon interposer, a piece of silicon that acts like a miniature motherboard. It carries thousands of fine traces between the GPU and the memory stacks. This is called two point five D packaging, because the chips sit side by side rather than truly on top of one another. It is expensive, difficult, and the only practical way to deliver enough bandwidth to a modern accelerator. The interposer, not the transistor, became the bottleneck.",
+      "visual": {
+        "kind": "component",
+        "component": "LayerStackDiagram",
+        "beats": [
+          {
+            "kind": "component",
+            "label": "thousands of traces"
+          },
+          {
+            "kind": "component",
+            "label": "2.5D"
+          },
+          {
+            "kind": "component",
+            "label": "chip on wafer on substrate"
+          }
+        ]
+      },
+      "sfx": null,
+      "beat_sfx": []
+    },
+    {
+      "id": "scene-14",
+      "number": 14,
+      "start": 347.053917,
+      "duration": 27.298,
+      "audio_file": "scenes/scene_14.wav",
+      "narration": "High bandwidth memory has evolved through several generations. The first version arrived in twenty thirteen. HBM2 doubled the stack height and data rate. HBM2E added twelve high stacks. Then came HBM3, with a thousand bit interface that pushed one stack past eight hundred gigabytes per second. Each generation required thinner dies, more vias, and better packaging. By HBM3E, the stack had become a packaging problem.",
+      "visual": {
+        "kind": "asset",
+        "component": null,
+        "beats": [
+          {
+            "kind": "photo",
+            "files": [
+              "assets/images/hbm_package.jpg"
+            ],
+            "layout": "full",
+            "label": "real HBM/interposer package"
+          },
+          {
+            "kind": "photo",
+            "files": [
+              "assets/images/hbm_stack.png"
+            ],
+            "layout": "full",
+            "label": "HBM generation diagram"
+          },
+          {
+            "kind": "video",
+            "files": [
+              "assets/video/mixkit_pick_and_place_circuit.mp4"
+            ],
+            "layout": "full",
+            "label": "packaging line"
+          }
+        ]
+      },
+      "sfx": {
+        "file": "audio/sfx/sfx_data_glitch.mp3",
+        "volume": 0.2
+      },
+      "beat_sfx": []
+    },
+    {
+      "id": "scene-15",
+      "number": 15,
+      "start": 374.351917,
+      "duration": 27.578,
+      "audio_file": "scenes/scene_15.wav",
+      "narration": "HBM3E is the generation that powered Nvidia's Blackwell accelerators. A twelve high stack holds thirty six gigabytes and delivers about one point two terabytes per second. Depending on the accelerator, Nvidia pairs four, six, or eight stacks around the GPU. Total bandwidth reaches eight terabytes per second on a flagship part. That is roughly ten times the fastest consumer graphics card, achieved in a package that still fits on a server board.",
+      "visual": {
+        "kind": "component",
+        "component": "LayerStackDiagram",
+        "beats": [
+          {
+            "kind": "component",
+            "label": "capacity label"
+          },
+          {
+            "kind": "component",
+            "label": "per-stack bandwidth"
+          },
+          {
+            "kind": "component",
+            "label": "8 TB/s total"
+          }
+        ]
+      },
+      "sfx": null,
+      "beat_sfx": []
+    },
+    {
+      "id": "scene-16",
+      "number": 16,
+      "start": 401.929917,
+      "duration": 24.782,
+      "audio_file": "scenes/scene_16.wav",
+      "narration": "Stacking that many dies creates three problems at once. The first is thickness. To keep the package within a fixed height, each die must be thinned as more layers are added. A twelve high stack uses dies roughly forty percent thinner than an eight high stack. The second is warpage. Thin silicon bends under heat and pressure. The third is heat. Every die generates power, and that heat must escape through the same narrow path.",
+      "visual": {
+        "kind": "asset",
+        "component": null,
+        "beats": [
+          {
+            "kind": "photo",
+            "files": [
+              "assets/images/silicon_wafer.jpg"
+            ],
+            "layout": "full",
+            "label": "thin wafer handling"
+          },
+          {
+            "kind": "video",
+            "files": [
+              "assets/video/mixkit_robot_electronics_factory.mp4"
+            ],
+            "layout": "full",
+            "label": "stacking/packaging"
+          },
+          {
+            "kind": "background",
+            "files": [
+              "assets/backgrounds/cad_wafer_tsv.jpg",
+              "assets/images/through_silicon_via.png"
+            ],
+            "layout": "background",
+            "label": "warpage/heat"
+          }
+        ]
+      },
+      "sfx": null,
+      "beat_sfx": []
+    },
+    {
+      "id": "scene-17",
+      "number": 17,
+      "start": 426.711917,
+      "duration": 27.546958,
+      "audio_file": "scenes/scene_17.wav",
+      "narration": "To hold the stack together, manufacturers use a packaging process. The conventional approach is called thermal compression non conductive film, or TC-NCF. A film of adhesive is placed between each layer, then heat and pressure bond the stack. Samsung and Micron have stayed with this film based family. SK Hynix used it too, through the second generation of high bandwidth memory. Then, in twenty nineteen, SK Hynix made a bet that would define the next decade.",
+      "visual": {
+        "kind": "asset",
+        "component": null,
+        "beats": [
+          {
+            "kind": "photo",
+            "files": [
+              "assets/images/lithography_machine.jpg"
+            ],
+            "layout": "full",
+            "label": "cleanroom process"
+          },
+          {
+            "kind": "video",
+            "files": [
+              "assets/video/mixkit_robot_production_line.mp4"
+            ],
+            "layout": "full",
+            "label": "production line"
+          },
+          {
+            "kind": "photo",
+            "files": [
+              "assets/images/cleanroom.jpg"
+            ],
+            "layout": "full",
+            "label": "TC-NCF film process overlay"
+          }
+        ]
+      },
+      "sfx": null,
+      "beat_sfx": []
+    },
+    {
+      "id": "scene-18",
+      "number": 18,
+      "start": 454.258875,
+      "duration": 25.798,
+      "audio_file": "scenes/scene_18.wav",
+      "narration": "TC-NCF has a weakness that becomes serious as stacks get taller. The film is applied one layer at a time, and each layer must be pressed and cured. Trapped air can leave voids. The pressure needed to bond thin dies can cause warpage. And the film sits between the silicon and the heat spreader, adding thermal resistance where heat needs to escape. At eight layers, the process is difficult. At twelve, it becomes a yield problem.",
+      "visual": {
+        "kind": "component",
+        "component": "YieldMeter",
+        "beats": [
+          {
+            "kind": "component",
+            "label": "TC-NCF weakness"
+          },
+          {
+            "kind": "component",
+            "label": "heat path"
+          },
+          {
+            "kind": "component",
+            "label": "yield meter"
+          }
+        ]
+      },
+      "sfx": {
+        "file": "audio/sfx/sfx_warning_pulse.mp3",
+        "volume": 0.22
+      },
+      "beat_sfx": [
+        {
+          "beat": 1,
+          "file": "audio/sfx/sfx_digital_tick.mp3",
+          "volume": 0.18
+        }
+      ]
+    },
+    {
+      "id": "scene-19",
+      "number": 19,
+      "start": 480.056875,
+      "duration": 27.677,
+      "audio_file": "scenes/scene_19.wav",
+      "narration": "SK Hynix's alternative is called mass reflow molded underfill, or M R MUF. Instead of a film between every layer, the entire stack is reflowed at once and filled with a liquid epoxy molding compound. The epoxy flows into the gaps between the dies and around the bumps, then hardens. Because the material fills the whole stack, it conducts heat better and spreads stress more evenly. SK Hynix also added up to four times more thermal dummy bumps.",
+      "visual": {
+        "kind": "component",
+        "component": "YieldMeter",
+        "beats": [
+          {
+            "kind": "component",
+            "label": "MR-MUF process"
+          },
+          {
+            "kind": "component",
+            "label": "bar comparison"
+          },
+          {
+            "kind": "component",
+            "label": "thermal vias"
+          }
+        ]
+      },
+      "sfx": null,
+      "beat_sfx": []
+    },
+    {
+      "id": "scene-20",
+      "number": 20,
+      "start": 507.733875,
+      "duration": 26.927,
+      "audio_file": "scenes/scene_20.wav",
+      "narration": "The results were measurable. SK Hynix says its first M R MUF process improved heat dissipation by thirty six percent. For twelve high HBM3, it developed advanced M R MUF, with a new molding compound offering one point six times the heat dissipation. The process also gave better warpage control and reduced pressure on each die. By HBM3E mass production, SK Hynix was reporting yields around seventy percent.",
+      "visual": {
+        "kind": "component",
+        "component": "YieldMeter",
+        "beats": [
+          {
+            "kind": "component",
+            "label": "advanced MR-MUF"
+          },
+          {
+            "kind": "component",
+            "label": "SK hynix yield"
+          },
+          {
+            "kind": "component",
+            "label": "thin-die stack"
+          }
+        ]
+      },
+      "sfx": null,
+      "beat_sfx": []
+    },
+    {
+      "id": "scene-21",
+      "number": 21,
+      "start": 534.660875,
+      "duration": 27.43,
+      "audio_file": "scenes/scene_21.wav",
+      "narration": "That yield number is the heart of the story. A memory stack is useless if only half the finished units work. Nvidia needs millions of stacks, on schedule, with reliability that survives years in a data center. SK Hynix could deliver them at volume. Samsung, using its film based process, struggled with heat and yield on early HBM3E. The result was not a permanent monopoly, but it was close. Nvidia gave the largest share to the supplier that could ship.",
+      "visual": {
+        "kind": "component",
+        "component": "YieldMeter",
+        "beats": [
+          {
+            "kind": "component",
+            "label": "yield comparison"
+          },
+          {
+            "kind": "component",
+            "label": "millions of stacks"
+          },
+          {
+            "kind": "component",
+            "label": "largest share"
+          }
+        ]
+      },
+      "sfx": null,
+      "beat_sfx": []
+    },
+    {
+      "id": "scene-22",
+      "number": 22,
+      "start": 562.090875,
+      "duration": 26.299958,
+      "audio_file": "scenes/scene_22.wav",
+      "narration": "The irony is that SK Hynix nearly went bankrupt before the boom. In twenty twenty three, the memory market collapsed. Prices fell, inventories piled up, and the company reported an operating loss of more than seven point seven trillion Korean won. It was the kind of year that forces a memory maker to cut investment and retreat. SK Hynix did the opposite. It kept betting on high bandwidth memory and advanced packaging.",
+      "visual": {
+        "kind": "asset",
+        "component": null,
+        "beats": [
+          {
+            "kind": "video",
+            "files": [
+              "assets/video/mixkit_server_room_alarm.mp4"
+            ],
+            "layout": "full",
+            "label": "2023 memory crash"
+          },
+          {
+            "kind": "photo",
+            "files": [
+              "assets/images/data_center_racks.jpg"
+            ],
+            "layout": "full",
+            "label": "loss chart overlay"
+          },
+          {
+            "kind": "photo",
+            "files": [
+              "assets/images/sk_hynix_logo.png",
+              "assets/images/sk_hynix_mrdimm.jpg"
+            ],
+            "layout": "split",
+            "label": "SK hynix bet"
+          }
+        ]
+      },
+      "sfx": {
+        "file": "audio/sfx/sfx_crisp_transition.mp3",
+        "volume": 0.26
+      },
+      "beat_sfx": []
+    },
+    {
+      "id": "scene-23",
+      "number": 23,
+      "start": 588.390833,
+      "duration": 27.725,
+      "audio_file": "scenes/scene_23.wav",
+      "narration": "The bet paid off faster than expected. In twenty twenty four, SK Hynix reported an operating profit of twenty three point five trillion won. In twenty twenty five, profit nearly doubled to forty seven point two trillion won, on revenue of ninety seven trillion won. High bandwidth memory grew into more than forty percent of its DRAM revenue. A business written off as a commodity cyclical became the most profitable supplier in the AI supply chain.",
+      "visual": {
+        "kind": "asset",
+        "component": null,
+        "beats": [
+          {
+            "kind": "photo",
+            "files": [
+              "assets/images/nvidia_headquarters.jpg"
+            ],
+            "layout": "full",
+            "label": "AI demand"
+          },
+          {
+            "kind": "video",
+            "files": [
+              "assets/video/mixkit_data_center_blue_hallway.mp4"
+            ],
+            "layout": "full",
+            "label": "data-center buildout"
+          },
+          {
+            "kind": "photo",
+            "files": [
+              "assets/images/sk_hynix_logo.png"
+            ],
+            "layout": "full",
+            "label": "FY24/FY25 profit chart"
+          }
+        ]
+      },
+      "sfx": null,
+      "beat_sfx": []
+    },
+    {
+      "id": "scene-24",
+      "number": 24,
+      "start": 616.115833,
+      "duration": 28.69,
+      "audio_file": "scenes/scene_24.wav",
+      "narration": "High bandwidth memory is also a different business from ordinary DRAM. It consumes at least twice the wafer capacity of standard memory for the same output, because of stacking and packaging. Every bit of high bandwidth memory displaces two bits of commodity DRAM. When demand surges, supply cannot respond quickly. Fabs take years to build, and packaging lines take months to qualify. The result is pricing power that commodity memory never enjoyed, and a shortage that shows up downstream.",
+      "visual": {
+        "kind": "asset",
+        "component": null,
+        "beats": [
+          {
+            "kind": "photo",
+            "files": [
+              "assets/images/asml_containers.jpg"
+            ],
+            "layout": "full",
+            "label": "equipment/capacity"
+          },
+          {
+            "kind": "video",
+            "files": [
+              "assets/video/mixkit_electronics_assembly_line.mp4"
+            ],
+            "layout": "full",
+            "label": "packaging lines"
+          },
+          {
+            "kind": "background",
+            "files": [
+              "assets/backgrounds/cad_supply_chain.jpg",
+              "assets/images/silicon_wafer.jpg",
+              "assets/images/dram_chip.jpg"
+            ],
+            "layout": "background",
+            "label": "2x wafer capacity"
+          }
+        ]
+      },
+      "sfx": {
+        "file": "audio/sfx/sfx_warning_pulse.mp3",
+        "volume": 0.2
+      },
+      "beat_sfx": []
+    },
+    {
+      "id": "scene-25",
+      "number": 25,
+      "start": 644.805833,
+      "duration": 29.334,
+      "audio_file": "scenes/scene_25.wav",
+      "narration": "Geography amplifies the concentration. SK Hynix produces DRAM in Icheon and Cheongju, South Korea. Its newest fab, M15X in Cheongju, represents an investment of more than twenty trillion won and is designed to ramp high bandwidth memory. A much larger cluster is rising in Yongin, with a first fab targeted for twenty twenty seven. Advanced packaging lines are being added in Cheongju and Indiana. A single disruption can move the entire artificial intelligence roadmap.",
+      "visual": {
+        "kind": "asset",
+        "component": null,
+        "beats": [
+          {
+            "kind": "photo",
+            "files": [
+              "assets/images/south_korea_map.png"
+            ],
+            "layout": "full",
+            "label": "Icheon/Cheongju/Yongin pins"
+          },
+          {
+            "kind": "video",
+            "files": [
+              "assets/video/mixkit_robot_electronics_factory.mp4"
+            ],
+            "layout": "full",
+            "label": "fab/packaging"
+          },
+          {
+            "kind": "photo",
+            "files": [
+              "assets/images/cleanroom.jpg",
+              "assets/images/semiconductor_fab.jpg"
+            ],
+            "layout": "split",
+            "label": "concentration risk"
+          }
+        ]
+      },
+      "sfx": null,
+      "beat_sfx": []
+    },
+    {
+      "id": "scene-26",
+      "number": 26,
+      "start": 674.139833,
+      "duration": 28.667,
+      "audio_file": "scenes/scene_26.wav",
+      "narration": "The second chokepoint is outside Korea. The GPU and its memory stacks must be assembled on a silicon interposer through a process called chip on wafer on substrate, or CoWoS. That process belongs to TSMC. Starting with HBM4, the memory's base die is built on a logic process, bringing TSMC deeper into the chain. Nvidia can design the accelerator, but cannot ship it without Korean memory and Taiwanese packaging. Every side is a bottleneck.",
+      "visual": {
+        "kind": "component",
+        "component": "SupplyChainMap",
+        "beats": [
+          {
+            "kind": "component",
+            "label": "supply chain map"
+          },
+          {
+            "kind": "component",
+            "label": "TSMC packaging"
+          },
+          {
+            "kind": "component",
+            "label": "TSMC logic process"
+          }
+        ]
+      },
+      "sfx": {
+        "file": "audio/sfx/sfx_data_whoosh.mp3",
+        "volume": 0.28
+      },
+      "beat_sfx": [
+        {
+          "beat": 1,
+          "file": "audio/sfx/sfx_digital_tick.mp3",
+          "volume": 0.18
+        }
+      ]
+    },
+    {
+      "id": "scene-27",
+      "number": 27,
+      "start": 702.806833,
+      "duration": 27.098,
+      "audio_file": "scenes/scene_27.wav",
+      "narration": "That is why monopoly needs a qualifier. SK Hynix does not control all of it. TrendForce expects it to hold more than half the market, and Nvidia's first HBM4 allocation reportedly gave SK Hynix the mid fifty percent range, Samsung the mid twenty percent range, and Micron around twenty percent. That is not a textbook monopoly. It is a chokehold. The largest customer cannot diversify faster than its second supplier can fix its yield.",
+      "visual": {
+        "kind": "component",
+        "component": "SupplyChainMap",
+        "beats": [
+          {
+            "kind": "component",
+            "label": "mid-50/mid-20/20"
+          },
+          {
+            "kind": "component",
+            "label": "Nvidia-SK hynix"
+          },
+          {
+            "kind": "component",
+            "label": "SK hynix/Samsung/Micron"
+          }
+        ]
+      },
+      "sfx": {
+        "file": "audio/sfx/sfx_digital_tick.mp3",
+        "volume": 0.2
+      },
+      "beat_sfx": []
+    },
+    {
+      "id": "scene-28",
+      "number": 28,
+      "start": 729.904833,
+      "duration": 27.673,
+      "audio_file": "scenes/scene_28.wav",
+      "narration": "Concentration cuts both ways. SK Hynix depends on Nvidia for much of its high bandwidth memory revenue, and Nvidia depends on SK Hynix for much of its memory supply. Samsung is spending heavily to close the yield gap, and by twenty twenty six it reported HBM4 yields near eighty percent. China's CXMT is trying to enter, though its yields remain far behind. The lead is real but not permanent, and that uncertainty is priced into every forecast.",
+      "visual": {
+        "kind": "asset",
+        "component": null,
+        "beats": [
+          {
+            "kind": "photo",
+            "files": [
+              "assets/images/data_center_servers.jpg"
+            ],
+            "layout": "full",
+            "label": "demand pressure"
+          },
+          {
+            "kind": "video",
+            "files": [
+              "assets/video/mixkit_circuit_board_macro.mp4"
+            ],
+            "layout": "full",
+            "label": "yield race"
+          },
+          {
+            "kind": "photo",
+            "files": [
+              "assets/images/samsung_logo.png",
+              "assets/images/micron_logo_white.png",
+              "assets/images/sk_hynix_logo.png"
+            ],
+            "layout": "collage",
+            "label": "competitor comparison"
+          }
+        ]
+      },
+      "sfx": {
+        "file": "audio/sfx/sfx_warning_pulse.mp3",
+        "volume": 0.2
+      },
+      "beat_sfx": []
+    },
+    {
+      "id": "scene-29",
+      "number": 29,
+      "start": 757.577833,
+      "duration": 27.36,
+      "audio_file": "scenes/scene_29.wav",
+      "narration": "The next generation is here. HBM4 doubles the interface from one thousand and twenty four bits to two thousand and forty eight bits. It supports sixteen stacked dies, thirty six gigabytes at twelve high and forty eight at sixteen high, and delivers around two terabytes per second per stack. SK Hynix completed development first in twenty twenty five and is ramping production for Nvidia's Vera Rubin platform. Bandwidth doubles again, and so does the packaging difficulty.",
+      "visual": {
+        "kind": "component",
+        "component": "LayerStackDiagram",
+        "beats": [
+          {
+            "kind": "component",
+            "label": "HBM4 doubling"
+          },
+          {
+            "kind": "component",
+            "label": "capacity"
+          },
+          {
+            "kind": "component",
+            "label": "Vera Rubin package"
+          }
+        ]
+      },
+      "sfx": {
+        "file": "audio/sfx/sfx_crisp_transition.mp3",
+        "volume": 0.24
+      },
+      "beat_sfx": [
+        {
+          "beat": 1,
+          "file": "audio/sfx/sfx_digital_tick.mp3",
+          "volume": 0.18
+        }
+      ]
+    },
+    {
+      "id": "scene-30",
+      "number": 30,
+      "start": 784.937833,
+      "duration": 27.662,
+      "audio_file": "scenes/scene_30.wav",
+      "narration": "Beyond HBM4, the industry is preparing to remove the solder bumps entirely. The technique is called hybrid bonding. It presses two surfaces together so copper pads fuse directly, with no solder balls at all. The pitch shrinks from around twenty microns to below one micron. That means more connections per square millimetre, shorter paths, less heat, and the ability to stack sixteen or more dies. SK Hynix has validated twelve high hybrid bonding.",
+      "visual": {
+        "kind": "component",
+        "component": "LayerStackDiagram",
+        "beats": [
+          {
+            "kind": "component",
+            "label": "hybrid bonding"
+          },
+          {
+            "kind": "component",
+            "label": "connection density"
+          },
+          {
+            "kind": "component",
+            "label": "HBM4E horizon"
+          }
+        ]
+      },
+      "sfx": null,
+      "beat_sfx": []
+    },
+    {
+      "id": "scene-31",
+      "number": 31,
+      "start": 812.599833,
+      "duration": 26.136959,
+      "audio_file": "scenes/scene_31.wav",
+      "narration": "But hybrid bonding is not a free lunch. Copper expands when heated, and the surfaces must be almost perfectly flat and clean. A single particle can create a void across an entire interface. The equipment is expensive, the process is slow, and the yield learning curve is steep. That is why the industry is delaying the transition where it can. The physical limit is no longer the transistor. It is the wire, the bump, the adhesive, and the heat.",
+      "visual": {
+        "kind": "asset",
+        "component": null,
+        "beats": [
+          {
+            "kind": "photo",
+            "files": [
+              "assets/images/lithography_machine.jpg"
+            ],
+            "layout": "full",
+            "label": "cleanroom limits"
+          },
+          {
+            "kind": "video",
+            "files": [
+              "assets/video/mixkit_pick_and_place_circuit.mp4"
+            ],
+            "layout": "full",
+            "label": "placement precision"
+          },
+          {
+            "kind": "background",
+            "files": [
+              "assets/backgrounds/cad_wafer_tsv.jpg",
+              "assets/images/through_silicon_via.png"
+            ],
+            "layout": "background",
+            "label": "copper/heat limit"
+          }
+        ]
+      },
+      "sfx": null,
+      "beat_sfx": []
+    },
+    {
+      "id": "scene-32",
+      "number": 32,
+      "start": 838.736792,
+      "duration": 28.612,
+      "audio_file": "scenes/scene_32.wav",
+      "narration": "The lesson of high bandwidth memory is simple. The artificial intelligence boom is usually told as a story about compute. But the companies that control the path between compute and data have as much leverage. Nvidia designs the brain. SK Hynix builds the memory that feeds it. TSMC packages the two together. The next battle is advanced packaging, where interposers, hybrid bonding, and eventually silicon photonics decide how fast data can move. That is where we go next.",
+      "visual": {
+        "kind": "asset",
+        "component": null,
+        "beats": [
+          {
+            "kind": "background",
+            "files": [
+              "assets/backgrounds/cad_supply_chain.jpg",
+              "assets/images/nvidia_logo.png",
+              "assets/images/sk_hynix_logo.png",
+              "assets/images/tsmc_fab18.jpg"
+            ],
+            "layout": "background",
+            "label": "triangle recap"
+          },
+          {
+            "kind": "video",
+            "files": [
+              "assets/video/mixkit_fiber_optics_server_room.mp4"
+            ],
+            "layout": "full",
+            "label": "next frontier"
+          },
+          {
+            "kind": "photo",
+            "files": [
+              "assets/images/semiconductor_fab.jpg",
+              "assets/images/silicon_wafer.jpg"
+            ],
+            "layout": "split",
+            "label": "advanced packaging tease"
+          }
+        ]
+      },
+      "sfx": {
+        "file": "audio/sfx/sfx_crisp_transition.mp3",
+        "volume": 0.24
+      },
+      "beat_sfx": []
+    }
+  ]
+}

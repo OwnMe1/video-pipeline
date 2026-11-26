@@ -1,1 +1,31 @@
-{"channel":"fintech","variantA":{"headline":"€1.9B MISSING","metric":"-99.4%","badge":"AUDIT FRAUD"},"variantB":{"headline":"FAKE CASH","docTitle":"BALANCE SHEET // 2020","highlightLine":"CASH IN ESCROW: €1,900,000,000 [NOT FOUND]","stamp":"FABRICATED"},"variantC":{"headline":"INSIDE THE TRAP","leftLabel":"DAX 30 GIANT","leftValue":"$28B","rightLabel":"REAL CASH","rightValue":"$0"}}
+{
+  "channel": "tech",
+  "brand": "STACK LAYER",
+  "episode": "EP.01",
+  "title": "THE HIDDEN BOTTLENECK OF AI",
+  "variantA": {
+    "headline": "THE REAL LIMIT",
+    "subline": "NVIDIA'S AI ACCELERATORS NEED A SMALL STACK OF MEMORY FROM ONE KOREAN SUPPLIER.",
+    "badge": "HBM3E // HBM4",
+    "metric": "8 TB/S",
+    "metricLabel": "MEMORY BANDWIDTH"
+  },
+  "variantB": {
+    "headline": "1 MONOPOLY",
+    "subline": "HBM IS THE SINGLE POINT OF FAILURE BETWEEN NVIDIA AND THE AI BOOM.",
+    "badge": "HBM4 ALLOCATION // MID-50%",
+    "metric": "1",
+    "metricLabel": "POINT OF FAILURE",
+    "mapLabel": "SOUTH KOREA",
+    "routeLabel": "SK HYNIX → TSMC → NVIDIA"
+  },
+  "variantC": {
+    "headline": "8 TB/S WALL",
+    "subline": "THE PHYSICAL LIMIT IS NO LONGER THE TRANSISTOR. IT IS THE PACKAGE.",
+    "leftLabel": "THERMAL LIMIT",
+    "leftValue": "TC-NCF",
+    "rightLabel": "MR-MUF",
+    "rightValue": "+36%",
+    "badge": "PHYSICAL LIMIT"
+  }
+}

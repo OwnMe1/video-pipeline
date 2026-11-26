@@ -1,0 +1,659 @@
+[
+  {
+    "text": "Samsung had bigger budgets",
+    "start": 0.5,
+    "end": 1.882,
+    "words": [
+      {
+        "word": "Samsung",
+        "start": 0.5,
+        "end": 0.981,
+        "scene": "s3_01"
+      },
+      {
+        "word": "had",
+        "start": 1.021,
+        "end": 1.161,
+        "scene": "s3_01"
+      },
+      {
+        "word": "bigger",
+        "start": 1.241,
+        "end": 1.502,
+        "scene": "s3_01"
+      },
+      {
+        "word": "budgets",
+        "start": 1.542,
+        "end": 1.882,
+        "scene": "s3_01"
+      }
+    ]
+  },
+  {
+    "text": "And a faster roadmap, but",
+    "start": 2.083,
+    "end": 3.905,
+    "words": [
+      {
+        "word": "and",
+        "start": 2.083,
+        "end": 2.183,
+        "scene": "s3_01"
+      },
+      {
+        "word": "a",
+        "start": 2.223,
+        "end": 2.243,
+        "scene": "s3_01"
+      },
+      {
+        "word": "faster",
+        "start": 2.343,
+        "end": 2.803,
+        "scene": "s3_01"
+      },
+      {
+        "word": "roadmap,",
+        "start": 2.864,
+        "end": 3.384,
+        "scene": "s3_01"
+      },
+      {
+        "word": "but",
+        "start": 3.805,
+        "end": 3.905,
+        "scene": "s3_01"
+      }
+    ]
+  },
+  {
+    "text": "Its film-based packaging",
+    "start": 3.945,
+    "end": 5.247,
+    "words": [
+      {
+        "word": "its",
+        "start": 3.945,
+        "end": 4.065,
+        "scene": "s3_01"
+      },
+      {
+        "word": "film-based",
+        "start": 4.125,
+        "end": 4.746,
+        "scene": "s3_01"
+      },
+      {
+        "word": "packaging",
+        "start": 4.806,
+        "end": 5.247,
+        "scene": "s3_01"
+      }
+    ]
+  },
+  {
+    "text": "Trapped heat and crushed",
+    "start": 5.307,
+    "end": 6.609,
+    "words": [
+      {
+        "word": "trapped",
+        "start": 5.307,
+        "end": 5.587,
+        "scene": "s3_01"
+      },
+      {
+        "word": "heat",
+        "start": 5.667,
+        "end": 5.908,
+        "scene": "s3_01"
+      },
+      {
+        "word": "and",
+        "start": 6.148,
+        "end": 6.248,
+        "scene": "s3_01"
+      },
+      {
+        "word": "crushed",
+        "start": 6.308,
+        "end": 6.609,
+        "scene": "s3_01"
+      }
+    ]
+  },
+  {
+    "text": "Yield. The stack got taller",
+    "start": 6.689,
+    "end": 8.732,
+    "words": [
+      {
+        "word": "yield.",
+        "start": 6.689,
+        "end": 7.089,
+        "scene": "s3_01"
+      },
+      {
+        "word": "The",
+        "start": 7.63,
+        "end": 7.73,
+        "scene": "s3_01"
+      },
+      {
+        "word": "stack",
+        "start": 7.77,
+        "end": 8.071,
+        "scene": "s3_01"
+      },
+      {
+        "word": "got",
+        "start": 8.111,
+        "end": 8.291,
+        "scene": "s3_01"
+      },
+      {
+        "word": "taller",
+        "start": 8.351,
+        "end": 8.732,
+        "scene": "s3_01"
+      }
+    ]
+  },
+  {
+    "text": "And the problem worsened.",
+    "start": 9.072,
+    "end": 10.174,
+    "words": [
+      {
+        "word": "and",
+        "start": 9.072,
+        "end": 9.172,
+        "scene": "s3_01"
+      },
+      {
+        "word": "the",
+        "start": 9.192,
+        "end": 9.272,
+        "scene": "s3_01"
+      },
+      {
+        "word": "problem",
+        "start": 9.312,
+        "end": 9.673,
+        "scene": "s3_01"
+      },
+      {
+        "word": "worsened.",
+        "start": 9.733,
+        "end": 10.174,
+        "scene": "s3_01"
+      }
+    ]
+  },
+  {
+    "text": "SK Hynix injected liquid",
+    "start": 10.674,
+    "end": 12.435,
+    "words": [
+      {
+        "word": "SK Hynix",
+        "start": 10.674,
+        "end": 11.435,
+        "scene": "s3_02"
+      },
+      {
+        "word": "injected",
+        "start": 11.635,
+        "end": 12.095,
+        "scene": "s3_02"
+      },
+      {
+        "word": "liquid",
+        "start": 12.155,
+        "end": 12.435,
+        "scene": "s3_02"
+      }
+    ]
+  },
+  {
+    "text": "Epoxy between layers. The",
+    "start": 12.495,
+    "end": 14.417,
+    "words": [
+      {
+        "word": "epoxy",
+        "start": 12.495,
+        "end": 12.976,
+        "scene": "s3_02"
+      },
+      {
+        "word": "between",
+        "start": 13.036,
+        "end": 13.336,
+        "scene": "s3_02"
+      },
+      {
+        "word": "layers.",
+        "start": 13.396,
+        "end": 13.796,
+        "scene": "s3_02"
+      },
+      {
+        "word": "The",
+        "start": 14.337,
+        "end": 14.417,
+        "scene": "s3_02"
+      }
+    ]
+  },
+  {
+    "text": "Process is MR-MUF. Heat",
+    "start": 14.457,
+    "end": 17.239,
+    "words": [
+      {
+        "word": "process",
+        "start": 14.457,
+        "end": 14.937,
+        "scene": "s3_02"
+      },
+      {
+        "word": "is",
+        "start": 15.157,
+        "end": 15.257,
+        "scene": "s3_02"
+      },
+      {
+        "word": "MR-MUF.",
+        "start": 15.457,
+        "end": 16.558,
+        "scene": "s3_02"
+      },
+      {
+        "word": "Heat",
+        "start": 17.059,
+        "end": 17.239,
+        "scene": "s3_02"
+      }
+    ]
+  },
+  {
+    "text": "Dissipation improved 36% and",
+    "start": 17.259,
+    "end": 20.121,
+    "words": [
+      {
+        "word": "dissipation",
+        "start": 17.259,
+        "end": 17.879,
+        "scene": "s3_02"
+      },
+      {
+        "word": "improved",
+        "start": 17.999,
+        "end": 18.399,
+        "scene": "s3_02"
+      },
+      {
+        "word": "36%",
+        "start": 18.42,
+        "end": 19.6,
+        "scene": "s3_02"
+      },
+      {
+        "word": "and",
+        "start": 20.021,
+        "end": 20.121,
+        "scene": "s3_02"
+      }
+    ]
+  },
+  {
+    "text": "Advanced MR-MUF pushed it",
+    "start": 20.161,
+    "end": 22.963,
+    "words": [
+      {
+        "word": "advanced",
+        "start": 20.161,
+        "end": 20.581,
+        "scene": "s3_02"
+      },
+      {
+        "word": "MR-MUF",
+        "start": 20.801,
+        "end": 21.782,
+        "scene": "s3_02"
+      },
+      {
+        "word": "pushed",
+        "start": 21.942,
+        "end": 22.322,
+        "scene": "s3_02"
+      },
+      {
+        "word": "it",
+        "start": 22.823,
+        "end": 22.963,
+        "scene": "s3_02"
+      }
+    ]
+  },
+  {
+    "text": "1.6 times. It cut pressure",
+    "start": 23.063,
+    "end": 25.044,
+    "words": [
+      {
+        "word": "1.6",
+        "start": 23.063,
+        "end": 23.303,
+        "scene": "s3_02"
+      },
+      {
+        "word": "times.",
+        "start": 23.383,
+        "end": 23.823,
+        "scene": "s3_02"
+      },
+      {
+        "word": "It",
+        "start": 24.364,
+        "end": 24.424,
+        "scene": "s3_02"
+      },
+      {
+        "word": "cut",
+        "start": 24.464,
+        "end": 24.624,
+        "scene": "s3_02"
+      },
+      {
+        "word": "pressure",
+        "start": 24.704,
+        "end": 25.044,
+        "scene": "s3_02"
+      }
+    ]
+  },
+  {
+    "text": "On each die.",
+    "start": 25.304,
+    "end": 25.985,
+    "words": [
+      {
+        "word": "on",
+        "start": 25.304,
+        "end": 25.364,
+        "scene": "s3_02"
+      },
+      {
+        "word": "each",
+        "start": 25.444,
+        "end": 25.604,
+        "scene": "s3_02"
+      },
+      {
+        "word": "die.",
+        "start": 25.705,
+        "end": 25.985,
+        "scene": "s3_02"
+      }
+    ]
+  },
+  {
+    "text": "Yield reached 70%. In",
+    "start": 26.485,
+    "end": 28.066,
+    "words": [
+      {
+        "word": "Yield",
+        "start": 26.485,
+        "end": 26.765,
+        "scene": "s3_03"
+      },
+      {
+        "word": "reached",
+        "start": 26.825,
+        "end": 27.085,
+        "scene": "s3_03"
+      },
+      {
+        "word": "70%.",
+        "start": 27.165,
+        "end": 27.546,
+        "scene": "s3_03"
+      },
+      {
+        "word": "In",
+        "start": 27.866,
+        "end": 28.066,
+        "scene": "s3_03"
+      }
+    ]
+  },
+  {
+    "text": "Video gave SK Hynix the",
+    "start": 28.666,
+    "end": 30.227,
+    "words": [
+      {
+        "word": "video",
+        "start": 28.666,
+        "end": 29.006,
+        "scene": "s3_03"
+      },
+      {
+        "word": "gave",
+        "start": 29.046,
+        "end": 29.206,
+        "scene": "s3_03"
+      },
+      {
+        "word": "SK",
+        "start": 29.366,
+        "end": 29.666,
+        "scene": "s3_03"
+      },
+      {
+        "word": "Hynix",
+        "start": 29.706,
+        "end": 30.087,
+        "scene": "s3_03"
+      },
+      {
+        "word": "the",
+        "start": 30.147,
+        "end": 30.227,
+        "scene": "s3_03"
+      }
+    ]
+  },
+  {
+    "text": "Largest HBM4 allocation.",
+    "start": 30.267,
+    "end": 32.347,
+    "words": [
+      {
+        "word": "largest",
+        "start": 30.267,
+        "end": 30.627,
+        "scene": "s3_03"
+      },
+      {
+        "word": "HBM4",
+        "start": 30.867,
+        "end": 31.347,
+        "scene": "s3_03"
+      },
+      {
+        "word": "allocation.",
+        "start": 31.727,
+        "end": 32.347,
+        "scene": "s3_03"
+      }
+    ]
+  },
+  {
+    "text": "That is the moat.",
+    "start": 32.808,
+    "end": 33.588,
+    "words": [
+      {
+        "word": "That",
+        "start": 32.808,
+        "end": 32.968,
+        "scene": "s3_03"
+      },
+      {
+        "word": "is",
+        "start": 33.028,
+        "end": 33.128,
+        "scene": "s3_03"
+      },
+      {
+        "word": "the",
+        "start": 33.168,
+        "end": 33.248,
+        "scene": "s3_03"
+      },
+      {
+        "word": "moat.",
+        "start": 33.308,
+        "end": 33.588,
+        "scene": "s3_03"
+      }
+    ]
+  },
+  {
+    "text": "Competition is catching up,",
+    "start": 34.048,
+    "end": 35.529,
+    "words": [
+      {
+        "word": "Competition",
+        "start": 34.048,
+        "end": 34.708,
+        "scene": "s3_03"
+      },
+      {
+        "word": "is",
+        "start": 34.768,
+        "end": 34.869,
+        "scene": "s3_03"
+      },
+      {
+        "word": "catching",
+        "start": 34.929,
+        "end": 35.309,
+        "scene": "s3_03"
+      },
+      {
+        "word": "up,",
+        "start": 35.429,
+        "end": 35.529,
+        "scene": "s3_03"
+      }
+    ]
+  },
+  {
+    "text": "But Yield Curve still holds.",
+    "start": 35.869,
+    "end": 37.45,
+    "words": [
+      {
+        "word": "but",
+        "start": 35.869,
+        "end": 35.969,
+        "scene": "s3_03"
+      },
+      {
+        "word": "Yield",
+        "start": 36.029,
+        "end": 36.309,
+        "scene": "s3_03"
+      },
+      {
+        "word": "Curve",
+        "start": 36.369,
+        "end": 36.709,
+        "scene": "s3_03"
+      },
+      {
+        "word": "still",
+        "start": 36.769,
+        "end": 37.029,
+        "scene": "s3_03"
+      },
+      {
+        "word": "holds.",
+        "start": 37.089,
+        "end": 37.45,
+        "scene": "s3_03"
+      }
+    ]
+  },
+  {
+    "text": "Tap the related video for",
+    "start": 37.91,
+    "end": 39.43,
+    "words": [
+      {
+        "word": "Tap",
+        "start": 37.91,
+        "end": 38.17,
+        "scene": "s3_03"
+      },
+      {
+        "word": "the",
+        "start": 38.21,
+        "end": 38.31,
+        "scene": "s3_03"
+      },
+      {
+        "word": "related",
+        "start": 38.35,
+        "end": 38.75,
+        "scene": "s3_03"
+      },
+      {
+        "word": "video",
+        "start": 38.81,
+        "end": 39.23,
+        "scene": "s3_03"
+      },
+      {
+        "word": "for",
+        "start": 39.33,
+        "end": 39.43,
+        "scene": "s3_03"
+      }
+    ]
+  },
+  {
+    "text": "The full breakdown.",
+    "start": 39.45,
+    "end": 40.451,
+    "words": [
+      {
+        "word": "the",
+        "start": 39.45,
+        "end": 39.53,
+        "scene": "s3_03"
+      },
+      {
+        "word": "full",
+        "start": 39.59,
+        "end": 39.831,
+        "scene": "s3_03"
+      },
+      {
+        "word": "breakdown.",
+        "start": 39.891,
+        "end": 40.451,
+        "scene": "s3_03"
+      }
+    ]
+  }
+]

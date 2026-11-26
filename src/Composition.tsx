@@ -3,6 +3,7 @@ import { AbsoluteFill, Audio, interpolate, Sequence, staticFile, useCurrentFrame
 import videoData from './data/video_data.json';
 import { FontLoader } from './fonts';
 import { AssetBeat, Beat } from './components/AssetBeat';
+import { Badge } from './components/Badge';
 import { CADShell } from './components/CADShell';
 import { Captions } from './components/Captions';
 import { Hud } from './components/Hud';
@@ -29,8 +30,11 @@ type Scene = {
 	visual: {
 		kind: 'asset' | 'component';
 		component: string | null;
+		variant?: string | null;
 		beats: BeatData[];
 	};
+	badge: { text: string; start: number; duration: number; accent: string };
+	jcut: { file: string; offset_frames: number } | null;
 	sfx: { file: string; volume: number } | null;
 	beat_sfx: { beat: number; file: string; volume: number }[];
 };
@@ -50,7 +54,7 @@ const SCENES = DATA.scenes;
 const FPS = DATA.fps || 30;
 
 export const getTotalDurationInFrames = (fps: number) =>
-	SCENES.reduce((total, scene) => total + Math.round(scene.duration * fps), 0);
+	Math.round(DATA.total_duration * fps);
 
 const beatFrames = (frames: number) => {
 	const a = Math.round(frames / 3);
@@ -59,10 +63,10 @@ const beatFrames = (frames: number) => {
 	return [a, b, c];
 };
 
-const ComponentForBeat: React.FC<{ name: string | null; beat: number; sceneNumber: number }> = ({ name, beat, sceneNumber }) => {
+const ComponentForBeat: React.FC<{ name: string | null; beat: number; variant?: string | null }> = ({ name, beat, variant }) => {
 	switch (name) {
 		case 'LayerStackDiagram':
-			return <LayerStackDiagram beat={beat} variant={sceneNumber === 15 ? 'hbm3e' : sceneNumber === 29 ? 'hbm4' : sceneNumber === 30 ? 'bonding' : 'package'} />;
+			return <LayerStackDiagram beat={beat} variant={(variant ?? 'package') as 'package' | 'hbm3e' | 'hbm4' | 'bonding'} />;
 		case 'PhysicsComparison':
 			return <PhysicsComparison beat={beat} />;
 		case 'YieldMeter':
@@ -94,7 +98,7 @@ const SceneBlock: React.FC<{ scene: Scene }> = ({ scene }) => {
 					<Sequence key={`${scene.id}-beat-${index}`} from={offsets[index]} durationInFrames={splits[index]} name={`${scene.id} ${letters[index]}`}>
 						<CADShell beat={index} beatLabel={beat.label} figure={`FIG. ${String(scene.number).padStart(2, '0')}.${letters[index]}`}>
 							{scene.visual.kind === 'component' ? (
-								<ComponentForBeat name={scene.visual.component} beat={index} sceneNumber={scene.number} />
+								<ComponentForBeat name={scene.visual.component} beat={index} variant={scene.visual.variant} />
 							) : (
 								<AssetBeat beat={beatData} beatIndex={index} sceneNumber={scene.number} durationInFrames={splits[index]} />
 							)}
@@ -102,6 +106,9 @@ const SceneBlock: React.FC<{ scene: Scene }> = ({ scene }) => {
 					</Sequence>
 				);
 			})}
+			<Sequence from={Math.round(scene.badge.start * fps)} durationInFrames={Math.round(scene.badge.duration * fps)}>
+				<Badge text={scene.badge.text} accent={scene.badge.accent} durationInFrames={Math.round(scene.badge.duration * fps)} />
+			</Sequence>
 		</>
 	);
 };
@@ -113,8 +120,6 @@ const SfxLayer: React.FC = () => {
 	for (const scene of SCENES) {
 		const sceneFrom = Math.round(scene.start * fps);
 		const sceneFrames = Math.max(1, Math.round(scene.duration * fps));
-		const splits = beatFrames(sceneFrames);
-
 		if (scene.sfx) {
 			cues.push(
 				<Sequence key={`sfx-${scene.id}`} from={sceneFrom} durationInFrames={Math.min(90, sceneFrames)}>
@@ -123,11 +128,18 @@ const SfxLayer: React.FC = () => {
 			);
 		}
 
-		for (const cue of scene.beat_sfx) {
-			const offset = cue.beat === 0 ? 0 : cue.beat === 1 ? splits[0] : splits[0] + splits[1];
+		if (scene.badge) {
 			cues.push(
-				<Sequence key={`sfx-${scene.id}-${cue.beat}`} from={sceneFrom + offset} durationInFrames={Math.min(45, splits[Math.min(2, cue.beat)])}>
-					<Audio src={staticFile(cue.file)} volume={cue.volume} />
+				<Sequence key={`badge-${scene.id}`} from={sceneFrom + Math.round(scene.badge.start * fps)} durationInFrames={30}>
+					<Audio src={staticFile('audio/sfx/sfx_digital_tick.mp3')} volume={0.22} />
+				</Sequence>,
+			);
+		}
+
+		if (scene.jcut && scene.number < SCENES.length) {
+			cues.push(
+				<Sequence key={`jcut-${scene.id}`} from={sceneFrom + sceneFrames - 30} durationInFrames={120}>
+					<Audio src={staticFile(scene.jcut.file)} volume={0.28} />
 				</Sequence>,
 			);
 		}
@@ -147,7 +159,7 @@ export const MyComposition: React.FC = () => {
 			<FontLoader />
 			<Audio src={staticFile('full_audio.wav')} />
 			<Audio
-				src={staticFile('audio/music_bed.mp3')}
+				src={staticFile('audio/music/music_bed.mp3')}
 				volume={(f) =>
 					interpolate(f, [0, 30, durationInFrames - 60, durationInFrames - 1], [0, 1, 1, 0], clamp)
 				}

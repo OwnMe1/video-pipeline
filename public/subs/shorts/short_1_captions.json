@@ -1,0 +1,696 @@
+[
+  {
+    "text": "$40,000 buys Nvidia's",
+    "start": 0.5,
+    "end": 2.822,
+    "words": [
+      {
+        "word": "$40,000",
+        "start": 0.5,
+        "end": 1.641,
+        "scene": "s1_01"
+      },
+      {
+        "word": "buys",
+        "start": 1.741,
+        "end": 2.121,
+        "scene": "s1_01"
+      },
+      {
+        "word": "Nvidia's",
+        "start": 2.361,
+        "end": 2.822,
+        "scene": "s1_01"
+      }
+    ]
+  },
+  {
+    "text": "Blackwell Accelerator. It",
+    "start": 2.902,
+    "end": 4.683,
+    "words": [
+      {
+        "word": "Blackwell",
+        "start": 2.902,
+        "end": 3.362,
+        "scene": "s1_01"
+      },
+      {
+        "word": "Accelerator.",
+        "start": 3.402,
+        "end": 4.082,
+        "scene": "s1_01"
+      },
+      {
+        "word": "It",
+        "start": 4.623,
+        "end": 4.683,
+        "scene": "s1_01"
+      }
+    ]
+  },
+  {
+    "text": "Packs 208 billion",
+    "start": 4.743,
+    "end": 6.504,
+    "words": [
+      {
+        "word": "packs",
+        "start": 4.743,
+        "end": 5.003,
+        "scene": "s1_01"
+      },
+      {
+        "word": "208",
+        "start": 5.103,
+        "end": 5.803,
+        "scene": "s1_01"
+      },
+      {
+        "word": "billion",
+        "start": 6.144,
+        "end": 6.504,
+        "scene": "s1_01"
+      }
+    ]
+  },
+  {
+    "text": "Transistors, but without 12",
+    "start": 6.564,
+    "end": 8.625,
+    "words": [
+      {
+        "word": "transistors,",
+        "start": 6.564,
+        "end": 7.284,
+        "scene": "s1_01"
+      },
+      {
+        "word": "but",
+        "start": 7.805,
+        "end": 7.905,
+        "scene": "s1_01"
+      },
+      {
+        "word": "without",
+        "start": 7.925,
+        "end": 8.225,
+        "scene": "s1_01"
+      },
+      {
+        "word": "12",
+        "start": 8.445,
+        "end": 8.625,
+        "scene": "s1_01"
+      }
+    ]
+  },
+  {
+    "text": "Layers of memory from",
+    "start": 8.685,
+    "end": 9.766,
+    "words": [
+      {
+        "word": "layers",
+        "start": 8.685,
+        "end": 9.045,
+        "scene": "s1_01"
+      },
+      {
+        "word": "of",
+        "start": 9.085,
+        "end": 9.145,
+        "scene": "s1_01"
+      },
+      {
+        "word": "memory",
+        "start": 9.225,
+        "end": 9.566,
+        "scene": "s1_01"
+      },
+      {
+        "word": "from",
+        "start": 9.606,
+        "end": 9.766,
+        "scene": "s1_01"
+      }
+    ]
+  },
+  {
+    "text": "Icheon, South Korea, the",
+    "start": 9.906,
+    "end": 11.667,
+    "words": [
+      {
+        "word": "Icheon,",
+        "start": 9.906,
+        "end": 10.206,
+        "scene": "s1_01"
+      },
+      {
+        "word": "South",
+        "start": 10.506,
+        "end": 10.766,
+        "scene": "s1_01"
+      },
+      {
+        "word": "Korea,",
+        "start": 10.806,
+        "end": 11.227,
+        "scene": "s1_01"
+      },
+      {
+        "word": "the",
+        "start": 11.587,
+        "end": 11.667,
+        "scene": "s1_01"
+      }
+    ]
+  },
+  {
+    "text": "Chip cannot run a model.",
+    "start": 11.727,
+    "end": 13.048,
+    "words": [
+      {
+        "word": "chip",
+        "start": 11.727,
+        "end": 11.947,
+        "scene": "s1_01"
+      },
+      {
+        "word": "cannot",
+        "start": 12.007,
+        "end": 12.307,
+        "scene": "s1_01"
+      },
+      {
+        "word": "run",
+        "start": 12.407,
+        "end": 12.568,
+        "scene": "s1_01"
+      },
+      {
+        "word": "a",
+        "start": 12.608,
+        "end": 12.648,
+        "scene": "s1_01"
+      },
+      {
+        "word": "model.",
+        "start": 12.708,
+        "end": 13.048,
+        "scene": "s1_01"
+      }
+    ]
+  },
+  {
+    "text": "That is HBM.",
+    "start": 13.468,
+    "end": 14.108,
+    "words": [
+      {
+        "word": "That",
+        "start": 13.468,
+        "end": 13.648,
+        "scene": "s1_01"
+      },
+      {
+        "word": "is",
+        "start": 13.728,
+        "end": 13.808,
+        "scene": "s1_01"
+      },
+      {
+        "word": "HBM.",
+        "start": 13.828,
+        "end": 14.108,
+        "scene": "s1_01"
+      }
+    ]
+  },
+  {
+    "text": "NVIDIA needs eight stacks",
+    "start": 14.608,
+    "end": 16.009,
+    "words": [
+      {
+        "word": "NVIDIA",
+        "start": 14.608,
+        "end": 15.029,
+        "scene": "s1_02"
+      },
+      {
+        "word": "needs",
+        "start": 15.069,
+        "end": 15.309,
+        "scene": "s1_02"
+      },
+      {
+        "word": "eight",
+        "start": 15.409,
+        "end": 15.589,
+        "scene": "s1_02"
+      },
+      {
+        "word": "stacks",
+        "start": 15.669,
+        "end": 16.009,
+        "scene": "s1_02"
+      }
+    ]
+  },
+  {
+    "text": "Around one GPU, delivering",
+    "start": 16.069,
+    "end": 17.891,
+    "words": [
+      {
+        "word": "around",
+        "start": 16.069,
+        "end": 16.349,
+        "scene": "s1_02"
+      },
+      {
+        "word": "one",
+        "start": 16.45,
+        "end": 16.57,
+        "scene": "s1_02"
+      },
+      {
+        "word": "GPU,",
+        "start": 16.61,
+        "end": 17.19,
+        "scene": "s1_02"
+      },
+      {
+        "word": "delivering",
+        "start": 17.49,
+        "end": 17.891,
+        "scene": "s1_02"
+      }
+    ]
+  },
+  {
+    "text": "Eight terabytes per second.",
+    "start": 17.991,
+    "end": 19.352,
+    "words": [
+      {
+        "word": "eight",
+        "start": 17.991,
+        "end": 18.151,
+        "scene": "s1_02"
+      },
+      {
+        "word": "terabytes",
+        "start": 18.231,
+        "end": 18.731,
+        "scene": "s1_02"
+      },
+      {
+        "word": "per",
+        "start": 18.791,
+        "end": 18.931,
+        "scene": "s1_02"
+      },
+      {
+        "word": "second.",
+        "start": 18.991,
+        "end": 19.352,
+        "scene": "s1_02"
+      }
+    ]
+  },
+  {
+    "text": "SK Hynix builds the largest",
+    "start": 19.992,
+    "end": 21.613,
+    "words": [
+      {
+        "word": "SK",
+        "start": 19.992,
+        "end": 20.252,
+        "scene": "s1_02"
+      },
+      {
+        "word": "Hynix",
+        "start": 20.292,
+        "end": 20.653,
+        "scene": "s1_02"
+      },
+      {
+        "word": "builds",
+        "start": 20.733,
+        "end": 21.033,
+        "scene": "s1_02"
+      },
+      {
+        "word": "the",
+        "start": 21.093,
+        "end": 21.193,
+        "scene": "s1_02"
+      },
+      {
+        "word": "largest",
+        "start": 21.233,
+        "end": 21.613,
+        "scene": "s1_02"
+      }
+    ]
+  },
+  {
+    "text": "Share and supply is sold",
+    "start": 21.673,
+    "end": 23.475,
+    "words": [
+      {
+        "word": "share",
+        "start": 21.673,
+        "end": 21.973,
+        "scene": "s1_02"
+      },
+      {
+        "word": "and",
+        "start": 22.314,
+        "end": 22.414,
+        "scene": "s1_02"
+      },
+      {
+        "word": "supply",
+        "start": 22.454,
+        "end": 22.914,
+        "scene": "s1_02"
+      },
+      {
+        "word": "is",
+        "start": 23.034,
+        "end": 23.114,
+        "scene": "s1_02"
+      },
+      {
+        "word": "sold",
+        "start": 23.174,
+        "end": 23.475,
+        "scene": "s1_02"
+      }
+    ]
+  },
+  {
+    "text": "Out. The bottleneck is the",
+    "start": 23.595,
+    "end": 25.236,
+    "words": [
+      {
+        "word": "out.",
+        "start": 23.595,
+        "end": 23.735,
+        "scene": "s1_02"
+      },
+      {
+        "word": "The",
+        "start": 24.275,
+        "end": 24.355,
+        "scene": "s1_02"
+      },
+      {
+        "word": "bottleneck",
+        "start": 24.395,
+        "end": 24.916,
+        "scene": "s1_02"
+      },
+      {
+        "word": "is",
+        "start": 25.016,
+        "end": 25.096,
+        "scene": "s1_02"
+      },
+      {
+        "word": "the",
+        "start": 25.156,
+        "end": 25.236,
+        "scene": "s1_02"
+      }
+    ]
+  },
+  {
+    "text": "Memory, not the chip.",
+    "start": 25.276,
+    "end": 26.597,
+    "words": [
+      {
+        "word": "memory,",
+        "start": 25.276,
+        "end": 25.656,
+        "scene": "s1_02"
+      },
+      {
+        "word": "not",
+        "start": 25.956,
+        "end": 26.116,
+        "scene": "s1_02"
+      },
+      {
+        "word": "the",
+        "start": 26.176,
+        "end": 26.277,
+        "scene": "s1_02"
+      },
+      {
+        "word": "chip.",
+        "start": 26.337,
+        "end": 26.597,
+        "scene": "s1_02"
+      }
+    ]
+  },
+  {
+    "text": "One supplier, one city, one",
+    "start": 27.097,
+    "end": 29.2,
+    "words": [
+      {
+        "word": "One",
+        "start": 27.097,
+        "end": 27.218,
+        "scene": "s1_03"
+      },
+      {
+        "word": "supplier,",
+        "start": 27.278,
+        "end": 27.838,
+        "scene": "s1_03"
+      },
+      {
+        "word": "one",
+        "start": 28.119,
+        "end": 28.259,
+        "scene": "s1_03"
+      },
+      {
+        "word": "city,",
+        "start": 28.339,
+        "end": 28.66,
+        "scene": "s1_03"
+      },
+      {
+        "word": "one",
+        "start": 29.06,
+        "end": 29.2,
+        "scene": "s1_03"
+      }
+    ]
+  },
+  {
+    "text": "Yield curve. That is why",
+    "start": 29.28,
+    "end": 31.083,
+    "words": [
+      {
+        "word": "yield",
+        "start": 29.28,
+        "end": 29.621,
+        "scene": "s1_03"
+      },
+      {
+        "word": "curve.",
+        "start": 29.681,
+        "end": 30.062,
+        "scene": "s1_03"
+      },
+      {
+        "word": "That",
+        "start": 30.582,
+        "end": 30.742,
+        "scene": "s1_03"
+      },
+      {
+        "word": "is",
+        "start": 30.803,
+        "end": 30.883,
+        "scene": "s1_03"
+      },
+      {
+        "word": "why",
+        "start": 30.923,
+        "end": 31.083,
+        "scene": "s1_03"
+      }
+    ]
+  },
+  {
+    "text": "The most valuable chip",
+    "start": 31.123,
+    "end": 32.305,
+    "words": [
+      {
+        "word": "the",
+        "start": 31.123,
+        "end": 31.203,
+        "scene": "s1_03"
+      },
+      {
+        "word": "most",
+        "start": 31.243,
+        "end": 31.423,
+        "scene": "s1_03"
+      },
+      {
+        "word": "valuable",
+        "start": 31.524,
+        "end": 32.024,
+        "scene": "s1_03"
+      },
+      {
+        "word": "chip",
+        "start": 32.084,
+        "end": 32.305,
+        "scene": "s1_03"
+      }
+    ]
+  },
+  {
+    "text": "Company cannot exist without",
+    "start": 32.345,
+    "end": 34.287,
+    "words": [
+      {
+        "word": "company",
+        "start": 32.345,
+        "end": 32.765,
+        "scene": "s1_03"
+      },
+      {
+        "word": "cannot",
+        "start": 32.945,
+        "end": 33.266,
+        "scene": "s1_03"
+      },
+      {
+        "word": "exist",
+        "start": 33.326,
+        "end": 33.686,
+        "scene": "s1_03"
+      },
+      {
+        "word": "without",
+        "start": 33.987,
+        "end": 34.287,
+        "scene": "s1_03"
+      }
+    ]
+  },
+  {
+    "text": "A Korean memory maker. Tap",
+    "start": 34.327,
+    "end": 36.49,
+    "words": [
+      {
+        "word": "a",
+        "start": 34.327,
+        "end": 34.347,
+        "scene": "s1_03"
+      },
+      {
+        "word": "Korean",
+        "start": 34.407,
+        "end": 34.888,
+        "scene": "s1_03"
+      },
+      {
+        "word": "memory",
+        "start": 34.948,
+        "end": 35.269,
+        "scene": "s1_03"
+      },
+      {
+        "word": "maker.",
+        "start": 35.329,
+        "end": 35.689,
+        "scene": "s1_03"
+      },
+      {
+        "word": "Tap",
+        "start": 36.21,
+        "end": 36.49,
+        "scene": "s1_03"
+      }
+    ]
+  },
+  {
+    "text": "The related video for the",
+    "start": 36.55,
+    "end": 37.952,
+    "words": [
+      {
+        "word": "the",
+        "start": 36.55,
+        "end": 36.63,
+        "scene": "s1_03"
+      },
+      {
+        "word": "related",
+        "start": 36.671,
+        "end": 37.091,
+        "scene": "s1_03"
+      },
+      {
+        "word": "video",
+        "start": 37.131,
+        "end": 37.552,
+        "scene": "s1_03"
+      },
+      {
+        "word": "for",
+        "start": 37.732,
+        "end": 37.852,
+        "scene": "s1_03"
+      },
+      {
+        "word": "the",
+        "start": 37.872,
+        "end": 37.952,
+        "scene": "s1_03"
+      }
+    ]
+  },
+  {
+    "text": "Full breakdown.",
+    "start": 37.992,
+    "end": 38.773,
+    "words": [
+      {
+        "word": "full",
+        "start": 37.992,
+        "end": 38.213,
+        "scene": "s1_03"
+      },
+      {
+        "word": "breakdown.",
+        "start": 38.253,
+        "end": 38.773,
+        "scene": "s1_03"
+      }
+    ]
+  }
+]

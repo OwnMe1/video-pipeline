@@ -1,0 +1,147 @@
+[
+  {
+    "word": "HBM",
+    "start": 0.451,
+    "end": 0.972
+  },
+  {
+    "word": "stacks",
+    "start": 1.072,
+    "end": 1.412
+  },
+  {
+    "word": "DRAM",
+    "start": 1.472,
+    "end": 1.933
+  },
+  {
+    "word": "vertically,",
+    "start": 2.013,
+    "end": 2.553
+  },
+  {
+    "word": "thousands",
+    "start": 2.994,
+    "end": 3.394
+  },
+  {
+    "word": "of",
+    "start": 3.414,
+    "end": 3.474
+  },
+  {
+    "word": "through",
+    "start": 3.494,
+    "end": 3.694
+  },
+  {
+    "word": "silicon",
+    "start": 3.734,
+    "end": 4.295
+  },
+  {
+    "word": "vias",
+    "start": 4.375,
+    "end": 4.755
+  },
+  {
+    "word": "pierce",
+    "start": 4.815,
+    "end": 5.115
+  },
+  {
+    "word": "dies,",
+    "start": 5.175,
+    "end": 5.556
+  },
+  {
+    "word": "and",
+    "start": 5.956,
+    "end": 6.036
+  },
+  {
+    "word": "a",
+    "start": 6.076,
+    "end": 6.116
+  },
+  {
+    "word": "silicon",
+    "start": 6.156,
+    "end": 6.617
+  },
+  {
+    "word": "interposer",
+    "start": 6.637,
+    "end": 7.157
+  },
+  {
+    "word": "connects",
+    "start": 7.237,
+    "end": 7.637
+  },
+  {
+    "word": "it",
+    "start": 7.697,
+    "end": 7.778
+  },
+  {
+    "word": "to",
+    "start": 7.918,
+    "end": 8.038
+  },
+  {
+    "word": "the",
+    "start": 8.078,
+    "end": 8.138
+  },
+  {
+    "word": "GPU.",
+    "start": 8.218,
+    "end": 8.919
+  },
+  {
+    "word": "Each",
+    "start": 8.939,
+    "end": 9.699
+  },
+  {
+    "word": "stack",
+    "start": 9.739,
+    "end": 10.059
+  },
+  {
+    "word": "carries",
+    "start": 10.2,
+    "end": 10.54
+  },
+  {
+    "word": "1,024",
+    "start": 10.56,
+    "end": 10.82
+  },
+  {
+    "word": "bits.",
+    "start": 10.84,
+    "end": 11.1
+  },
+  {
+    "word": "That",
+    "start": 11.12,
+    "end": 11.421
+  },
+  {
+    "word": "breaks",
+    "start": 11.441,
+    "end": 11.561
+  },
+  {
+    "word": "the",
+    "start": 11.621,
+    "end": 11.701
+  },
+  {
+    "word": "wall.",
+    "start": 11.721,
+    "end": 11.841
+  }
+]

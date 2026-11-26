@@ -30,13 +30,13 @@ const Media: React.FC<{
 	const isHbmDiagram = /hbm_stack/i.test(file);
 	const isLogo = /logo/i.test(file);
 	const isMap = /_map|south_korea|taiwan_map/i.test(file);
-	const zoom = interpolate(frame, [0, Math.max(1, duration)], [1.015, 1.075], {
+	const zoom = interpolate(frame, [0, Math.max(1, duration)], [1.0, 1.08], {
 		...clamp,
 	});
 	const style: React.CSSProperties = {
 		boxSizing: 'border-box',
-		width: '100%',
-		height: '100%',
+		width: contain ? '92%' : '100%',
+		height: contain ? '92%' : '100%',
 		objectFit: contain ? 'contain' : 'cover',
 		objectPosition: 'center',
 		filter: isHbmDiagram
@@ -44,7 +44,7 @@ const Media: React.FC<{
 			: contain
 				? 'brightness(1.04) contrast(1.05)'
 				: 'saturate(0.62) contrast(1.12) brightness(0.82)',
-		transform: contain ? 'none' : `scale(${zoom}) translateX(${pan}px)`,
+		transform: `scale(${zoom}) translateX(${pan}px)`,
 	};
 
 	const content = isVideo(file) ? (
@@ -59,7 +59,7 @@ const Media: React.FC<{
 				style={{
 					width: '100%',
 					height: '100%',
-					padding: isLogo ? 72 : isHbmDiagram ? 24 : isMap ? 10 : 24,
+					padding: isLogo ? 80 : isHbmDiagram ? 40 : isMap ? 20 : 32,
 					display: 'flex',
 					alignItems: 'center',
 					justifyContent: 'center',

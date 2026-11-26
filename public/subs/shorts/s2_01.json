@@ -1,0 +1,147 @@
+[
+  {
+    "word": "Graphics",
+    "start": 0.311,
+    "end": 0.712
+  },
+  {
+    "word": "memory",
+    "start": 0.772,
+    "end": 1.132
+  },
+  {
+    "word": "was",
+    "start": 1.172,
+    "end": 1.312
+  },
+  {
+    "word": "built",
+    "start": 1.352,
+    "end": 1.572
+  },
+  {
+    "word": "for",
+    "start": 1.632,
+    "end": 1.753
+  },
+  {
+    "word": "pixels,",
+    "start": 1.833,
+    "end": 2.333
+  },
+  {
+    "word": "not",
+    "start": 2.733,
+    "end": 2.894
+  },
+  {
+    "word": "artificial",
+    "start": 3.034,
+    "end": 3.594
+  },
+  {
+    "word": "intelligence.",
+    "start": 3.654,
+    "end": 4.315
+  },
+  {
+    "word": "GDDR",
+    "start": 4.875,
+    "end": 5.616
+  },
+  {
+    "word": "moves",
+    "start": 5.676,
+    "end": 6.016
+  },
+  {
+    "word": "data",
+    "start": 6.077,
+    "end": 6.397
+  },
+  {
+    "word": "across",
+    "start": 6.437,
+    "end": 6.737
+  },
+  {
+    "word": "a",
+    "start": 6.777,
+    "end": 6.817
+  },
+  {
+    "word": "circuit",
+    "start": 6.897,
+    "end": 7.218
+  },
+  {
+    "word": "board,",
+    "start": 7.258,
+    "end": 7.578
+  },
+  {
+    "word": "burns",
+    "start": 7.858,
+    "end": 8.198
+  },
+  {
+    "word": "energy,",
+    "start": 8.299,
+    "end": 8.699
+  },
+  {
+    "word": "and",
+    "start": 9.019,
+    "end": 9.119
+  },
+  {
+    "word": "hits",
+    "start": 9.159,
+    "end": 9.38
+  },
+  {
+    "word": "a",
+    "start": 9.44,
+    "end": 9.48
+  },
+  {
+    "word": "bandwidth",
+    "start": 9.56,
+    "end": 10.04
+  },
+  {
+    "word": "wall.",
+    "start": 10.12,
+    "end": 10.481
+  },
+  {
+    "word": "At",
+    "start": 11.081,
+    "end": 11.161
+  },
+  {
+    "word": "AI",
+    "start": 11.281,
+    "end": 11.662
+  },
+  {
+    "word": "scale,",
+    "start": 11.702,
+    "end": 12.142
+  },
+  {
+    "word": "it",
+    "start": 12.402,
+    "end": 12.462
+  },
+  {
+    "word": "would",
+    "start": 12.482,
+    "end": 12.643
+  },
+  {
+    "word": "cook.",
+    "start": 12.683,
+    "end": 12.963
+  }
+]

@@ -1,0 +1,502 @@
+[
+  {
+    "word": "Inside",
+    "start": 0.793,
+    "end": 1.113
+  },
+  {
+    "word": "a",
+    "start": 1.153,
+    "end": 1.193
+  },
+  {
+    "word": "long",
+    "start": 1.233,
+    "end": 1.433
+  },
+  {
+    "word": "tunnel,",
+    "start": 1.493,
+    "end": 1.813
+  },
+  {
+    "word": "the",
+    "start": 1.953,
+    "end": 2.053
+  },
+  {
+    "word": "pressure",
+    "start": 2.094,
+    "end": 2.394
+  },
+  {
+    "word": "ahead",
+    "start": 2.434,
+    "end": 2.614
+  },
+  {
+    "word": "of",
+    "start": 2.634,
+    "end": 2.694
+  },
+  {
+    "word": "a",
+    "start": 2.734,
+    "end": 2.774
+  },
+  {
+    "word": "fast",
+    "start": 2.814,
+    "end": 3.114
+  },
+  {
+    "word": "train",
+    "start": 3.174,
+    "end": 3.474
+  },
+  {
+    "word": "can",
+    "start": 3.514,
+    "end": 3.654
+  },
+  {
+    "word": "climb",
+    "start": 3.694,
+    "end": 3.914
+  },
+  {
+    "word": "to",
+    "start": 3.934,
+    "end": 4.014
+  },
+  {
+    "word": "several",
+    "start": 4.074,
+    "end": 4.374
+  },
+  {
+    "word": "kilopascals.",
+    "start": 4.394,
+    "end": 5.095
+  },
+  {
+    "word": "That",
+    "start": 5.535,
+    "end": 5.655
+  },
+  {
+    "word": "is",
+    "start": 5.715,
+    "end": 5.795
+  },
+  {
+    "word": "enough",
+    "start": 5.855,
+    "end": 6.055
+  },
+  {
+    "word": "force",
+    "start": 6.115,
+    "end": 6.395
+  },
+  {
+    "word": "to",
+    "start": 6.415,
+    "end": 6.495
+  },
+  {
+    "word": "flex",
+    "start": 6.535,
+    "end": 6.795
+  },
+  {
+    "word": "steel",
+    "start": 6.835,
+    "end": 7.175
+  },
+  {
+    "word": "and",
+    "start": 7.235,
+    "end": 7.315
+  },
+  {
+    "word": "shake",
+    "start": 7.376,
+    "end": 7.596
+  },
+  {
+    "word": "concrete.",
+    "start": 7.676,
+    "end": 8.156
+  },
+  {
+    "word": "The",
+    "start": 8.536,
+    "end": 8.616
+  },
+  {
+    "word": "pressure",
+    "start": 8.676,
+    "end": 8.976
+  },
+  {
+    "word": "wave",
+    "start": 9.016,
+    "end": 9.236
+  },
+  {
+    "word": "steepens",
+    "start": 9.276,
+    "end": 9.656
+  },
+  {
+    "word": "as",
+    "start": 9.736,
+    "end": 9.796
+  },
+  {
+    "word": "it",
+    "start": 9.856,
+    "end": 9.916
+  },
+  {
+    "word": "runs,",
+    "start": 9.977,
+    "end": 10.297
+  },
+  {
+    "word": "then",
+    "start": 10.617,
+    "end": 10.757
+  },
+  {
+    "word": "reaches",
+    "start": 10.837,
+    "end": 11.157
+  },
+  {
+    "word": "the",
+    "start": 11.217,
+    "end": 11.297
+  },
+  {
+    "word": "portal",
+    "start": 11.337,
+    "end": 11.637
+  },
+  {
+    "word": "and",
+    "start": 11.697,
+    "end": 11.777
+  },
+  {
+    "word": "radiates",
+    "start": 11.837,
+    "end": 12.277
+  },
+  {
+    "word": "into",
+    "start": 12.337,
+    "end": 12.517
+  },
+  {
+    "word": "open",
+    "start": 12.618,
+    "end": 12.838
+  },
+  {
+    "word": "air.",
+    "start": 13.018,
+    "end": 13.158
+  },
+  {
+    "word": "Low",
+    "start": 13.598,
+    "end": 13.758
+  },
+  {
+    "word": "frequencies",
+    "start": 13.818,
+    "end": 14.338
+  },
+  {
+    "word": "bend",
+    "start": 14.398,
+    "end": 14.618
+  },
+  {
+    "word": "around",
+    "start": 14.658,
+    "end": 14.918
+  },
+  {
+    "word": "buildings,",
+    "start": 14.978,
+    "end": 15.359
+  },
+  {
+    "word": "so",
+    "start": 15.639,
+    "end": 15.759
+  },
+  {
+    "word": "the",
+    "start": 15.779,
+    "end": 15.859
+  },
+  {
+    "word": "boom",
+    "start": 15.879,
+    "end": 16.119
+  },
+  {
+    "word": "arrives",
+    "start": 16.139,
+    "end": 16.459
+  },
+  {
+    "word": "hundreds",
+    "start": 16.539,
+    "end": 16.859
+  },
+  {
+    "word": "of",
+    "start": 16.899,
+    "end": 16.959
+  },
+  {
+    "word": "meters",
+    "start": 16.999,
+    "end": 17.259
+  },
+  {
+    "word": "away.",
+    "start": 17.319,
+    "end": 17.599
+  },
+  {
+    "word": "Sound",
+    "start": 18.02,
+    "end": 18.32
+  },
+  {
+    "word": "crosses",
+    "start": 18.4,
+    "end": 18.76
+  },
+  {
+    "word": "that",
+    "start": 18.82,
+    "end": 18.96
+  },
+  {
+    "word": "distance",
+    "start": 19.02,
+    "end": 19.44
+  },
+  {
+    "word": "in",
+    "start": 19.52,
+    "end": 19.58
+  },
+  {
+    "word": "about",
+    "start": 19.62,
+    "end": 19.84
+  },
+  {
+    "word": "one",
+    "start": 19.98,
+    "end": 20.1
+  },
+  {
+    "word": "second.",
+    "start": 20.16,
+    "end": 20.541
+  },
+  {
+    "word": "Residents",
+    "start": 20.981,
+    "end": 21.421
+  },
+  {
+    "word": "hear",
+    "start": 21.441,
+    "end": 21.621
+  },
+  {
+    "word": "a",
+    "start": 21.661,
+    "end": 21.701
+  },
+  {
+    "word": "thud,",
+    "start": 21.781,
+    "end": 22.081
+  },
+  {
+    "word": "then",
+    "start": 22.241,
+    "end": 22.381
+  },
+  {
+    "word": "a",
+    "start": 22.401,
+    "end": 22.441
+  },
+  {
+    "word": "crack.",
+    "start": 22.521,
+    "end": 22.841
+  },
+  {
+    "word": "The",
+    "start": 23.262,
+    "end": 23.362
+  },
+  {
+    "word": "engine",
+    "start": 23.462,
+    "end": 23.762
+  },
+  {
+    "word": "is",
+    "start": 23.862,
+    "end": 23.942
+  },
+  {
+    "word": "innocent.",
+    "start": 24.062,
+    "end": 24.482
+  },
+  {
+    "word": "The",
+    "start": 24.882,
+    "end": 24.962
+  },
+  {
+    "word": "tunnel",
+    "start": 25.002,
+    "end": 25.302
+  },
+  {
+    "word": "mouth",
+    "start": 25.362,
+    "end": 25.622
+  },
+  {
+    "word": "is",
+    "start": 25.923,
+    "end": 26.003
+  },
+  {
+    "word": "the",
+    "start": 26.043,
+    "end": 26.143
+  },
+  {
+    "word": "weapon.",
+    "start": 26.223,
+    "end": 26.503
+  },
+  {
+    "word": "The",
+    "start": 27.324,
+    "end": 27.404
+  },
+  {
+    "word": "pressure",
+    "start": 27.464,
+    "end": 27.805
+  },
+  {
+    "word": "does",
+    "start": 27.865,
+    "end": 28.006
+  },
+  {
+    "word": "not",
+    "start": 28.066,
+    "end": 28.186
+  },
+  {
+    "word": "need",
+    "start": 28.246,
+    "end": 28.406
+  },
+  {
+    "word": "a",
+    "start": 28.446,
+    "end": 28.466
+  },
+  {
+    "word": "crash",
+    "start": 28.547,
+    "end": 28.867
+  },
+  {
+    "word": "to",
+    "start": 28.927,
+    "end": 29.028
+  },
+  {
+    "word": "cause",
+    "start": 29.068,
+    "end": 29.368
+  },
+  {
+    "word": "damage.",
+    "start": 29.429,
+    "end": 29.829
+  },
+  {
+    "word": "It",
+    "start": 30.29,
+    "end": 30.35
+  },
+  {
+    "word": "only",
+    "start": 30.431,
+    "end": 30.611
+  },
+  {
+    "word": "needs",
+    "start": 30.671,
+    "end": 30.912
+  },
+  {
+    "word": "a",
+    "start": 30.952,
+    "end": 30.972
+  },
+  {
+    "word": "fast",
+    "start": 31.052,
+    "end": 31.332
+  },
+  {
+    "word": "train",
+    "start": 31.413,
+    "end": 31.773
+  },
+  {
+    "word": "and",
+    "start": 32.074,
+    "end": 32.174
+  },
+  {
+    "word": "a",
+    "start": 32.194,
+    "end": 32.234
+  },
+  {
+    "word": "narrow",
+    "start": 32.315,
+    "end": 32.655
+  },
+  {
+    "word": "tube.",
+    "start": 32.735,
+    "end": 33.076
+  }
+]

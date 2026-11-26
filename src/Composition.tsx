@@ -11,6 +11,11 @@ import { LayerStackDiagram } from './components/LayerStackDiagram';
 import { PhysicsComparison } from './components/PhysicsComparison';
 import { SupplyChainMap } from './components/SupplyChainMap';
 import { YieldMeter } from './components/YieldMeter';
+import { ScaleComparator } from './components/ScaleComparator';
+import { StressGauge } from './components/StressGauge';
+import { MechanismBreakdown } from './components/MechanismBreakdown';
+import { PulseTimeline } from './components/PulseTimeline';
+import { HudOverlay } from './components/HudOverlay';
 import { C, clamp, easeOut } from './components/theme';
 
 type BeatData = {
@@ -51,7 +56,6 @@ type VideoData = {
 
 const DATA = videoData as VideoData;
 const SCENES = DATA.scenes;
-const FPS = DATA.fps || 30;
 
 export const getTotalDurationInFrames = (fps: number) =>
 	Math.round(DATA.total_duration * fps);
@@ -73,6 +77,16 @@ const ComponentForBeat: React.FC<{ name: string | null; beat: number; variant?: 
 			return <YieldMeter beat={beat} />;
 		case 'SupplyChainMap':
 			return <SupplyChainMap beat={beat} />;
+		case 'ScaleComparator':
+			return <ScaleComparator beat={beat} />;
+		case 'StressGauge':
+			return <StressGauge beat={beat} />;
+		case 'MechanismBreakdown':
+			return <MechanismBreakdown beat={beat} />;
+		case 'PulseTimeline':
+			return <PulseTimeline beat={beat} />;
+		case 'HudOverlay':
+			return <HudOverlay beat={beat} />;
 		default:
 			return null;
 	}
@@ -150,7 +164,7 @@ const SfxLayer: React.FC = () => {
 
 export const MyComposition: React.FC = () => {
 	const frame = useCurrentFrame();
-	const { durationInFrames } = useVideoConfig();
+	const { durationInFrames, fps } = useVideoConfig();
 	const intro = interpolate(frame, [0, 12], [1, 0], { ...clamp, easing: easeOut });
 	const outro = interpolate(frame, [durationInFrames - 18, durationInFrames - 1], [0, 1], { ...clamp, easing: easeOut });
 
@@ -169,8 +183,8 @@ export const MyComposition: React.FC = () => {
 			{SCENES.map((scene) => (
 				<Sequence
 					key={scene.id}
-					from={Math.round(scene.start * FPS)}
-					durationInFrames={Math.max(1, Math.round(scene.duration * FPS))}
+					from={Math.round(scene.start * fps)}
+					durationInFrames={Math.max(1, Math.round(scene.duration * fps))}
 					name={scene.id}
 				>
 					<SceneBlock scene={scene} />

@@ -1,27 +1,124 @@
-name: Render Video
+name: Render Kinetic Lab
+
 on:
   workflow_dispatch:
+    inputs:
+      target:
+        description: "Render target"
+        required: true
+        default: all
+        type: choice
+        options:
+          - all
+          - main
+          - shorts
+      frames:
+        description: "Optional frame range for a test segment, e.g. 0-450"
+        required: false
+        default: ""
+        type: string
+
+concurrency:
+  group: render-${{ github.ref }}
+  cancel-in-progress: true
 
 jobs:
-  render:
+  render-main:
+    if: ${{ github.event.inputs.target == 'all' || github.event.inputs.target == 'main' }}
     runs-on: ubuntu-latest
+    timeout-minutes: 150
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
-        
+
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: 20
-          
+          node-version: 22
+
+      - name: Cache npm and Remotion
+        uses: actions/cache@v4
+        with:
+          path: |
+            ~/.npm
+            ~/.cache/remotion
+          key: ${{ runner.os }}-node22-${{ hashFiles('package-lock.json') }}-remotion
+          restore-keys: |
+            ${{ runner.os }}-node22-${{ hashFiles('package-lock.json') }}-
+            ${{ runner.os }}-node22-
+
       - name: Install dependencies
         run: npm ci
-        
-      - name: Render video
-        run: npx remotion render MyComp out/video.mp4
-        
-      - name: Upload result
+
+      - name: Render MainVideo
+        env:
+          FRAMES: ${{ github.event.inputs.frames }}
+        run: |
+          FRAMES_ARG=""
+          if [ -n "$FRAMES" ]; then
+            FRAMES_ARG="--frames=$FRAMES"
+          fi
+          npx remotion render src/index.ts MainVideo out/main_video.mp4 \
+            --gl=swangle --concurrency=4 --codec=h264 --crf=18 $FRAMES_ARG
+
+      - name: Upload MainVideo
         uses: actions/upload-artifact@v4
         with:
-          name: rendered-video
-          path: out/video.mp4
+          name: main-video
+          path: out/main_video.mp4
+          if-no-files-found: error
+          retention-days: 14
+
+  render-shorts:
+    if: ${{ github.event.inputs.target == 'all' || github.event.inputs.target == 'shorts' }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Cache npm and Remotion
+        uses: actions/cache@v4
+        with:
+          path: |
+            ~/.npm
+            ~/.cache/remotion
+          key: ${{ runner.os }}-node22-${{ hashFiles('package-lock.json') }}-remotion
+          restore-keys: |
+            ${{ runner.os }}-node22-${{ hashFiles('package-lock.json') }}-
+            ${{ runner.os }}-node22-
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Render Shorts 1-3
+        env:
+          FRAMES: ${{ github.event.inputs.frames }}
+        run: |
+          FRAMES_ARG=""
+          if [ -n "$FRAMES" ]; then
+            FRAMES_ARG="--frames=$FRAMES"
+          fi
+          mkdir -p out/shorts
+          npx remotion render src/index.ts Short1 out/shorts/short_1.mp4 \
+            --gl=swangle --concurrency=4 --codec=h264 --crf=18 $FRAMES_ARG
+          npx remotion render src/index.ts Short2 out/shorts/short_2.mp4 \
+            --gl=swangle --concurrency=4 --codec=h264 --crf=18 $FRAMES_ARG
+          npx remotion render src/index.ts Short3 out/shorts/short_3.mp4 \
+            --gl=swangle --concurrency=4 --codec=h264 --crf=18 $FRAMES_ARG
+
+      - name: Upload Shorts
+        uses: actions/upload-artifact@v4
+        with:
+          name: shorts-videos
+          path: |
+            out/shorts/short_1.mp4
+            out/shorts/short_2.mp4
+            out/shorts/short_3.mp4
+          if-no-files-found: error
+          retention-days: 14

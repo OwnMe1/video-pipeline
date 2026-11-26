@@ -16,6 +16,11 @@ import { LayerStackDiagram } from './components/LayerStackDiagram';
 import { PhysicsComparison } from './components/PhysicsComparison';
 import { SupplyChainMap } from './components/SupplyChainMap';
 import { YieldMeter } from './components/YieldMeter';
+import { ScaleComparator } from './components/ScaleComparator';
+import { StressGauge } from './components/StressGauge';
+import { MechanismBreakdown } from './components/MechanismBreakdown';
+import { PulseTimeline } from './components/PulseTimeline';
+import { HudOverlay } from './components/HudOverlay';
 import { C, clamp, easeOut, FONT_HEAD, FONT_MONO } from './components/theme';
 
 type Word = { word: string; start: number; end: number; segment: string };
@@ -49,7 +54,7 @@ type Short = {
 };
 
 const SHORTS = (shortsData as { shorts: Short[] }).shorts;
-const FPS = 30;
+const FPS = 60;
 
 export const getShortDurationInFrames = (id: string, fps = FPS) => {
 	const short = SHORTS.find((item) => item.id === id) ?? SHORTS[0];
@@ -123,7 +128,7 @@ const VerticalShell: React.FC<{ short: Short }> = ({ short }) => {
 
 			<div style={{ position: 'absolute', top: SAFE_TOP, left: LEFT, display: 'flex', alignItems: 'center', gap: 10 }}>
 				<div style={{ width: 8, height: 8, borderRadius: 999, background: accent, boxShadow: `0 0 14px ${accent}` }} />
-				<span style={{ color: C.white, fontFamily: FONT_HEAD, fontSize: 15, fontWeight: 700, letterSpacing: 4 }}>STACK LAYER</span>
+				<span style={{ color: C.white, fontFamily: FONT_HEAD, fontSize: 15, fontWeight: 700, letterSpacing: 4 }}>KINETIC LAB</span>
 				<span style={{ color: C.dim, fontFamily: FONT_MONO, fontSize: 9, letterSpacing: 1.8 }}>SHORTS</span>
 			</div>
 			<div style={{ position: 'absolute', top: SAFE_TOP + 2, right: SAFE_RIGHT, textAlign: 'right', fontFamily: FONT_MONO, fontSize: 9, letterSpacing: 1.3, color: 'rgba(159,179,200,0.52)' }}>
@@ -162,7 +167,7 @@ const HookTitle: React.FC<{ short: Short }> = ({ short }) => {
 			<div style={{ display: 'flex', gap: 10, alignItems: 'center', marginBottom: 8 }}>
 				<div style={{ width: 4, height: 42, background: accent, boxShadow: `0 0 12px ${accent}` }} />
 				<div style={{ fontFamily: FONT_MONO, fontSize: 10, letterSpacing: 2, color: C.orange }}>
-					THE HIDDEN BOTTLENECK OF AI
+					KINETIC LAB // HIGH-VOLTAGE
 				</div>
 			</div>
 			{short.titleLines.map((line) => (
@@ -382,6 +387,11 @@ const VerticalComponentStage: React.FC<{ visual: Visual; durationInFrames: numbe
 						{name === 'YieldMeter' ? <YieldMeter beat={beat} /> : null}
 						{name === 'PhysicsComparison' ? <PhysicsComparison beat={beat} /> : null}
 						{name === 'SupplyChainMap' ? <SupplyChainMap beat={beat} /> : null}
+						{name === 'ScaleComparator' ? <ScaleComparator beat={beat} /> : null}
+						{name === 'StressGauge' ? <StressGauge beat={beat} /> : null}
+						{name === 'MechanismBreakdown' ? <MechanismBreakdown beat={beat} /> : null}
+						{name === 'PulseTimeline' ? <PulseTimeline beat={beat} /> : null}
+						{name === 'HudOverlay' ? <HudOverlay beat={beat} /> : null}
 					</div>
 				</div>
 			</StageFrame>

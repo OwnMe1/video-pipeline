@@ -1,0 +1,418 @@
+{
+  "kind": "long",
+  "source": "script.md",
+  "voice": "bm_george",
+  "speed": 1.08,
+  "fps": 60,
+  "drop_joint_sec": 0.13,
+  "scenes": [
+    {
+      "id": "scene_01",
+      "number": 1,
+      "file": "scene_01.wav",
+      "voice_file": "voice/scene_01.txt",
+      "duration": null,
+      "phase": "HOOK",
+      "silence_before": 0.0,
+      "jcut": "audio/sfx/sfx_digital_tick.mp3",
+      "jcut_label": "digital tick",
+      "badge": "AIR WALL",
+      "component": "HudOverlay",
+      "timing": {
+        "start": 0,
+        "end": 20
+      }
+    },
+    {
+      "id": "scene_02",
+      "number": 2,
+      "file": "scene_02.wav",
+      "voice_file": "voice/scene_02.txt",
+      "duration": null,
+      "phase": "CLIMB",
+      "silence_before": 0.0,
+      "jcut": "audio/sfx/sfx_crisp_transition.mp3",
+      "jcut_label": "crisp transition",
+      "badge": "PISTON EFFECT",
+      "component": "ScaleComparator",
+      "timing": {
+        "start": 20,
+        "end": 43
+      }
+    },
+    {
+      "id": "scene_03",
+      "number": 3,
+      "file": "scene_03.wav",
+      "voice_file": "voice/scene_03.txt",
+      "duration": null,
+      "phase": "CLIMB",
+      "silence_before": 0.0,
+      "jcut": "audio/sfx/sfx_digital_tick.mp3",
+      "jcut_label": "digital tick",
+      "badge": "NO ESCAPE",
+      "component": "MechanismBreakdown",
+      "timing": {
+        "start": 43,
+        "end": 65
+      }
+    },
+    {
+      "id": "scene_04",
+      "number": 4,
+      "file": "scene_04.wav",
+      "voice_file": "voice/scene_04.txt",
+      "duration": null,
+      "phase": "ACCEL",
+      "silence_before": 0.0,
+      "jcut": "audio/sfx/sfx_warning_pulse.mp3",
+      "jcut_label": "warning pulse",
+      "badge": "EIGHTY THREE METERS",
+      "component": "StressGauge",
+      "timing": {
+        "start": 65,
+        "end": 88
+      }
+    },
+    {
+      "id": "scene_05",
+      "number": 5,
+      "file": "scene_05.wav",
+      "voice_file": "voice/scene_05.txt",
+      "duration": null,
+      "phase": "ACCEL",
+      "silence_before": 0.0,
+      "jcut": "audio/sfx/sfx_digital_tick.mp3",
+      "jcut_label": "digital tick",
+      "badge": "PRESSURE WAVE",
+      "component": "PulseTimeline",
+      "timing": {
+        "start": 88,
+        "end": 110
+      }
+    },
+    {
+      "id": "scene_06",
+      "number": 6,
+      "file": "scene_06.wav",
+      "voice_file": "voice/scene_06.txt",
+      "duration": null,
+      "phase": "DROP",
+      "silence_before": 0.5,
+      "jcut": "audio/sfx/sfx_digital_tick.mp3",
+      "jcut_label": "digital tick",
+      "badge": "FIVE KILOPASCALS",
+      "component": "StressGauge",
+      "timing": {
+        "start": 110,
+        "end": 125
+      }
+    },
+    {
+      "id": "scene_07",
+      "number": 7,
+      "file": "scene_07.wav",
+      "voice_file": "voice/scene_07.txt",
+      "duration": null,
+      "phase": "DROP",
+      "silence_before": 0.0,
+      "jcut": "audio/sfx/sfx_warning_pulse.mp3",
+      "jcut_label": "sub-drop",
+      "badge": "TUNNEL NEXT",
+      "component": "HudOverlay",
+      "timing": {
+        "start": 125,
+        "end": 140
+      }
+    },
+    {
+      "id": "scene_08",
+      "number": 8,
+      "file": "scene_08.wav",
+      "voice_file": "voice/scene_08.txt",
+      "duration": null,
+      "phase": "CLIMB",
+      "silence_before": 0.0,
+      "jcut": "audio/sfx/sfx_crisp_transition.mp3",
+      "jcut_label": "crisp transition",
+      "badge": "PORTAL CANNON",
+      "component": "PulseTimeline",
+      "timing": {
+        "start": 140,
+        "end": 163
+      }
+    },
+    {
+      "id": "scene_09",
+      "number": 9,
+      "file": "scene_09.wav",
+      "voice_file": "voice/scene_09.txt",
+      "duration": null,
+      "phase": "CLIMB",
+      "silence_before": 0.0,
+      "jcut": "audio/sfx/sfx_digital_tick.mp3",
+      "jcut_label": "digital tick",
+      "badge": "FOUR HUNDRED METERS",
+      "component": "ScaleComparator",
+      "timing": {
+        "start": 163,
+        "end": 185
+      }
+    },
+    {
+      "id": "scene_10",
+      "number": 10,
+      "file": "scene_10.wav",
+      "voice_file": "voice/scene_10.txt",
+      "duration": null,
+      "phase": "ACCEL",
+      "silence_before": 0.0,
+      "jcut": "audio/sfx/sfx_warning_pulse.mp3",
+      "jcut_label": "warning pulse",
+      "badge": "SPEED OF SOUND",
+      "component": "StressGauge",
+      "timing": {
+        "start": 185,
+        "end": 208
+      }
+    },
+    {
+      "id": "scene_11",
+      "number": 11,
+      "file": "scene_11.wav",
+      "voice_file": "voice/scene_11.txt",
+      "duration": null,
+      "phase": "ACCEL",
+      "silence_before": 0.0,
+      "jcut": "audio/sfx/sfx_digital_tick.mp3",
+      "jcut_label": "digital tick",
+      "badge": "PRESSURE GAIN",
+      "component": "MechanismBreakdown",
+      "timing": {
+        "start": 208,
+        "end": 230
+      }
+    },
+    {
+      "id": "scene_12",
+      "number": 12,
+      "file": "scene_12.wav",
+      "voice_file": "voice/scene_12.txt",
+      "duration": null,
+      "phase": "DROP",
+      "silence_before": 0.5,
+      "jcut": "audio/sfx/sfx_digital_tick.mp3",
+      "jcut_label": "digital tick",
+      "badge": "TUNNEL BOOM",
+      "component": "HudOverlay",
+      "timing": {
+        "start": 230,
+        "end": 245
+      }
+    },
+    {
+      "id": "scene_13",
+      "number": 13,
+      "file": "scene_13.wav",
+      "voice_file": "voice/scene_13.txt",
+      "duration": null,
+      "phase": "DROP",
+      "silence_before": 0.0,
+      "jcut": "audio/sfx/sfx_warning_pulse.mp3",
+      "jcut_label": "sub-drop",
+      "badge": "NOSE PROBLEM",
+      "component": "PulseTimeline",
+      "timing": {
+        "start": 245,
+        "end": 260
+      }
+    },
+    {
+      "id": "scene_14",
+      "number": 14,
+      "file": "scene_14.wav",
+      "voice_file": "voice/scene_14.txt",
+      "duration": null,
+      "phase": "CLIMB",
+      "silence_before": 0.0,
+      "jcut": "audio/sfx/sfx_crisp_transition.mp3",
+      "jcut_label": "crisp transition",
+      "badge": "SHARP NOSE",
+      "component": "MechanismBreakdown",
+      "timing": {
+        "start": 260,
+        "end": 283
+      }
+    },
+    {
+      "id": "scene_15",
+      "number": 15,
+      "file": "scene_15.wav",
+      "voice_file": "voice/scene_15.txt",
+      "duration": null,
+      "phase": "CLIMB",
+      "silence_before": 0.0,
+      "jcut": "audio/sfx/sfx_digital_tick.mp3",
+      "jcut_label": "digital tick",
+      "badge": "BAD TRADEOFF",
+      "component": "ScaleComparator",
+      "timing": {
+        "start": 283,
+        "end": 305
+      }
+    },
+    {
+      "id": "scene_16",
+      "number": 16,
+      "file": "scene_16.wav",
+      "voice_file": "voice/scene_16.txt",
+      "duration": null,
+      "phase": "ACCEL",
+      "silence_before": 0.0,
+      "jcut": "audio/sfx/sfx_warning_pulse.mp3",
+      "jcut_label": "warning pulse",
+      "badge": "CAR SHAKE",
+      "component": "StressGauge",
+      "timing": {
+        "start": 305,
+        "end": 328
+      }
+    },
+    {
+      "id": "scene_17",
+      "number": 17,
+      "file": "scene_17.wav",
+      "voice_file": "voice/scene_17.txt",
+      "duration": null,
+      "phase": "ACCEL",
+      "silence_before": 0.0,
+      "jcut": "audio/sfx/sfx_digital_tick.mp3",
+      "jcut_label": "digital tick",
+      "badge": "TEST TRAINS",
+      "component": "PulseTimeline",
+      "timing": {
+        "start": 328,
+        "end": 350
+      }
+    },
+    {
+      "id": "scene_18",
+      "number": 18,
+      "file": "scene_18.wav",
+      "voice_file": "voice/scene_18.txt",
+      "duration": null,
+      "phase": "DROP",
+      "silence_before": 0.5,
+      "jcut": "audio/sfx/sfx_warning_pulse.mp3",
+      "jcut_label": "sub-drop",
+      "badge": "AERO DEAD END",
+      "component": "HudOverlay",
+      "timing": {
+        "start": 350,
+        "end": 380
+      }
+    },
+    {
+      "id": "scene_19",
+      "number": 19,
+      "file": "scene_19.wav",
+      "voice_file": "voice/scene_19.txt",
+      "duration": null,
+      "phase": "CLIMB",
+      "silence_before": 0.0,
+      "jcut": "audio/sfx/sfx_crisp_transition.mp3",
+      "jcut_label": "crisp transition",
+      "badge": "KINGFISHER BEAK",
+      "component": "MechanismBreakdown",
+      "timing": {
+        "start": 380,
+        "end": 403
+      }
+    },
+    {
+      "id": "scene_20",
+      "number": 20,
+      "file": "scene_20.wav",
+      "voice_file": "voice/scene_20.txt",
+      "duration": null,
+      "phase": "CLIMB",
+      "silence_before": 0.0,
+      "jcut": "audio/sfx/sfx_digital_tick.mp3",
+      "jcut_label": "digital tick",
+      "badge": "FIFTEEN METERS",
+      "component": "ScaleComparator",
+      "timing": {
+        "start": 403,
+        "end": 425
+      }
+    },
+    {
+      "id": "scene_21",
+      "number": 21,
+      "file": "scene_21.wav",
+      "voice_file": "voice/scene_21.txt",
+      "duration": null,
+      "phase": "ACCEL",
+      "silence_before": 0.0,
+      "jcut": "audio/sfx/sfx_warning_pulse.mp3",
+      "jcut_label": "warning pulse",
+      "badge": "FIVE HUNDRED SERIES",
+      "component": "StressGauge",
+      "timing": {
+        "start": 425,
+        "end": 448
+      }
+    },
+    {
+      "id": "scene_22",
+      "number": 22,
+      "file": "scene_22.wav",
+      "voice_file": "voice/scene_22.txt",
+      "duration": null,
+      "phase": "ACCEL",
+      "silence_before": 0.0,
+      "jcut": "audio/sfx/sfx_digital_tick.mp3",
+      "jcut_label": "digital tick",
+      "badge": "TUNNEL HOODS",
+      "component": "PulseTimeline",
+      "timing": {
+        "start": 448,
+        "end": 470
+      }
+    },
+    {
+      "id": "scene_23",
+      "number": 23,
+      "file": "scene_23.wav",
+      "voice_file": "voice/scene_23.txt",
+      "duration": null,
+      "phase": "DROP",
+      "silence_before": 0.5,
+      "jcut": "audio/sfx/sfx_warning_pulse.mp3",
+      "jcut_label": "sub-drop",
+      "badge": "THIRTY PERCENT",
+      "component": "HudOverlay",
+      "timing": {
+        "start": 470,
+        "end": 510
+      }
+    },
+    {
+      "id": "scene_24",
+      "number": 24,
+      "file": "scene_24.wav",
+      "voice_file": "voice/scene_24.txt",
+      "duration": null,
+      "phase": "DROP",
+      "silence_before": 0.0,
+      "jcut": "audio/sfx/sfx_warning_pulse.mp3",
+      "jcut_label": "sub-drop",
+      "badge": "NEXT PRESSURE",
+      "component": "HudOverlay",
+      "timing": {
+        "start": 510,
+        "end": 530
+      }
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+The pressure pulse does not stay smooth. It steepens as it runs, like a wave approaching a beach. In a long tunnel, it can reach several kilopascals. That sounds small, but a few kilopascals across a wall the size of a house is tons of force. The air is no longer a gas you can ignore. It is a load.

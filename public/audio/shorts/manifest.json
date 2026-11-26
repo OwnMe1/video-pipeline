@@ -1,0 +1,63 @@
+{
+  "kind": "shorts",
+  "source": "script.md",
+  "voice": "bm_george",
+  "speed": 1.08,
+  "fps": 60,
+  "scenes": [
+    {
+      "id": "s1_01",
+      "number": 1,
+      "short": 1,
+      "file": "s1_01.wav",
+      "voice_file": "voice/s1_01.txt",
+      "duration": null,
+      "phase": "HOOK",
+      "silence_before": 0.5,
+      "jcut": "audio/sfx/sfx_warning_pulse.mp3",
+      "jcut_label": "sub-drop",
+      "badge": "TUNNEL CANNON",
+      "component": "HudOverlay",
+      "timing": {
+        "start": 0,
+        "end": 40
+      }
+    },
+    {
+      "id": "s2_01",
+      "number": 1,
+      "short": 2,
+      "file": "s2_01.wav",
+      "voice_file": "voice/s2_01.txt",
+      "duration": null,
+      "phase": "HOOK",
+      "silence_before": 0.5,
+      "jcut": "audio/sfx/sfx_warning_pulse.mp3",
+      "jcut_label": "sub-drop",
+      "badge": "FIVE KILOPASCALS",
+      "component": "StressGauge",
+      "timing": {
+        "start": 0,
+        "end": 40
+      }
+    },
+    {
+      "id": "s3_01",
+      "number": 1,
+      "short": 3,
+      "file": "s3_01.wav",
+      "voice_file": "voice/s3_01.txt",
+      "duration": null,
+      "phase": "HOOK",
+      "silence_before": 0.5,
+      "jcut": "audio/sfx/sfx_warning_pulse.mp3",
+      "jcut_label": "sub-drop",
+      "badge": "THIRTY PERCENT",
+      "component": "MechanismBreakdown",
+      "timing": {
+        "start": 0,
+        "end": 40
+      }
+    }
+  ]
+}

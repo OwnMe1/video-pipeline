@@ -1,707 +1,692 @@
 [
   {
-    "text": "Graphics memory was built",
-    "start": 0.5,
-    "end": 1.761,
+    "text": "Inside a long tunnel, the pressure ahead of",
+    "start": 0.793,
+    "end": 2.694,
     "words": [
       {
-        "word": "Graphics",
-        "start": 0.5,
-        "end": 0.901,
-        "scene": "s2_01"
-      },
-      {
-        "word": "memory",
-        "start": 0.961,
-        "end": 1.321,
-        "scene": "s2_01"
-      },
-      {
-        "word": "was",
-        "start": 1.361,
-        "end": 1.501,
-        "scene": "s2_01"
-      },
-      {
-        "word": "built",
-        "start": 1.541,
-        "end": 1.761,
-        "scene": "s2_01"
-      }
-    ]
-  },
-  {
-    "text": "For pixels, not artificial",
-    "start": 1.821,
-    "end": 3.783,
-    "words": [
-      {
-        "word": "for",
-        "start": 1.821,
-        "end": 1.942,
-        "scene": "s2_01"
-      },
-      {
-        "word": "pixels,",
-        "start": 2.022,
-        "end": 2.522,
-        "scene": "s2_01"
-      },
-      {
-        "word": "not",
-        "start": 2.922,
-        "end": 3.083,
-        "scene": "s2_01"
-      },
-      {
-        "word": "artificial",
-        "start": 3.223,
-        "end": 3.783,
-        "scene": "s2_01"
-      }
-    ]
-  },
-  {
-    "text": "Intelligence.",
-    "start": 3.843,
-    "end": 4.504,
-    "words": [
-      {
-        "word": "intelligence.",
-        "start": 3.843,
-        "end": 4.504,
-        "scene": "s2_01"
-      }
-    ]
-  },
-  {
-    "text": "GDDR moves data across a",
-    "start": 5.064,
-    "end": 7.006,
-    "words": [
-      {
-        "word": "GDDR",
-        "start": 5.064,
-        "end": 5.805,
-        "scene": "s2_01"
-      },
-      {
-        "word": "moves",
-        "start": 5.865,
-        "end": 6.205,
-        "scene": "s2_01"
-      },
-      {
-        "word": "data",
-        "start": 6.266,
-        "end": 6.586,
-        "scene": "s2_01"
-      },
-      {
-        "word": "across",
-        "start": 6.626,
-        "end": 6.926,
-        "scene": "s2_01"
+        "word": "Inside",
+        "start": 0.793,
+        "end": 1.113,
+        "scene": "scene_01"
       },
       {
         "word": "a",
-        "start": 6.966,
-        "end": 7.006,
-        "scene": "s2_01"
-      }
-    ]
-  },
-  {
-    "text": "Circuit board, burns energy,",
-    "start": 7.086,
-    "end": 8.888,
-    "words": [
-      {
-        "word": "circuit",
-        "start": 7.086,
-        "end": 7.407,
-        "scene": "s2_01"
+        "start": 1.153,
+        "end": 1.193,
+        "scene": "scene_01"
       },
       {
-        "word": "board,",
-        "start": 7.447,
-        "end": 7.767,
-        "scene": "s2_01"
+        "word": "long",
+        "start": 1.233,
+        "end": 1.433,
+        "scene": "scene_01"
       },
       {
-        "word": "burns",
-        "start": 8.047,
-        "end": 8.387,
-        "scene": "s2_01"
+        "word": "tunnel,",
+        "start": 1.493,
+        "end": 1.813,
+        "scene": "scene_01"
       },
       {
-        "word": "energy,",
-        "start": 8.488,
-        "end": 8.888,
-        "scene": "s2_01"
-      }
-    ]
-  },
-  {
-    "text": "And hits a bandwidth wall.",
-    "start": 9.208,
-    "end": 10.67,
-    "words": [
-      {
-        "word": "and",
-        "start": 9.208,
-        "end": 9.308,
-        "scene": "s2_01"
+        "word": "the",
+        "start": 1.953,
+        "end": 2.053,
+        "scene": "scene_01"
       },
       {
-        "word": "hits",
-        "start": 9.348,
-        "end": 9.569,
-        "scene": "s2_01"
+        "word": "pressure",
+        "start": 2.094,
+        "end": 2.394,
+        "scene": "scene_01"
       },
       {
-        "word": "a",
-        "start": 9.629,
-        "end": 9.669,
-        "scene": "s2_01"
-      },
-      {
-        "word": "bandwidth",
-        "start": 9.749,
-        "end": 10.229,
-        "scene": "s2_01"
-      },
-      {
-        "word": "wall.",
-        "start": 10.309,
-        "end": 10.67,
-        "scene": "s2_01"
-      }
-    ]
-  },
-  {
-    "text": "At AI scale, it would",
-    "start": 11.27,
-    "end": 12.832,
-    "words": [
-      {
-        "word": "At",
-        "start": 11.27,
-        "end": 11.35,
-        "scene": "s2_01"
-      },
-      {
-        "word": "AI",
-        "start": 11.47,
-        "end": 11.851,
-        "scene": "s2_01"
-      },
-      {
-        "word": "scale,",
-        "start": 11.891,
-        "end": 12.331,
-        "scene": "s2_01"
-      },
-      {
-        "word": "it",
-        "start": 12.591,
-        "end": 12.651,
-        "scene": "s2_01"
-      },
-      {
-        "word": "would",
-        "start": 12.671,
-        "end": 12.832,
-        "scene": "s2_01"
-      }
-    ]
-  },
-  {
-    "text": "Cook.",
-    "start": 12.872,
-    "end": 13.152,
-    "words": [
-      {
-        "word": "cook.",
-        "start": 12.872,
-        "end": 13.152,
-        "scene": "s2_01"
-      }
-    ]
-  },
-  {
-    "text": "HBM stacks DRAM vertically,",
-    "start": 13.652,
-    "end": 15.754,
-    "words": [
-      {
-        "word": "HBM",
-        "start": 13.652,
-        "end": 14.173,
-        "scene": "s2_02"
-      },
-      {
-        "word": "stacks",
-        "start": 14.273,
-        "end": 14.613,
-        "scene": "s2_02"
-      },
-      {
-        "word": "DRAM",
-        "start": 14.673,
-        "end": 15.134,
-        "scene": "s2_02"
-      },
-      {
-        "word": "vertically,",
-        "start": 15.214,
-        "end": 15.754,
-        "scene": "s2_02"
-      }
-    ]
-  },
-  {
-    "text": "Thousands of through silicon",
-    "start": 16.195,
-    "end": 17.496,
-    "words": [
-      {
-        "word": "thousands",
-        "start": 16.195,
-        "end": 16.595,
-        "scene": "s2_02"
+        "word": "ahead",
+        "start": 2.434,
+        "end": 2.614,
+        "scene": "scene_01"
       },
       {
         "word": "of",
-        "start": 16.615,
-        "end": 16.675,
-        "scene": "s2_02"
-      },
-      {
-        "word": "through",
-        "start": 16.695,
-        "end": 16.895,
-        "scene": "s2_02"
-      },
-      {
-        "word": "silicon",
-        "start": 16.935,
-        "end": 17.496,
-        "scene": "s2_02"
+        "start": 2.634,
+        "end": 2.694,
+        "scene": "scene_01"
       }
     ]
   },
   {
-    "text": "Vias pierce dies, and a",
-    "start": 17.576,
-    "end": 19.317,
+    "text": "a fast train can climb to several kilopascals.",
+    "start": 2.734,
+    "end": 5.095,
     "words": [
-      {
-        "word": "vias",
-        "start": 17.576,
-        "end": 17.956,
-        "scene": "s2_02"
-      },
-      {
-        "word": "pierce",
-        "start": 18.016,
-        "end": 18.316,
-        "scene": "s2_02"
-      },
-      {
-        "word": "dies,",
-        "start": 18.376,
-        "end": 18.757,
-        "scene": "s2_02"
-      },
-      {
-        "word": "and",
-        "start": 19.157,
-        "end": 19.237,
-        "scene": "s2_02"
-      },
       {
         "word": "a",
-        "start": 19.277,
-        "end": 19.317,
-        "scene": "s2_02"
-      }
-    ]
-  },
-  {
-    "text": "Silicon interposer connects",
-    "start": 19.357,
-    "end": 20.838,
-    "words": [
-      {
-        "word": "silicon",
-        "start": 19.357,
-        "end": 19.818,
-        "scene": "s2_02"
+        "start": 2.734,
+        "end": 2.774,
+        "scene": "scene_01"
       },
       {
-        "word": "interposer",
-        "start": 19.838,
-        "end": 20.358,
-        "scene": "s2_02"
+        "word": "fast",
+        "start": 2.814,
+        "end": 3.114,
+        "scene": "scene_01"
       },
       {
-        "word": "connects",
-        "start": 20.438,
-        "end": 20.838,
-        "scene": "s2_02"
-      }
-    ]
-  },
-  {
-    "text": "It to the GPU. Each",
-    "start": 20.898,
-    "end": 22.9,
-    "words": [
+        "word": "train",
+        "start": 3.174,
+        "end": 3.474,
+        "scene": "scene_01"
+      },
       {
-        "word": "it",
-        "start": 20.898,
-        "end": 20.979,
-        "scene": "s2_02"
+        "word": "can",
+        "start": 3.514,
+        "end": 3.654,
+        "scene": "scene_01"
+      },
+      {
+        "word": "climb",
+        "start": 3.694,
+        "end": 3.914,
+        "scene": "scene_01"
       },
       {
         "word": "to",
-        "start": 21.119,
-        "end": 21.239,
-        "scene": "s2_02"
+        "start": 3.934,
+        "end": 4.014,
+        "scene": "scene_01"
       },
       {
-        "word": "the",
-        "start": 21.279,
-        "end": 21.339,
-        "scene": "s2_02"
+        "word": "several",
+        "start": 4.074,
+        "end": 4.374,
+        "scene": "scene_01"
       },
       {
-        "word": "GPU.",
-        "start": 21.419,
-        "end": 22.12,
-        "scene": "s2_02"
-      },
-      {
-        "word": "Each",
-        "start": 22.14,
-        "end": 22.9,
-        "scene": "s2_02"
+        "word": "kilopascals.",
+        "start": 4.394,
+        "end": 5.095,
+        "scene": "scene_01"
       }
     ]
   },
   {
-    "text": "Stack carries 1,024 bits.",
-    "start": 22.94,
-    "end": 24.301,
-    "words": [
-      {
-        "word": "stack",
-        "start": 22.94,
-        "end": 23.26,
-        "scene": "s2_02"
-      },
-      {
-        "word": "carries",
-        "start": 23.401,
-        "end": 23.741,
-        "scene": "s2_02"
-      },
-      {
-        "word": "1,024",
-        "start": 23.761,
-        "end": 24.021,
-        "scene": "s2_02"
-      },
-      {
-        "word": "bits.",
-        "start": 24.041,
-        "end": 24.301,
-        "scene": "s2_02"
-      }
-    ]
-  },
-  {
-    "text": "That breaks the wall.",
-    "start": 24.321,
-    "end": 25.042,
+    "text": "That is enough force to flex steel and",
+    "start": 5.535,
+    "end": 7.315,
     "words": [
       {
         "word": "That",
-        "start": 24.321,
-        "end": 24.622,
-        "scene": "s2_02"
+        "start": 5.535,
+        "end": 5.655,
+        "scene": "scene_01"
       },
       {
-        "word": "breaks",
-        "start": 24.642,
-        "end": 24.762,
-        "scene": "s2_02"
+        "word": "is",
+        "start": 5.715,
+        "end": 5.795,
+        "scene": "scene_01"
       },
       {
-        "word": "the",
-        "start": 24.822,
-        "end": 24.902,
-        "scene": "s2_02"
+        "word": "enough",
+        "start": 5.855,
+        "end": 6.055,
+        "scene": "scene_01"
       },
       {
-        "word": "wall.",
-        "start": 24.922,
-        "end": 25.042,
-        "scene": "s2_02"
+        "word": "force",
+        "start": 6.115,
+        "end": 6.395,
+        "scene": "scene_01"
+      },
+      {
+        "word": "to",
+        "start": 6.415,
+        "end": 6.495,
+        "scene": "scene_01"
+      },
+      {
+        "word": "flex",
+        "start": 6.535,
+        "end": 6.795,
+        "scene": "scene_01"
+      },
+      {
+        "word": "steel",
+        "start": 6.835,
+        "end": 7.175,
+        "scene": "scene_01"
+      },
+      {
+        "word": "and",
+        "start": 7.235,
+        "end": 7.315,
+        "scene": "scene_01"
       }
     ]
   },
   {
-    "text": "8 stacks deliver 8 terabytes",
-    "start": 25.542,
-    "end": 27.404,
+    "text": "shake concrete. The pressure wave steepens as it",
+    "start": 7.376,
+    "end": 9.916,
     "words": [
       {
-        "word": "8",
-        "start": 25.542,
-        "end": 25.702,
-        "scene": "s2_03"
+        "word": "shake",
+        "start": 7.376,
+        "end": 7.596,
+        "scene": "scene_01"
       },
       {
-        "word": "stacks",
-        "start": 25.762,
-        "end": 26.123,
-        "scene": "s2_03"
-      },
-      {
-        "word": "deliver",
-        "start": 26.163,
-        "end": 26.503,
-        "scene": "s2_03"
-      },
-      {
-        "word": "8",
-        "start": 26.523,
-        "end": 26.543,
-        "scene": "s2_03"
-      },
-      {
-        "word": "terabytes",
-        "start": 26.863,
-        "end": 27.404,
-        "scene": "s2_03"
-      }
-    ]
-  },
-  {
-    "text": "Per second inside one server",
-    "start": 27.464,
-    "end": 29.585,
-    "words": [
-      {
-        "word": "per",
-        "start": 27.464,
-        "end": 27.624,
-        "scene": "s2_03"
-      },
-      {
-        "word": "second",
-        "start": 27.684,
-        "end": 28.044,
-        "scene": "s2_03"
-      },
-      {
-        "word": "inside",
-        "start": 28.384,
-        "end": 28.825,
-        "scene": "s2_03"
-      },
-      {
-        "word": "one",
-        "start": 28.985,
-        "end": 29.145,
-        "scene": "s2_03"
-      },
-      {
-        "word": "server",
-        "start": 29.225,
-        "end": 29.585,
-        "scene": "s2_03"
-      }
-    ]
-  },
-  {
-    "text": "Package. The wall moves, but",
-    "start": 29.645,
-    "end": 31.967,
-    "words": [
-      {
-        "word": "package.",
-        "start": 29.645,
-        "end": 30.106,
-        "scene": "s2_03"
+        "word": "concrete.",
+        "start": 7.676,
+        "end": 8.156,
+        "scene": "scene_01"
       },
       {
         "word": "The",
-        "start": 30.646,
-        "end": 30.746,
-        "scene": "s2_03"
+        "start": 8.536,
+        "end": 8.616,
+        "scene": "scene_01"
       },
       {
-        "word": "wall",
-        "start": 30.786,
-        "end": 31.066,
-        "scene": "s2_03"
+        "word": "pressure",
+        "start": 8.676,
+        "end": 8.976,
+        "scene": "scene_01"
       },
       {
-        "word": "moves,",
-        "start": 31.146,
-        "end": 31.547,
-        "scene": "s2_03"
+        "word": "wave",
+        "start": 9.016,
+        "end": 9.236,
+        "scene": "scene_01"
       },
       {
-        "word": "but",
-        "start": 31.847,
-        "end": 31.967,
-        "scene": "s2_03"
-      }
-    ]
-  },
-  {
-    "text": "It does not disappear. That",
-    "start": 31.987,
-    "end": 33.728,
-    "words": [
+        "word": "steepens",
+        "start": 9.276,
+        "end": 9.656,
+        "scene": "scene_01"
+      },
+      {
+        "word": "as",
+        "start": 9.736,
+        "end": 9.796,
+        "scene": "scene_01"
+      },
       {
         "word": "it",
-        "start": 31.987,
-        "end": 32.047,
-        "scene": "s2_03"
-      },
-      {
-        "word": "does",
-        "start": 32.087,
-        "end": 32.227,
-        "scene": "s2_03"
-      },
-      {
-        "word": "not",
-        "start": 32.307,
-        "end": 32.467,
-        "scene": "s2_03"
-      },
-      {
-        "word": "disappear.",
-        "start": 32.528,
-        "end": 33.128,
-        "scene": "s2_03"
-      },
-      {
-        "word": "That",
-        "start": 33.568,
-        "end": 33.728,
-        "scene": "s2_03"
+        "start": 9.856,
+        "end": 9.916,
+        "scene": "scene_01"
       }
     ]
   },
   {
-    "text": "Is the physics of the",
-    "start": 33.788,
-    "end": 34.649,
+    "text": "runs, then reaches the portal and radiates into",
+    "start": 9.977,
+    "end": 12.517,
     "words": [
       {
-        "word": "is",
-        "start": 33.788,
-        "end": 33.889,
-        "scene": "s2_03"
+        "word": "runs,",
+        "start": 9.977,
+        "end": 10.297,
+        "scene": "scene_01"
+      },
+      {
+        "word": "then",
+        "start": 10.617,
+        "end": 10.757,
+        "scene": "scene_01"
+      },
+      {
+        "word": "reaches",
+        "start": 10.837,
+        "end": 11.157,
+        "scene": "scene_01"
       },
       {
         "word": "the",
-        "start": 33.929,
-        "end": 34.009,
-        "scene": "s2_03"
+        "start": 11.217,
+        "end": 11.297,
+        "scene": "scene_01"
       },
       {
-        "word": "physics",
-        "start": 34.069,
-        "end": 34.429,
-        "scene": "s2_03"
+        "word": "portal",
+        "start": 11.337,
+        "end": 11.637,
+        "scene": "scene_01"
+      },
+      {
+        "word": "and",
+        "start": 11.697,
+        "end": 11.777,
+        "scene": "scene_01"
+      },
+      {
+        "word": "radiates",
+        "start": 11.837,
+        "end": 12.277,
+        "scene": "scene_01"
+      },
+      {
+        "word": "into",
+        "start": 12.337,
+        "end": 12.517,
+        "scene": "scene_01"
+      }
+    ]
+  },
+  {
+    "text": "open air. Low frequencies bend around buildings, so",
+    "start": 12.618,
+    "end": 15.759,
+    "words": [
+      {
+        "word": "open",
+        "start": 12.618,
+        "end": 12.838,
+        "scene": "scene_01"
+      },
+      {
+        "word": "air.",
+        "start": 13.018,
+        "end": 13.158,
+        "scene": "scene_01"
+      },
+      {
+        "word": "Low",
+        "start": 13.598,
+        "end": 13.758,
+        "scene": "scene_01"
+      },
+      {
+        "word": "frequencies",
+        "start": 13.818,
+        "end": 14.338,
+        "scene": "scene_01"
+      },
+      {
+        "word": "bend",
+        "start": 14.398,
+        "end": 14.618,
+        "scene": "scene_01"
+      },
+      {
+        "word": "around",
+        "start": 14.658,
+        "end": 14.918,
+        "scene": "scene_01"
+      },
+      {
+        "word": "buildings,",
+        "start": 14.978,
+        "end": 15.359,
+        "scene": "scene_01"
+      },
+      {
+        "word": "so",
+        "start": 15.639,
+        "end": 15.759,
+        "scene": "scene_01"
+      }
+    ]
+  },
+  {
+    "text": "the boom arrives hundreds of meters away. Sound",
+    "start": 15.779,
+    "end": 18.32,
+    "words": [
+      {
+        "word": "the",
+        "start": 15.779,
+        "end": 15.859,
+        "scene": "scene_01"
+      },
+      {
+        "word": "boom",
+        "start": 15.879,
+        "end": 16.119,
+        "scene": "scene_01"
+      },
+      {
+        "word": "arrives",
+        "start": 16.139,
+        "end": 16.459,
+        "scene": "scene_01"
+      },
+      {
+        "word": "hundreds",
+        "start": 16.539,
+        "end": 16.859,
+        "scene": "scene_01"
       },
       {
         "word": "of",
-        "start": 34.469,
-        "end": 34.549,
-        "scene": "s2_03"
+        "start": 16.899,
+        "end": 16.959,
+        "scene": "scene_01"
       },
       {
-        "word": "the",
-        "start": 34.569,
-        "end": 34.649,
-        "scene": "s2_03"
+        "word": "meters",
+        "start": 16.999,
+        "end": 17.259,
+        "scene": "scene_01"
+      },
+      {
+        "word": "away.",
+        "start": 17.319,
+        "end": 17.599,
+        "scene": "scene_01"
+      },
+      {
+        "word": "Sound",
+        "start": 18.02,
+        "end": 18.32,
+        "scene": "scene_01"
       }
     ]
   },
   {
-    "text": "Stack. Tap the related video",
-    "start": 34.709,
-    "end": 36.791,
+    "text": "crosses that distance in about one second. Residents",
+    "start": 18.4,
+    "end": 21.421,
     "words": [
       {
-        "word": "stack.",
-        "start": 34.709,
-        "end": 35.069,
-        "scene": "s2_03"
+        "word": "crosses",
+        "start": 18.4,
+        "end": 18.76,
+        "scene": "scene_01"
       },
       {
-        "word": "Tap",
-        "start": 35.47,
-        "end": 35.75,
-        "scene": "s2_03"
+        "word": "that",
+        "start": 18.82,
+        "end": 18.96,
+        "scene": "scene_01"
       },
       {
-        "word": "the",
-        "start": 35.79,
-        "end": 35.87,
-        "scene": "s2_03"
+        "word": "distance",
+        "start": 19.02,
+        "end": 19.44,
+        "scene": "scene_01"
       },
       {
-        "word": "related",
-        "start": 35.91,
-        "end": 36.31,
-        "scene": "s2_03"
+        "word": "in",
+        "start": 19.52,
+        "end": 19.58,
+        "scene": "scene_01"
       },
       {
-        "word": "video",
-        "start": 36.37,
-        "end": 36.791,
-        "scene": "s2_03"
+        "word": "about",
+        "start": 19.62,
+        "end": 19.84,
+        "scene": "scene_01"
+      },
+      {
+        "word": "one",
+        "start": 19.98,
+        "end": 20.1,
+        "scene": "scene_01"
+      },
+      {
+        "word": "second.",
+        "start": 20.16,
+        "end": 20.541,
+        "scene": "scene_01"
+      },
+      {
+        "word": "Residents",
+        "start": 20.981,
+        "end": 21.421,
+        "scene": "scene_01"
       }
     ]
   },
   {
-    "text": "For the full breakdown.",
-    "start": 36.871,
-    "end": 37.912,
+    "text": "hear a thud, then a crack. The engine",
+    "start": 21.441,
+    "end": 23.762,
     "words": [
       {
-        "word": "for",
-        "start": 36.871,
-        "end": 36.971,
-        "scene": "s2_03"
+        "word": "hear",
+        "start": 21.441,
+        "end": 21.621,
+        "scene": "scene_01"
+      },
+      {
+        "word": "a",
+        "start": 21.661,
+        "end": 21.701,
+        "scene": "scene_01"
+      },
+      {
+        "word": "thud,",
+        "start": 21.781,
+        "end": 22.081,
+        "scene": "scene_01"
+      },
+      {
+        "word": "then",
+        "start": 22.241,
+        "end": 22.381,
+        "scene": "scene_01"
+      },
+      {
+        "word": "a",
+        "start": 22.401,
+        "end": 22.441,
+        "scene": "scene_01"
+      },
+      {
+        "word": "crack.",
+        "start": 22.521,
+        "end": 22.841,
+        "scene": "scene_01"
+      },
+      {
+        "word": "The",
+        "start": 23.262,
+        "end": 23.362,
+        "scene": "scene_01"
+      },
+      {
+        "word": "engine",
+        "start": 23.462,
+        "end": 23.762,
+        "scene": "scene_01"
+      }
+    ]
+  },
+  {
+    "text": "is innocent. The tunnel mouth is the weapon.",
+    "start": 23.862,
+    "end": 26.503,
+    "words": [
+      {
+        "word": "is",
+        "start": 23.862,
+        "end": 23.942,
+        "scene": "scene_01"
+      },
+      {
+        "word": "innocent.",
+        "start": 24.062,
+        "end": 24.482,
+        "scene": "scene_01"
+      },
+      {
+        "word": "The",
+        "start": 24.882,
+        "end": 24.962,
+        "scene": "scene_01"
+      },
+      {
+        "word": "tunnel",
+        "start": 25.002,
+        "end": 25.302,
+        "scene": "scene_01"
+      },
+      {
+        "word": "mouth",
+        "start": 25.362,
+        "end": 25.622,
+        "scene": "scene_01"
+      },
+      {
+        "word": "is",
+        "start": 25.923,
+        "end": 26.003,
+        "scene": "scene_01"
       },
       {
         "word": "the",
-        "start": 36.991,
-        "end": 37.071,
-        "scene": "s2_03"
+        "start": 26.043,
+        "end": 26.143,
+        "scene": "scene_01"
       },
       {
-        "word": "full",
-        "start": 37.131,
-        "end": 37.351,
-        "scene": "s2_03"
+        "word": "weapon.",
+        "start": 26.223,
+        "end": 26.503,
+        "scene": "scene_01"
+      }
+    ]
+  },
+  {
+    "text": "The pressure does not need a crash to",
+    "start": 27.324,
+    "end": 29.028,
+    "words": [
+      {
+        "word": "The",
+        "start": 27.324,
+        "end": 27.404,
+        "scene": "scene_01"
       },
       {
-        "word": "breakdown.",
-        "start": 37.391,
-        "end": 37.912,
-        "scene": "s2_03"
+        "word": "pressure",
+        "start": 27.464,
+        "end": 27.805,
+        "scene": "scene_01"
+      },
+      {
+        "word": "does",
+        "start": 27.865,
+        "end": 28.006,
+        "scene": "scene_01"
+      },
+      {
+        "word": "not",
+        "start": 28.066,
+        "end": 28.186,
+        "scene": "scene_01"
+      },
+      {
+        "word": "need",
+        "start": 28.246,
+        "end": 28.406,
+        "scene": "scene_01"
+      },
+      {
+        "word": "a",
+        "start": 28.446,
+        "end": 28.466,
+        "scene": "scene_01"
+      },
+      {
+        "word": "crash",
+        "start": 28.547,
+        "end": 28.867,
+        "scene": "scene_01"
+      },
+      {
+        "word": "to",
+        "start": 28.927,
+        "end": 29.028,
+        "scene": "scene_01"
+      }
+    ]
+  },
+  {
+    "text": "cause damage. It only needs a fast train",
+    "start": 29.068,
+    "end": 31.773,
+    "words": [
+      {
+        "word": "cause",
+        "start": 29.068,
+        "end": 29.368,
+        "scene": "scene_01"
+      },
+      {
+        "word": "damage.",
+        "start": 29.429,
+        "end": 29.829,
+        "scene": "scene_01"
+      },
+      {
+        "word": "It",
+        "start": 30.29,
+        "end": 30.35,
+        "scene": "scene_01"
+      },
+      {
+        "word": "only",
+        "start": 30.431,
+        "end": 30.611,
+        "scene": "scene_01"
+      },
+      {
+        "word": "needs",
+        "start": 30.671,
+        "end": 30.912,
+        "scene": "scene_01"
+      },
+      {
+        "word": "a",
+        "start": 30.952,
+        "end": 30.972,
+        "scene": "scene_01"
+      },
+      {
+        "word": "fast",
+        "start": 31.052,
+        "end": 31.332,
+        "scene": "scene_01"
+      },
+      {
+        "word": "train",
+        "start": 31.413,
+        "end": 31.773,
+        "scene": "scene_01"
+      }
+    ]
+  },
+  {
+    "text": "and a narrow tube.",
+    "start": 32.074,
+    "end": 33.076,
+    "words": [
+      {
+        "word": "and",
+        "start": 32.074,
+        "end": 32.174,
+        "scene": "scene_01"
+      },
+      {
+        "word": "a",
+        "start": 32.194,
+        "end": 32.234,
+        "scene": "scene_01"
+      },
+      {
+        "word": "narrow",
+        "start": 32.315,
+        "end": 32.655,
+        "scene": "scene_01"
+      },
+      {
+        "word": "tube.",
+        "start": 32.735,
+        "end": 33.076,
+        "scene": "scene_01"
       }
     ]
   }

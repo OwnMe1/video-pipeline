@@ -1,113 +1,96 @@
 {
-  "title": "THE HIDDEN BOTTLENECK OF AI",
-  "subtitle": "WHY NVIDIA CAN'T EXIST WITHOUT SK HYNIX",
-  "channel": "tech",
+  "title": "WHY THE FASTEST BULLET TRAINS HIT AN INVISIBLE WALL OF AIR",
+  "subtitle": "THE PHYSICS OF TUNNEL BOOM",
+  "channel": "kinetic-lab",
   "episode": "EP.01",
-  "fps": 30,
-  "total_duration": 906.757917,
+  "fps": 60,
+  "total_duration": 496.34,
   "scenes": [
     {
       "id": "scene-01",
       "number": 1,
-      "start": 0.5,
-      "duration": 26.799,
+      "start": 0.0,
+      "duration": 19.275,
       "audio_file": "scenes/scene_01.wav",
-      "narration": "Forty thousand dollars buys Nvidia's most powerful AI accelerator. It packs two hundred and eight billion transistors into a package the size of a dinner plate. But without a small stack of memory built in Icheon, South Korea, that chip is dead silicon. The memory is HBM. The supplier is SK Hynix. And the reason Nvidia cannot simply buy it elsewhere is a story about physics, packaging, and a narrow chokepoint in modern industry.",
+      "narration": "Three hundred fifty kilometers per hour. A Shinkansen enters a tunnel, and the air ahead has nowhere to go. It compresses into a moving wall, then fires out of the far portal like a cannon. Four hundred meters away, windows rattle. Engineers call it tunnel boom. The fix was not a bigger engine. It was a bird.",
       "visual": {
-        "kind": "asset",
-        "component": null,
+        "kind": "component",
+        "component": "HudOverlay",
         "variant": null,
         "beats": [
           {
-            "kind": "photo",
-            "files": [
-              "assets/images/nvidia_blackwell.jpg"
-            ],
-            "layout": "single",
-            "label": "B200 GPU / price hook"
+            "kind": "cad",
+            "files": [],
+            "layout": "full",
+            "label": "scene_01 beat 1"
           },
           {
-            "kind": "photo",
-            "files": [
-              "assets/images/hbm_package.jpg",
-              "assets/images/sk_hynix_logo.png"
-            ],
-            "layout": "split",
-            "label": "HBM package + SK hynix"
+            "kind": "cad",
+            "files": [],
+            "layout": "full",
+            "label": "scene_01 beat 2"
           },
           {
-            "kind": "background",
-            "files": [
-              "assets/backgrounds/cad_gpu_hbm.jpg",
-              "assets/images/hbm_stack.png"
-            ],
-            "layout": "background",
-            "label": "HBM stack / dead silicon"
+            "kind": "cad",
+            "files": [],
+            "layout": "full",
+            "label": "scene_01 beat 3"
           }
         ]
       },
       "badge": {
-        "text": "$40,000",
-        "start": 1.0,
-        "duration": 3.0,
-        "accent": "orange"
+        "text": "AIR WALL",
+        "start": 7.753,
+        "duration": 3.2,
+        "accent": "cyan"
       },
       "jcut": {
-        "file": "audio/sfx/sfx_data_whoosh.mp3",
+        "file": "audio/sfx/sfx_digital_tick.mp3",
         "offset_frames": 30
       },
-      "sfx": {
-        "file": "audio/sfx/sfx_data_whoosh.mp3",
-        "volume": 0.3
-      },
+      "sfx": null,
       "beat_sfx": []
     },
     {
       "id": "scene-02",
       "number": 2,
-      "start": 27.299,
-      "duration": 25.358,
+      "start": 19.275,
+      "duration": 20.6,
       "audio_file": "scenes/scene_02.wav",
-      "narration": "The stakes are clear. Every Blackwell rack needs enormous amounts of high bandwidth memory, and the supply is not elastic. SK Hynix says its HBM capacity sold out well before the year began, and warns shortages could persist to the end of the decade. When a component is booked years in advance, memory stops being a part. It becomes the schedule. That schedule runs through a handful of fabs in one country.",
+      "narration": "Think of a syringe. Push the plunger, and the fluid has one escape route: the needle. A train inside a tunnel is that plunger. The tunnel is the barrel. The air is the fluid. At low speed, air slips around the train. At high speed, it cannot move fast enough, so it piles up in front. The result is a pressure pulse that grows with every meter.",
       "visual": {
-        "kind": "asset",
-        "component": null,
+        "kind": "component",
+        "component": "ScaleComparator",
         "variant": null,
         "beats": [
           {
-            "kind": "video",
-            "files": [
-              "assets/video/mixkit_data_center_hallway.mp4"
-            ],
-            "layout": "single",
-            "label": "AI data center"
+            "kind": "cad",
+            "files": [],
+            "layout": "full",
+            "label": "scene_02 beat 1"
           },
           {
-            "kind": "photo",
-            "files": [
-              "assets/images/data_center_servers.jpg"
-            ],
-            "layout": "single",
-            "label": "sold-out capacity"
+            "kind": "cad",
+            "files": [],
+            "layout": "full",
+            "label": "scene_02 beat 2"
           },
           {
-            "kind": "video",
-            "files": [
-              "assets/video/mixkit_fiber_optics_server_room.mp4"
-            ],
-            "layout": "single",
-            "label": "data flow"
+            "kind": "cad",
+            "files": [],
+            "layout": "full",
+            "label": "scene_02 beat 3"
           }
         ]
       },
       "badge": {
-        "text": "SOLD OUT",
-        "start": 1.0,
-        "duration": 3.0,
+        "text": "PISTON EFFECT",
+        "start": 1.682,
+        "duration": 3.2,
         "accent": "cyan"
       },
       "jcut": {
-        "file": "audio/sfx/sfx_warning_pulse.mp3",
+        "file": "audio/sfx/sfx_crisp_transition.mp3",
         "offset_frames": 30
       },
       "sfx": null,
@@ -116,46 +99,39 @@
     {
       "id": "scene-03",
       "number": 3,
-      "start": 52.657,
-      "duration": 25.760042,
+      "start": 39.875,
+      "duration": 19.35,
       "audio_file": "scenes/scene_03.wav",
-      "narration": "Engineers call the gap between compute and memory the memory wall. For decades, caches and prefetching hid it. Artificial intelligence broke the illusion. A large model streams billions of parameters through the chip for every token, and the arithmetic units wait for data. The GPU is no longer the scarce resource. The scarce resource is the path that feeds it. That path begins with a memory architecture called HBM.",
+      "narration": "A tunnel is not much wider than the train. The gap around the body is narrow, and friction holds the air against the walls. To escape, that air must accelerate through a thin ring. The train pushes a volume equal to its own cross section, second after second. The air has no room to wait. It becomes a piston.",
       "visual": {
-        "kind": "asset",
-        "component": null,
+        "kind": "component",
+        "component": "MechanismBreakdown",
         "variant": null,
         "beats": [
           {
-            "kind": "photo",
-            "files": [
-              "assets/images/microchip_die.jpg"
-            ],
-            "layout": "single",
-            "label": "GPU die macro"
+            "kind": "cad",
+            "files": [],
+            "layout": "full",
+            "label": "scene_03 beat 1"
           },
           {
-            "kind": "video",
-            "files": [
-              "assets/video/mixkit_circuit_board_processor.mp4"
-            ],
-            "layout": "single",
-            "label": "processor board"
+            "kind": "cad",
+            "files": [],
+            "layout": "full",
+            "label": "scene_03 beat 2"
           },
           {
-            "kind": "photo",
-            "files": [
-              "assets/images/nvidia_h100.png",
-              "assets/images/dram_chip.jpg"
-            ],
-            "layout": "split",
-            "label": "compute vs memory"
+            "kind": "cad",
+            "files": [],
+            "layout": "full",
+            "label": "scene_03 beat 3"
           }
         ]
       },
       "badge": {
-        "text": "MEMORY WALL",
-        "start": 1.0,
-        "duration": 3.0,
+        "text": "NO ESCAPE",
+        "start": 7.189,
+        "duration": 3.2,
         "accent": "cyan"
       },
       "jcut": {
@@ -168,37 +144,43 @@
     {
       "id": "scene-04",
       "number": 4,
-      "start": 78.417042,
-      "duration": 24.692,
+      "start": 59.225,
+      "duration": 21.775,
       "audio_file": "scenes/scene_04.wav",
-      "narration": "Start with the graphics card you know. A gaming GPU sits next to a handful of GDDR chips. They are cheap, dense, and fast when traffic is light. Each bit travels across copper traces on a printed circuit board, and every trace must arrive at the same instant. At multi gigabit speeds, a few millimetres of extra length is not a detail. It is a timing error. The board itself becomes the limit.",
+      "narration": "At three hundred kilometers per hour, the train covers eighty three meters every second. A tunnel ten meters wide holds thousands of cubic meters of air. The moving train displaces a river of it through a shrinking gap. Pressure rises ahead, falls behind, and the difference travels through the tunnel faster than the train itself. That is the first number to remember.",
       "visual": {
         "kind": "component",
-        "component": "PhysicsComparison",
+        "component": "StressGauge",
         "variant": null,
         "beats": [
           {
-            "kind": "component",
-            "label": "Bus width: GDDR 384/512-bit vs HBM 1024-bit"
+            "kind": "cad",
+            "files": [],
+            "layout": "full",
+            "label": "scene_04 beat 1"
           },
           {
-            "kind": "component",
-            "label": "Energy per bit + thermal consequence"
+            "kind": "cad",
+            "files": [],
+            "layout": "full",
+            "label": "scene_04 beat 2"
           },
           {
-            "kind": "component",
-            "label": "Roofline: compute vs bandwidth"
+            "kind": "cad",
+            "files": [],
+            "layout": "full",
+            "label": "scene_04 beat 3"
           }
         ]
       },
       "badge": {
-        "text": "384-BIT",
-        "start": 1.0,
-        "duration": 3.0,
+        "text": "EIGHTY THREE METERS",
+        "start": 0.903,
+        "duration": 3.2,
         "accent": "cyan"
       },
       "jcut": {
-        "file": "audio/sfx/sfx_crisp_transition.mp3",
+        "file": "audio/sfx/sfx_warning_pulse.mp3",
         "offset_frames": 30
       },
       "sfx": null,
@@ -207,33 +189,39 @@
     {
       "id": "scene-05",
       "number": 5,
-      "start": 103.109042,
-      "duration": 25.21,
+      "start": 81.0,
+      "duration": 18.95,
       "audio_file": "scenes/scene_05.wav",
-      "narration": "Those traces behave like transmission lines. They have capacitance, inductance, and resistance. High frequency signals leak, reflect, and interfere with their neighbours. The further a bit travels, the more energy it burns and the more it distorts. Engineers add layers, better substrates, and shielding. But every fix costs power and board area. You can only push a signal across copper so far before the physics stops cooperating.",
+      "narration": "The pressure pulse does not stay smooth. It steepens as it runs, like a wave approaching a beach. In a long tunnel, it can reach several kilopascals. That sounds small, but a few kilopascals across a wall the size of a house is tons of force. The air is no longer a gas you can ignore. It is a load.",
       "visual": {
         "kind": "component",
-        "component": "PhysicsComparison",
+        "component": "PulseTimeline",
         "variant": null,
         "beats": [
           {
-            "kind": "component",
-            "label": "PCB trace matching / timing error"
+            "kind": "cad",
+            "files": [],
+            "layout": "full",
+            "label": "scene_05 beat 1"
           },
           {
-            "kind": "component",
-            "label": "Signal reflection + eye diagram"
+            "kind": "cad",
+            "files": [],
+            "layout": "full",
+            "label": "scene_05 beat 2"
           },
           {
-            "kind": "component",
-            "label": "Impedance vs trace length"
+            "kind": "cad",
+            "files": [],
+            "layout": "full",
+            "label": "scene_05 beat 3"
           }
         ]
       },
       "badge": {
-        "text": "ns TIMING",
-        "start": 1.0,
-        "duration": 3.0,
+        "text": "PRESSURE WAVE",
+        "start": 0.246,
+        "duration": 3.2,
         "accent": "cyan"
       },
       "jcut": {
@@ -246,34 +234,85 @@
     {
       "id": "scene-06",
       "number": 6,
-      "start": 128.319042,
-      "duration": 25.667,
+      "start": 100.45,
+      "duration": 15.075,
       "audio_file": "scenes/scene_06.wav",
-      "narration": "Then there is the energy bill. Moving one bit across a wire costs energy, and the cost rises with distance and speed. On a graphics card, that energy becomes heat. Multiply it by hundreds of billions of bits per second, and cooling becomes a design constraint. Data centres pay for that heat twice, once at the wall socket and again at the cooling plant. The industry calls this energy per bit. That is the hidden cost.",
+      "narration": "Piston. No escape. Air becomes a ram. Pressure climbs. Five kilopascals. Enough to flex steel. Enough to shake concrete. The train keeps pushing. The tunnel is now a pressure vessel. But the real explosion waits at the exit.",
       "visual": {
         "kind": "component",
-        "component": "PhysicsComparison",
+        "component": "StressGauge",
         "variant": null,
         "beats": [
           {
-            "kind": "component",
-            "label": "Energy per bit bars"
+            "kind": "cad",
+            "files": [],
+            "layout": "full",
+            "label": "scene_06 beat 1"
           },
           {
-            "kind": "component",
-            "label": "Thermal map / heat path"
+            "kind": "cad",
+            "files": [],
+            "layout": "full",
+            "label": "scene_06 beat 2"
           },
           {
-            "kind": "component",
-            "label": "Power vs bandwidth curve"
+            "kind": "cad",
+            "files": [],
+            "layout": "full",
+            "label": "scene_06 beat 3"
           }
         ]
       },
       "badge": {
-        "text": "pJ/BIT",
-        "start": 1.0,
-        "duration": 3.0,
-        "accent": "cyan"
+        "text": "FIVE KILOPASCALS",
+        "start": 4.407,
+        "duration": 3.2,
+        "accent": "orange"
+      },
+      "jcut": {
+        "file": "audio/sfx/sfx_digital_tick.mp3",
+        "offset_frames": 30
+      },
+      "sfx": null,
+      "beat_sfx": []
+    },
+    {
+      "id": "scene-07",
+      "number": 7,
+      "start": 115.655,
+      "duration": 14.95,
+      "audio_file": "scenes/scene_07.wav",
+      "narration": "The wave reaches the portal. It does not stop. It reflects, radiates, and turns into sound. A low thud, then a crack. That is tunnel boom. The piston built the bullet. The portal fires it. And the target is everything outside.",
+      "visual": {
+        "kind": "component",
+        "component": "HudOverlay",
+        "variant": null,
+        "beats": [
+          {
+            "kind": "cad",
+            "files": [],
+            "layout": "full",
+            "label": "scene_07 beat 1"
+          },
+          {
+            "kind": "cad",
+            "files": [],
+            "layout": "full",
+            "label": "scene_07 beat 2"
+          },
+          {
+            "kind": "cad",
+            "files": [],
+            "layout": "full",
+            "label": "scene_07 beat 3"
+          }
+        ]
+      },
+      "badge": {
+        "text": "TUNNEL NEXT",
+        "start": 8.308,
+        "duration": 3.2,
+        "accent": "orange"
       },
       "jcut": {
         "file": "audio/sfx/sfx_warning_pulse.mp3",
@@ -283,35 +322,41 @@
       "beat_sfx": []
     },
     {
-      "id": "scene-07",
-      "number": 7,
-      "start": 153.986042,
-      "duration": 28.386,
-      "audio_file": "scenes/scene_07.wav",
-      "narration": "The memory wall is measurable. Over two decades, floating point throughput grew far faster than the bandwidth of ordinary memory. Caches absorbed the traffic for general computing. Artificial intelligence is different. Matrix multiplication is insatiably hungry for data. An arithmetic unit with no data is an expensive heater. A GPU with enough compute but not enough bandwidth sits idle, and idle silicon still draws power. That is the economic definition of a bottleneck.",
+      "id": "scene-08",
+      "number": 8,
+      "start": 130.605,
+      "duration": 21.55,
+      "audio_file": "scenes/scene_08.wav",
+      "narration": "Picture a bottle of sparkling wine. The cork pops because pressure inside has nowhere to go. A tunnel portal is that cork. The compression wave arrives after a few seconds, and part of it escapes into open air. The rest reflects back as an expansion wave. The escaping part is the boom. It is not the train hitting anything. It is the air arriving all at once.",
       "visual": {
         "kind": "component",
-        "component": "PhysicsComparison",
+        "component": "PulseTimeline",
         "variant": null,
         "beats": [
           {
-            "kind": "component",
-            "label": "Compute vs bandwidth growth"
+            "kind": "cad",
+            "files": [],
+            "layout": "full",
+            "label": "scene_08 beat 1"
           },
           {
-            "kind": "component",
-            "label": "Matrix multiply data hunger"
+            "kind": "cad",
+            "files": [],
+            "layout": "full",
+            "label": "scene_08 beat 2"
           },
           {
-            "kind": "component",
-            "label": "Roofline / utilization"
+            "kind": "cad",
+            "files": [],
+            "layout": "full",
+            "label": "scene_08 beat 3"
           }
         ]
       },
       "badge": {
-        "text": "ROOFLINE",
-        "start": 1.0,
-        "duration": 3.0,
+        "text": "PORTAL CANNON",
+        "start": 5.854,
+        "duration": 3.2,
         "accent": "cyan"
       },
       "jcut": {
@@ -322,48 +367,41 @@
       "beat_sfx": []
     },
     {
-      "id": "scene-08",
-      "number": 8,
-      "start": 182.372042,
-      "duration": 26.022,
-      "audio_file": "scenes/scene_08.wav",
-      "narration": "Modern language models make the problem worse in two directions. Training reads enormous datasets and repeatedly touches the same weights. Inference reads the entire model for every token, plus a growing key value cache. Both care about capacity as much as bandwidth. A GPU with too little memory cannot hold the model. A GPU with too little bandwidth cannot keep its cores busy. You need both, in a package that fits on a server board.",
+      "id": "scene-09",
+      "number": 9,
+      "start": 152.155,
+      "duration": 21.6,
+      "audio_file": "scenes/scene_09.wav",
+      "narration": "The boom is low and heavy. Most of its energy sits below twenty hertz, where the ear is weak and buildings are not. Windows rattle. Loose panels buzz. In the worst reports, glass cracks in homes four hundred meters from the portal. Residents hear a distant thump, then another, every time a fast train leaves. The source is not the engine. It is the tunnel mouth.",
       "visual": {
-        "kind": "asset",
-        "component": null,
+        "kind": "component",
+        "component": "ScaleComparator",
         "variant": null,
         "beats": [
           {
-            "kind": "video",
-            "files": [
-              "assets/video/mixkit_data_center_blue_hallway.mp4"
-            ],
-            "layout": "single",
-            "label": "inference at scale"
+            "kind": "cad",
+            "files": [],
+            "layout": "full",
+            "label": "scene_09 beat 1"
           },
           {
-            "kind": "photo",
-            "files": [
-              "assets/images/data_center_racks.jpg"
-            ],
-            "layout": "single",
-            "label": "KV cache / capacity"
+            "kind": "cad",
+            "files": [],
+            "layout": "full",
+            "label": "scene_09 beat 2"
           },
           {
-            "kind": "background",
-            "files": [
-              "assets/backgrounds/cad_gpu_hbm.jpg",
-              "assets/images/nvidia_h100.png"
-            ],
-            "layout": "background",
-            "label": "capacity vs bandwidth"
+            "kind": "cad",
+            "files": [],
+            "layout": "full",
+            "label": "scene_09 beat 3"
           }
         ]
       },
       "badge": {
-        "text": "KV CACHE",
-        "start": 1.0,
-        "duration": 3.0,
+        "text": "FOUR HUNDRED METERS",
+        "start": 11.928,
+        "duration": 3.2,
         "accent": "cyan"
       },
       "jcut": {
@@ -374,91 +412,45 @@
       "beat_sfx": []
     },
     {
-      "id": "scene-09",
-      "number": 9,
-      "start": 208.394042,
-      "duration": 25.296,
-      "audio_file": "scenes/scene_09.wav",
-      "narration": "So why not bolt more GDDR onto the board. The answer is pin count, board area, and power. Each chip needs its own data lanes, power delivery, and share of the thermal budget. A processor can only drive so many high speed pins before the package becomes impractical. Widen the bus, and the traces get longer and the signal integrity gets worse. The architecture runs into a wall made of copper, not ambition.",
+      "id": "scene-10",
+      "number": 10,
+      "start": 173.755,
+      "duration": 21.975,
+      "audio_file": "scenes/scene_10.wav",
+      "narration": "Sound travels through air at about three hundred forty meters per second. A pressure wave can cross a four hundred meter gap in little more than one second. At the portal, the wave radiates outward like a speaker cone. Low frequencies bend around buildings and travel farther. That is why the complaint comes from far away. Distance does not protect you. Geometry does.",
       "visual": {
-        "kind": "asset",
-        "component": null,
+        "kind": "component",
+        "component": "StressGauge",
         "variant": null,
         "beats": [
           {
-            "kind": "photo",
-            "files": [
-              "assets/images/pcb_macro.jpg"
-            ],
-            "layout": "single",
-            "label": "pin count / board area"
+            "kind": "cad",
+            "files": [],
+            "layout": "full",
+            "label": "scene_10 beat 1"
           },
           {
-            "kind": "video",
-            "files": [
-              "assets/video/mixkit_electronics_assembly_line.mp4"
-            ],
-            "layout": "single",
-            "label": "board assembly"
+            "kind": "cad",
+            "files": [],
+            "layout": "full",
+            "label": "scene_10 beat 2"
           },
           {
-            "kind": "background",
-            "files": [
-              "assets/backgrounds/cad_gpu_hbm.jpg",
-              "assets/images/silicon_interposer.jpg"
-            ],
-            "layout": "background",
-            "label": "why the bus cannot grow"
+            "kind": "cad",
+            "files": [],
+            "layout": "full",
+            "label": "scene_10 beat 3"
           }
         ]
       },
       "badge": {
-        "text": "PIN COUNT",
-        "start": 1.0,
-        "duration": 3.0,
+        "text": "SPEED OF SOUND",
+        "start": 0.183,
+        "duration": 3.2,
         "accent": "cyan"
       },
       "jcut": {
-        "file": "audio/sfx/sfx_crisp_transition.mp3",
-        "offset_frames": 30
-      },
-      "sfx": null,
-      "beat_sfx": []
-    },
-    {
-      "id": "scene-10",
-      "number": 10,
-      "start": 233.690042,
-      "duration": 26.277,
-      "audio_file": "scenes/scene_10.wav",
-      "narration": "The way out was to stop treating memory as a board-level part. Put it directly on the processor package. Stack the memory dies vertically, connect them with microscopic vias, and join the stack to the GPU through a silicon interposer. That idea became high bandwidth memory. The distance collapses from centimetres to millimetres, and the energy cost collapses with it. But the stack creates a new problem. How do you build it without destroying yield.",
-      "visual": {
-        "kind": "component",
-        "component": "LayerStackDiagram",
-        "variant": "package",
-        "beats": [
-          {
-            "kind": "component",
-            "label": "Exploded HBM stack"
-          },
-          {
-            "kind": "component",
-            "label": "TSV array / die thinning"
-          },
-          {
-            "kind": "component",
-            "label": "Silicon interposer / 2.5D"
-          }
-        ]
-      },
-      "badge": {
-        "text": "HBM",
-        "start": 1.0,
-        "duration": 3.0,
-        "accent": "cyan"
-      },
-      "jcut": {
-        "file": "audio/sfx/sfx_data_whoosh.mp3",
+        "file": "audio/sfx/sfx_warning_pulse.mp3",
         "offset_frames": 30
       },
       "sfx": null,
@@ -467,33 +459,39 @@
     {
       "id": "scene-11",
       "number": 11,
-      "start": 259.967042,
-      "duration": 26.782,
+      "start": 195.73,
+      "duration": 22.125,
       "audio_file": "scenes/scene_11.wav",
-      "narration": "Inside the stack, the dies are connected by through silicon vias, or TSVs. These are microscopic holes drilled through each memory die and filled with copper. Thousands run vertically through the stack, carrying power, data, and control signals. The dies must be thinned to a fraction of a millimetre, aligned with micron precision, and bonded without cracking. One bad via can ruin an entire stack. Every extra layer multiplies the risk.",
+      "narration": "Tunnel shape makes it worse. A long bore with a constant cross section lets the wave steepen. A portal with a sharp edge turns more energy into sound. Two trains passing add their pulses. Old tunnels were cut for slower trains, with tighter bores and blunt portals. The faster the service, the harder the air fights back. Every design choice becomes part of the cannon.",
       "visual": {
         "kind": "component",
-        "component": "LayerStackDiagram",
-        "variant": "package",
+        "component": "MechanismBreakdown",
+        "variant": null,
         "beats": [
           {
-            "kind": "component",
-            "label": "TSV cross-section"
+            "kind": "cad",
+            "files": [],
+            "layout": "full",
+            "label": "scene_11 beat 1"
           },
           {
-            "kind": "component",
-            "label": "Via count / pitch"
+            "kind": "cad",
+            "files": [],
+            "layout": "full",
+            "label": "scene_11 beat 2"
           },
           {
-            "kind": "component",
-            "label": "Die thinning / stack height"
+            "kind": "cad",
+            "files": [],
+            "layout": "full",
+            "label": "scene_11 beat 3"
           }
         ]
       },
       "badge": {
-        "text": "10,000 TSV",
-        "start": 1.0,
-        "duration": 3.0,
+        "text": "PRESSURE GAIN",
+        "start": 7.537,
+        "duration": 3.2,
         "accent": "cyan"
       },
       "jcut": {
@@ -506,33 +504,129 @@
     {
       "id": "scene-12",
       "number": 12,
-      "start": 286.749042,
-      "duration": 25.194,
+      "start": 218.355,
+      "duration": 13.975,
       "audio_file": "scenes/scene_12.wav",
-      "narration": "The stack then sits on a silicon interposer, a piece of silicon that acts like a miniature motherboard. The interposer carries thousands of fine traces between the GPU and the memory stacks. This is called two point five D packaging, because the chips sit side by side. It is expensive, difficult, and the only practical way to deliver enough bandwidth. The interposer, not the transistor, became the bottleneck.",
+      "narration": "Boom. Not from the wheels. Not from the motor. From the air. A pressure spike leaves the tunnel and slaps the neighborhood. Four hundred meters. Windows vibrate. Glass cracks. The train never touched a thing. The air did all of it.",
       "visual": {
         "kind": "component",
-        "component": "LayerStackDiagram",
-        "variant": "package",
+        "component": "HudOverlay",
+        "variant": null,
         "beats": [
           {
-            "kind": "component",
-            "label": "Interposer top view"
+            "kind": "cad",
+            "files": [],
+            "layout": "full",
+            "label": "scene_12 beat 1"
           },
           {
-            "kind": "component",
-            "label": "GPU + HBM side by side"
+            "kind": "cad",
+            "files": [],
+            "layout": "full",
+            "label": "scene_12 beat 2"
           },
           {
-            "kind": "component",
-            "label": "CoWoS package stack"
+            "kind": "cad",
+            "files": [],
+            "layout": "full",
+            "label": "scene_12 beat 3"
           }
         ]
       },
       "badge": {
-        "text": "2.5D",
-        "start": 1.0,
-        "duration": 3.0,
+        "text": "TUNNEL BOOM",
+        "start": 0.155,
+        "duration": 3.2,
+        "accent": "orange"
+      },
+      "jcut": {
+        "file": "audio/sfx/sfx_digital_tick.mp3",
+        "offset_frames": 30
+      },
+      "sfx": null,
+      "beat_sfx": []
+    },
+    {
+      "id": "scene-13",
+      "number": 13,
+      "start": 232.46,
+      "duration": 15.1,
+      "audio_file": "scenes/scene_13.wav",
+      "narration": "Engineers tried the obvious fix. Sharpen the nose. Push the air aside sooner. But a long cone creates new problems. More weight. Crosswind instability. Tail wag. And the boom is still there. The shape was wrong, not the sharpness.",
+      "visual": {
+        "kind": "component",
+        "component": "PulseTimeline",
+        "variant": null,
+        "beats": [
+          {
+            "kind": "cad",
+            "files": [],
+            "layout": "full",
+            "label": "scene_13 beat 1"
+          },
+          {
+            "kind": "cad",
+            "files": [],
+            "layout": "full",
+            "label": "scene_13 beat 2"
+          },
+          {
+            "kind": "cad",
+            "files": [],
+            "layout": "full",
+            "label": "scene_13 beat 3"
+          }
+        ]
+      },
+      "badge": {
+        "text": "NOSE PROBLEM",
+        "start": 2.943,
+        "duration": 3.2,
+        "accent": "orange"
+      },
+      "jcut": {
+        "file": "audio/sfx/sfx_warning_pulse.mp3",
+        "offset_frames": 30
+      },
+      "sfx": null,
+      "beat_sfx": []
+    },
+    {
+      "id": "scene-14",
+      "number": 14,
+      "start": 247.56,
+      "duration": 22.55,
+      "audio_file": "scenes/scene_14.wav",
+      "narration": "Imagine sticking your hand out of a moving car and tilting it. The air does not slide cleanly. It separates, curls, and buffets your palm. A train nose works the same way. If the change in shape is too sudden, the flow breaks away. Vortices form. The train feels a sideways kick that repeats with every tunnel. That kick is the beginning of the vibration problem.",
+      "visual": {
+        "kind": "component",
+        "component": "MechanismBreakdown",
+        "variant": null,
+        "beats": [
+          {
+            "kind": "cad",
+            "files": [],
+            "layout": "full",
+            "label": "scene_14 beat 1"
+          },
+          {
+            "kind": "cad",
+            "files": [],
+            "layout": "full",
+            "label": "scene_14 beat 2"
+          },
+          {
+            "kind": "cad",
+            "files": [],
+            "layout": "full",
+            "label": "scene_14 beat 3"
+          }
+        ]
+      },
+      "badge": {
+        "text": "SHARP NOSE",
+        "start": 1.687,
+        "duration": 3.2,
         "accent": "cyan"
       },
       "jcut": {
@@ -543,125 +637,41 @@
       "beat_sfx": []
     },
     {
-      "id": "scene-13",
-      "number": 13,
-      "start": 311.943042,
-      "duration": 28.445,
-      "audio_file": "scenes/scene_13.wav",
-      "narration": "High bandwidth memory evolved through several generations. The first arrived in twenty thirteen. HBM2 doubled the stack height and data rate. HBM2E added twelve high stacks. HBM3 pushed one stack past eight hundred gigabytes per second. Then HBM3E arrived with a twelve high stack, thirty six gigabytes, and one point two terabytes per second. Each generation demanded thinner dies, more vias, and better packaging. Packaging became the hard part.",
+      "id": "scene-15",
+      "number": 15,
+      "start": 270.11,
+      "duration": 24.025,
+      "audio_file": "scenes/scene_15.wav",
+      "narration": "A blunt nose compresses the air hard and early. A needle nose compresses it gently, but it is long, heavy, and fragile in crosswinds. The ideal is a shape that changes pressure gradually without adding mass or instability. That is a narrow design window. Most early high speed trains lived outside it, and passengers felt the difference. The nose became a compromise between aerodynamics and structure.",
       "visual": {
         "kind": "component",
-        "component": "LayerStackDiagram",
-        "variant": "hbm3e",
-        "beats": [
-          {
-            "kind": "component",
-            "label": "12-Hi 36GB stack"
-          },
-          {
-            "kind": "component",
-            "label": "1.2 TB/s per stack"
-          },
-          {
-            "kind": "component",
-            "label": "8 stacks around GPU / 8 TB/s"
-          }
-        ]
-      },
-      "badge": {
-        "text": "1.2 TB/S",
-        "start": 1.0,
-        "duration": 3.0,
-        "accent": "cyan"
-      },
-      "jcut": {
-        "file": "audio/sfx/sfx_data_whoosh.mp3",
-        "offset_frames": 30
-      },
-      "sfx": null,
-      "beat_sfx": []
-    },
-    {
-      "id": "scene-14",
-      "number": 14,
-      "start": 340.388042,
-      "duration": 26.909,
-      "audio_file": "scenes/scene_14.wav",
-      "narration": "HBM3E is the generation that powered Nvidia's Blackwell accelerators. A twelve high stack holds thirty six gigabytes and delivers about one point two terabytes per second. Nvidia pairs four to eight stacks around the GPU. Total bandwidth reaches eight terabytes per second on a flagship part. That is ten times a consumer graphics card, in a package that fits on a server board. But stacking eight around one die is a packaging nightmare.",
-      "visual": {
-        "kind": "asset",
-        "component": null,
+        "component": "ScaleComparator",
         "variant": null,
         "beats": [
           {
-            "kind": "photo",
-            "files": [
-              "assets/images/hbm_package.jpg"
-            ],
-            "layout": "single",
-            "label": "real HBM package"
+            "kind": "cad",
+            "files": [],
+            "layout": "full",
+            "label": "scene_15 beat 1"
           },
           {
-            "kind": "photo",
-            "files": [
-              "assets/images/hbm_stack.png"
-            ],
-            "layout": "single",
-            "label": "HBM generations"
+            "kind": "cad",
+            "files": [],
+            "layout": "full",
+            "label": "scene_15 beat 2"
           },
           {
-            "kind": "video",
-            "files": [
-              "assets/video/mixkit_pick_and_place_circuit.mp4"
-            ],
-            "layout": "single",
-            "label": "packaging line"
+            "kind": "cad",
+            "files": [],
+            "layout": "full",
+            "label": "scene_15 beat 3"
           }
         ]
       },
       "badge": {
-        "text": "8 TB/S",
-        "start": 1.0,
-        "duration": 3.0,
-        "accent": "cyan"
-      },
-      "jcut": {
-        "file": "audio/sfx/sfx_warning_pulse.mp3",
-        "offset_frames": 30
-      },
-      "sfx": null,
-      "beat_sfx": []
-    },
-    {
-      "id": "scene-15",
-      "number": 15,
-      "start": 367.297042,
-      "duration": 24.994958,
-      "audio_file": "scenes/scene_15.wav",
-      "narration": "Stacking that many dies creates three problems at once. The first is thickness. To keep the package within a fixed height, each die must be thinned as more layers are added. The second is warpage. Thin silicon bends under heat and pressure, and a bent stack will not bond reliably. The third is heat. Every die generates power, and that heat must escape through the same narrow path. The taller the stack, the worse all three become.",
-      "visual": {
-        "kind": "component",
-        "component": "LayerStackDiagram",
-        "variant": "hbm3e",
-        "beats": [
-          {
-            "kind": "component",
-            "label": "12-Hi 36GB stack"
-          },
-          {
-            "kind": "component",
-            "label": "1.2 TB/s counter"
-          },
-          {
-            "kind": "component",
-            "label": "8 stacks / 8 TB/s total"
-          }
-        ]
-      },
-      "badge": {
-        "text": "12-HI",
-        "start": 1.0,
-        "duration": 3.0,
+        "text": "BAD TRADEOFF",
+        "start": 20.769,
+        "duration": 3.2,
         "accent": "cyan"
       },
       "jcut": {
@@ -674,46 +684,39 @@
     {
       "id": "scene-16",
       "number": 16,
-      "start": 392.292,
-      "duration": 27.368,
+      "start": 294.135,
+      "duration": 24.875,
       "audio_file": "scenes/scene_16.wav",
-      "narration": "The conventional way to hold the stack together is thermal compression non conductive film, or TC-NCF. A film of adhesive is placed between each layer, then heat and pressure bond the stack. Samsung and Micron stayed with film. SK Hynix used it too, through the second generation of HBM. But the film sits between the silicon and the heat spreader, adding thermal resistance exactly where heat needs to escape. At twelve layers, yield collapses.",
+      "narration": "At three hundred fifty kilometers per hour, a small yaw angle becomes a large side force. The train rocks. Pressure pulses from the tunnel hit the cars in sequence. Windows hum. Doors vibrate. The pantograph, the arm that touches the wire, sings at its own frequency. Engineers measured vibrations that passengers described as a shudder through the floor. Speed turns a minor shape error into a structural event.",
       "visual": {
-        "kind": "asset",
-        "component": null,
+        "kind": "component",
+        "component": "StressGauge",
         "variant": null,
         "beats": [
           {
-            "kind": "photo",
-            "files": [
-              "assets/images/silicon_wafer.jpg"
-            ],
-            "layout": "single",
-            "label": "thin wafer"
+            "kind": "cad",
+            "files": [],
+            "layout": "full",
+            "label": "scene_16 beat 1"
           },
           {
-            "kind": "video",
-            "files": [
-              "assets/video/mixkit_robot_electronics_factory.mp4"
-            ],
-            "layout": "single",
-            "label": "stacking / packaging"
+            "kind": "cad",
+            "files": [],
+            "layout": "full",
+            "label": "scene_16 beat 2"
           },
           {
-            "kind": "background",
-            "files": [
-              "assets/backgrounds/cad_wafer_tsv.jpg",
-              "assets/images/through_silicon_via.png"
-            ],
-            "layout": "background",
-            "label": "warpage / heat"
+            "kind": "cad",
+            "files": [],
+            "layout": "full",
+            "label": "scene_16 beat 3"
           }
         ]
       },
       "badge": {
-        "text": "TC-NCF",
-        "start": 1.0,
-        "duration": 3.0,
+        "text": "CAR SHAKE",
+        "start": 10.87,
+        "duration": 3.2,
         "accent": "cyan"
       },
       "jcut": {
@@ -726,73 +729,40 @@
     {
       "id": "scene-17",
       "number": 17,
-      "start": 419.66,
-      "duration": 27.523958,
+      "start": 319.01,
+      "duration": 22.85,
       "audio_file": "scenes/scene_17.wav",
-      "narration": "SK Hynix's alternative was mass reflow molded underfill, or M R MUF. Instead of a film between every layer, the entire stack is reflowed at once and filled with a liquid epoxy molding compound. The epoxy flows into the gaps and around the bumps, then hardens into a solid protective layer. Because it fills the stack, it conducts heat better and spreads stress more evenly. SK Hynix also added up to four times more thermal dummy bumps.",
+      "narration": "Wind tunnels and test trains became the only way forward. Engineers built experimental sets and pushed them past three hundred fifty. They changed the nose, the tail, the gap between cars, and the tunnel portal. Each test produced a cleaner pressure trace and a new failure. The problem was not one part. It was the whole path the air had to follow. They needed a shape from somewhere else.",
       "visual": {
         "kind": "component",
-        "component": "YieldMeter",
+        "component": "PulseTimeline",
         "variant": null,
         "beats": [
           {
-            "kind": "component",
-            "label": "Yield gauge 70% SK hynix vs competitor"
+            "kind": "cad",
+            "files": [],
+            "layout": "full",
+            "label": "scene_17 beat 1"
           },
           {
-            "kind": "component",
-            "label": "Thermal resistance / TC-NCF"
+            "kind": "cad",
+            "files": [],
+            "layout": "full",
+            "label": "scene_17 beat 2"
           },
           {
-            "kind": "component",
-            "label": "Nvidia HBM4 allocation"
+            "kind": "cad",
+            "files": [],
+            "layout": "full",
+            "label": "scene_17 beat 3"
           }
         ]
       },
       "badge": {
-        "text": "+36% HEAT",
-        "start": 1.0,
-        "duration": 3.0,
-        "accent": "orange"
-      },
-      "jcut": {
-        "file": "audio/sfx/sfx_data_whoosh.mp3",
-        "offset_frames": 30
-      },
-      "sfx": null,
-      "beat_sfx": []
-    },
-    {
-      "id": "scene-18",
-      "number": 18,
-      "start": 447.183958,
-      "duration": 26.231,
-      "audio_file": "scenes/scene_18.wav",
-      "narration": "The results were measurable. SK Hynix says its first M R MUF process improved heat dissipation by thirty six percent. For twelve high HBM3, it developed advanced M R MUF, with a new molding compound offering one point six times the heat dissipation. The process gave better warpage control and reduced pressure on each die. By HBM3E mass production, SK Hynix reported yields of seventy percent.",
-      "visual": {
-        "kind": "component",
-        "component": "YieldMeter",
-        "variant": null,
-        "beats": [
-          {
-            "kind": "component",
-            "label": "MR-MUF film vs liquid fill"
-          },
-          {
-            "kind": "component",
-            "label": "+36% / 1.6x thermal stats"
-          },
-          {
-            "kind": "component",
-            "label": "Yield meter to 70%"
-          }
-        ]
-      },
-      "badge": {
-        "text": "70% YIELD",
-        "start": 1.0,
-        "duration": 3.0,
-        "accent": "orange"
+        "text": "TEST TRAINS",
+        "start": 1.002,
+        "duration": 3.2,
+        "accent": "cyan"
       },
       "jcut": {
         "file": "audio/sfx/sfx_digital_tick.mp3",
@@ -802,36 +772,87 @@
       "beat_sfx": []
     },
     {
-      "id": "scene-19",
-      "number": 19,
-      "start": 473.414958,
-      "duration": 25.557042,
-      "audio_file": "scenes/scene_19.wav",
-      "narration": "That yield number is the heart of the story. A memory stack is useless if only half the finished units work. Nvidia needs millions of stacks, on schedule, reliable for years in a data center. SK Hynix could deliver them at volume. Samsung struggled with heat and yield on early HBM3E. The result was not a permanent monopoly, but close enough. Nvidia gave the largest share to the supplier that could actually ship.",
+      "id": "scene-18",
+      "number": 18,
+      "start": 342.36,
+      "duration": 16.625,
+      "audio_file": "scenes/scene_18.wav",
+      "narration": "Longer nose. Less boom. Wrong shape. More shake. The wind tunnel kept saying no. At three hundred fifty kilometers per hour, the pressure pulse was still too strong. A blunt face hammered the air. A needle face wandered in crosswinds. Then an engineer looked at a bird.",
       "visual": {
         "kind": "component",
-        "component": "YieldMeter",
+        "component": "HudOverlay",
         "variant": null,
         "beats": [
           {
-            "kind": "component",
-            "label": "Yield comparison"
+            "kind": "cad",
+            "files": [],
+            "layout": "full",
+            "label": "scene_18 beat 1"
           },
           {
-            "kind": "component",
-            "label": "Millions of stacks / schedule"
+            "kind": "cad",
+            "files": [],
+            "layout": "full",
+            "label": "scene_18 beat 2"
           },
           {
-            "kind": "component",
-            "label": "Nvidia allocation bar"
+            "kind": "cad",
+            "files": [],
+            "layout": "full",
+            "label": "scene_18 beat 3"
           }
         ]
       },
       "badge": {
-        "text": "YIELD MOAT",
-        "start": 1.0,
-        "duration": 3.0,
+        "text": "AERO DEAD END",
+        "start": 3.811,
+        "duration": 3.2,
         "accent": "orange"
+      },
+      "jcut": {
+        "file": "audio/sfx/sfx_warning_pulse.mp3",
+        "offset_frames": 30
+      },
+      "sfx": null,
+      "beat_sfx": []
+    },
+    {
+      "id": "scene-19",
+      "number": 19,
+      "start": 358.985,
+      "duration": 24.2,
+      "audio_file": "scenes/scene_19.wav",
+      "narration": "Eiji Nakatsu worked for West Japan Railway and spent his weekends watching birds. The kingfisher dives from a branch into water. It crosses the surface without a splash because its beak changes shape gradually. No sharp step. No sudden pressure rise. Water and air part around it with almost no disturbance. Nakatsu saw a pressure problem solved by evolution. The bird was not fast. It was smooth.",
+      "visual": {
+        "kind": "component",
+        "component": "MechanismBreakdown",
+        "variant": null,
+        "beats": [
+          {
+            "kind": "cad",
+            "files": [],
+            "layout": "full",
+            "label": "scene_19 beat 1"
+          },
+          {
+            "kind": "cad",
+            "files": [],
+            "layout": "full",
+            "label": "scene_19 beat 2"
+          },
+          {
+            "kind": "cad",
+            "files": [],
+            "layout": "full",
+            "label": "scene_19 beat 3"
+          }
+        ]
+      },
+      "badge": {
+        "text": "KINGFISHER BEAK",
+        "start": 5.023,
+        "duration": 3.2,
+        "accent": "cyan"
       },
       "jcut": {
         "file": "audio/sfx/sfx_crisp_transition.mp3",
@@ -843,52 +864,43 @@
     {
       "id": "scene-20",
       "number": 20,
-      "start": 498.972,
-      "duration": 27.21,
+      "start": 383.185,
+      "duration": 22.175,
       "audio_file": "scenes/scene_20.wav",
-      "narration": "Here is the allocation that makes the chokepoint visible. TrendForce and Korean media reported that Nvidia's first HBM4 volume split gave SK Hynix the mid fifty percent range, Samsung the mid twenty percent range, and Micron around twenty percent. That is not a textbook monopoly. It is a chokehold. The largest customer cannot diversify faster than its second supplier can fix yield. And that is exactly what Samsung set out to do.",
+      "narration": "The beak became a nose. The team stretched the front of the train to about fifteen meters and shaped it so the cross section grows slowly. Air no longer meets a wall. It meets a gentle curve. The compression wave spreads over a longer distance, so its peak is lower. The same train, the same tunnel, a completely different pressure history. That is the difference between a shove and a squeeze.",
       "visual": {
-        "kind": "asset",
-        "component": null,
+        "kind": "component",
+        "component": "ScaleComparator",
         "variant": null,
         "beats": [
           {
-            "kind": "collage",
-            "files": [
-              "assets/images/sk_hynix_logo.png",
-              "assets/images/samsung_logo.png",
-              "assets/images/micron_logo_white.png"
-            ],
-            "layout": "collage",
-            "label": "HBM4 allocation"
+            "kind": "cad",
+            "files": [],
+            "layout": "full",
+            "label": "scene_20 beat 1"
           },
           {
-            "kind": "video",
-            "files": [
-              "assets/video/mixkit_data_center_hallway.mp4"
-            ],
-            "layout": "single",
-            "label": "demand at scale"
+            "kind": "cad",
+            "files": [],
+            "layout": "full",
+            "label": "scene_20 beat 2"
           },
           {
-            "kind": "background",
-            "files": [
-              "assets/backgrounds/cad_supply_chain.jpg",
-              "assets/images/nvidia_logo.png"
-            ],
-            "layout": "background",
-            "label": "customer dependence"
+            "kind": "cad",
+            "files": [],
+            "layout": "full",
+            "label": "scene_20 beat 3"
           }
         ]
       },
       "badge": {
-        "text": "MID-50%",
-        "start": 1.0,
-        "duration": 3.0,
+        "text": "FIFTEEN METERS",
+        "start": 3.95,
+        "duration": 3.2,
         "accent": "cyan"
       },
       "jcut": {
-        "file": "audio/sfx/sfx_data_whoosh.mp3",
+        "file": "audio/sfx/sfx_digital_tick.mp3",
         "offset_frames": 30
       },
       "sfx": null,
@@ -897,46 +909,39 @@
     {
       "id": "scene-21",
       "number": 21,
-      "start": 526.182,
-      "duration": 27.478958,
+      "start": 405.36,
+      "duration": 23.3,
       "audio_file": "scenes/scene_21.wav",
-      "narration": "The irony is that SK Hynix nearly went bankrupt before the boom. In twenty twenty three, the memory market collapsed. Prices fell, inventories piled up, and the company reported an operating loss of more than seven point seven trillion Korean won. It was the kind of year that forces a memory maker to retreat. SK Hynix did the opposite. It kept betting on high bandwidth memory, advanced packaging, and the idea that AI would eventually need far more memory.",
+      "narration": "The result was the five hundred series Shinkansen. Its long nose did more than look strange. It cut energy use by about fifteen percent and raised speed by about ten. It also made the train quieter. In service it ran at three hundred kilometers per hour, with a design speed of three hundred twenty. The next generation was already aiming higher. The shape was doing work no motor could do.",
       "visual": {
-        "kind": "asset",
-        "component": null,
+        "kind": "component",
+        "component": "StressGauge",
         "variant": null,
         "beats": [
           {
-            "kind": "video",
-            "files": [
-              "assets/video/mixkit_server_room_alarm.mp4"
-            ],
-            "layout": "single",
-            "label": "2023 memory crash"
+            "kind": "cad",
+            "files": [],
+            "layout": "full",
+            "label": "scene_21 beat 1"
           },
           {
-            "kind": "photo",
-            "files": [
-              "assets/images/data_center_racks.jpg"
-            ],
-            "layout": "single",
-            "label": "loss chart"
+            "kind": "cad",
+            "files": [],
+            "layout": "full",
+            "label": "scene_21 beat 2"
           },
           {
-            "kind": "photo",
-            "files": [
-              "assets/images/sk_hynix_logo.png",
-              "assets/images/hbm_package.jpg"
-            ],
-            "layout": "split",
-            "label": "SK hynix bet"
+            "kind": "cad",
+            "files": [],
+            "layout": "full",
+            "label": "scene_21 beat 3"
           }
         ]
       },
       "badge": {
-        "text": "-7.7T KRW",
-        "start": 1.0,
-        "duration": 3.0,
+        "text": "FIVE HUNDRED SERIES",
+        "start": 1.545,
+        "duration": 3.2,
         "accent": "cyan"
       },
       "jcut": {
@@ -949,99 +954,39 @@
     {
       "id": "scene-22",
       "number": 22,
-      "start": 553.660958,
-      "duration": 27.101,
+      "start": 428.66,
+      "duration": 22.25,
       "audio_file": "scenes/scene_22.wav",
-      "narration": "The bet paid off faster than expected. In twenty twenty four, SK Hynix reported an operating profit of twenty three point five trillion won. In twenty twenty five, operating profit nearly doubled to forty seven point two trillion won, on revenue of ninety seven trillion won. High bandwidth memory grew into more than forty percent of its DRAM revenue. A commodity cyclical became the most profitable supplier in the AI supply chain.",
+      "narration": "The nose was not the whole fix. Portals gained hoods and vents that let pressure bleed away before it reached open air. Tunnels were widened. Track and train were tuned together. But the nose was the visible symbol of a new idea. Instead of forcing the air to obey, engineers gave it a path. That path came from a bird. Nature had already run the simulation for millions of years.",
       "visual": {
-        "kind": "asset",
-        "component": null,
+        "kind": "component",
+        "component": "PulseTimeline",
         "variant": null,
         "beats": [
           {
-            "kind": "photo",
-            "files": [
-              "assets/images/nvidia_headquarters.jpg"
-            ],
-            "layout": "single",
-            "label": "AI demand"
+            "kind": "cad",
+            "files": [],
+            "layout": "full",
+            "label": "scene_22 beat 1"
           },
           {
-            "kind": "video",
-            "files": [
-              "assets/video/mixkit_data_center_blue_hallway.mp4"
-            ],
-            "layout": "single",
-            "label": "data center buildout"
+            "kind": "cad",
+            "files": [],
+            "layout": "full",
+            "label": "scene_22 beat 2"
           },
           {
-            "kind": "photo",
-            "files": [
-              "assets/images/sk_hynix_logo.png",
-              "assets/images/sk_hynix_mrdimm.jpg"
-            ],
-            "layout": "split",
-            "label": "SK hynix profit"
+            "kind": "cad",
+            "files": [],
+            "layout": "full",
+            "label": "scene_22 beat 3"
           }
         ]
       },
       "badge": {
-        "text": "47.2T KRW",
-        "start": 1.0,
-        "duration": 3.0,
-        "accent": "cyan"
-      },
-      "jcut": {
-        "file": "audio/sfx/sfx_crisp_transition.mp3",
-        "offset_frames": 30
-      },
-      "sfx": null,
-      "beat_sfx": []
-    },
-    {
-      "id": "scene-23",
-      "number": 23,
-      "start": 580.761958,
-      "duration": 28.213042,
-      "audio_file": "scenes/scene_23.wav",
-      "narration": "High bandwidth memory is also a different business from ordinary DRAM. It consumes at least twice the wafer capacity of standard memory for the same output, because of stacking and packaging. Every bit of HBM displaces two bits of commodity DRAM. When demand surges, supply cannot respond quickly. Fabs take years to build, and packaging lines take months to qualify. The result is pricing power commodity memory never enjoyed, and a shortage downstream.",
-      "visual": {
-        "kind": "asset",
-        "component": null,
-        "variant": null,
-        "beats": [
-          {
-            "kind": "photo",
-            "files": [
-              "assets/images/asml_containers.jpg"
-            ],
-            "layout": "single",
-            "label": "equipment / capacity"
-          },
-          {
-            "kind": "video",
-            "files": [
-              "assets/video/mixkit_electronics_assembly_line.mp4"
-            ],
-            "layout": "single",
-            "label": "packaging lines"
-          },
-          {
-            "kind": "background",
-            "files": [
-              "assets/backgrounds/cad_supply_chain.jpg",
-              "assets/images/silicon_wafer.jpg",
-              "assets/images/dram_chip.jpg"
-            ],
-            "layout": "background",
-            "label": "2x wafer capacity"
-          }
-        ]
-      },
-      "badge": {
-        "text": "2x WAFER",
-        "start": 1.0,
-        "duration": 3.0,
+        "text": "TUNNEL HOODS",
+        "start": 2.793,
+        "duration": 3.2,
         "accent": "cyan"
       },
       "jcut": {
@@ -1052,139 +997,41 @@
       "beat_sfx": []
     },
     {
-      "id": "scene-24",
-      "number": 24,
-      "start": 608.975,
-      "duration": 28.943958,
-      "audio_file": "scenes/scene_24.wav",
-      "narration": "Geography amplifies the concentration. SK Hynix produces DRAM in Icheon and Cheongju, South Korea. Its newest fab, M15X in Cheongju, represents an investment of more than twenty trillion won and is designed to ramp HBM capacity. A much larger cluster is rising in Yongin, with a first fab targeted for twenty twenty seven. Advanced packaging lines are being added in Cheongju and Indiana. A single disruption here can move the entire AI roadmap.",
-      "visual": {
-        "kind": "asset",
-        "component": null,
-        "variant": null,
-        "beats": [
-          {
-            "kind": "photo",
-            "files": [
-              "assets/images/south_korea_map.png"
-            ],
-            "layout": "single",
-            "label": "Icheon / Cheongju / Yongin"
-          },
-          {
-            "kind": "video",
-            "files": [
-              "assets/video/mixkit_robot_electronics_factory.mp4"
-            ],
-            "layout": "single",
-            "label": "fab / packaging"
-          },
-          {
-            "kind": "photo",
-            "files": [
-              "assets/images/cleanroom.jpg",
-              "assets/images/semiconductor_fab.jpg"
-            ],
-            "layout": "split",
-            "label": "concentration risk"
-          }
-        ]
-      },
-      "badge": {
-        "text": "M15X / YONGIN",
-        "start": 1.0,
-        "duration": 3.0,
-        "accent": "cyan"
-      },
-      "jcut": {
-        "file": "audio/sfx/sfx_data_whoosh.mp3",
-        "offset_frames": 30
-      },
-      "sfx": null,
-      "beat_sfx": []
-    },
-    {
-      "id": "scene-25",
-      "number": 25,
-      "start": 637.918958,
-      "duration": 27.637,
-      "audio_file": "scenes/scene_25.wav",
-      "narration": "There is a second chokepoint, and it is not in Korea. The GPU and its memory stacks are assembled on a silicon interposer through CoWoS. That process belongs to TSMC. Starting with HBM4, the memory's base die is also built on a logic process, which brings TSMC deeper into memory. Nvidia can design the accelerator, but it cannot ship it without Korean memory and Taiwanese packaging. Every side of this triangle is a bottleneck.",
+      "id": "scene-23",
+      "number": 23,
+      "start": 451.41,
+      "duration": 24.775,
+      "audio_file": "scenes/scene_23.wav",
+      "narration": "Bird beats brute force. Fifteen meters of beak. Thirty percent less noise. That is the number that changed the argument. Not more power. Not thicker concrete. A softer pressure gradient. The train still compresses the air. It still makes a wave. But the wave arrives gently enough that the tunnel can swallow it. The invisible wall did not disappear. It was reshaped. And the same trick works wherever a fast object meets a narrow passage.",
       "visual": {
         "kind": "component",
-        "component": "SupplyChainMap",
+        "component": "HudOverlay",
         "variant": null,
         "beats": [
           {
-            "kind": "component",
-            "label": "Korea → Taiwan → USA triangle"
+            "kind": "cad",
+            "files": [],
+            "layout": "full",
+            "label": "scene_23 beat 1"
           },
           {
-            "kind": "component",
-            "label": "CoWoS package flow"
+            "kind": "cad",
+            "files": [],
+            "layout": "full",
+            "label": "scene_23 beat 2"
           },
           {
-            "kind": "component",
-            "label": "HBM4 logic base die"
+            "kind": "cad",
+            "files": [],
+            "layout": "full",
+            "label": "scene_23 beat 3"
           }
         ]
       },
       "badge": {
-        "text": "CoWoS",
-        "start": 1.0,
-        "duration": 3.0,
-        "accent": "cyan"
-      },
-      "jcut": {
-        "file": "audio/sfx/sfx_crisp_transition.mp3",
-        "offset_frames": 30
-      },
-      "sfx": null,
-      "beat_sfx": []
-    },
-    {
-      "id": "scene-26",
-      "number": 26,
-      "start": 665.555958,
-      "duration": 25.912,
-      "audio_file": "scenes/scene_26.wav",
-      "narration": "Samsung did not stand still. By twenty twenty six, reports put its HBM4 yield near eighty percent, up from below sixty percent at the start of mass production. It combined sixth generation DRAM with a four nanometre logic die and pushed data rates higher. That is a real comeback. But it arrived after years of yield learning, and Nvidia had already locked in volume. The lead is not permanent, but it is expensive to erase.",
-      "visual": {
-        "kind": "asset",
-        "component": null,
-        "variant": null,
-        "beats": [
-          {
-            "kind": "photo",
-            "files": [
-              "assets/images/samsung_logo.png",
-              "assets/images/sk_hynix_logo.png"
-            ],
-            "layout": "split",
-            "label": "Samsung vs SK hynix"
-          },
-          {
-            "kind": "photo",
-            "files": [
-              "assets/images/hbm_package.jpg"
-            ],
-            "layout": "single",
-            "label": "HBM package"
-          },
-          {
-            "kind": "video",
-            "files": [
-              "assets/video/mixkit_circuit_board_macro.mp4"
-            ],
-            "layout": "single",
-            "label": "yield race"
-          }
-        ]
-      },
-      "badge": {
-        "text": "80% YIELD",
-        "start": 1.0,
-        "duration": 3.0,
+        "text": "THIRTY PERCENT",
+        "start": 3.585,
+        "duration": 3.2,
         "accent": "orange"
       },
       "jcut": {
@@ -1195,382 +1042,45 @@
       "beat_sfx": []
     },
     {
-      "id": "scene-27",
-      "number": 27,
-      "start": 691.467958,
-      "duration": 26.705,
-      "audio_file": "scenes/scene_27.wav",
-      "narration": "Now the next generation is here. HBM4 doubles the interface from one thousand and twenty four bits to two thousand and forty eight bits. It supports sixteen stacked dies, thirty six gigabytes at twelve high and forty eight gigabytes at sixteen high, and delivers around two terabytes per second per stack. SK Hynix completed development first and is ramping production for Vera Rubin. The bandwidth doubles again, and so does the packaging difficulty.",
+      "id": "scene-24",
+      "number": 24,
+      "start": 476.315,
+      "duration": 20.025,
+      "audio_file": "scenes/scene_24.wav",
+      "narration": "The fastest trains did not beat the air. They learned to enter it without a shock. The tunnel boom became a design problem, then a bird shaped answer, then a quieter ride. That same physics appears underwater, where a collapsing bubble can reach one thousand one hundred atmospheres. The next wall is deeper, and it is already collapsing. ---",
       "visual": {
         "kind": "component",
-        "component": "LayerStackDiagram",
-        "variant": "hbm4",
-        "beats": [
-          {
-            "kind": "component",
-            "label": "2048-bit HBM4 interface"
-          },
-          {
-            "kind": "component",
-            "label": "12-Hi 36GB vs 16-Hi 48GB"
-          },
-          {
-            "kind": "component",
-            "label": "2 TB/s per stack / Vera Rubin"
-          }
-        ]
-      },
-      "badge": {
-        "text": "2 TB/S",
-        "start": 1.0,
-        "duration": 3.0,
-        "accent": "cyan"
-      },
-      "jcut": {
-        "file": "audio/sfx/sfx_data_whoosh.mp3",
-        "offset_frames": 30
-      },
-      "sfx": null,
-      "beat_sfx": []
-    },
-    {
-      "id": "scene-28",
-      "number": 28,
-      "start": 718.172958,
-      "duration": 28.643,
-      "audio_file": "scenes/scene_28.wav",
-      "narration": "Beyond HBM4, the industry is preparing to remove the solder bumps entirely. The technique is called hybrid bonding. Instead of connecting chips through microscopic solder balls, hybrid bonding presses two surfaces together so copper pads fuse directly to copper. The pitch shrinks from around twenty microns to below one micron. That means more connections, shorter paths, less heat, and sixteen or more dies. SK Hynix has already validated twelve high hybrid bonding.",
-      "visual": {
-        "kind": "component",
-        "component": "LayerStackDiagram",
-        "variant": "bonding",
-        "beats": [
-          {
-            "kind": "component",
-            "label": "Solder bump vs Cu–Cu"
-          },
-          {
-            "kind": "component",
-            "label": "Pitch 20 µm → <1 µm"
-          },
-          {
-            "kind": "component",
-            "label": "16-Hi hybrid bonding"
-          }
-        ]
-      },
-      "badge": {
-        "text": "<1 µm",
-        "start": 1.0,
-        "duration": 3.0,
-        "accent": "cyan"
-      },
-      "jcut": {
-        "file": "audio/sfx/sfx_digital_tick.mp3",
-        "offset_frames": 30
-      },
-      "sfx": null,
-      "beat_sfx": []
-    },
-    {
-      "id": "scene-29",
-      "number": 29,
-      "start": 746.815958,
-      "duration": 25.242,
-      "audio_file": "scenes/scene_29.wav",
-      "narration": "But hybrid bonding is not a free lunch. Copper expands when heated, and the surfaces must be almost perfectly flat and clean. A single particle can create a void across an entire interface. The equipment is expensive and the yield curve is steep. That is why the industry is delaying the transition where it can. The physical limit is no longer the transistor. It is the wire, the bump, the adhesive, and the heat.",
-      "visual": {
-        "kind": "asset",
-        "component": null,
+        "component": "HudOverlay",
         "variant": null,
         "beats": [
           {
-            "kind": "photo",
-            "files": [
-              "assets/images/lithography_machine.jpg"
-            ],
-            "layout": "single",
-            "label": "cleanroom limits"
+            "kind": "cad",
+            "files": [],
+            "layout": "full",
+            "label": "scene_24 beat 1"
           },
           {
-            "kind": "video",
-            "files": [
-              "assets/video/mixkit_pick_and_place_circuit.mp4"
-            ],
-            "layout": "single",
-            "label": "placement precision"
+            "kind": "cad",
+            "files": [],
+            "layout": "full",
+            "label": "scene_24 beat 2"
           },
           {
-            "kind": "background",
-            "files": [
-              "assets/backgrounds/cad_wafer_tsv.jpg",
-              "assets/images/through_silicon_via.png"
-            ],
-            "layout": "background",
-            "label": "copper / heat limit"
+            "kind": "cad",
+            "files": [],
+            "layout": "full",
+            "label": "scene_24 beat 3"
           }
         ]
       },
       "badge": {
-        "text": "16-HI",
-        "start": 1.0,
-        "duration": 3.0,
-        "accent": "cyan"
+        "text": "NEXT PRESSURE",
+        "start": 11.605,
+        "duration": 3.2,
+        "accent": "orange"
       },
       "jcut": {
         "file": "audio/sfx/sfx_warning_pulse.mp3",
-        "offset_frames": 30
-      },
-      "sfx": null,
-      "beat_sfx": []
-    },
-    {
-      "id": "scene-30",
-      "number": 30,
-      "start": 772.057958,
-      "duration": 28.365959,
-      "audio_file": "scenes/scene_30.wav",
-      "narration": "Solving the memory stack moves the bottleneck again. The GPU, the HBM stacks, and the base die must be assembled on a silicon interposer, and that interposer is getting larger and more expensive. TSMC's CoWoS capacity is finite. A single large package can consume an entire production slot, and yield falls as the interposer grows. Nvidia can design the chip, and SK Hynix can build the memory. But without enough advanced packaging, neither can ship.",
-      "visual": {
-        "kind": "component",
-        "component": "SupplyChainMap",
-        "variant": null,
-        "beats": [
-          {
-            "kind": "component",
-            "label": "CoWoS capacity wall"
-          },
-          {
-            "kind": "component",
-            "label": "Larger interposer / lower yield"
-          },
-          {
-            "kind": "component",
-            "label": "Packaging is the new bottleneck"
-          }
-        ]
-      },
-      "badge": {
-        "text": "CoWoS WALL",
-        "start": 1.0,
-        "duration": 3.0,
-        "accent": "cyan"
-      },
-      "jcut": {
-        "file": "audio/sfx/sfx_crisp_transition.mp3",
-        "offset_frames": 30
-      },
-      "sfx": null,
-      "beat_sfx": []
-    },
-    {
-      "id": "scene-31",
-      "number": 31,
-      "start": 800.423917,
-      "duration": 26.446,
-      "audio_file": "scenes/scene_31.wav",
-      "narration": "There is also a materials layer that almost nobody sees. The most advanced lithography depends on photoresists from a handful of Japanese suppliers, including JSR, Tokyo Ohka, and Shin-Etsu. Those chemicals help pattern the logic and memory die. A disruption in Japan, a fire in a single plant, or an export control can ripple through Korea and Taiwan. The AI supply chain is not a triangle. It is a stack of dependencies.",
-      "visual": {
-        "kind": "asset",
-        "component": null,
-        "variant": null,
-        "beats": [
-          {
-            "kind": "photo",
-            "files": [
-              "assets/images/microchip_die.jpg"
-            ],
-            "layout": "single",
-            "label": "patterned die"
-          },
-          {
-            "kind": "photo",
-            "files": [
-              "assets/images/cleanroom.jpg"
-            ],
-            "layout": "single",
-            "label": "cleanroom materials"
-          },
-          {
-            "kind": "photo",
-            "files": [
-              "assets/images/asml_containers.jpg",
-              "assets/images/silicon_wafer.jpg"
-            ],
-            "layout": "split",
-            "label": "Japanese photoresists"
-          }
-        ]
-      },
-      "badge": {
-        "text": "EUV MATERIALS",
-        "start": 1.0,
-        "duration": 3.0,
-        "accent": "cyan"
-      },
-      "jcut": {
-        "file": "audio/sfx/sfx_data_glitch.mp3",
-        "offset_frames": 30
-      },
-      "sfx": null,
-      "beat_sfx": []
-    },
-    {
-      "id": "scene-32",
-      "number": 32,
-      "start": 826.869917,
-      "duration": 26.888,
-      "audio_file": "scenes/scene_32.wav",
-      "narration": "That is the real lesson. The AI boom is usually told as a story about compute. But every leap in compute exposes a new physical limit somewhere else. Moving memory onto the package solved bandwidth, but created a packaging bottleneck. Stacking more dies solved capacity, but created a heat and yield problem. Hybrid bonding solves the solder bump, but creates a cleanliness and copper expansion problem. Each answer becomes the next question.",
-      "visual": {
-        "kind": "asset",
-        "component": null,
-        "variant": null,
-        "beats": [
-          {
-            "kind": "background",
-            "files": [
-              "assets/backgrounds/cad_supply_chain.jpg",
-              "assets/images/nvidia_logo.png",
-              "assets/images/sk_hynix_logo.png"
-            ],
-            "layout": "background",
-            "label": "dependency stack"
-          },
-          {
-            "kind": "video",
-            "files": [
-              "assets/video/mixkit_fiber_optics_server_room.mp4"
-            ],
-            "layout": "single",
-            "label": "next frontier"
-          },
-          {
-            "kind": "photo",
-            "files": [
-              "assets/images/semiconductor_fab.jpg",
-              "assets/images/silicon_wafer.jpg"
-            ],
-            "layout": "split",
-            "label": "physical limits"
-          }
-        ]
-      },
-      "badge": {
-        "text": "DEPENDENCY STACK",
-        "start": 1.0,
-        "duration": 3.0,
-        "accent": "cyan"
-      },
-      "jcut": {
-        "file": "audio/sfx/sfx_digital_tick.mp3",
-        "offset_frames": 30
-      },
-      "sfx": null,
-      "beat_sfx": []
-    },
-    {
-      "id": "scene-33",
-      "number": 33,
-      "start": 853.757917,
-      "duration": 25.407,
-      "audio_file": "scenes/scene_33.wav",
-      "narration": "The companies that win are not always the ones with the best chip. They are the ones that control the physical path between compute and data. Nvidia designs the brain. SK Hynix builds the memory that feeds it. TSMC packages the two together. Japanese chemical makers supply the materials for patterning.  That is why a memory company in Korea can hold leverage over the most valuable chip company in the world.",
-      "visual": {
-        "kind": "asset",
-        "component": null,
-        "variant": null,
-        "beats": [
-          {
-            "kind": "collage",
-            "files": [
-              "assets/images/nvidia_logo.png",
-              "assets/images/sk_hynix_logo.png",
-              "assets/images/tsmc_fab18.jpg"
-            ],
-            "layout": "collage",
-            "label": "the chokepoint"
-          },
-          {
-            "kind": "video",
-            "files": [
-              "assets/video/mixkit_data_center_hallway.mp4"
-            ],
-            "layout": "single",
-            "label": "demand at scale"
-          },
-          {
-            "kind": "photo",
-            "files": [
-              "assets/images/data_center_servers.jpg"
-            ],
-            "layout": "single",
-            "label": "the AI boom"
-          }
-        ]
-      },
-      "badge": {
-        "text": "CHOKEPOINT",
-        "start": 1.0,
-        "duration": 3.0,
-        "accent": "cyan"
-      },
-      "jcut": {
-        "file": "audio/sfx/sfx_warning_pulse.mp3",
-        "offset_frames": 30
-      },
-      "sfx": null,
-      "beat_sfx": []
-    },
-    {
-      "id": "scene-34",
-      "number": 34,
-      "start": 879.164917,
-      "duration": 27.593,
-      "audio_file": "scenes/scene_34.wav",
-      "narration": "And that is where the story turns. Solving HBM4 with hybrid bonding does not end the bottleneck. It moves the constraint to advanced packaging, where interposer size, CoWoS capacity, and materials purity decide how fast AI can scale. The next episode follows that trail. How TSMC's packaging lines and Japan's photoresists became the quiet gatekeepers of the AI boom. The memory wall is behind us. The packaging wall is next.",
-      "visual": {
-        "kind": "asset",
-        "component": null,
-        "variant": null,
-        "beats": [
-          {
-            "kind": "background",
-            "files": [
-              "assets/backgrounds/cad_supply_chain.jpg",
-              "assets/images/tsmc_fab18.jpg",
-              "assets/images/lithography_machine.jpg"
-            ],
-            "layout": "background",
-            "label": "packaging wall"
-          },
-          {
-            "kind": "video",
-            "files": [
-              "assets/video/mixkit_fiber_optics_server_room.mp4"
-            ],
-            "layout": "single",
-            "label": "next episode"
-          },
-          {
-            "kind": "photo",
-            "files": [
-              "assets/images/silicon_wafer.jpg",
-              "assets/images/semiconductor_fab.jpg"
-            ],
-            "layout": "split",
-            "label": "next wall"
-          }
-        ]
-      },
-      "badge": {
-        "text": "NEXT WALL",
-        "start": 1.0,
-        "duration": 3.0,
-        "accent": "cyan"
-      },
-      "jcut": {
-        "file": "audio/sfx/sfx_crisp_transition.mp3",
         "offset_frames": 30
       },
       "sfx": null,

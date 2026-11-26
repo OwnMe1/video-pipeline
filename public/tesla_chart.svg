@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <defs>
+    <linearGradient id="area" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ff3b30" stop-opacity="0.42"/>
+      <stop offset="100%" stop-color="#ff3b30" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ff8a5b"/>
+      <stop offset="55%" stop-color="#ff3b30"/>
+      <stop offset="100%" stop-color="#e01020"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="10" result="b"/>
+      <feMerge>
+        <feMergeNode in="b"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect x="0" y="0" width="1600" height="900" fill="#0a111e"/>
+
+  <g stroke="#22304a" stroke-width="2" opacity="0.85">
+    <line x1="140" y1="178" x2="1500" y2="178"/>
+    <line x1="140" y1="324" x2="1500" y2="324"/>
+    <line x1="140" y1="469" x2="1500" y2="469"/>
+    <line x1="140" y1="615" x2="1500" y2="615"/>
+    <line x1="140" y1="760" x2="1500" y2="760"/>
+  </g>
+
+  <g fill="#7d8aa3" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="600" text-anchor="end">
+    <text x="116" y="188">100%</text>
+    <text x="116" y="334">75%</text>
+    <text x="116" y="479">50%</text>
+    <text x="116" y="625">25%</text>
+    <text x="116" y="770">0%</text>
+  </g>
+
+  <g fill="#6c7a92" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="600" text-anchor="middle">
+    <text x="140" y="812">JAN</text>
+    <text x="310" y="812">FEB</text>
+    <text x="480" y="812">MAR</text>
+    <text x="650" y="812">APR</text>
+    <text x="820" y="812">MAY</text>
+    <text x="990" y="812">JUN</text>
+    <text x="1160" y="812">JUL</text>
+    <text x="1330" y="812">AUG</text>
+    <text x="1500" y="812">SEP</text>
+  </g>
+
+  <path d="M140,760 L140,178 L310,219 L480,260 L650,236 L820,341 L990,411 L1160,481 L1330,516 L1500,562 L1500,760 Z"
+        fill="url(#area)"/>
+
+  <path d="M140,178 L310,219 L480,260 L650,236 L820,341 L990,411 L1160,481 L1330,516 L1500,562"
+        fill="none" stroke="url(#line)" stroke-width="9" stroke-linecap="round"
+        stroke-linejoin="round" filter="url(#glow)"/>
+
+  <g fill="#0a111e" stroke="#ff3b30" stroke-width="6">
+    <circle cx="140" cy="178" r="9"/>
+    <circle cx="310" cy="219" r="9"/>
+    <circle cx="480" cy="260" r="9"/>
+    <circle cx="650" cy="236" r="9"/>
+    <circle cx="820" cy="341" r="9"/>
+    <circle cx="990" cy="411" r="9"/>
+    <circle cx="1160" cy="481" r="9"/>
+    <circle cx="1330" cy="516" r="9"/>
+    <circle cx="1500" cy="562" r="9"/>
+  </g>
+</svg>

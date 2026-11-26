@@ -2,4249 +2,3838 @@
   "shorts": [
     {
       "id": "Short1Hook",
-      "title": "WHY NVIDIA NEEDS ONE KOREAN COMPANY",
+      "title": "THE TUNNEL CANNON",
       "shortLabel": "SHORT 01 // THE PARADOX",
       "titleLines": [
         {
-          "text": "WHY NVIDIA NEEDS",
+          "text": "THE TUNNEL",
           "color": "white"
         },
         {
-          "text": "ONE KOREAN COMPANY",
+          "text": "CANNON",
           "color": "orange"
         }
       ],
-      "audio": "audio/shorts/short_1_voice.wav",
-      "duration": 38.973,
-      "ctaStart": 34.473,
+      "audio": "audio/shorts/short_1.wav",
+      "duration": 32.175,
+      "ctaStart": 28.175,
       "ctaText": "FULL BREAKDOWN BELOW",
       "words": [
         {
-          "word": "$40,000",
-          "start": 0.5,
-          "end": 1.641,
+          "word": "At",
+          "start": 0.813,
+          "end": 1.113,
           "segment": "s1_01"
         },
         {
-          "word": "buys",
-          "start": 1.741,
-          "end": 2.121,
+          "word": "350",
+          "start": 1.153,
+          "end": 1.373,
           "segment": "s1_01"
         },
         {
-          "word": "Nvidia's",
-          "start": 2.361,
-          "end": 2.822,
+          "word": "kilometers",
+          "start": 1.694,
+          "end": 2.194,
           "segment": "s1_01"
         },
         {
-          "word": "Blackwell",
-          "start": 2.902,
-          "end": 3.362,
+          "word": "per",
+          "start": 2.234,
+          "end": 2.374,
           "segment": "s1_01"
         },
         {
-          "word": "Accelerator.",
-          "start": 3.402,
-          "end": 4.082,
+          "word": "hour,",
+          "start": 2.394,
+          "end": 2.654,
+          "segment": "s1_01"
+        },
+        {
+          "word": "a",
+          "start": 2.914,
+          "end": 2.954,
+          "segment": "s1_01"
+        },
+        {
+          "word": "bullet",
+          "start": 2.994,
+          "end": 3.254,
+          "segment": "s1_01"
+        },
+        {
+          "word": "train",
+          "start": 3.295,
+          "end": 3.595,
+          "segment": "s1_01"
+        },
+        {
+          "word": "turns",
+          "start": 3.675,
+          "end": 3.915,
+          "segment": "s1_01"
+        },
+        {
+          "word": "a",
+          "start": 3.975,
+          "end": 3.995,
+          "segment": "s1_01"
+        },
+        {
+          "word": "tunnel",
+          "start": 4.035,
+          "end": 4.295,
+          "segment": "s1_01"
+        },
+        {
+          "word": "into",
+          "start": 4.335,
+          "end": 4.495,
+          "segment": "s1_01"
+        },
+        {
+          "word": "a",
+          "start": 4.515,
+          "end": 4.555,
+          "segment": "s1_01"
+        },
+        {
+          "word": "cannon.",
+          "start": 4.595,
+          "end": 4.956,
+          "segment": "s1_01"
+        },
+        {
+          "word": "The",
+          "start": 5.436,
+          "end": 5.516,
+          "segment": "s1_01"
+        },
+        {
+          "word": "air",
+          "start": 5.596,
+          "end": 5.696,
+          "segment": "s1_01"
+        },
+        {
+          "word": "ahead",
+          "start": 5.716,
+          "end": 5.956,
+          "segment": "s1_01"
+        },
+        {
+          "word": "cannot",
+          "start": 5.996,
+          "end": 6.216,
+          "segment": "s1_01"
+        },
+        {
+          "word": "escape",
+          "start": 6.256,
+          "end": 6.556,
+          "segment": "s1_01"
+        },
+        {
+          "word": "through",
+          "start": 6.596,
+          "end": 6.757,
+          "segment": "s1_01"
+        },
+        {
+          "word": "the",
+          "start": 6.777,
+          "end": 6.857,
+          "segment": "s1_01"
+        },
+        {
+          "word": "narrow",
+          "start": 6.897,
+          "end": 7.137,
+          "segment": "s1_01"
+        },
+        {
+          "word": "gap.",
+          "start": 7.177,
+          "end": 7.417,
           "segment": "s1_01"
         },
         {
           "word": "It",
-          "start": 4.623,
-          "end": 4.683,
+          "start": 7.797,
+          "end": 7.857,
           "segment": "s1_01"
         },
         {
-          "word": "packs",
-          "start": 4.743,
-          "end": 5.003,
+          "word": "compresses",
+          "start": 7.897,
+          "end": 8.378,
           "segment": "s1_01"
         },
         {
-          "word": "208",
-          "start": 5.103,
-          "end": 5.803,
+          "word": "into",
+          "start": 8.418,
+          "end": 8.578,
           "segment": "s1_01"
         },
         {
-          "word": "billion",
-          "start": 6.144,
-          "end": 6.504,
+          "word": "a",
+          "start": 8.598,
+          "end": 8.638,
           "segment": "s1_01"
         },
         {
-          "word": "transistors,",
-          "start": 6.564,
-          "end": 7.284,
+          "word": "moving",
+          "start": 8.678,
+          "end": 8.958,
           "segment": "s1_01"
         },
         {
-          "word": "but",
-          "start": 7.805,
-          "end": 7.905,
+          "word": "wall,",
+          "start": 8.998,
+          "end": 9.258,
           "segment": "s1_01"
         },
         {
-          "word": "without",
-          "start": 7.925,
-          "end": 8.225,
+          "word": "then",
+          "start": 9.518,
+          "end": 9.658,
           "segment": "s1_01"
         },
         {
-          "word": "12",
-          "start": 8.445,
-          "end": 8.625,
+          "word": "fires",
+          "start": 9.738,
+          "end": 10.059,
           "segment": "s1_01"
         },
         {
-          "word": "layers",
-          "start": 8.685,
-          "end": 9.045,
+          "word": "out",
+          "start": 10.099,
+          "end": 10.199,
           "segment": "s1_01"
         },
         {
           "word": "of",
-          "start": 9.085,
-          "end": 9.145,
+          "start": 10.239,
+          "end": 10.279,
           "segment": "s1_01"
         },
         {
-          "word": "memory",
-          "start": 9.225,
-          "end": 9.566,
+          "word": "the",
+          "start": 10.299,
+          "end": 10.379,
+          "segment": "s1_01"
+        },
+        {
+          "word": "far",
+          "start": 10.419,
+          "end": 10.639,
+          "segment": "s1_01"
+        },
+        {
+          "word": "portal.",
+          "start": 10.699,
+          "end": 11.079,
+          "segment": "s1_01"
+        },
+        {
+          "word": "400",
+          "start": 11.7,
+          "end": 11.9,
+          "segment": "s1_01"
+        },
+        {
+          "word": "meters",
+          "start": 11.96,
+          "end": 12.2,
+          "segment": "s1_01"
+        },
+        {
+          "word": "away,",
+          "start": 12.26,
+          "end": 12.52,
+          "segment": "s1_01"
+        },
+        {
+          "word": "windows",
+          "start": 12.68,
+          "end": 13.02,
+          "segment": "s1_01"
+        },
+        {
+          "word": "rattle",
+          "start": 13.1,
+          "end": 13.341,
+          "segment": "s1_01"
+        },
+        {
+          "word": "and",
+          "start": 13.381,
+          "end": 13.461,
+          "segment": "s1_01"
+        },
+        {
+          "word": "glass",
+          "start": 13.501,
+          "end": 13.821,
+          "segment": "s1_01"
+        },
+        {
+          "word": "can",
+          "start": 13.861,
+          "end": 14.021,
+          "segment": "s1_01"
+        },
+        {
+          "word": "crack.",
+          "start": 14.081,
+          "end": 14.381,
+          "segment": "s1_01"
+        },
+        {
+          "word": "The",
+          "start": 14.741,
+          "end": 14.841,
+          "segment": "s1_01"
+        },
+        {
+          "word": "train",
+          "start": 14.861,
+          "end": 15.102,
+          "segment": "s1_01"
+        },
+        {
+          "word": "never",
+          "start": 15.162,
+          "end": 15.342,
+          "segment": "s1_01"
+        },
+        {
+          "word": "touches",
+          "start": 15.402,
+          "end": 15.742,
+          "segment": "s1_01"
+        },
+        {
+          "word": "anything.",
+          "start": 15.842,
+          "end": 16.182,
+          "segment": "s1_01"
+        },
+        {
+          "word": "The",
+          "start": 16.542,
+          "end": 16.643,
+          "segment": "s1_01"
+        },
+        {
+          "word": "air",
+          "start": 16.743,
+          "end": 16.863,
+          "segment": "s1_01"
+        },
+        {
+          "word": "does",
+          "start": 16.923,
+          "end": 17.103,
+          "segment": "s1_01"
+        },
+        {
+          "word": "all",
+          "start": 17.203,
+          "end": 17.343,
+          "segment": "s1_01"
+        },
+        {
+          "word": "of",
+          "start": 17.363,
+          "end": 17.423,
+          "segment": "s1_01"
+        },
+        {
+          "word": "it.",
+          "start": 17.483,
+          "end": 17.563,
+          "segment": "s1_01"
+        },
+        {
+          "word": "Engineers",
+          "start": 18.023,
+          "end": 18.544,
+          "segment": "s1_01"
+        },
+        {
+          "word": "call",
+          "start": 18.604,
+          "end": 18.824,
+          "segment": "s1_01"
+        },
+        {
+          "word": "this",
+          "start": 18.844,
+          "end": 18.984,
+          "segment": "s1_01"
+        },
+        {
+          "word": "tunnel",
+          "start": 19.044,
+          "end": 19.324,
+          "segment": "s1_01"
+        },
+        {
+          "word": "boom.",
+          "start": 19.364,
+          "end": 19.624,
+          "segment": "s1_01"
+        },
+        {
+          "word": "The",
+          "start": 20.065,
+          "end": 20.165,
+          "segment": "s1_01"
+        },
+        {
+          "word": "obvious",
+          "start": 20.245,
+          "end": 20.605,
+          "segment": "s1_01"
+        },
+        {
+          "word": "fix",
+          "start": 20.665,
+          "end": 20.905,
+          "segment": "s1_01"
+        },
+        {
+          "word": "is",
+          "start": 20.965,
+          "end": 21.045,
+          "segment": "s1_01"
+        },
+        {
+          "word": "a",
+          "start": 21.085,
+          "end": 21.145,
+          "segment": "s1_01"
+        },
+        {
+          "word": "sharper",
+          "start": 21.185,
+          "end": 21.545,
+          "segment": "s1_01"
+        },
+        {
+          "word": "nose,",
+          "start": 21.606,
+          "end": 21.906,
+          "segment": "s1_01"
+        },
+        {
+          "word": "but",
+          "start": 22.246,
+          "end": 22.366,
+          "segment": "s1_01"
+        },
+        {
+          "word": "a",
+          "start": 22.386,
+          "end": 22.426,
+          "segment": "s1_01"
+        },
+        {
+          "word": "needle",
+          "start": 22.466,
+          "end": 22.766,
+          "segment": "s1_01"
+        },
+        {
+          "word": "shape",
+          "start": 22.806,
+          "end": 23.066,
+          "segment": "s1_01"
+        },
+        {
+          "word": "adds",
+          "start": 23.206,
+          "end": 23.407,
+          "segment": "s1_01"
+        },
+        {
+          "word": "weight",
+          "start": 23.467,
+          "end": 23.727,
+          "segment": "s1_01"
+        },
+        {
+          "word": "and",
+          "start": 23.927,
+          "end": 24.007,
+          "segment": "s1_01"
+        },
+        {
+          "word": "crosswind",
+          "start": 24.067,
+          "end": 24.487,
+          "segment": "s1_01"
+        },
+        {
+          "word": "instability.",
+          "start": 24.587,
+          "end": 25.208,
+          "segment": "s1_01"
+        },
+        {
+          "word": "The",
+          "start": 26.008,
+          "end": 26.088,
+          "segment": "s1_01"
+        },
+        {
+          "word": "real",
+          "start": 26.129,
+          "end": 26.349,
+          "segment": "s1_01"
+        },
+        {
+          "word": "fix",
+          "start": 26.45,
+          "end": 26.731,
+          "segment": "s1_01"
+        },
+        {
+          "word": "came",
+          "start": 27.012,
+          "end": 27.213,
           "segment": "s1_01"
         },
         {
           "word": "from",
-          "start": 9.606,
-          "end": 9.766,
-          "segment": "s1_01"
-        },
-        {
-          "word": "Icheon,",
-          "start": 9.906,
-          "end": 10.206,
-          "segment": "s1_01"
-        },
-        {
-          "word": "South",
-          "start": 10.506,
-          "end": 10.766,
-          "segment": "s1_01"
-        },
-        {
-          "word": "Korea,",
-          "start": 10.806,
-          "end": 11.227,
-          "segment": "s1_01"
-        },
-        {
-          "word": "the",
-          "start": 11.587,
-          "end": 11.667,
-          "segment": "s1_01"
-        },
-        {
-          "word": "chip",
-          "start": 11.727,
-          "end": 11.947,
-          "segment": "s1_01"
-        },
-        {
-          "word": "cannot",
-          "start": 12.007,
-          "end": 12.307,
-          "segment": "s1_01"
-        },
-        {
-          "word": "run",
-          "start": 12.407,
-          "end": 12.568,
+          "start": 27.253,
+          "end": 27.394,
           "segment": "s1_01"
         },
         {
           "word": "a",
-          "start": 12.608,
-          "end": 12.648,
+          "start": 27.434,
+          "end": 27.474,
           "segment": "s1_01"
         },
         {
-          "word": "model.",
-          "start": 12.708,
-          "end": 13.048,
+          "word": "bird",
+          "start": 27.534,
+          "end": 27.855,
           "segment": "s1_01"
         },
         {
-          "word": "That",
-          "start": 13.468,
-          "end": 13.648,
+          "word": "that",
+          "start": 27.895,
+          "end": 28.016,
           "segment": "s1_01"
         },
         {
-          "word": "is",
-          "start": 13.728,
-          "end": 13.808,
+          "word": "dives",
+          "start": 28.076,
+          "end": 28.538,
           "segment": "s1_01"
-        },
-        {
-          "word": "HBM.",
-          "start": 13.828,
-          "end": 14.108,
-          "segment": "s1_01"
-        },
-        {
-          "word": "NVIDIA",
-          "start": 14.608,
-          "end": 15.029,
-          "segment": "s1_02"
-        },
-        {
-          "word": "needs",
-          "start": 15.069,
-          "end": 15.309,
-          "segment": "s1_02"
-        },
-        {
-          "word": "eight",
-          "start": 15.409,
-          "end": 15.589,
-          "segment": "s1_02"
-        },
-        {
-          "word": "stacks",
-          "start": 15.669,
-          "end": 16.009,
-          "segment": "s1_02"
-        },
-        {
-          "word": "around",
-          "start": 16.069,
-          "end": 16.349,
-          "segment": "s1_02"
-        },
-        {
-          "word": "one",
-          "start": 16.45,
-          "end": 16.57,
-          "segment": "s1_02"
-        },
-        {
-          "word": "GPU,",
-          "start": 16.61,
-          "end": 17.19,
-          "segment": "s1_02"
-        },
-        {
-          "word": "delivering",
-          "start": 17.49,
-          "end": 17.891,
-          "segment": "s1_02"
-        },
-        {
-          "word": "eight",
-          "start": 17.991,
-          "end": 18.151,
-          "segment": "s1_02"
-        },
-        {
-          "word": "terabytes",
-          "start": 18.231,
-          "end": 18.731,
-          "segment": "s1_02"
-        },
-        {
-          "word": "per",
-          "start": 18.791,
-          "end": 18.931,
-          "segment": "s1_02"
-        },
-        {
-          "word": "second.",
-          "start": 18.991,
-          "end": 19.352,
-          "segment": "s1_02"
-        },
-        {
-          "word": "SK",
-          "start": 19.992,
-          "end": 20.252,
-          "segment": "s1_02"
-        },
-        {
-          "word": "Hynix",
-          "start": 20.292,
-          "end": 20.653,
-          "segment": "s1_02"
-        },
-        {
-          "word": "builds",
-          "start": 20.733,
-          "end": 21.033,
-          "segment": "s1_02"
-        },
-        {
-          "word": "the",
-          "start": 21.093,
-          "end": 21.193,
-          "segment": "s1_02"
-        },
-        {
-          "word": "largest",
-          "start": 21.233,
-          "end": 21.613,
-          "segment": "s1_02"
-        },
-        {
-          "word": "share",
-          "start": 21.673,
-          "end": 21.973,
-          "segment": "s1_02"
-        },
-        {
-          "word": "and",
-          "start": 22.314,
-          "end": 22.414,
-          "segment": "s1_02"
-        },
-        {
-          "word": "supply",
-          "start": 22.454,
-          "end": 22.914,
-          "segment": "s1_02"
-        },
-        {
-          "word": "is",
-          "start": 23.034,
-          "end": 23.114,
-          "segment": "s1_02"
-        },
-        {
-          "word": "sold",
-          "start": 23.174,
-          "end": 23.475,
-          "segment": "s1_02"
-        },
-        {
-          "word": "out.",
-          "start": 23.595,
-          "end": 23.735,
-          "segment": "s1_02"
-        },
-        {
-          "word": "The",
-          "start": 24.275,
-          "end": 24.355,
-          "segment": "s1_02"
-        },
-        {
-          "word": "bottleneck",
-          "start": 24.395,
-          "end": 24.916,
-          "segment": "s1_02"
-        },
-        {
-          "word": "is",
-          "start": 25.016,
-          "end": 25.096,
-          "segment": "s1_02"
-        },
-        {
-          "word": "the",
-          "start": 25.156,
-          "end": 25.236,
-          "segment": "s1_02"
-        },
-        {
-          "word": "memory,",
-          "start": 25.276,
-          "end": 25.656,
-          "segment": "s1_02"
-        },
-        {
-          "word": "not",
-          "start": 25.956,
-          "end": 26.116,
-          "segment": "s1_02"
-        },
-        {
-          "word": "the",
-          "start": 26.176,
-          "end": 26.277,
-          "segment": "s1_02"
-        },
-        {
-          "word": "chip.",
-          "start": 26.337,
-          "end": 26.597,
-          "segment": "s1_02"
-        },
-        {
-          "word": "One",
-          "start": 27.097,
-          "end": 27.218,
-          "segment": "s1_03"
-        },
-        {
-          "word": "supplier,",
-          "start": 27.278,
-          "end": 27.838,
-          "segment": "s1_03"
-        },
-        {
-          "word": "one",
-          "start": 28.119,
-          "end": 28.259,
-          "segment": "s1_03"
-        },
-        {
-          "word": "city,",
-          "start": 28.339,
-          "end": 28.66,
-          "segment": "s1_03"
-        },
-        {
-          "word": "one",
-          "start": 29.06,
-          "end": 29.2,
-          "segment": "s1_03"
-        },
-        {
-          "word": "yield",
-          "start": 29.28,
-          "end": 29.621,
-          "segment": "s1_03"
-        },
-        {
-          "word": "curve.",
-          "start": 29.681,
-          "end": 30.062,
-          "segment": "s1_03"
-        },
-        {
-          "word": "That",
-          "start": 30.582,
-          "end": 30.742,
-          "segment": "s1_03"
-        },
-        {
-          "word": "is",
-          "start": 30.803,
-          "end": 30.883,
-          "segment": "s1_03"
-        },
-        {
-          "word": "why",
-          "start": 30.923,
-          "end": 31.083,
-          "segment": "s1_03"
-        },
-        {
-          "word": "the",
-          "start": 31.123,
-          "end": 31.203,
-          "segment": "s1_03"
-        },
-        {
-          "word": "most",
-          "start": 31.243,
-          "end": 31.423,
-          "segment": "s1_03"
-        },
-        {
-          "word": "valuable",
-          "start": 31.524,
-          "end": 32.024,
-          "segment": "s1_03"
-        },
-        {
-          "word": "chip",
-          "start": 32.084,
-          "end": 32.305,
-          "segment": "s1_03"
-        },
-        {
-          "word": "company",
-          "start": 32.345,
-          "end": 32.765,
-          "segment": "s1_03"
-        },
-        {
-          "word": "cannot",
-          "start": 32.945,
-          "end": 33.266,
-          "segment": "s1_03"
-        },
-        {
-          "word": "exist",
-          "start": 33.326,
-          "end": 33.686,
-          "segment": "s1_03"
         },
         {
           "word": "without",
-          "start": 33.987,
-          "end": 34.287,
-          "segment": "s1_03"
+          "start": 28.578,
+          "end": 28.879,
+          "segment": "s1_01"
         },
         {
           "word": "a",
-          "start": 34.327,
-          "end": 34.347,
-          "segment": "s1_03"
+          "start": 28.919,
+          "end": 28.96,
+          "segment": "s1_01"
         },
         {
-          "word": "Korean",
-          "start": 34.407,
-          "end": 34.888,
-          "segment": "s1_03"
+          "word": "splash.",
+          "start": 29.0,
+          "end": 29.462,
+          "segment": "s1_01"
         },
         {
-          "word": "memory",
-          "start": 34.948,
-          "end": 35.269,
-          "segment": "s1_03"
+          "word": "A",
+          "start": 29.943,
+          "end": 30.004,
+          "segment": "s1_01"
         },
         {
-          "word": "maker.",
-          "start": 35.329,
-          "end": 35.689,
-          "segment": "s1_03"
+          "word": "beak",
+          "start": 30.064,
+          "end": 30.345,
+          "segment": "s1_01"
         },
         {
-          "word": "Tap",
-          "start": 36.21,
-          "end": 36.49,
-          "segment": "s1_03"
+          "word": "solved",
+          "start": 30.425,
+          "end": 30.807,
+          "segment": "s1_01"
         },
         {
-          "word": "the",
-          "start": 36.55,
-          "end": 36.63,
-          "segment": "s1_03"
+          "word": "a",
+          "start": 30.847,
+          "end": 30.867,
+          "segment": "s1_01"
         },
         {
-          "word": "related",
-          "start": 36.671,
-          "end": 37.091,
-          "segment": "s1_03"
+          "word": "pressure",
+          "start": 30.927,
+          "end": 31.249,
+          "segment": "s1_01"
         },
         {
-          "word": "video",
-          "start": 37.131,
-          "end": 37.552,
-          "segment": "s1_03"
-        },
-        {
-          "word": "for",
-          "start": 37.732,
-          "end": 37.852,
-          "segment": "s1_03"
-        },
-        {
-          "word": "the",
-          "start": 37.872,
-          "end": 37.952,
-          "segment": "s1_03"
-        },
-        {
-          "word": "full",
-          "start": 37.992,
-          "end": 38.213,
-          "segment": "s1_03"
-        },
-        {
-          "word": "breakdown.",
-          "start": 38.253,
-          "end": 38.773,
-          "segment": "s1_03"
+          "word": "problem.",
+          "start": 31.289,
+          "end": 31.65,
+          "segment": "s1_01"
         }
       ],
       "captions": [
         {
-          "text": "$40,000 buys",
-          "start": 0.5,
-          "end": 2.121,
+          "text": "At 350 kilometers per hour, a bullet train",
+          "start": 0.813,
+          "end": 3.595,
           "words": [
             {
-              "word": "$40,000",
-              "start": 0.5,
-              "end": 1.641,
+              "word": "At",
+              "start": 0.813,
+              "end": 1.113,
               "segment": "s1_01"
             },
             {
-              "word": "buys",
-              "start": 1.741,
-              "end": 2.121,
-              "segment": "s1_01"
-            }
-          ]
-        },
-        {
-          "text": "Nvidia's Blackwell",
-          "start": 2.361,
-          "end": 3.362,
-          "words": [
-            {
-              "word": "Nvidia's",
-              "start": 2.361,
-              "end": 2.822,
+              "word": "350",
+              "start": 1.153,
+              "end": 1.373,
               "segment": "s1_01"
             },
             {
-              "word": "Blackwell",
-              "start": 2.902,
-              "end": 3.362,
+              "word": "kilometers",
+              "start": 1.694,
+              "end": 2.194,
+              "segment": "s1_01"
+            },
+            {
+              "word": "per",
+              "start": 2.234,
+              "end": 2.374,
+              "segment": "s1_01"
+            },
+            {
+              "word": "hour,",
+              "start": 2.394,
+              "end": 2.654,
+              "segment": "s1_01"
+            },
+            {
+              "word": "a",
+              "start": 2.914,
+              "end": 2.954,
+              "segment": "s1_01"
+            },
+            {
+              "word": "bullet",
+              "start": 2.994,
+              "end": 3.254,
+              "segment": "s1_01"
+            },
+            {
+              "word": "train",
+              "start": 3.295,
+              "end": 3.595,
               "segment": "s1_01"
             }
           ]
         },
         {
-          "text": "Accelerator.",
-          "start": 3.402,
-          "end": 4.082,
+          "text": "turns a tunnel into a cannon. The air",
+          "start": 3.675,
+          "end": 5.696,
           "words": [
             {
-              "word": "Accelerator.",
-              "start": 3.402,
-              "end": 4.082,
+              "word": "turns",
+              "start": 3.675,
+              "end": 3.915,
+              "segment": "s1_01"
+            },
+            {
+              "word": "a",
+              "start": 3.975,
+              "end": 3.995,
+              "segment": "s1_01"
+            },
+            {
+              "word": "tunnel",
+              "start": 4.035,
+              "end": 4.295,
+              "segment": "s1_01"
+            },
+            {
+              "word": "into",
+              "start": 4.335,
+              "end": 4.495,
+              "segment": "s1_01"
+            },
+            {
+              "word": "a",
+              "start": 4.515,
+              "end": 4.555,
+              "segment": "s1_01"
+            },
+            {
+              "word": "cannon.",
+              "start": 4.595,
+              "end": 4.956,
+              "segment": "s1_01"
+            },
+            {
+              "word": "The",
+              "start": 5.436,
+              "end": 5.516,
+              "segment": "s1_01"
+            },
+            {
+              "word": "air",
+              "start": 5.596,
+              "end": 5.696,
               "segment": "s1_01"
             }
           ]
         },
         {
-          "text": "It packs 208",
-          "start": 4.623,
-          "end": 5.803,
+          "text": "ahead cannot escape through the narrow gap. It",
+          "start": 5.716,
+          "end": 7.857,
           "words": [
+            {
+              "word": "ahead",
+              "start": 5.716,
+              "end": 5.956,
+              "segment": "s1_01"
+            },
+            {
+              "word": "cannot",
+              "start": 5.996,
+              "end": 6.216,
+              "segment": "s1_01"
+            },
+            {
+              "word": "escape",
+              "start": 6.256,
+              "end": 6.556,
+              "segment": "s1_01"
+            },
+            {
+              "word": "through",
+              "start": 6.596,
+              "end": 6.757,
+              "segment": "s1_01"
+            },
+            {
+              "word": "the",
+              "start": 6.777,
+              "end": 6.857,
+              "segment": "s1_01"
+            },
+            {
+              "word": "narrow",
+              "start": 6.897,
+              "end": 7.137,
+              "segment": "s1_01"
+            },
+            {
+              "word": "gap.",
+              "start": 7.177,
+              "end": 7.417,
+              "segment": "s1_01"
+            },
             {
               "word": "It",
-              "start": 4.623,
-              "end": 4.683,
-              "segment": "s1_01"
-            },
-            {
-              "word": "packs",
-              "start": 4.743,
-              "end": 5.003,
-              "segment": "s1_01"
-            },
-            {
-              "word": "208",
-              "start": 5.103,
-              "end": 5.803,
+              "start": 7.797,
+              "end": 7.857,
               "segment": "s1_01"
             }
           ]
         },
         {
-          "text": "billion transistors,",
-          "start": 6.144,
-          "end": 7.284,
+          "text": "compresses into a moving wall, then fires out",
+          "start": 7.897,
+          "end": 10.199,
           "words": [
             {
-              "word": "billion",
-              "start": 6.144,
-              "end": 6.504,
+              "word": "compresses",
+              "start": 7.897,
+              "end": 8.378,
               "segment": "s1_01"
             },
             {
-              "word": "transistors,",
-              "start": 6.564,
-              "end": 7.284,
+              "word": "into",
+              "start": 8.418,
+              "end": 8.578,
+              "segment": "s1_01"
+            },
+            {
+              "word": "a",
+              "start": 8.598,
+              "end": 8.638,
+              "segment": "s1_01"
+            },
+            {
+              "word": "moving",
+              "start": 8.678,
+              "end": 8.958,
+              "segment": "s1_01"
+            },
+            {
+              "word": "wall,",
+              "start": 8.998,
+              "end": 9.258,
+              "segment": "s1_01"
+            },
+            {
+              "word": "then",
+              "start": 9.518,
+              "end": 9.658,
+              "segment": "s1_01"
+            },
+            {
+              "word": "fires",
+              "start": 9.738,
+              "end": 10.059,
+              "segment": "s1_01"
+            },
+            {
+              "word": "out",
+              "start": 10.099,
+              "end": 10.199,
               "segment": "s1_01"
             }
           ]
         },
         {
-          "text": "but without 12",
-          "start": 7.805,
-          "end": 8.625,
+          "text": "of the far portal.",
+          "start": 10.239,
+          "end": 11.079,
           "words": [
             {
-              "word": "but",
-              "start": 7.805,
-              "end": 7.905,
+              "word": "of",
+              "start": 10.239,
+              "end": 10.279,
               "segment": "s1_01"
             },
             {
-              "word": "without",
-              "start": 7.925,
-              "end": 8.225,
+              "word": "the",
+              "start": 10.299,
+              "end": 10.379,
               "segment": "s1_01"
             },
             {
-              "word": "12",
-              "start": 8.445,
-              "end": 8.625,
+              "word": "far",
+              "start": 10.419,
+              "end": 10.639,
+              "segment": "s1_01"
+            },
+            {
+              "word": "portal.",
+              "start": 10.699,
+              "end": 11.079,
               "segment": "s1_01"
             }
           ]
         },
         {
-          "text": "layers of memory",
-          "start": 8.685,
-          "end": 9.566,
+          "text": "400 meters away, windows rattle and glass can",
+          "start": 11.7,
+          "end": 14.021,
           "words": [
             {
-              "word": "layers",
-              "start": 8.685,
-              "end": 9.045,
+              "word": "400",
+              "start": 11.7,
+              "end": 11.9,
+              "segment": "s1_01"
+            },
+            {
+              "word": "meters",
+              "start": 11.96,
+              "end": 12.2,
+              "segment": "s1_01"
+            },
+            {
+              "word": "away,",
+              "start": 12.26,
+              "end": 12.52,
+              "segment": "s1_01"
+            },
+            {
+              "word": "windows",
+              "start": 12.68,
+              "end": 13.02,
+              "segment": "s1_01"
+            },
+            {
+              "word": "rattle",
+              "start": 13.1,
+              "end": 13.341,
+              "segment": "s1_01"
+            },
+            {
+              "word": "and",
+              "start": 13.381,
+              "end": 13.461,
+              "segment": "s1_01"
+            },
+            {
+              "word": "glass",
+              "start": 13.501,
+              "end": 13.821,
+              "segment": "s1_01"
+            },
+            {
+              "word": "can",
+              "start": 13.861,
+              "end": 14.021,
+              "segment": "s1_01"
+            }
+          ]
+        },
+        {
+          "text": "crack. The train never touches anything. The air",
+          "start": 14.081,
+          "end": 16.863,
+          "words": [
+            {
+              "word": "crack.",
+              "start": 14.081,
+              "end": 14.381,
+              "segment": "s1_01"
+            },
+            {
+              "word": "The",
+              "start": 14.741,
+              "end": 14.841,
+              "segment": "s1_01"
+            },
+            {
+              "word": "train",
+              "start": 14.861,
+              "end": 15.102,
+              "segment": "s1_01"
+            },
+            {
+              "word": "never",
+              "start": 15.162,
+              "end": 15.342,
+              "segment": "s1_01"
+            },
+            {
+              "word": "touches",
+              "start": 15.402,
+              "end": 15.742,
+              "segment": "s1_01"
+            },
+            {
+              "word": "anything.",
+              "start": 15.842,
+              "end": 16.182,
+              "segment": "s1_01"
+            },
+            {
+              "word": "The",
+              "start": 16.542,
+              "end": 16.643,
+              "segment": "s1_01"
+            },
+            {
+              "word": "air",
+              "start": 16.743,
+              "end": 16.863,
+              "segment": "s1_01"
+            }
+          ]
+        },
+        {
+          "text": "does all of it. Engineers call this tunnel",
+          "start": 16.923,
+          "end": 19.324,
+          "words": [
+            {
+              "word": "does",
+              "start": 16.923,
+              "end": 17.103,
+              "segment": "s1_01"
+            },
+            {
+              "word": "all",
+              "start": 17.203,
+              "end": 17.343,
               "segment": "s1_01"
             },
             {
               "word": "of",
-              "start": 9.085,
-              "end": 9.145,
+              "start": 17.363,
+              "end": 17.423,
               "segment": "s1_01"
             },
             {
-              "word": "memory",
-              "start": 9.225,
-              "end": 9.566,
+              "word": "it.",
+              "start": 17.483,
+              "end": 17.563,
+              "segment": "s1_01"
+            },
+            {
+              "word": "Engineers",
+              "start": 18.023,
+              "end": 18.544,
+              "segment": "s1_01"
+            },
+            {
+              "word": "call",
+              "start": 18.604,
+              "end": 18.824,
+              "segment": "s1_01"
+            },
+            {
+              "word": "this",
+              "start": 18.844,
+              "end": 18.984,
+              "segment": "s1_01"
+            },
+            {
+              "word": "tunnel",
+              "start": 19.044,
+              "end": 19.324,
               "segment": "s1_01"
             }
           ]
         },
         {
-          "text": "from Icheon, South",
-          "start": 9.606,
-          "end": 10.766,
+          "text": "boom. The obvious fix is a sharper nose,",
+          "start": 19.364,
+          "end": 21.906,
           "words": [
             {
-              "word": "from",
-              "start": 9.606,
-              "end": 9.766,
+              "word": "boom.",
+              "start": 19.364,
+              "end": 19.624,
               "segment": "s1_01"
             },
             {
-              "word": "Icheon,",
-              "start": 9.906,
-              "end": 10.206,
+              "word": "The",
+              "start": 20.065,
+              "end": 20.165,
               "segment": "s1_01"
             },
             {
-              "word": "South",
-              "start": 10.506,
-              "end": 10.766,
-              "segment": "s1_01"
-            }
-          ]
-        },
-        {
-          "text": "Korea, the chip",
-          "start": 10.806,
-          "end": 11.947,
-          "words": [
-            {
-              "word": "Korea,",
-              "start": 10.806,
-              "end": 11.227,
+              "word": "obvious",
+              "start": 20.245,
+              "end": 20.605,
               "segment": "s1_01"
             },
             {
-              "word": "the",
-              "start": 11.587,
-              "end": 11.667,
+              "word": "fix",
+              "start": 20.665,
+              "end": 20.905,
               "segment": "s1_01"
             },
             {
-              "word": "chip",
-              "start": 11.727,
-              "end": 11.947,
-              "segment": "s1_01"
-            }
-          ]
-        },
-        {
-          "text": "cannot run a",
-          "start": 12.007,
-          "end": 12.648,
-          "words": [
-            {
-              "word": "cannot",
-              "start": 12.007,
-              "end": 12.307,
-              "segment": "s1_01"
-            },
-            {
-              "word": "run",
-              "start": 12.407,
-              "end": 12.568,
+              "word": "is",
+              "start": 20.965,
+              "end": 21.045,
               "segment": "s1_01"
             },
             {
               "word": "a",
-              "start": 12.608,
-              "end": 12.648,
+              "start": 21.085,
+              "end": 21.145,
+              "segment": "s1_01"
+            },
+            {
+              "word": "sharper",
+              "start": 21.185,
+              "end": 21.545,
+              "segment": "s1_01"
+            },
+            {
+              "word": "nose,",
+              "start": 21.606,
+              "end": 21.906,
               "segment": "s1_01"
             }
           ]
         },
         {
-          "text": "model. That is",
-          "start": 12.708,
-          "end": 13.808,
+          "text": "but a needle shape adds weight and crosswind",
+          "start": 22.246,
+          "end": 24.487,
           "words": [
             {
-              "word": "model.",
-              "start": 12.708,
-              "end": 13.048,
+              "word": "but",
+              "start": 22.246,
+              "end": 22.366,
               "segment": "s1_01"
             },
             {
-              "word": "That",
-              "start": 13.468,
-              "end": 13.648,
+              "word": "a",
+              "start": 22.386,
+              "end": 22.426,
               "segment": "s1_01"
             },
             {
-              "word": "is",
-              "start": 13.728,
-              "end": 13.808,
+              "word": "needle",
+              "start": 22.466,
+              "end": 22.766,
               "segment": "s1_01"
-            }
-          ]
-        },
-        {
-          "text": "HBM.",
-          "start": 13.828,
-          "end": 14.108,
-          "words": [
+            },
             {
-              "word": "HBM.",
-              "start": 13.828,
-              "end": 14.108,
+              "word": "shape",
+              "start": 22.806,
+              "end": 23.066,
               "segment": "s1_01"
-            }
-          ]
-        },
-        {
-          "text": "NVIDIA needs eight",
-          "start": 14.608,
-          "end": 15.589,
-          "words": [
-            {
-              "word": "NVIDIA",
-              "start": 14.608,
-              "end": 15.029,
-              "segment": "s1_02"
             },
             {
-              "word": "needs",
-              "start": 15.069,
-              "end": 15.309,
-              "segment": "s1_02"
+              "word": "adds",
+              "start": 23.206,
+              "end": 23.407,
+              "segment": "s1_01"
             },
             {
-              "word": "eight",
-              "start": 15.409,
-              "end": 15.589,
-              "segment": "s1_02"
-            }
-          ]
-        },
-        {
-          "text": "stacks around one",
-          "start": 15.669,
-          "end": 16.57,
-          "words": [
-            {
-              "word": "stacks",
-              "start": 15.669,
-              "end": 16.009,
-              "segment": "s1_02"
+              "word": "weight",
+              "start": 23.467,
+              "end": 23.727,
+              "segment": "s1_01"
             },
-            {
-              "word": "around",
-              "start": 16.069,
-              "end": 16.349,
-              "segment": "s1_02"
-            },
-            {
-              "word": "one",
-              "start": 16.45,
-              "end": 16.57,
-              "segment": "s1_02"
-            }
-          ]
-        },
-        {
-          "text": "GPU, delivering",
-          "start": 16.61,
-          "end": 17.891,
-          "words": [
-            {
-              "word": "GPU,",
-              "start": 16.61,
-              "end": 17.19,
-              "segment": "s1_02"
-            },
-            {
-              "word": "delivering",
-              "start": 17.49,
-              "end": 17.891,
-              "segment": "s1_02"
-            }
-          ]
-        },
-        {
-          "text": "eight terabytes per",
-          "start": 17.991,
-          "end": 18.931,
-          "words": [
-            {
-              "word": "eight",
-              "start": 17.991,
-              "end": 18.151,
-              "segment": "s1_02"
-            },
-            {
-              "word": "terabytes",
-              "start": 18.231,
-              "end": 18.731,
-              "segment": "s1_02"
-            },
-            {
-              "word": "per",
-              "start": 18.791,
-              "end": 18.931,
-              "segment": "s1_02"
-            }
-          ]
-        },
-        {
-          "text": "second.",
-          "start": 18.991,
-          "end": 19.352,
-          "words": [
-            {
-              "word": "second.",
-              "start": 18.991,
-              "end": 19.352,
-              "segment": "s1_02"
-            }
-          ]
-        },
-        {
-          "text": "SK Hynix builds",
-          "start": 19.992,
-          "end": 21.033,
-          "words": [
-            {
-              "word": "SK",
-              "start": 19.992,
-              "end": 20.252,
-              "segment": "s1_02"
-            },
-            {
-              "word": "Hynix",
-              "start": 20.292,
-              "end": 20.653,
-              "segment": "s1_02"
-            },
-            {
-              "word": "builds",
-              "start": 20.733,
-              "end": 21.033,
-              "segment": "s1_02"
-            }
-          ]
-        },
-        {
-          "text": "the largest share",
-          "start": 21.093,
-          "end": 21.973,
-          "words": [
-            {
-              "word": "the",
-              "start": 21.093,
-              "end": 21.193,
-              "segment": "s1_02"
-            },
-            {
-              "word": "largest",
-              "start": 21.233,
-              "end": 21.613,
-              "segment": "s1_02"
-            },
-            {
-              "word": "share",
-              "start": 21.673,
-              "end": 21.973,
-              "segment": "s1_02"
-            }
-          ]
-        },
-        {
-          "text": "and supply is",
-          "start": 22.314,
-          "end": 23.114,
-          "words": [
             {
               "word": "and",
-              "start": 22.314,
-              "end": 22.414,
-              "segment": "s1_02"
+              "start": 23.927,
+              "end": 24.007,
+              "segment": "s1_01"
             },
             {
-              "word": "supply",
-              "start": 22.454,
-              "end": 22.914,
-              "segment": "s1_02"
-            },
-            {
-              "word": "is",
-              "start": 23.034,
-              "end": 23.114,
-              "segment": "s1_02"
+              "word": "crosswind",
+              "start": 24.067,
+              "end": 24.487,
+              "segment": "s1_01"
             }
           ]
         },
         {
-          "text": "sold out.",
-          "start": 23.174,
-          "end": 23.735,
+          "text": "instability.",
+          "start": 24.587,
+          "end": 25.208,
           "words": [
             {
-              "word": "sold",
-              "start": 23.174,
-              "end": 23.475,
-              "segment": "s1_02"
-            },
-            {
-              "word": "out.",
-              "start": 23.595,
-              "end": 23.735,
-              "segment": "s1_02"
+              "word": "instability.",
+              "start": 24.587,
+              "end": 25.208,
+              "segment": "s1_01"
             }
           ]
         },
         {
-          "text": "The bottleneck is",
-          "start": 24.275,
-          "end": 25.096,
+          "text": "The real fix came from a bird that",
+          "start": 26.008,
+          "end": 28.016,
           "words": [
             {
               "word": "The",
-              "start": 24.275,
-              "end": 24.355,
-              "segment": "s1_02"
+              "start": 26.008,
+              "end": 26.088,
+              "segment": "s1_01"
             },
             {
-              "word": "bottleneck",
-              "start": 24.395,
-              "end": 24.916,
-              "segment": "s1_02"
+              "word": "real",
+              "start": 26.129,
+              "end": 26.349,
+              "segment": "s1_01"
             },
             {
-              "word": "is",
-              "start": 25.016,
-              "end": 25.096,
-              "segment": "s1_02"
-            }
-          ]
-        },
-        {
-          "text": "the memory, not",
-          "start": 25.156,
-          "end": 26.116,
-          "words": [
-            {
-              "word": "the",
-              "start": 25.156,
-              "end": 25.236,
-              "segment": "s1_02"
+              "word": "fix",
+              "start": 26.45,
+              "end": 26.731,
+              "segment": "s1_01"
             },
             {
-              "word": "memory,",
-              "start": 25.276,
-              "end": 25.656,
-              "segment": "s1_02"
+              "word": "came",
+              "start": 27.012,
+              "end": 27.213,
+              "segment": "s1_01"
             },
             {
-              "word": "not",
-              "start": 25.956,
-              "end": 26.116,
-              "segment": "s1_02"
-            }
-          ]
-        },
-        {
-          "text": "the chip.",
-          "start": 26.176,
-          "end": 26.597,
-          "words": [
-            {
-              "word": "the",
-              "start": 26.176,
-              "end": 26.277,
-              "segment": "s1_02"
-            },
-            {
-              "word": "chip.",
-              "start": 26.337,
-              "end": 26.597,
-              "segment": "s1_02"
-            }
-          ]
-        },
-        {
-          "text": "One supplier, one",
-          "start": 27.097,
-          "end": 28.259,
-          "words": [
-            {
-              "word": "One",
-              "start": 27.097,
-              "end": 27.218,
-              "segment": "s1_03"
-            },
-            {
-              "word": "supplier,",
-              "start": 27.278,
-              "end": 27.838,
-              "segment": "s1_03"
-            },
-            {
-              "word": "one",
-              "start": 28.119,
-              "end": 28.259,
-              "segment": "s1_03"
-            }
-          ]
-        },
-        {
-          "text": "city, one yield",
-          "start": 28.339,
-          "end": 29.621,
-          "words": [
-            {
-              "word": "city,",
-              "start": 28.339,
-              "end": 28.66,
-              "segment": "s1_03"
-            },
-            {
-              "word": "one",
-              "start": 29.06,
-              "end": 29.2,
-              "segment": "s1_03"
-            },
-            {
-              "word": "yield",
-              "start": 29.28,
-              "end": 29.621,
-              "segment": "s1_03"
-            }
-          ]
-        },
-        {
-          "text": "curve.",
-          "start": 29.681,
-          "end": 30.062,
-          "words": [
-            {
-              "word": "curve.",
-              "start": 29.681,
-              "end": 30.062,
-              "segment": "s1_03"
-            }
-          ]
-        },
-        {
-          "text": "That is why",
-          "start": 30.582,
-          "end": 31.083,
-          "words": [
-            {
-              "word": "That",
-              "start": 30.582,
-              "end": 30.742,
-              "segment": "s1_03"
-            },
-            {
-              "word": "is",
-              "start": 30.803,
-              "end": 30.883,
-              "segment": "s1_03"
-            },
-            {
-              "word": "why",
-              "start": 30.923,
-              "end": 31.083,
-              "segment": "s1_03"
-            }
-          ]
-        },
-        {
-          "text": "the most valuable",
-          "start": 31.123,
-          "end": 32.024,
-          "words": [
-            {
-              "word": "the",
-              "start": 31.123,
-              "end": 31.203,
-              "segment": "s1_03"
-            },
-            {
-              "word": "most",
-              "start": 31.243,
-              "end": 31.423,
-              "segment": "s1_03"
-            },
-            {
-              "word": "valuable",
-              "start": 31.524,
-              "end": 32.024,
-              "segment": "s1_03"
-            }
-          ]
-        },
-        {
-          "text": "chip company cannot",
-          "start": 32.084,
-          "end": 33.266,
-          "words": [
-            {
-              "word": "chip",
-              "start": 32.084,
-              "end": 32.305,
-              "segment": "s1_03"
-            },
-            {
-              "word": "company",
-              "start": 32.345,
-              "end": 32.765,
-              "segment": "s1_03"
-            },
-            {
-              "word": "cannot",
-              "start": 32.945,
-              "end": 33.266,
-              "segment": "s1_03"
-            }
-          ]
-        },
-        {
-          "text": "exist without a",
-          "start": 33.326,
-          "end": 34.347,
-          "words": [
-            {
-              "word": "exist",
-              "start": 33.326,
-              "end": 33.686,
-              "segment": "s1_03"
-            },
-            {
-              "word": "without",
-              "start": 33.987,
-              "end": 34.287,
-              "segment": "s1_03"
+              "word": "from",
+              "start": 27.253,
+              "end": 27.394,
+              "segment": "s1_01"
             },
             {
               "word": "a",
-              "start": 34.327,
-              "end": 34.347,
-              "segment": "s1_03"
+              "start": 27.434,
+              "end": 27.474,
+              "segment": "s1_01"
+            },
+            {
+              "word": "bird",
+              "start": 27.534,
+              "end": 27.855,
+              "segment": "s1_01"
+            },
+            {
+              "word": "that",
+              "start": 27.895,
+              "end": 28.016,
+              "segment": "s1_01"
             }
           ]
         },
         {
-          "text": "Korean memory maker.",
-          "start": 34.407,
-          "end": 35.689,
+          "text": "dives without a splash. A beak solved a",
+          "start": 28.076,
+          "end": 30.867,
           "words": [
             {
-              "word": "Korean",
-              "start": 34.407,
-              "end": 34.888,
-              "segment": "s1_03"
+              "word": "dives",
+              "start": 28.076,
+              "end": 28.538,
+              "segment": "s1_01"
             },
             {
-              "word": "memory",
-              "start": 34.948,
-              "end": 35.269,
-              "segment": "s1_03"
+              "word": "without",
+              "start": 28.578,
+              "end": 28.879,
+              "segment": "s1_01"
             },
             {
-              "word": "maker.",
-              "start": 35.329,
-              "end": 35.689,
-              "segment": "s1_03"
+              "word": "a",
+              "start": 28.919,
+              "end": 28.96,
+              "segment": "s1_01"
+            },
+            {
+              "word": "splash.",
+              "start": 29.0,
+              "end": 29.462,
+              "segment": "s1_01"
+            },
+            {
+              "word": "A",
+              "start": 29.943,
+              "end": 30.004,
+              "segment": "s1_01"
+            },
+            {
+              "word": "beak",
+              "start": 30.064,
+              "end": 30.345,
+              "segment": "s1_01"
+            },
+            {
+              "word": "solved",
+              "start": 30.425,
+              "end": 30.807,
+              "segment": "s1_01"
+            },
+            {
+              "word": "a",
+              "start": 30.847,
+              "end": 30.867,
+              "segment": "s1_01"
             }
           ]
         },
         {
-          "text": "Tap the related",
-          "start": 36.21,
-          "end": 37.091,
+          "text": "pressure problem.",
+          "start": 30.927,
+          "end": 31.65,
           "words": [
             {
-              "word": "Tap",
-              "start": 36.21,
-              "end": 36.49,
-              "segment": "s1_03"
+              "word": "pressure",
+              "start": 30.927,
+              "end": 31.249,
+              "segment": "s1_01"
             },
             {
-              "word": "the",
-              "start": 36.55,
-              "end": 36.63,
-              "segment": "s1_03"
-            },
-            {
-              "word": "related",
-              "start": 36.671,
-              "end": 37.091,
-              "segment": "s1_03"
-            }
-          ]
-        },
-        {
-          "text": "video for the",
-          "start": 37.131,
-          "end": 37.952,
-          "words": [
-            {
-              "word": "video",
-              "start": 37.131,
-              "end": 37.552,
-              "segment": "s1_03"
-            },
-            {
-              "word": "for",
-              "start": 37.732,
-              "end": 37.852,
-              "segment": "s1_03"
-            },
-            {
-              "word": "the",
-              "start": 37.872,
-              "end": 37.952,
-              "segment": "s1_03"
-            }
-          ]
-        },
-        {
-          "text": "full breakdown.",
-          "start": 37.992,
-          "end": 38.773,
-          "words": [
-            {
-              "word": "full",
-              "start": 37.992,
-              "end": 38.213,
-              "segment": "s1_03"
-            },
-            {
-              "word": "breakdown.",
-              "start": 38.253,
-              "end": 38.773,
-              "segment": "s1_03"
+              "word": "problem.",
+              "start": 31.289,
+              "end": 31.65,
+              "segment": "s1_01"
             }
           ]
         }
       ],
       "visuals": [
         {
-          "type": "asset",
-          "files": [
-            "assets/images/nvidia_blackwell.jpg"
-          ],
-          "layout": "single",
-          "label": "B200 / price hook",
-          "start": 0.0,
-          "end": 3.5
-        },
-        {
-          "type": "asset",
-          "files": [
-            "assets/images/hbm_package.jpg",
-            "assets/images/sk_hynix_logo.png"
-          ],
-          "layout": "split",
-          "label": "HBM package + SK hynix",
-          "start": 3.5,
-          "end": 7.0
-        },
-        {
-          "type": "asset",
-          "files": [
-            "assets/backgrounds/cad_gpu_hbm.jpg",
-            "assets/images/hbm_stack.png"
-          ],
-          "layout": "background",
-          "label": "HBM stack",
-          "start": 7.0,
-          "end": 10.5
-        },
-        {
-          "type": "asset",
-          "files": [
-            "assets/images/nvidia_blackwell.jpg"
-          ],
-          "layout": "single",
-          "label": "dead silicon",
-          "start": 10.5,
-          "end": 14.0
-        },
-        {
           "type": "component",
-          "component": "LayerStackDiagram",
-          "variant": "hbm3e",
-          "beat": 2,
-          "label": "8 stacks / 8 TB/s",
-          "focusX": 800,
-          "focusY": 400,
-          "scale": 1.2,
-          "start": 14.0,
-          "end": 17.5
-        },
-        {
-          "type": "component",
-          "component": "LayerStackDiagram",
-          "variant": "hbm3e",
-          "beat": 1,
-          "label": "1.2 TB/s",
-          "focusX": 550,
-          "focusY": 330,
-          "scale": 1.2,
-          "start": 17.5,
-          "end": 21.0
-        },
-        {
-          "type": "asset",
-          "files": [
-            "assets/backgrounds/cad_supply_chain.jpg",
-            "assets/images/nvidia_logo.png",
-            "assets/images/sk_hynix_logo.png"
-          ],
-          "layout": "background",
-          "label": "one supplier",
-          "start": 21.0,
-          "end": 24.5
-        },
-        {
-          "type": "asset",
-          "files": [
-            "assets/images/sk_hynix_logo.png",
-            "assets/images/hbm_package.jpg"
-          ],
-          "layout": "split",
-          "label": "SK hynix memory",
-          "start": 24.5,
-          "end": 27.0
-        },
-        {
-          "type": "asset",
-          "files": [
-            "assets/images/south_korea_map.png"
-          ],
-          "layout": "single",
-          "label": "Korea fab cluster",
-          "start": 27.0,
-          "end": 30.5
-        },
-        {
-          "type": "asset",
-          "files": [
-            "assets/images/nvidia_logo.png",
-            "assets/images/sk_hynix_logo.png"
-          ],
-          "layout": "split",
-          "label": "one chokehold",
-          "start": 30.5,
-          "end": 34.473
-        },
-        {
-          "type": "asset",
-          "files": [
-            "assets/backgrounds/cad_supply_chain.jpg",
-            "assets/images/sk_hynix_logo.png"
-          ],
-          "layout": "background",
-          "label": "CTA background",
-          "start": 34.473,
-          "end": 38.973
+          "start": 0,
+          "end": 32.175,
+          "component": "HudOverlay",
+          "variant": null,
+          "beat": 0,
+          "label": "HIGH-VOLTAGE LAB // HudOverlay"
         }
       ]
     },
     {
       "id": "Short2Tech",
-      "title": "INSIDE AN 8 TB/S MEMORY STACK",
-      "shortLabel": "SHORT 02 // THE STACK",
+      "title": "THE PRESSURE SPIKE",
+      "shortLabel": "SHORT 02 // THE MECHANISM",
       "titleLines": [
         {
-          "text": "INSIDE AN",
+          "text": "THE PRESSURE",
           "color": "white"
         },
         {
-          "text": "8 TB/S MEMORY STACK",
+          "text": "SPIKE",
           "color": "cyan"
         }
       ],
-      "audio": "audio/shorts/short_2_voice.wav",
-      "duration": 38.112,
-      "ctaStart": 33.612,
+      "audio": "audio/shorts/short_2.wav",
+      "duration": 33.675,
+      "ctaStart": 29.675,
       "ctaText": "FULL BREAKDOWN BELOW",
       "words": [
         {
-          "word": "Graphics",
-          "start": 0.5,
-          "end": 0.901,
-          "segment": "s2_01"
-        },
-        {
-          "word": "memory",
-          "start": 0.961,
-          "end": 1.321,
-          "segment": "s2_01"
-        },
-        {
-          "word": "was",
-          "start": 1.361,
-          "end": 1.501,
-          "segment": "s2_01"
-        },
-        {
-          "word": "built",
-          "start": 1.541,
-          "end": 1.761,
-          "segment": "s2_01"
-        },
-        {
-          "word": "for",
-          "start": 1.821,
-          "end": 1.942,
-          "segment": "s2_01"
-        },
-        {
-          "word": "pixels,",
-          "start": 2.022,
-          "end": 2.522,
-          "segment": "s2_01"
-        },
-        {
-          "word": "not",
-          "start": 2.922,
-          "end": 3.083,
-          "segment": "s2_01"
-        },
-        {
-          "word": "artificial",
-          "start": 3.223,
-          "end": 3.783,
-          "segment": "s2_01"
-        },
-        {
-          "word": "intelligence.",
-          "start": 3.843,
-          "end": 4.504,
-          "segment": "s2_01"
-        },
-        {
-          "word": "GDDR",
-          "start": 5.064,
-          "end": 5.805,
-          "segment": "s2_01"
-        },
-        {
-          "word": "moves",
-          "start": 5.865,
-          "end": 6.205,
-          "segment": "s2_01"
-        },
-        {
-          "word": "data",
-          "start": 6.266,
-          "end": 6.586,
-          "segment": "s2_01"
-        },
-        {
-          "word": "across",
-          "start": 6.626,
-          "end": 6.926,
+          "word": "Inside",
+          "start": 0.793,
+          "end": 1.113,
           "segment": "s2_01"
         },
         {
           "word": "a",
-          "start": 6.966,
-          "end": 7.006,
+          "start": 1.153,
+          "end": 1.193,
           "segment": "s2_01"
         },
         {
-          "word": "circuit",
-          "start": 7.086,
-          "end": 7.407,
+          "word": "long",
+          "start": 1.233,
+          "end": 1.433,
           "segment": "s2_01"
         },
         {
-          "word": "board,",
-          "start": 7.447,
-          "end": 7.767,
+          "word": "tunnel,",
+          "start": 1.493,
+          "end": 1.813,
           "segment": "s2_01"
         },
         {
-          "word": "burns",
-          "start": 8.047,
-          "end": 8.387,
+          "word": "the",
+          "start": 1.953,
+          "end": 2.053,
           "segment": "s2_01"
         },
         {
-          "word": "energy,",
-          "start": 8.488,
-          "end": 8.888,
+          "word": "pressure",
+          "start": 2.094,
+          "end": 2.394,
           "segment": "s2_01"
         },
         {
-          "word": "and",
-          "start": 9.208,
-          "end": 9.308,
+          "word": "ahead",
+          "start": 2.434,
+          "end": 2.614,
           "segment": "s2_01"
-        },
-        {
-          "word": "hits",
-          "start": 9.348,
-          "end": 9.569,
-          "segment": "s2_01"
-        },
-        {
-          "word": "a",
-          "start": 9.629,
-          "end": 9.669,
-          "segment": "s2_01"
-        },
-        {
-          "word": "bandwidth",
-          "start": 9.749,
-          "end": 10.229,
-          "segment": "s2_01"
-        },
-        {
-          "word": "wall.",
-          "start": 10.309,
-          "end": 10.67,
-          "segment": "s2_01"
-        },
-        {
-          "word": "At",
-          "start": 11.27,
-          "end": 11.35,
-          "segment": "s2_01"
-        },
-        {
-          "word": "AI",
-          "start": 11.47,
-          "end": 11.851,
-          "segment": "s2_01"
-        },
-        {
-          "word": "scale,",
-          "start": 11.891,
-          "end": 12.331,
-          "segment": "s2_01"
-        },
-        {
-          "word": "it",
-          "start": 12.591,
-          "end": 12.651,
-          "segment": "s2_01"
-        },
-        {
-          "word": "would",
-          "start": 12.671,
-          "end": 12.832,
-          "segment": "s2_01"
-        },
-        {
-          "word": "cook.",
-          "start": 12.872,
-          "end": 13.152,
-          "segment": "s2_01"
-        },
-        {
-          "word": "HBM",
-          "start": 13.652,
-          "end": 14.173,
-          "segment": "s2_02"
-        },
-        {
-          "word": "stacks",
-          "start": 14.273,
-          "end": 14.613,
-          "segment": "s2_02"
-        },
-        {
-          "word": "DRAM",
-          "start": 14.673,
-          "end": 15.134,
-          "segment": "s2_02"
-        },
-        {
-          "word": "vertically,",
-          "start": 15.214,
-          "end": 15.754,
-          "segment": "s2_02"
-        },
-        {
-          "word": "thousands",
-          "start": 16.195,
-          "end": 16.595,
-          "segment": "s2_02"
         },
         {
           "word": "of",
-          "start": 16.615,
-          "end": 16.675,
-          "segment": "s2_02"
-        },
-        {
-          "word": "through",
-          "start": 16.695,
-          "end": 16.895,
-          "segment": "s2_02"
-        },
-        {
-          "word": "silicon",
-          "start": 16.935,
-          "end": 17.496,
-          "segment": "s2_02"
-        },
-        {
-          "word": "vias",
-          "start": 17.576,
-          "end": 17.956,
-          "segment": "s2_02"
-        },
-        {
-          "word": "pierce",
-          "start": 18.016,
-          "end": 18.316,
-          "segment": "s2_02"
-        },
-        {
-          "word": "dies,",
-          "start": 18.376,
-          "end": 18.757,
-          "segment": "s2_02"
-        },
-        {
-          "word": "and",
-          "start": 19.157,
-          "end": 19.237,
-          "segment": "s2_02"
+          "start": 2.634,
+          "end": 2.694,
+          "segment": "s2_01"
         },
         {
           "word": "a",
-          "start": 19.277,
-          "end": 19.317,
-          "segment": "s2_02"
+          "start": 2.734,
+          "end": 2.774,
+          "segment": "s2_01"
         },
         {
-          "word": "silicon",
-          "start": 19.357,
-          "end": 19.818,
-          "segment": "s2_02"
+          "word": "fast",
+          "start": 2.814,
+          "end": 3.114,
+          "segment": "s2_01"
         },
         {
-          "word": "interposer",
-          "start": 19.838,
-          "end": 20.358,
-          "segment": "s2_02"
+          "word": "train",
+          "start": 3.174,
+          "end": 3.474,
+          "segment": "s2_01"
         },
         {
-          "word": "connects",
-          "start": 20.438,
-          "end": 20.838,
-          "segment": "s2_02"
+          "word": "can",
+          "start": 3.514,
+          "end": 3.654,
+          "segment": "s2_01"
         },
         {
-          "word": "it",
-          "start": 20.898,
-          "end": 20.979,
-          "segment": "s2_02"
+          "word": "climb",
+          "start": 3.694,
+          "end": 3.914,
+          "segment": "s2_01"
         },
         {
           "word": "to",
-          "start": 21.119,
-          "end": 21.239,
-          "segment": "s2_02"
+          "start": 3.934,
+          "end": 4.014,
+          "segment": "s2_01"
         },
         {
-          "word": "the",
-          "start": 21.279,
-          "end": 21.339,
-          "segment": "s2_02"
+          "word": "several",
+          "start": 4.074,
+          "end": 4.374,
+          "segment": "s2_01"
         },
         {
-          "word": "GPU.",
-          "start": 21.419,
-          "end": 22.12,
-          "segment": "s2_02"
-        },
-        {
-          "word": "Each",
-          "start": 22.14,
-          "end": 22.9,
-          "segment": "s2_02"
-        },
-        {
-          "word": "stack",
-          "start": 22.94,
-          "end": 23.26,
-          "segment": "s2_02"
-        },
-        {
-          "word": "carries",
-          "start": 23.401,
-          "end": 23.741,
-          "segment": "s2_02"
-        },
-        {
-          "word": "1,024",
-          "start": 23.761,
-          "end": 24.021,
-          "segment": "s2_02"
-        },
-        {
-          "word": "bits.",
-          "start": 24.041,
-          "end": 24.301,
-          "segment": "s2_02"
+          "word": "kilopascals.",
+          "start": 4.394,
+          "end": 5.095,
+          "segment": "s2_01"
         },
         {
           "word": "That",
-          "start": 24.321,
-          "end": 24.622,
-          "segment": "s2_02"
-        },
-        {
-          "word": "breaks",
-          "start": 24.642,
-          "end": 24.762,
-          "segment": "s2_02"
-        },
-        {
-          "word": "the",
-          "start": 24.822,
-          "end": 24.902,
-          "segment": "s2_02"
-        },
-        {
-          "word": "wall.",
-          "start": 24.922,
-          "end": 25.042,
-          "segment": "s2_02"
-        },
-        {
-          "word": "8",
-          "start": 25.542,
-          "end": 25.702,
-          "segment": "s2_03"
-        },
-        {
-          "word": "stacks",
-          "start": 25.762,
-          "end": 26.123,
-          "segment": "s2_03"
-        },
-        {
-          "word": "deliver",
-          "start": 26.163,
-          "end": 26.503,
-          "segment": "s2_03"
-        },
-        {
-          "word": "8",
-          "start": 26.523,
-          "end": 26.543,
-          "segment": "s2_03"
-        },
-        {
-          "word": "terabytes",
-          "start": 26.863,
-          "end": 27.404,
-          "segment": "s2_03"
-        },
-        {
-          "word": "per",
-          "start": 27.464,
-          "end": 27.624,
-          "segment": "s2_03"
-        },
-        {
-          "word": "second",
-          "start": 27.684,
-          "end": 28.044,
-          "segment": "s2_03"
-        },
-        {
-          "word": "inside",
-          "start": 28.384,
-          "end": 28.825,
-          "segment": "s2_03"
-        },
-        {
-          "word": "one",
-          "start": 28.985,
-          "end": 29.145,
-          "segment": "s2_03"
-        },
-        {
-          "word": "server",
-          "start": 29.225,
-          "end": 29.585,
-          "segment": "s2_03"
-        },
-        {
-          "word": "package.",
-          "start": 29.645,
-          "end": 30.106,
-          "segment": "s2_03"
-        },
-        {
-          "word": "The",
-          "start": 30.646,
-          "end": 30.746,
-          "segment": "s2_03"
-        },
-        {
-          "word": "wall",
-          "start": 30.786,
-          "end": 31.066,
-          "segment": "s2_03"
-        },
-        {
-          "word": "moves,",
-          "start": 31.146,
-          "end": 31.547,
-          "segment": "s2_03"
-        },
-        {
-          "word": "but",
-          "start": 31.847,
-          "end": 31.967,
-          "segment": "s2_03"
-        },
-        {
-          "word": "it",
-          "start": 31.987,
-          "end": 32.047,
-          "segment": "s2_03"
-        },
-        {
-          "word": "does",
-          "start": 32.087,
-          "end": 32.227,
-          "segment": "s2_03"
-        },
-        {
-          "word": "not",
-          "start": 32.307,
-          "end": 32.467,
-          "segment": "s2_03"
-        },
-        {
-          "word": "disappear.",
-          "start": 32.528,
-          "end": 33.128,
-          "segment": "s2_03"
-        },
-        {
-          "word": "That",
-          "start": 33.568,
-          "end": 33.728,
-          "segment": "s2_03"
+          "start": 5.535,
+          "end": 5.655,
+          "segment": "s2_01"
         },
         {
           "word": "is",
-          "start": 33.788,
-          "end": 33.889,
-          "segment": "s2_03"
+          "start": 5.715,
+          "end": 5.795,
+          "segment": "s2_01"
+        },
+        {
+          "word": "enough",
+          "start": 5.855,
+          "end": 6.055,
+          "segment": "s2_01"
+        },
+        {
+          "word": "force",
+          "start": 6.115,
+          "end": 6.395,
+          "segment": "s2_01"
+        },
+        {
+          "word": "to",
+          "start": 6.415,
+          "end": 6.495,
+          "segment": "s2_01"
+        },
+        {
+          "word": "flex",
+          "start": 6.535,
+          "end": 6.795,
+          "segment": "s2_01"
+        },
+        {
+          "word": "steel",
+          "start": 6.835,
+          "end": 7.175,
+          "segment": "s2_01"
+        },
+        {
+          "word": "and",
+          "start": 7.235,
+          "end": 7.315,
+          "segment": "s2_01"
+        },
+        {
+          "word": "shake",
+          "start": 7.376,
+          "end": 7.596,
+          "segment": "s2_01"
+        },
+        {
+          "word": "concrete.",
+          "start": 7.676,
+          "end": 8.156,
+          "segment": "s2_01"
+        },
+        {
+          "word": "The",
+          "start": 8.536,
+          "end": 8.616,
+          "segment": "s2_01"
+        },
+        {
+          "word": "pressure",
+          "start": 8.676,
+          "end": 8.976,
+          "segment": "s2_01"
+        },
+        {
+          "word": "wave",
+          "start": 9.016,
+          "end": 9.236,
+          "segment": "s2_01"
+        },
+        {
+          "word": "steepens",
+          "start": 9.276,
+          "end": 9.656,
+          "segment": "s2_01"
+        },
+        {
+          "word": "as",
+          "start": 9.736,
+          "end": 9.796,
+          "segment": "s2_01"
+        },
+        {
+          "word": "it",
+          "start": 9.856,
+          "end": 9.916,
+          "segment": "s2_01"
+        },
+        {
+          "word": "runs,",
+          "start": 9.977,
+          "end": 10.297,
+          "segment": "s2_01"
+        },
+        {
+          "word": "then",
+          "start": 10.617,
+          "end": 10.757,
+          "segment": "s2_01"
+        },
+        {
+          "word": "reaches",
+          "start": 10.837,
+          "end": 11.157,
+          "segment": "s2_01"
         },
         {
           "word": "the",
-          "start": 33.929,
-          "end": 34.009,
-          "segment": "s2_03"
+          "start": 11.217,
+          "end": 11.297,
+          "segment": "s2_01"
         },
         {
-          "word": "physics",
-          "start": 34.069,
-          "end": 34.429,
-          "segment": "s2_03"
+          "word": "portal",
+          "start": 11.337,
+          "end": 11.637,
+          "segment": "s2_01"
+        },
+        {
+          "word": "and",
+          "start": 11.697,
+          "end": 11.777,
+          "segment": "s2_01"
+        },
+        {
+          "word": "radiates",
+          "start": 11.837,
+          "end": 12.277,
+          "segment": "s2_01"
+        },
+        {
+          "word": "into",
+          "start": 12.337,
+          "end": 12.517,
+          "segment": "s2_01"
+        },
+        {
+          "word": "open",
+          "start": 12.618,
+          "end": 12.838,
+          "segment": "s2_01"
+        },
+        {
+          "word": "air.",
+          "start": 13.018,
+          "end": 13.158,
+          "segment": "s2_01"
+        },
+        {
+          "word": "Low",
+          "start": 13.598,
+          "end": 13.758,
+          "segment": "s2_01"
+        },
+        {
+          "word": "frequencies",
+          "start": 13.818,
+          "end": 14.338,
+          "segment": "s2_01"
+        },
+        {
+          "word": "bend",
+          "start": 14.398,
+          "end": 14.618,
+          "segment": "s2_01"
+        },
+        {
+          "word": "around",
+          "start": 14.658,
+          "end": 14.918,
+          "segment": "s2_01"
+        },
+        {
+          "word": "buildings,",
+          "start": 14.978,
+          "end": 15.359,
+          "segment": "s2_01"
+        },
+        {
+          "word": "so",
+          "start": 15.639,
+          "end": 15.759,
+          "segment": "s2_01"
+        },
+        {
+          "word": "the",
+          "start": 15.779,
+          "end": 15.859,
+          "segment": "s2_01"
+        },
+        {
+          "word": "boom",
+          "start": 15.879,
+          "end": 16.119,
+          "segment": "s2_01"
+        },
+        {
+          "word": "arrives",
+          "start": 16.139,
+          "end": 16.459,
+          "segment": "s2_01"
+        },
+        {
+          "word": "hundreds",
+          "start": 16.539,
+          "end": 16.859,
+          "segment": "s2_01"
         },
         {
           "word": "of",
-          "start": 34.469,
-          "end": 34.549,
-          "segment": "s2_03"
+          "start": 16.899,
+          "end": 16.959,
+          "segment": "s2_01"
+        },
+        {
+          "word": "meters",
+          "start": 16.999,
+          "end": 17.259,
+          "segment": "s2_01"
+        },
+        {
+          "word": "away.",
+          "start": 17.319,
+          "end": 17.599,
+          "segment": "s2_01"
+        },
+        {
+          "word": "Sound",
+          "start": 18.02,
+          "end": 18.32,
+          "segment": "s2_01"
+        },
+        {
+          "word": "crosses",
+          "start": 18.4,
+          "end": 18.76,
+          "segment": "s2_01"
+        },
+        {
+          "word": "that",
+          "start": 18.82,
+          "end": 18.96,
+          "segment": "s2_01"
+        },
+        {
+          "word": "distance",
+          "start": 19.02,
+          "end": 19.44,
+          "segment": "s2_01"
+        },
+        {
+          "word": "in",
+          "start": 19.52,
+          "end": 19.58,
+          "segment": "s2_01"
+        },
+        {
+          "word": "about",
+          "start": 19.62,
+          "end": 19.84,
+          "segment": "s2_01"
+        },
+        {
+          "word": "one",
+          "start": 19.98,
+          "end": 20.1,
+          "segment": "s2_01"
+        },
+        {
+          "word": "second.",
+          "start": 20.16,
+          "end": 20.541,
+          "segment": "s2_01"
+        },
+        {
+          "word": "Residents",
+          "start": 20.981,
+          "end": 21.421,
+          "segment": "s2_01"
+        },
+        {
+          "word": "hear",
+          "start": 21.441,
+          "end": 21.621,
+          "segment": "s2_01"
+        },
+        {
+          "word": "a",
+          "start": 21.661,
+          "end": 21.701,
+          "segment": "s2_01"
+        },
+        {
+          "word": "thud,",
+          "start": 21.781,
+          "end": 22.081,
+          "segment": "s2_01"
+        },
+        {
+          "word": "then",
+          "start": 22.241,
+          "end": 22.381,
+          "segment": "s2_01"
+        },
+        {
+          "word": "a",
+          "start": 22.401,
+          "end": 22.441,
+          "segment": "s2_01"
+        },
+        {
+          "word": "crack.",
+          "start": 22.521,
+          "end": 22.841,
+          "segment": "s2_01"
+        },
+        {
+          "word": "The",
+          "start": 23.262,
+          "end": 23.362,
+          "segment": "s2_01"
+        },
+        {
+          "word": "engine",
+          "start": 23.462,
+          "end": 23.762,
+          "segment": "s2_01"
+        },
+        {
+          "word": "is",
+          "start": 23.862,
+          "end": 23.942,
+          "segment": "s2_01"
+        },
+        {
+          "word": "innocent.",
+          "start": 24.062,
+          "end": 24.482,
+          "segment": "s2_01"
+        },
+        {
+          "word": "The",
+          "start": 24.882,
+          "end": 24.962,
+          "segment": "s2_01"
+        },
+        {
+          "word": "tunnel",
+          "start": 25.002,
+          "end": 25.302,
+          "segment": "s2_01"
+        },
+        {
+          "word": "mouth",
+          "start": 25.362,
+          "end": 25.622,
+          "segment": "s2_01"
+        },
+        {
+          "word": "is",
+          "start": 25.923,
+          "end": 26.003,
+          "segment": "s2_01"
         },
         {
           "word": "the",
-          "start": 34.569,
-          "end": 34.649,
-          "segment": "s2_03"
+          "start": 26.043,
+          "end": 26.143,
+          "segment": "s2_01"
         },
         {
-          "word": "stack.",
-          "start": 34.709,
-          "end": 35.069,
-          "segment": "s2_03"
+          "word": "weapon.",
+          "start": 26.223,
+          "end": 26.503,
+          "segment": "s2_01"
         },
         {
-          "word": "Tap",
-          "start": 35.47,
-          "end": 35.75,
-          "segment": "s2_03"
+          "word": "The",
+          "start": 27.324,
+          "end": 27.404,
+          "segment": "s2_01"
         },
         {
-          "word": "the",
-          "start": 35.79,
-          "end": 35.87,
-          "segment": "s2_03"
+          "word": "pressure",
+          "start": 27.464,
+          "end": 27.805,
+          "segment": "s2_01"
         },
         {
-          "word": "related",
-          "start": 35.91,
-          "end": 36.31,
-          "segment": "s2_03"
+          "word": "does",
+          "start": 27.865,
+          "end": 28.006,
+          "segment": "s2_01"
         },
         {
-          "word": "video",
-          "start": 36.37,
-          "end": 36.791,
-          "segment": "s2_03"
+          "word": "not",
+          "start": 28.066,
+          "end": 28.186,
+          "segment": "s2_01"
         },
         {
-          "word": "for",
-          "start": 36.871,
-          "end": 36.971,
-          "segment": "s2_03"
+          "word": "need",
+          "start": 28.246,
+          "end": 28.406,
+          "segment": "s2_01"
         },
         {
-          "word": "the",
-          "start": 36.991,
-          "end": 37.071,
-          "segment": "s2_03"
+          "word": "a",
+          "start": 28.446,
+          "end": 28.466,
+          "segment": "s2_01"
         },
         {
-          "word": "full",
-          "start": 37.131,
-          "end": 37.351,
-          "segment": "s2_03"
+          "word": "crash",
+          "start": 28.547,
+          "end": 28.867,
+          "segment": "s2_01"
         },
         {
-          "word": "breakdown.",
-          "start": 37.391,
-          "end": 37.912,
-          "segment": "s2_03"
+          "word": "to",
+          "start": 28.927,
+          "end": 29.028,
+          "segment": "s2_01"
+        },
+        {
+          "word": "cause",
+          "start": 29.068,
+          "end": 29.368,
+          "segment": "s2_01"
+        },
+        {
+          "word": "damage.",
+          "start": 29.429,
+          "end": 29.829,
+          "segment": "s2_01"
+        },
+        {
+          "word": "It",
+          "start": 30.29,
+          "end": 30.35,
+          "segment": "s2_01"
+        },
+        {
+          "word": "only",
+          "start": 30.431,
+          "end": 30.611,
+          "segment": "s2_01"
+        },
+        {
+          "word": "needs",
+          "start": 30.671,
+          "end": 30.912,
+          "segment": "s2_01"
+        },
+        {
+          "word": "a",
+          "start": 30.952,
+          "end": 30.972,
+          "segment": "s2_01"
+        },
+        {
+          "word": "fast",
+          "start": 31.052,
+          "end": 31.332,
+          "segment": "s2_01"
+        },
+        {
+          "word": "train",
+          "start": 31.413,
+          "end": 31.773,
+          "segment": "s2_01"
+        },
+        {
+          "word": "and",
+          "start": 32.074,
+          "end": 32.174,
+          "segment": "s2_01"
+        },
+        {
+          "word": "a",
+          "start": 32.194,
+          "end": 32.234,
+          "segment": "s2_01"
+        },
+        {
+          "word": "narrow",
+          "start": 32.315,
+          "end": 32.655,
+          "segment": "s2_01"
+        },
+        {
+          "word": "tube.",
+          "start": 32.735,
+          "end": 33.076,
+          "segment": "s2_01"
         }
       ],
       "captions": [
         {
-          "text": "Graphics memory was",
-          "start": 0.5,
-          "end": 1.501,
+          "text": "Inside a long tunnel, the pressure ahead of",
+          "start": 0.793,
+          "end": 2.694,
           "words": [
             {
-              "word": "Graphics",
-              "start": 0.5,
-              "end": 0.901,
-              "segment": "s2_01"
-            },
-            {
-              "word": "memory",
-              "start": 0.961,
-              "end": 1.321,
-              "segment": "s2_01"
-            },
-            {
-              "word": "was",
-              "start": 1.361,
-              "end": 1.501,
-              "segment": "s2_01"
-            }
-          ]
-        },
-        {
-          "text": "built for pixels,",
-          "start": 1.541,
-          "end": 2.522,
-          "words": [
-            {
-              "word": "built",
-              "start": 1.541,
-              "end": 1.761,
-              "segment": "s2_01"
-            },
-            {
-              "word": "for",
-              "start": 1.821,
-              "end": 1.942,
-              "segment": "s2_01"
-            },
-            {
-              "word": "pixels,",
-              "start": 2.022,
-              "end": 2.522,
-              "segment": "s2_01"
-            }
-          ]
-        },
-        {
-          "text": "not artificial",
-          "start": 2.922,
-          "end": 3.783,
-          "words": [
-            {
-              "word": "not",
-              "start": 2.922,
-              "end": 3.083,
-              "segment": "s2_01"
-            },
-            {
-              "word": "artificial",
-              "start": 3.223,
-              "end": 3.783,
-              "segment": "s2_01"
-            }
-          ]
-        },
-        {
-          "text": "intelligence.",
-          "start": 3.843,
-          "end": 4.504,
-          "words": [
-            {
-              "word": "intelligence.",
-              "start": 3.843,
-              "end": 4.504,
-              "segment": "s2_01"
-            }
-          ]
-        },
-        {
-          "text": "GDDR moves data",
-          "start": 5.064,
-          "end": 6.586,
-          "words": [
-            {
-              "word": "GDDR",
-              "start": 5.064,
-              "end": 5.805,
-              "segment": "s2_01"
-            },
-            {
-              "word": "moves",
-              "start": 5.865,
-              "end": 6.205,
-              "segment": "s2_01"
-            },
-            {
-              "word": "data",
-              "start": 6.266,
-              "end": 6.586,
-              "segment": "s2_01"
-            }
-          ]
-        },
-        {
-          "text": "across a circuit",
-          "start": 6.626,
-          "end": 7.407,
-          "words": [
-            {
-              "word": "across",
-              "start": 6.626,
-              "end": 6.926,
+              "word": "Inside",
+              "start": 0.793,
+              "end": 1.113,
               "segment": "s2_01"
             },
             {
               "word": "a",
-              "start": 6.966,
-              "end": 7.006,
+              "start": 1.153,
+              "end": 1.193,
               "segment": "s2_01"
             },
             {
-              "word": "circuit",
-              "start": 7.086,
-              "end": 7.407,
-              "segment": "s2_01"
-            }
-          ]
-        },
-        {
-          "text": "board, burns energy,",
-          "start": 7.447,
-          "end": 8.888,
-          "words": [
-            {
-              "word": "board,",
-              "start": 7.447,
-              "end": 7.767,
+              "word": "long",
+              "start": 1.233,
+              "end": 1.433,
               "segment": "s2_01"
             },
             {
-              "word": "burns",
-              "start": 8.047,
-              "end": 8.387,
+              "word": "tunnel,",
+              "start": 1.493,
+              "end": 1.813,
               "segment": "s2_01"
             },
             {
-              "word": "energy,",
-              "start": 8.488,
-              "end": 8.888,
-              "segment": "s2_01"
-            }
-          ]
-        },
-        {
-          "text": "and hits a",
-          "start": 9.208,
-          "end": 9.669,
-          "words": [
-            {
-              "word": "and",
-              "start": 9.208,
-              "end": 9.308,
+              "word": "the",
+              "start": 1.953,
+              "end": 2.053,
               "segment": "s2_01"
             },
             {
-              "word": "hits",
-              "start": 9.348,
-              "end": 9.569,
+              "word": "pressure",
+              "start": 2.094,
+              "end": 2.394,
               "segment": "s2_01"
             },
             {
-              "word": "a",
-              "start": 9.629,
-              "end": 9.669,
+              "word": "ahead",
+              "start": 2.434,
+              "end": 2.614,
               "segment": "s2_01"
-            }
-          ]
-        },
-        {
-          "text": "bandwidth wall.",
-          "start": 9.749,
-          "end": 10.67,
-          "words": [
-            {
-              "word": "bandwidth",
-              "start": 9.749,
-              "end": 10.229,
-              "segment": "s2_01"
-            },
-            {
-              "word": "wall.",
-              "start": 10.309,
-              "end": 10.67,
-              "segment": "s2_01"
-            }
-          ]
-        },
-        {
-          "text": "At AI scale,",
-          "start": 11.27,
-          "end": 12.331,
-          "words": [
-            {
-              "word": "At",
-              "start": 11.27,
-              "end": 11.35,
-              "segment": "s2_01"
-            },
-            {
-              "word": "AI",
-              "start": 11.47,
-              "end": 11.851,
-              "segment": "s2_01"
-            },
-            {
-              "word": "scale,",
-              "start": 11.891,
-              "end": 12.331,
-              "segment": "s2_01"
-            }
-          ]
-        },
-        {
-          "text": "it would cook.",
-          "start": 12.591,
-          "end": 13.152,
-          "words": [
-            {
-              "word": "it",
-              "start": 12.591,
-              "end": 12.651,
-              "segment": "s2_01"
-            },
-            {
-              "word": "would",
-              "start": 12.671,
-              "end": 12.832,
-              "segment": "s2_01"
-            },
-            {
-              "word": "cook.",
-              "start": 12.872,
-              "end": 13.152,
-              "segment": "s2_01"
-            }
-          ]
-        },
-        {
-          "text": "HBM stacks DRAM",
-          "start": 13.652,
-          "end": 15.134,
-          "words": [
-            {
-              "word": "HBM",
-              "start": 13.652,
-              "end": 14.173,
-              "segment": "s2_02"
-            },
-            {
-              "word": "stacks",
-              "start": 14.273,
-              "end": 14.613,
-              "segment": "s2_02"
-            },
-            {
-              "word": "DRAM",
-              "start": 14.673,
-              "end": 15.134,
-              "segment": "s2_02"
-            }
-          ]
-        },
-        {
-          "text": "vertically,",
-          "start": 15.214,
-          "end": 15.754,
-          "words": [
-            {
-              "word": "vertically,",
-              "start": 15.214,
-              "end": 15.754,
-              "segment": "s2_02"
-            }
-          ]
-        },
-        {
-          "text": "thousands of through",
-          "start": 16.195,
-          "end": 16.895,
-          "words": [
-            {
-              "word": "thousands",
-              "start": 16.195,
-              "end": 16.595,
-              "segment": "s2_02"
             },
             {
               "word": "of",
-              "start": 16.615,
-              "end": 16.675,
-              "segment": "s2_02"
-            },
-            {
-              "word": "through",
-              "start": 16.695,
-              "end": 16.895,
-              "segment": "s2_02"
+              "start": 2.634,
+              "end": 2.694,
+              "segment": "s2_01"
             }
           ]
         },
         {
-          "text": "silicon vias pierce",
-          "start": 16.935,
-          "end": 18.316,
+          "text": "a fast train can climb to several kilopascals.",
+          "start": 2.734,
+          "end": 5.095,
           "words": [
-            {
-              "word": "silicon",
-              "start": 16.935,
-              "end": 17.496,
-              "segment": "s2_02"
-            },
-            {
-              "word": "vias",
-              "start": 17.576,
-              "end": 17.956,
-              "segment": "s2_02"
-            },
-            {
-              "word": "pierce",
-              "start": 18.016,
-              "end": 18.316,
-              "segment": "s2_02"
-            }
-          ]
-        },
-        {
-          "text": "dies, and a",
-          "start": 18.376,
-          "end": 19.317,
-          "words": [
-            {
-              "word": "dies,",
-              "start": 18.376,
-              "end": 18.757,
-              "segment": "s2_02"
-            },
-            {
-              "word": "and",
-              "start": 19.157,
-              "end": 19.237,
-              "segment": "s2_02"
-            },
             {
               "word": "a",
-              "start": 19.277,
-              "end": 19.317,
-              "segment": "s2_02"
-            }
-          ]
-        },
-        {
-          "text": "silicon interposer",
-          "start": 19.357,
-          "end": 20.358,
-          "words": [
-            {
-              "word": "silicon",
-              "start": 19.357,
-              "end": 19.818,
-              "segment": "s2_02"
+              "start": 2.734,
+              "end": 2.774,
+              "segment": "s2_01"
             },
             {
-              "word": "interposer",
-              "start": 19.838,
-              "end": 20.358,
-              "segment": "s2_02"
-            }
-          ]
-        },
-        {
-          "text": "connects it to",
-          "start": 20.438,
-          "end": 21.239,
-          "words": [
-            {
-              "word": "connects",
-              "start": 20.438,
-              "end": 20.838,
-              "segment": "s2_02"
+              "word": "fast",
+              "start": 2.814,
+              "end": 3.114,
+              "segment": "s2_01"
             },
             {
-              "word": "it",
-              "start": 20.898,
-              "end": 20.979,
-              "segment": "s2_02"
+              "word": "train",
+              "start": 3.174,
+              "end": 3.474,
+              "segment": "s2_01"
+            },
+            {
+              "word": "can",
+              "start": 3.514,
+              "end": 3.654,
+              "segment": "s2_01"
+            },
+            {
+              "word": "climb",
+              "start": 3.694,
+              "end": 3.914,
+              "segment": "s2_01"
             },
             {
               "word": "to",
-              "start": 21.119,
-              "end": 21.239,
-              "segment": "s2_02"
+              "start": 3.934,
+              "end": 4.014,
+              "segment": "s2_01"
+            },
+            {
+              "word": "several",
+              "start": 4.074,
+              "end": 4.374,
+              "segment": "s2_01"
+            },
+            {
+              "word": "kilopascals.",
+              "start": 4.394,
+              "end": 5.095,
+              "segment": "s2_01"
             }
           ]
         },
         {
-          "text": "the GPU. Each",
-          "start": 21.279,
-          "end": 22.9,
+          "text": "That is enough force to flex steel and",
+          "start": 5.535,
+          "end": 7.315,
           "words": [
-            {
-              "word": "the",
-              "start": 21.279,
-              "end": 21.339,
-              "segment": "s2_02"
-            },
-            {
-              "word": "GPU.",
-              "start": 21.419,
-              "end": 22.12,
-              "segment": "s2_02"
-            },
-            {
-              "word": "Each",
-              "start": 22.14,
-              "end": 22.9,
-              "segment": "s2_02"
-            }
-          ]
-        },
-        {
-          "text": "stack carries 1,024",
-          "start": 22.94,
-          "end": 24.021,
-          "words": [
-            {
-              "word": "stack",
-              "start": 22.94,
-              "end": 23.26,
-              "segment": "s2_02"
-            },
-            {
-              "word": "carries",
-              "start": 23.401,
-              "end": 23.741,
-              "segment": "s2_02"
-            },
-            {
-              "word": "1,024",
-              "start": 23.761,
-              "end": 24.021,
-              "segment": "s2_02"
-            }
-          ]
-        },
-        {
-          "text": "bits. That breaks",
-          "start": 24.041,
-          "end": 24.762,
-          "words": [
-            {
-              "word": "bits.",
-              "start": 24.041,
-              "end": 24.301,
-              "segment": "s2_02"
-            },
             {
               "word": "That",
-              "start": 24.321,
-              "end": 24.622,
-              "segment": "s2_02"
+              "start": 5.535,
+              "end": 5.655,
+              "segment": "s2_01"
             },
             {
-              "word": "breaks",
-              "start": 24.642,
-              "end": 24.762,
-              "segment": "s2_02"
+              "word": "is",
+              "start": 5.715,
+              "end": 5.795,
+              "segment": "s2_01"
+            },
+            {
+              "word": "enough",
+              "start": 5.855,
+              "end": 6.055,
+              "segment": "s2_01"
+            },
+            {
+              "word": "force",
+              "start": 6.115,
+              "end": 6.395,
+              "segment": "s2_01"
+            },
+            {
+              "word": "to",
+              "start": 6.415,
+              "end": 6.495,
+              "segment": "s2_01"
+            },
+            {
+              "word": "flex",
+              "start": 6.535,
+              "end": 6.795,
+              "segment": "s2_01"
+            },
+            {
+              "word": "steel",
+              "start": 6.835,
+              "end": 7.175,
+              "segment": "s2_01"
+            },
+            {
+              "word": "and",
+              "start": 7.235,
+              "end": 7.315,
+              "segment": "s2_01"
             }
           ]
         },
         {
-          "text": "the wall.",
-          "start": 24.822,
-          "end": 25.042,
+          "text": "shake concrete. The pressure wave steepens as it",
+          "start": 7.376,
+          "end": 9.916,
           "words": [
             {
-              "word": "the",
-              "start": 24.822,
-              "end": 24.902,
-              "segment": "s2_02"
+              "word": "shake",
+              "start": 7.376,
+              "end": 7.596,
+              "segment": "s2_01"
             },
             {
-              "word": "wall.",
-              "start": 24.922,
-              "end": 25.042,
-              "segment": "s2_02"
-            }
-          ]
-        },
-        {
-          "text": "8 stacks deliver",
-          "start": 25.542,
-          "end": 26.503,
-          "words": [
-            {
-              "word": "8",
-              "start": 25.542,
-              "end": 25.702,
-              "segment": "s2_03"
+              "word": "concrete.",
+              "start": 7.676,
+              "end": 8.156,
+              "segment": "s2_01"
             },
-            {
-              "word": "stacks",
-              "start": 25.762,
-              "end": 26.123,
-              "segment": "s2_03"
-            },
-            {
-              "word": "deliver",
-              "start": 26.163,
-              "end": 26.503,
-              "segment": "s2_03"
-            }
-          ]
-        },
-        {
-          "text": "8 terabytes per",
-          "start": 26.523,
-          "end": 27.624,
-          "words": [
-            {
-              "word": "8",
-              "start": 26.523,
-              "end": 26.543,
-              "segment": "s2_03"
-            },
-            {
-              "word": "terabytes",
-              "start": 26.863,
-              "end": 27.404,
-              "segment": "s2_03"
-            },
-            {
-              "word": "per",
-              "start": 27.464,
-              "end": 27.624,
-              "segment": "s2_03"
-            }
-          ]
-        },
-        {
-          "text": "second inside one",
-          "start": 27.684,
-          "end": 29.145,
-          "words": [
-            {
-              "word": "second",
-              "start": 27.684,
-              "end": 28.044,
-              "segment": "s2_03"
-            },
-            {
-              "word": "inside",
-              "start": 28.384,
-              "end": 28.825,
-              "segment": "s2_03"
-            },
-            {
-              "word": "one",
-              "start": 28.985,
-              "end": 29.145,
-              "segment": "s2_03"
-            }
-          ]
-        },
-        {
-          "text": "server package.",
-          "start": 29.225,
-          "end": 30.106,
-          "words": [
-            {
-              "word": "server",
-              "start": 29.225,
-              "end": 29.585,
-              "segment": "s2_03"
-            },
-            {
-              "word": "package.",
-              "start": 29.645,
-              "end": 30.106,
-              "segment": "s2_03"
-            }
-          ]
-        },
-        {
-          "text": "The wall moves,",
-          "start": 30.646,
-          "end": 31.547,
-          "words": [
             {
               "word": "The",
-              "start": 30.646,
-              "end": 30.746,
-              "segment": "s2_03"
+              "start": 8.536,
+              "end": 8.616,
+              "segment": "s2_01"
             },
             {
-              "word": "wall",
-              "start": 30.786,
-              "end": 31.066,
-              "segment": "s2_03"
+              "word": "pressure",
+              "start": 8.676,
+              "end": 8.976,
+              "segment": "s2_01"
             },
             {
-              "word": "moves,",
-              "start": 31.146,
-              "end": 31.547,
-              "segment": "s2_03"
-            }
-          ]
-        },
-        {
-          "text": "but it does",
-          "start": 31.847,
-          "end": 32.227,
-          "words": [
+              "word": "wave",
+              "start": 9.016,
+              "end": 9.236,
+              "segment": "s2_01"
+            },
             {
-              "word": "but",
-              "start": 31.847,
-              "end": 31.967,
-              "segment": "s2_03"
+              "word": "steepens",
+              "start": 9.276,
+              "end": 9.656,
+              "segment": "s2_01"
+            },
+            {
+              "word": "as",
+              "start": 9.736,
+              "end": 9.796,
+              "segment": "s2_01"
             },
             {
               "word": "it",
-              "start": 31.987,
-              "end": 32.047,
-              "segment": "s2_03"
-            },
-            {
-              "word": "does",
-              "start": 32.087,
-              "end": 32.227,
-              "segment": "s2_03"
+              "start": 9.856,
+              "end": 9.916,
+              "segment": "s2_01"
             }
           ]
         },
         {
-          "text": "not disappear. That",
-          "start": 32.307,
-          "end": 33.728,
+          "text": "runs, then reaches the portal and radiates into",
+          "start": 9.977,
+          "end": 12.517,
           "words": [
             {
-              "word": "not",
-              "start": 32.307,
-              "end": 32.467,
-              "segment": "s2_03"
+              "word": "runs,",
+              "start": 9.977,
+              "end": 10.297,
+              "segment": "s2_01"
             },
             {
-              "word": "disappear.",
-              "start": 32.528,
-              "end": 33.128,
-              "segment": "s2_03"
+              "word": "then",
+              "start": 10.617,
+              "end": 10.757,
+              "segment": "s2_01"
             },
             {
-              "word": "That",
-              "start": 33.568,
-              "end": 33.728,
-              "segment": "s2_03"
+              "word": "reaches",
+              "start": 10.837,
+              "end": 11.157,
+              "segment": "s2_01"
+            },
+            {
+              "word": "the",
+              "start": 11.217,
+              "end": 11.297,
+              "segment": "s2_01"
+            },
+            {
+              "word": "portal",
+              "start": 11.337,
+              "end": 11.637,
+              "segment": "s2_01"
+            },
+            {
+              "word": "and",
+              "start": 11.697,
+              "end": 11.777,
+              "segment": "s2_01"
+            },
+            {
+              "word": "radiates",
+              "start": 11.837,
+              "end": 12.277,
+              "segment": "s2_01"
+            },
+            {
+              "word": "into",
+              "start": 12.337,
+              "end": 12.517,
+              "segment": "s2_01"
             }
           ]
         },
         {
-          "text": "is the physics",
-          "start": 33.788,
-          "end": 34.429,
+          "text": "open air. Low frequencies bend around buildings, so",
+          "start": 12.618,
+          "end": 15.759,
+          "words": [
+            {
+              "word": "open",
+              "start": 12.618,
+              "end": 12.838,
+              "segment": "s2_01"
+            },
+            {
+              "word": "air.",
+              "start": 13.018,
+              "end": 13.158,
+              "segment": "s2_01"
+            },
+            {
+              "word": "Low",
+              "start": 13.598,
+              "end": 13.758,
+              "segment": "s2_01"
+            },
+            {
+              "word": "frequencies",
+              "start": 13.818,
+              "end": 14.338,
+              "segment": "s2_01"
+            },
+            {
+              "word": "bend",
+              "start": 14.398,
+              "end": 14.618,
+              "segment": "s2_01"
+            },
+            {
+              "word": "around",
+              "start": 14.658,
+              "end": 14.918,
+              "segment": "s2_01"
+            },
+            {
+              "word": "buildings,",
+              "start": 14.978,
+              "end": 15.359,
+              "segment": "s2_01"
+            },
+            {
+              "word": "so",
+              "start": 15.639,
+              "end": 15.759,
+              "segment": "s2_01"
+            }
+          ]
+        },
+        {
+          "text": "the boom arrives hundreds of meters away. Sound",
+          "start": 15.779,
+          "end": 18.32,
+          "words": [
+            {
+              "word": "the",
+              "start": 15.779,
+              "end": 15.859,
+              "segment": "s2_01"
+            },
+            {
+              "word": "boom",
+              "start": 15.879,
+              "end": 16.119,
+              "segment": "s2_01"
+            },
+            {
+              "word": "arrives",
+              "start": 16.139,
+              "end": 16.459,
+              "segment": "s2_01"
+            },
+            {
+              "word": "hundreds",
+              "start": 16.539,
+              "end": 16.859,
+              "segment": "s2_01"
+            },
+            {
+              "word": "of",
+              "start": 16.899,
+              "end": 16.959,
+              "segment": "s2_01"
+            },
+            {
+              "word": "meters",
+              "start": 16.999,
+              "end": 17.259,
+              "segment": "s2_01"
+            },
+            {
+              "word": "away.",
+              "start": 17.319,
+              "end": 17.599,
+              "segment": "s2_01"
+            },
+            {
+              "word": "Sound",
+              "start": 18.02,
+              "end": 18.32,
+              "segment": "s2_01"
+            }
+          ]
+        },
+        {
+          "text": "crosses that distance in about one second. Residents",
+          "start": 18.4,
+          "end": 21.421,
+          "words": [
+            {
+              "word": "crosses",
+              "start": 18.4,
+              "end": 18.76,
+              "segment": "s2_01"
+            },
+            {
+              "word": "that",
+              "start": 18.82,
+              "end": 18.96,
+              "segment": "s2_01"
+            },
+            {
+              "word": "distance",
+              "start": 19.02,
+              "end": 19.44,
+              "segment": "s2_01"
+            },
+            {
+              "word": "in",
+              "start": 19.52,
+              "end": 19.58,
+              "segment": "s2_01"
+            },
+            {
+              "word": "about",
+              "start": 19.62,
+              "end": 19.84,
+              "segment": "s2_01"
+            },
+            {
+              "word": "one",
+              "start": 19.98,
+              "end": 20.1,
+              "segment": "s2_01"
+            },
+            {
+              "word": "second.",
+              "start": 20.16,
+              "end": 20.541,
+              "segment": "s2_01"
+            },
+            {
+              "word": "Residents",
+              "start": 20.981,
+              "end": 21.421,
+              "segment": "s2_01"
+            }
+          ]
+        },
+        {
+          "text": "hear a thud, then a crack. The engine",
+          "start": 21.441,
+          "end": 23.762,
+          "words": [
+            {
+              "word": "hear",
+              "start": 21.441,
+              "end": 21.621,
+              "segment": "s2_01"
+            },
+            {
+              "word": "a",
+              "start": 21.661,
+              "end": 21.701,
+              "segment": "s2_01"
+            },
+            {
+              "word": "thud,",
+              "start": 21.781,
+              "end": 22.081,
+              "segment": "s2_01"
+            },
+            {
+              "word": "then",
+              "start": 22.241,
+              "end": 22.381,
+              "segment": "s2_01"
+            },
+            {
+              "word": "a",
+              "start": 22.401,
+              "end": 22.441,
+              "segment": "s2_01"
+            },
+            {
+              "word": "crack.",
+              "start": 22.521,
+              "end": 22.841,
+              "segment": "s2_01"
+            },
+            {
+              "word": "The",
+              "start": 23.262,
+              "end": 23.362,
+              "segment": "s2_01"
+            },
+            {
+              "word": "engine",
+              "start": 23.462,
+              "end": 23.762,
+              "segment": "s2_01"
+            }
+          ]
+        },
+        {
+          "text": "is innocent. The tunnel mouth is the weapon.",
+          "start": 23.862,
+          "end": 26.503,
           "words": [
             {
               "word": "is",
-              "start": 33.788,
-              "end": 33.889,
-              "segment": "s2_03"
+              "start": 23.862,
+              "end": 23.942,
+              "segment": "s2_01"
+            },
+            {
+              "word": "innocent.",
+              "start": 24.062,
+              "end": 24.482,
+              "segment": "s2_01"
+            },
+            {
+              "word": "The",
+              "start": 24.882,
+              "end": 24.962,
+              "segment": "s2_01"
+            },
+            {
+              "word": "tunnel",
+              "start": 25.002,
+              "end": 25.302,
+              "segment": "s2_01"
+            },
+            {
+              "word": "mouth",
+              "start": 25.362,
+              "end": 25.622,
+              "segment": "s2_01"
+            },
+            {
+              "word": "is",
+              "start": 25.923,
+              "end": 26.003,
+              "segment": "s2_01"
             },
             {
               "word": "the",
-              "start": 33.929,
-              "end": 34.009,
-              "segment": "s2_03"
+              "start": 26.043,
+              "end": 26.143,
+              "segment": "s2_01"
             },
             {
-              "word": "physics",
-              "start": 34.069,
-              "end": 34.429,
-              "segment": "s2_03"
+              "word": "weapon.",
+              "start": 26.223,
+              "end": 26.503,
+              "segment": "s2_01"
             }
           ]
         },
         {
-          "text": "of the stack.",
-          "start": 34.469,
-          "end": 35.069,
+          "text": "The pressure does not need a crash to",
+          "start": 27.324,
+          "end": 29.028,
           "words": [
             {
-              "word": "of",
-              "start": 34.469,
-              "end": 34.549,
-              "segment": "s2_03"
+              "word": "The",
+              "start": 27.324,
+              "end": 27.404,
+              "segment": "s2_01"
             },
             {
-              "word": "the",
-              "start": 34.569,
-              "end": 34.649,
-              "segment": "s2_03"
+              "word": "pressure",
+              "start": 27.464,
+              "end": 27.805,
+              "segment": "s2_01"
             },
             {
-              "word": "stack.",
-              "start": 34.709,
-              "end": 35.069,
-              "segment": "s2_03"
+              "word": "does",
+              "start": 27.865,
+              "end": 28.006,
+              "segment": "s2_01"
+            },
+            {
+              "word": "not",
+              "start": 28.066,
+              "end": 28.186,
+              "segment": "s2_01"
+            },
+            {
+              "word": "need",
+              "start": 28.246,
+              "end": 28.406,
+              "segment": "s2_01"
+            },
+            {
+              "word": "a",
+              "start": 28.446,
+              "end": 28.466,
+              "segment": "s2_01"
+            },
+            {
+              "word": "crash",
+              "start": 28.547,
+              "end": 28.867,
+              "segment": "s2_01"
+            },
+            {
+              "word": "to",
+              "start": 28.927,
+              "end": 29.028,
+              "segment": "s2_01"
             }
           ]
         },
         {
-          "text": "Tap the related",
-          "start": 35.47,
-          "end": 36.31,
+          "text": "cause damage. It only needs a fast train",
+          "start": 29.068,
+          "end": 31.773,
           "words": [
             {
-              "word": "Tap",
-              "start": 35.47,
-              "end": 35.75,
-              "segment": "s2_03"
+              "word": "cause",
+              "start": 29.068,
+              "end": 29.368,
+              "segment": "s2_01"
             },
             {
-              "word": "the",
-              "start": 35.79,
-              "end": 35.87,
-              "segment": "s2_03"
+              "word": "damage.",
+              "start": 29.429,
+              "end": 29.829,
+              "segment": "s2_01"
             },
             {
-              "word": "related",
-              "start": 35.91,
-              "end": 36.31,
-              "segment": "s2_03"
+              "word": "It",
+              "start": 30.29,
+              "end": 30.35,
+              "segment": "s2_01"
+            },
+            {
+              "word": "only",
+              "start": 30.431,
+              "end": 30.611,
+              "segment": "s2_01"
+            },
+            {
+              "word": "needs",
+              "start": 30.671,
+              "end": 30.912,
+              "segment": "s2_01"
+            },
+            {
+              "word": "a",
+              "start": 30.952,
+              "end": 30.972,
+              "segment": "s2_01"
+            },
+            {
+              "word": "fast",
+              "start": 31.052,
+              "end": 31.332,
+              "segment": "s2_01"
+            },
+            {
+              "word": "train",
+              "start": 31.413,
+              "end": 31.773,
+              "segment": "s2_01"
             }
           ]
         },
         {
-          "text": "video for the",
-          "start": 36.37,
-          "end": 37.071,
+          "text": "and a narrow tube.",
+          "start": 32.074,
+          "end": 33.076,
           "words": [
             {
-              "word": "video",
-              "start": 36.37,
-              "end": 36.791,
-              "segment": "s2_03"
+              "word": "and",
+              "start": 32.074,
+              "end": 32.174,
+              "segment": "s2_01"
             },
             {
-              "word": "for",
-              "start": 36.871,
-              "end": 36.971,
-              "segment": "s2_03"
+              "word": "a",
+              "start": 32.194,
+              "end": 32.234,
+              "segment": "s2_01"
             },
             {
-              "word": "the",
-              "start": 36.991,
-              "end": 37.071,
-              "segment": "s2_03"
-            }
-          ]
-        },
-        {
-          "text": "full breakdown.",
-          "start": 37.131,
-          "end": 37.912,
-          "words": [
-            {
-              "word": "full",
-              "start": 37.131,
-              "end": 37.351,
-              "segment": "s2_03"
+              "word": "narrow",
+              "start": 32.315,
+              "end": 32.655,
+              "segment": "s2_01"
             },
             {
-              "word": "breakdown.",
-              "start": 37.391,
-              "end": 37.912,
-              "segment": "s2_03"
+              "word": "tube.",
+              "start": 32.735,
+              "end": 33.076,
+              "segment": "s2_01"
             }
           ]
         }
       ],
       "visuals": [
         {
-          "type": "asset",
-          "files": [
-            "assets/images/pcb_macro.jpg"
-          ],
-          "layout": "single",
-          "label": "GDDR board",
-          "start": 0.0,
-          "end": 3.5
-        },
-        {
           "type": "component",
-          "component": "PhysicsComparison",
+          "start": 0,
+          "end": 33.675,
+          "component": "StressGauge",
           "variant": null,
-          "beat": 1,
-          "label": "energy / heat",
-          "focusX": 500,
-          "focusY": 340,
-          "scale": 1.2,
-          "start": 3.5,
-          "end": 7.0
-        },
-        {
-          "type": "asset",
-          "files": [
-            "assets/backgrounds/cad_gpu_hbm.jpg",
-            "assets/images/nvidia_blackwell.jpg"
-          ],
-          "layout": "background",
-          "label": "8 TB/s wall",
-          "start": 7.0,
-          "end": 10.5
-        },
-        {
-          "type": "asset",
-          "files": [
-            "assets/images/data_center_racks.jpg"
-          ],
-          "layout": "single",
-          "label": "AI data center",
-          "start": 10.5,
-          "end": 13.352
-        },
-        {
-          "type": "component",
-          "component": "LayerStackDiagram",
-          "variant": "package",
-          "beat": 1,
-          "label": "TSV array",
-          "focusX": 590,
-          "focusY": 400,
-          "scale": 1.4,
-          "start": 13.352,
-          "end": 16.5
-        },
-        {
-          "type": "component",
-          "component": "LayerStackDiagram",
-          "variant": "package",
-          "beat": 2,
-          "label": "CoWoS interposer",
-          "focusX": 800,
-          "focusY": 400,
-          "scale": 1.15,
-          "start": 16.5,
-          "end": 19.5
-        },
-        {
-          "type": "asset",
-          "files": [
-            "assets/images/hbm_package.jpg"
-          ],
-          "layout": "single",
-          "label": "HBM package",
-          "start": 19.5,
-          "end": 22.5
-        },
-        {
-          "type": "asset",
-          "files": [
-            "assets/images/silicon_interposer.jpg"
-          ],
-          "layout": "single",
-          "label": "silicon interposer",
-          "start": 22.5,
-          "end": 25.242
-        },
-        {
-          "type": "component",
-          "component": "LayerStackDiagram",
-          "variant": "hbm3e",
-          "beat": 2,
-          "label": "8 stacks",
-          "focusX": 800,
-          "focusY": 400,
-          "scale": 1.2,
-          "start": 25.242,
-          "end": 28.5
-        },
-        {
-          "type": "asset",
-          "files": [
-            "assets/images/nvidia_blackwell.jpg"
-          ],
-          "layout": "single",
-          "label": "Blackwell",
-          "start": 28.5,
-          "end": 31.0
-        },
-        {
-          "type": "asset",
-          "files": [
-            "assets/backgrounds/cad_gpu_hbm.jpg",
-            "assets/images/nvidia_blackwell.jpg"
-          ],
-          "layout": "background",
-          "label": "package wall",
-          "start": 31.0,
-          "end": 33.612
-        },
-        {
-          "type": "asset",
-          "files": [
-            "assets/backgrounds/cad_wafer_tsv.jpg",
-            "assets/images/through_silicon_via.png"
-          ],
-          "layout": "background",
-          "label": "CTA background",
-          "start": 33.612,
-          "end": 38.112
+          "beat": 0,
+          "label": "HIGH-VOLTAGE LAB // StressGauge"
         }
       ]
     },
     {
       "id": "Short3Monopoly",
-      "title": "HOW SK HYNIX BEAT SAMSUNG (70% YIELD)",
-      "shortLabel": "SHORT 03 // THE MOAT",
+      "title": "THE KINGFISHER FIX",
+      "shortLabel": "SHORT 03 // THE HACK",
       "titleLines": [
         {
-          "text": "HOW SK HYNIX BEAT",
+          "text": "THE KINGFISHER",
           "color": "white"
         },
         {
-          "text": "SAMSUNG (70% YIELD)",
-          "color": "cyan"
+          "text": "FIX",
+          "color": "orange"
         }
       ],
-      "audio": "audio/shorts/short_3_voice.wav",
-      "duration": 40.651,
-      "ctaStart": 36.151,
+      "audio": "audio/shorts/short_3.wav",
+      "duration": 35.6,
+      "ctaStart": 31.6,
       "ctaText": "FULL BREAKDOWN BELOW",
       "words": [
         {
-          "word": "Samsung",
-          "start": 0.5,
-          "end": 0.981,
+          "word": "A",
+          "start": 0.792,
+          "end": 0.832,
           "segment": "s3_01"
         },
         {
-          "word": "had",
-          "start": 1.021,
-          "end": 1.161,
+          "word": "Kingfisher",
+          "start": 0.852,
+          "end": 1.332,
           "segment": "s3_01"
         },
         {
-          "word": "bigger",
-          "start": 1.241,
-          "end": 1.502,
+          "word": "enters",
+          "start": 1.392,
+          "end": 1.612,
           "segment": "s3_01"
         },
         {
-          "word": "budgets",
-          "start": 1.542,
-          "end": 1.882,
+          "word": "water",
+          "start": 1.672,
+          "end": 1.933,
           "segment": "s3_01"
         },
         {
-          "word": "and",
-          "start": 2.083,
-          "end": 2.183,
+          "word": "without",
+          "start": 1.973,
+          "end": 2.253,
           "segment": "s3_01"
         },
         {
           "word": "a",
-          "start": 2.223,
-          "end": 2.243,
+          "start": 2.293,
+          "end": 2.313,
           "segment": "s3_01"
         },
         {
-          "word": "faster",
-          "start": 2.343,
-          "end": 2.803,
+          "word": "splash",
+          "start": 2.373,
+          "end": 2.753,
           "segment": "s3_01"
         },
         {
-          "word": "roadmap,",
-          "start": 2.864,
-          "end": 3.384,
-          "segment": "s3_01"
-        },
-        {
-          "word": "but",
-          "start": 3.805,
-          "end": 3.905,
+          "word": "because",
+          "start": 3.013,
+          "end": 3.234,
           "segment": "s3_01"
         },
         {
           "word": "its",
-          "start": 3.945,
-          "end": 4.065,
+          "start": 3.274,
+          "end": 3.374,
           "segment": "s3_01"
         },
         {
-          "word": "film-based",
-          "start": 4.125,
-          "end": 4.746,
+          "word": "beak",
+          "start": 3.454,
+          "end": 3.654,
           "segment": "s3_01"
         },
         {
-          "word": "packaging",
-          "start": 4.806,
-          "end": 5.247,
+          "word": "changes",
+          "start": 3.714,
+          "end": 4.134,
           "segment": "s3_01"
         },
         {
-          "word": "trapped",
-          "start": 5.307,
-          "end": 5.587,
+          "word": "shape",
+          "start": 4.234,
+          "end": 4.495,
           "segment": "s3_01"
         },
         {
-          "word": "heat",
-          "start": 5.667,
-          "end": 5.908,
+          "word": "gradually.",
+          "start": 4.555,
+          "end": 5.015,
+          "segment": "s3_01"
+        },
+        {
+          "word": "Engineer",
+          "start": 5.515,
+          "end": 5.936,
+          "segment": "s3_01"
+        },
+        {
+          "word": "Ijinakatsu",
+          "start": 6.016,
+          "end": 6.676,
+          "segment": "s3_01"
+        },
+        {
+          "word": "copied",
+          "start": 6.696,
+          "end": 6.956,
+          "segment": "s3_01"
+        },
+        {
+          "word": "that",
+          "start": 6.976,
+          "end": 7.097,
+          "segment": "s3_01"
+        },
+        {
+          "word": "curve",
+          "start": 7.197,
+          "end": 7.517,
           "segment": "s3_01"
         },
         {
           "word": "and",
-          "start": 6.148,
-          "end": 6.248,
+          "start": 7.557,
+          "end": 7.657,
           "segment": "s3_01"
         },
         {
-          "word": "crushed",
-          "start": 6.308,
-          "end": 6.609,
+          "word": "stretched",
+          "start": 7.717,
+          "end": 8.017,
           "segment": "s3_01"
         },
         {
-          "word": "yield.",
-          "start": 6.689,
-          "end": 7.089,
+          "word": "a",
+          "start": 8.057,
+          "end": 8.077,
+          "segment": "s3_01"
+        },
+        {
+          "word": "Sheen",
+          "start": 8.137,
+          "end": 8.378,
+          "segment": "s3_01"
+        },
+        {
+          "word": "Khan",
+          "start": 8.398,
+          "end": 8.618,
+          "segment": "s3_01"
+        },
+        {
+          "word": "Sen",
+          "start": 8.658,
+          "end": 8.858,
+          "segment": "s3_01"
+        },
+        {
+          "word": "nose",
+          "start": 8.898,
+          "end": 9.158,
+          "segment": "s3_01"
+        },
+        {
+          "word": "to",
+          "start": 9.218,
+          "end": 9.318,
+          "segment": "s3_01"
+        },
+        {
+          "word": "about",
+          "start": 9.358,
+          "end": 9.559,
+          "segment": "s3_01"
+        },
+        {
+          "word": "15",
+          "start": 9.839,
+          "end": 9.999,
+          "segment": "s3_01"
+        },
+        {
+          "word": "meters.",
+          "start": 10.059,
+          "end": 10.399,
           "segment": "s3_01"
         },
         {
           "word": "The",
-          "start": 7.63,
-          "end": 7.73,
+          "start": 10.86,
+          "end": 10.94,
           "segment": "s3_01"
         },
         {
-          "word": "stack",
-          "start": 7.77,
-          "end": 8.071,
+          "word": "air",
+          "start": 11.0,
+          "end": 11.1,
           "segment": "s3_01"
         },
         {
-          "word": "got",
-          "start": 8.111,
-          "end": 8.291,
+          "word": "no",
+          "start": 11.16,
+          "end": 11.28,
           "segment": "s3_01"
         },
         {
-          "word": "taller",
-          "start": 8.351,
-          "end": 8.732,
+          "word": "longer",
+          "start": 11.32,
+          "end": 11.58,
           "segment": "s3_01"
         },
         {
-          "word": "and",
-          "start": 9.072,
-          "end": 9.172,
+          "word": "meets",
+          "start": 11.62,
+          "end": 11.8,
           "segment": "s3_01"
         },
         {
-          "word": "the",
-          "start": 9.192,
-          "end": 9.272,
+          "word": "a",
+          "start": 11.86,
+          "end": 11.9,
           "segment": "s3_01"
         },
         {
-          "word": "problem",
-          "start": 9.312,
-          "end": 9.673,
+          "word": "wall.",
+          "start": 11.94,
+          "end": 12.221,
           "segment": "s3_01"
-        },
-        {
-          "word": "worsened.",
-          "start": 9.733,
-          "end": 10.174,
-          "segment": "s3_01"
-        },
-        {
-          "word": "SK Hynix",
-          "start": 10.674,
-          "end": 11.435,
-          "segment": "s3_02"
-        },
-        {
-          "word": "injected",
-          "start": 11.635,
-          "end": 12.095,
-          "segment": "s3_02"
-        },
-        {
-          "word": "liquid",
-          "start": 12.155,
-          "end": 12.435,
-          "segment": "s3_02"
-        },
-        {
-          "word": "epoxy",
-          "start": 12.495,
-          "end": 12.976,
-          "segment": "s3_02"
-        },
-        {
-          "word": "between",
-          "start": 13.036,
-          "end": 13.336,
-          "segment": "s3_02"
-        },
-        {
-          "word": "layers.",
-          "start": 13.396,
-          "end": 13.796,
-          "segment": "s3_02"
-        },
-        {
-          "word": "The",
-          "start": 14.337,
-          "end": 14.417,
-          "segment": "s3_02"
-        },
-        {
-          "word": "process",
-          "start": 14.457,
-          "end": 14.937,
-          "segment": "s3_02"
-        },
-        {
-          "word": "is",
-          "start": 15.157,
-          "end": 15.257,
-          "segment": "s3_02"
-        },
-        {
-          "word": "MR-MUF.",
-          "start": 15.457,
-          "end": 16.558,
-          "segment": "s3_02"
-        },
-        {
-          "word": "Heat",
-          "start": 17.059,
-          "end": 17.239,
-          "segment": "s3_02"
-        },
-        {
-          "word": "dissipation",
-          "start": 17.259,
-          "end": 17.879,
-          "segment": "s3_02"
-        },
-        {
-          "word": "improved",
-          "start": 17.999,
-          "end": 18.399,
-          "segment": "s3_02"
-        },
-        {
-          "word": "36%",
-          "start": 18.42,
-          "end": 19.6,
-          "segment": "s3_02"
-        },
-        {
-          "word": "and",
-          "start": 20.021,
-          "end": 20.121,
-          "segment": "s3_02"
-        },
-        {
-          "word": "advanced",
-          "start": 20.161,
-          "end": 20.581,
-          "segment": "s3_02"
-        },
-        {
-          "word": "MR-MUF",
-          "start": 20.801,
-          "end": 21.782,
-          "segment": "s3_02"
-        },
-        {
-          "word": "pushed",
-          "start": 21.942,
-          "end": 22.322,
-          "segment": "s3_02"
-        },
-        {
-          "word": "it",
-          "start": 22.823,
-          "end": 22.963,
-          "segment": "s3_02"
-        },
-        {
-          "word": "1.6",
-          "start": 23.063,
-          "end": 23.303,
-          "segment": "s3_02"
-        },
-        {
-          "word": "times.",
-          "start": 23.383,
-          "end": 23.823,
-          "segment": "s3_02"
         },
         {
           "word": "It",
-          "start": 24.364,
-          "end": 24.424,
-          "segment": "s3_02"
+          "start": 12.561,
+          "end": 12.601,
+          "segment": "s3_01"
         },
         {
-          "word": "cut",
-          "start": 24.464,
-          "end": 24.624,
-          "segment": "s3_02"
+          "word": "meets",
+          "start": 12.641,
+          "end": 12.821,
+          "segment": "s3_01"
+        },
+        {
+          "word": "a",
+          "start": 12.861,
+          "end": 12.901,
+          "segment": "s3_01"
+        },
+        {
+          "word": "gentle",
+          "start": 12.941,
+          "end": 13.261,
+          "segment": "s3_01"
+        },
+        {
+          "word": "squeeze.",
+          "start": 13.301,
+          "end": 13.702,
+          "segment": "s3_01"
+        },
+        {
+          "word": "The",
+          "start": 14.102,
+          "end": 14.182,
+          "segment": "s3_01"
         },
         {
           "word": "pressure",
-          "start": 24.704,
-          "end": 25.044,
-          "segment": "s3_02"
+          "start": 14.222,
+          "end": 14.502,
+          "segment": "s3_01"
         },
         {
-          "word": "on",
-          "start": 25.304,
-          "end": 25.364,
-          "segment": "s3_02"
+          "word": "peak",
+          "start": 14.542,
+          "end": 14.743,
+          "segment": "s3_01"
         },
         {
-          "word": "each",
-          "start": 25.444,
-          "end": 25.604,
-          "segment": "s3_02"
+          "word": "drops,",
+          "start": 14.823,
+          "end": 15.143,
+          "segment": "s3_01"
         },
         {
-          "word": "die.",
-          "start": 25.705,
-          "end": 25.985,
-          "segment": "s3_02"
-        },
-        {
-          "word": "Yield",
-          "start": 26.485,
-          "end": 26.765,
-          "segment": "s3_03"
-        },
-        {
-          "word": "reached",
-          "start": 26.825,
-          "end": 27.085,
-          "segment": "s3_03"
-        },
-        {
-          "word": "70%.",
-          "start": 27.165,
-          "end": 27.546,
-          "segment": "s3_03"
-        },
-        {
-          "word": "In",
-          "start": 27.866,
-          "end": 28.066,
-          "segment": "s3_03"
-        },
-        {
-          "word": "video",
-          "start": 28.666,
-          "end": 29.006,
-          "segment": "s3_03"
-        },
-        {
-          "word": "gave",
-          "start": 29.046,
-          "end": 29.206,
-          "segment": "s3_03"
-        },
-        {
-          "word": "SK",
-          "start": 29.366,
-          "end": 29.666,
-          "segment": "s3_03"
-        },
-        {
-          "word": "Hynix",
-          "start": 29.706,
-          "end": 30.087,
-          "segment": "s3_03"
+          "word": "and",
+          "start": 15.443,
+          "end": 15.523,
+          "segment": "s3_01"
         },
         {
           "word": "the",
-          "start": 30.147,
-          "end": 30.227,
-          "segment": "s3_03"
+          "start": 15.543,
+          "end": 15.623,
+          "segment": "s3_01"
         },
         {
-          "word": "largest",
-          "start": 30.267,
-          "end": 30.627,
-          "segment": "s3_03"
+          "word": "tunnel",
+          "start": 15.663,
+          "end": 15.944,
+          "segment": "s3_01"
         },
         {
-          "word": "HBM4",
-          "start": 30.867,
-          "end": 31.347,
-          "segment": "s3_03"
+          "word": "boom",
+          "start": 15.984,
+          "end": 16.244,
+          "segment": "s3_01"
         },
         {
-          "word": "allocation.",
-          "start": 31.727,
-          "end": 32.347,
-          "segment": "s3_03"
+          "word": "softens.",
+          "start": 16.304,
+          "end": 16.764,
+          "segment": "s3_01"
         },
         {
-          "word": "That",
-          "start": 32.808,
-          "end": 32.968,
-          "segment": "s3_03"
+          "word": "The",
+          "start": 17.205,
+          "end": 17.285,
+          "segment": "s3_01"
         },
         {
-          "word": "is",
-          "start": 33.028,
-          "end": 33.128,
-          "segment": "s3_03"
+          "word": "500",
+          "start": 17.325,
+          "end": 17.845,
+          "segment": "s3_01"
         },
         {
-          "word": "the",
-          "start": 33.168,
-          "end": 33.248,
-          "segment": "s3_03"
+          "word": "series",
+          "start": 17.925,
+          "end": 18.345,
+          "segment": "s3_01"
         },
         {
-          "word": "moat.",
-          "start": 33.308,
-          "end": 33.588,
-          "segment": "s3_03"
+          "word": "cut",
+          "start": 18.426,
+          "end": 18.586,
+          "segment": "s3_01"
         },
         {
-          "word": "Competition",
-          "start": 34.048,
-          "end": 34.708,
-          "segment": "s3_03"
+          "word": "energy",
+          "start": 18.666,
+          "end": 18.926,
+          "segment": "s3_01"
         },
         {
-          "word": "is",
-          "start": 34.768,
-          "end": 34.869,
-          "segment": "s3_03"
+          "word": "use",
+          "start": 19.026,
+          "end": 19.146,
+          "segment": "s3_01"
         },
         {
-          "word": "catching",
-          "start": 34.929,
-          "end": 35.309,
-          "segment": "s3_03"
+          "word": "and",
+          "start": 19.206,
+          "end": 19.286,
+          "segment": "s3_01"
         },
         {
-          "word": "up,",
-          "start": 35.429,
-          "end": 35.529,
-          "segment": "s3_03"
+          "word": "noise",
+          "start": 19.346,
+          "end": 19.647,
+          "segment": "s3_01"
         },
         {
-          "word": "but",
-          "start": 35.869,
-          "end": 35.969,
-          "segment": "s3_03"
+          "word": "with",
+          "start": 19.967,
+          "end": 20.107,
+          "segment": "s3_01"
         },
         {
-          "word": "Yield",
-          "start": 36.029,
-          "end": 36.309,
-          "segment": "s3_03"
+          "word": "reports",
+          "start": 20.147,
+          "end": 20.547,
+          "segment": "s3_01"
         },
         {
-          "word": "Curve",
-          "start": 36.369,
-          "end": 36.709,
-          "segment": "s3_03"
+          "word": "of",
+          "start": 20.587,
+          "end": 20.647,
+          "segment": "s3_01"
+        },
+        {
+          "word": "about",
+          "start": 20.687,
+          "end": 20.908,
+          "segment": "s3_01"
+        },
+        {
+          "word": "30%",
+          "start": 21.508,
+          "end": 21.688,
+          "segment": "s3_01"
+        },
+        {
+          "word": "less",
+          "start": 21.728,
+          "end": 21.928,
+          "segment": "s3_01"
+        },
+        {
+          "word": "noise.",
+          "start": 21.988,
+          "end": 22.269,
+          "segment": "s3_01"
+        },
+        {
+          "word": "The",
+          "start": 22.729,
+          "end": 22.809,
+          "segment": "s3_01"
+        },
+        {
+          "word": "train",
+          "start": 22.849,
+          "end": 23.149,
+          "segment": "s3_01"
         },
         {
           "word": "still",
-          "start": 36.769,
-          "end": 37.029,
-          "segment": "s3_03"
+          "start": 23.209,
+          "end": 23.429,
+          "segment": "s3_01"
         },
         {
-          "word": "holds.",
-          "start": 37.089,
-          "end": 37.45,
-          "segment": "s3_03"
-        },
-        {
-          "word": "Tap",
-          "start": 37.91,
-          "end": 38.17,
-          "segment": "s3_03"
+          "word": "compresses",
+          "start": 23.47,
+          "end": 23.97,
+          "segment": "s3_01"
         },
         {
           "word": "the",
-          "start": 38.21,
-          "end": 38.31,
-          "segment": "s3_03"
+          "start": 24.03,
+          "end": 24.13,
+          "segment": "s3_01"
         },
         {
-          "word": "related",
-          "start": 38.35,
-          "end": 38.75,
-          "segment": "s3_03"
+          "word": "air.",
+          "start": 24.29,
+          "end": 24.43,
+          "segment": "s3_01"
         },
         {
-          "word": "video",
-          "start": 38.81,
-          "end": 39.23,
-          "segment": "s3_03"
+          "word": "It",
+          "start": 24.791,
+          "end": 24.851,
+          "segment": "s3_01"
         },
         {
-          "word": "for",
-          "start": 39.33,
-          "end": 39.43,
-          "segment": "s3_03"
+          "word": "just",
+          "start": 24.871,
+          "end": 25.031,
+          "segment": "s3_01"
         },
         {
-          "word": "the",
-          "start": 39.45,
-          "end": 39.53,
-          "segment": "s3_03"
+          "word": "stops",
+          "start": 25.051,
+          "end": 25.331,
+          "segment": "s3_01"
         },
         {
-          "word": "full",
-          "start": 39.59,
-          "end": 39.831,
-          "segment": "s3_03"
+          "word": "fighting",
+          "start": 25.411,
+          "end": 25.771,
+          "segment": "s3_01"
         },
         {
-          "word": "breakdown.",
-          "start": 39.891,
-          "end": 40.451,
-          "segment": "s3_03"
+          "word": "it.",
+          "start": 25.811,
+          "end": 25.871,
+          "segment": "s3_01"
+        },
+        {
+          "word": "The",
+          "start": 26.712,
+          "end": 26.812,
+          "segment": "s3_01"
+        },
+        {
+          "word": "invisible",
+          "start": 26.852,
+          "end": 27.352,
+          "segment": "s3_01"
+        },
+        {
+          "word": "wall",
+          "start": 27.392,
+          "end": 27.713,
+          "segment": "s3_01"
+        },
+        {
+          "word": "was",
+          "start": 27.773,
+          "end": 27.913,
+          "segment": "s3_01"
+        },
+        {
+          "word": "reshaped,",
+          "start": 27.993,
+          "end": 28.553,
+          "segment": "s3_01"
+        },
+        {
+          "word": "not",
+          "start": 28.913,
+          "end": 29.053,
+          "segment": "s3_01"
+        },
+        {
+          "word": "removed.",
+          "start": 29.133,
+          "end": 29.654,
+          "segment": "s3_01"
+        },
+        {
+          "word": "The",
+          "start": 30.114,
+          "end": 30.194,
+          "segment": "s3_01"
+        },
+        {
+          "word": "next",
+          "start": 30.234,
+          "end": 30.454,
+          "segment": "s3_01"
+        },
+        {
+          "word": "wall",
+          "start": 30.514,
+          "end": 30.794,
+          "segment": "s3_01"
+        },
+        {
+          "word": "is",
+          "start": 30.874,
+          "end": 30.975,
+          "segment": "s3_01"
+        },
+        {
+          "word": "underwater,",
+          "start": 31.095,
+          "end": 31.715,
+          "segment": "s3_01"
+        },
+        {
+          "word": "where",
+          "start": 32.035,
+          "end": 32.175,
+          "segment": "s3_01"
+        },
+        {
+          "word": "bubbles",
+          "start": 32.215,
+          "end": 32.555,
+          "segment": "s3_01"
+        },
+        {
+          "word": "collapse",
+          "start": 32.615,
+          "end": 33.036,
+          "segment": "s3_01"
+        },
+        {
+          "word": "at",
+          "start": 33.076,
+          "end": 33.116,
+          "segment": "s3_01"
+        },
+        {
+          "word": "1,100",
+          "start": 33.136,
+          "end": 33.316,
+          "segment": "s3_01"
+        },
+        {
+          "word": "atmospheres.",
+          "start": 33.336,
+          "end": 33.736,
+          "segment": "s3_01"
         }
       ],
       "captions": [
         {
-          "text": "Samsung had bigger",
-          "start": 0.5,
-          "end": 1.502,
+          "text": "A Kingfisher enters water without a splash because",
+          "start": 0.792,
+          "end": 3.234,
           "words": [
             {
-              "word": "Samsung",
-              "start": 0.5,
-              "end": 0.981,
+              "word": "A",
+              "start": 0.792,
+              "end": 0.832,
               "segment": "s3_01"
             },
             {
-              "word": "had",
-              "start": 1.021,
-              "end": 1.161,
+              "word": "Kingfisher",
+              "start": 0.852,
+              "end": 1.332,
               "segment": "s3_01"
             },
             {
-              "word": "bigger",
-              "start": 1.241,
-              "end": 1.502,
-              "segment": "s3_01"
-            }
-          ]
-        },
-        {
-          "text": "budgets and a",
-          "start": 1.542,
-          "end": 2.243,
-          "words": [
-            {
-              "word": "budgets",
-              "start": 1.542,
-              "end": 1.882,
+              "word": "enters",
+              "start": 1.392,
+              "end": 1.612,
               "segment": "s3_01"
             },
             {
-              "word": "and",
-              "start": 2.083,
-              "end": 2.183,
+              "word": "water",
+              "start": 1.672,
+              "end": 1.933,
+              "segment": "s3_01"
+            },
+            {
+              "word": "without",
+              "start": 1.973,
+              "end": 2.253,
               "segment": "s3_01"
             },
             {
               "word": "a",
-              "start": 2.223,
-              "end": 2.243,
+              "start": 2.293,
+              "end": 2.313,
+              "segment": "s3_01"
+            },
+            {
+              "word": "splash",
+              "start": 2.373,
+              "end": 2.753,
+              "segment": "s3_01"
+            },
+            {
+              "word": "because",
+              "start": 3.013,
+              "end": 3.234,
               "segment": "s3_01"
             }
           ]
         },
         {
-          "text": "faster roadmap, but",
-          "start": 2.343,
-          "end": 3.905,
-          "words": [
-            {
-              "word": "faster",
-              "start": 2.343,
-              "end": 2.803,
-              "segment": "s3_01"
-            },
-            {
-              "word": "roadmap,",
-              "start": 2.864,
-              "end": 3.384,
-              "segment": "s3_01"
-            },
-            {
-              "word": "but",
-              "start": 3.805,
-              "end": 3.905,
-              "segment": "s3_01"
-            }
-          ]
-        },
-        {
-          "text": "its film-based",
-          "start": 3.945,
-          "end": 4.746,
+          "text": "its beak changes shape gradually. Engineer Ijinakatsu copied",
+          "start": 3.274,
+          "end": 6.956,
           "words": [
             {
               "word": "its",
-              "start": 3.945,
-              "end": 4.065,
+              "start": 3.274,
+              "end": 3.374,
               "segment": "s3_01"
             },
             {
-              "word": "film-based",
-              "start": 4.125,
-              "end": 4.746,
+              "word": "beak",
+              "start": 3.454,
+              "end": 3.654,
+              "segment": "s3_01"
+            },
+            {
+              "word": "changes",
+              "start": 3.714,
+              "end": 4.134,
+              "segment": "s3_01"
+            },
+            {
+              "word": "shape",
+              "start": 4.234,
+              "end": 4.495,
+              "segment": "s3_01"
+            },
+            {
+              "word": "gradually.",
+              "start": 4.555,
+              "end": 5.015,
+              "segment": "s3_01"
+            },
+            {
+              "word": "Engineer",
+              "start": 5.515,
+              "end": 5.936,
+              "segment": "s3_01"
+            },
+            {
+              "word": "Ijinakatsu",
+              "start": 6.016,
+              "end": 6.676,
+              "segment": "s3_01"
+            },
+            {
+              "word": "copied",
+              "start": 6.696,
+              "end": 6.956,
               "segment": "s3_01"
             }
           ]
         },
         {
-          "text": "packaging trapped",
-          "start": 4.806,
-          "end": 5.587,
+          "text": "that curve and stretched a Sheen Khan Sen",
+          "start": 6.976,
+          "end": 8.858,
           "words": [
             {
-              "word": "packaging",
-              "start": 4.806,
-              "end": 5.247,
+              "word": "that",
+              "start": 6.976,
+              "end": 7.097,
               "segment": "s3_01"
             },
             {
-              "word": "trapped",
-              "start": 5.307,
-              "end": 5.587,
-              "segment": "s3_01"
-            }
-          ]
-        },
-        {
-          "text": "heat and crushed",
-          "start": 5.667,
-          "end": 6.609,
-          "words": [
-            {
-              "word": "heat",
-              "start": 5.667,
-              "end": 5.908,
+              "word": "curve",
+              "start": 7.197,
+              "end": 7.517,
               "segment": "s3_01"
             },
             {
               "word": "and",
-              "start": 6.148,
-              "end": 6.248,
+              "start": 7.557,
+              "end": 7.657,
               "segment": "s3_01"
             },
             {
-              "word": "crushed",
-              "start": 6.308,
-              "end": 6.609,
+              "word": "stretched",
+              "start": 7.717,
+              "end": 8.017,
+              "segment": "s3_01"
+            },
+            {
+              "word": "a",
+              "start": 8.057,
+              "end": 8.077,
+              "segment": "s3_01"
+            },
+            {
+              "word": "Sheen",
+              "start": 8.137,
+              "end": 8.378,
+              "segment": "s3_01"
+            },
+            {
+              "word": "Khan",
+              "start": 8.398,
+              "end": 8.618,
+              "segment": "s3_01"
+            },
+            {
+              "word": "Sen",
+              "start": 8.658,
+              "end": 8.858,
               "segment": "s3_01"
             }
           ]
         },
         {
-          "text": "yield.",
-          "start": 6.689,
-          "end": 7.089,
+          "text": "nose to about 15 meters. The air no",
+          "start": 8.898,
+          "end": 11.28,
           "words": [
             {
-              "word": "yield.",
-              "start": 6.689,
-              "end": 7.089,
+              "word": "nose",
+              "start": 8.898,
+              "end": 9.158,
               "segment": "s3_01"
-            }
-          ]
-        },
-        {
-          "text": "The stack got",
-          "start": 7.63,
-          "end": 8.291,
-          "words": [
+            },
+            {
+              "word": "to",
+              "start": 9.218,
+              "end": 9.318,
+              "segment": "s3_01"
+            },
+            {
+              "word": "about",
+              "start": 9.358,
+              "end": 9.559,
+              "segment": "s3_01"
+            },
+            {
+              "word": "15",
+              "start": 9.839,
+              "end": 9.999,
+              "segment": "s3_01"
+            },
+            {
+              "word": "meters.",
+              "start": 10.059,
+              "end": 10.399,
+              "segment": "s3_01"
+            },
             {
               "word": "The",
-              "start": 7.63,
-              "end": 7.73,
+              "start": 10.86,
+              "end": 10.94,
               "segment": "s3_01"
             },
             {
-              "word": "stack",
-              "start": 7.77,
-              "end": 8.071,
+              "word": "air",
+              "start": 11.0,
+              "end": 11.1,
               "segment": "s3_01"
             },
             {
-              "word": "got",
-              "start": 8.111,
-              "end": 8.291,
-              "segment": "s3_01"
-            }
-          ]
-        },
-        {
-          "text": "taller and the",
-          "start": 8.351,
-          "end": 9.272,
-          "words": [
-            {
-              "word": "taller",
-              "start": 8.351,
-              "end": 8.732,
-              "segment": "s3_01"
-            },
-            {
-              "word": "and",
-              "start": 9.072,
-              "end": 9.172,
-              "segment": "s3_01"
-            },
-            {
-              "word": "the",
-              "start": 9.192,
-              "end": 9.272,
+              "word": "no",
+              "start": 11.16,
+              "end": 11.28,
               "segment": "s3_01"
             }
           ]
         },
         {
-          "text": "problem worsened.",
-          "start": 9.312,
-          "end": 10.174,
+          "text": "longer meets a wall. It meets a gentle",
+          "start": 11.32,
+          "end": 13.261,
           "words": [
             {
-              "word": "problem",
-              "start": 9.312,
-              "end": 9.673,
+              "word": "longer",
+              "start": 11.32,
+              "end": 11.58,
               "segment": "s3_01"
             },
             {
-              "word": "worsened.",
-              "start": 9.733,
-              "end": 10.174,
+              "word": "meets",
+              "start": 11.62,
+              "end": 11.8,
               "segment": "s3_01"
-            }
-          ]
-        },
-        {
-          "text": "SK Hynix injected",
-          "start": 10.674,
-          "end": 12.095,
-          "words": [
-            {
-              "word": "SK Hynix",
-              "start": 10.674,
-              "end": 11.435,
-              "segment": "s3_02"
             },
             {
-              "word": "injected",
-              "start": 11.635,
-              "end": 12.095,
-              "segment": "s3_02"
-            }
-          ]
-        },
-        {
-          "text": "liquid epoxy between",
-          "start": 12.155,
-          "end": 13.336,
-          "words": [
-            {
-              "word": "liquid",
-              "start": 12.155,
-              "end": 12.435,
-              "segment": "s3_02"
+              "word": "a",
+              "start": 11.86,
+              "end": 11.9,
+              "segment": "s3_01"
             },
             {
-              "word": "epoxy",
-              "start": 12.495,
-              "end": 12.976,
-              "segment": "s3_02"
+              "word": "wall.",
+              "start": 11.94,
+              "end": 12.221,
+              "segment": "s3_01"
             },
-            {
-              "word": "between",
-              "start": 13.036,
-              "end": 13.336,
-              "segment": "s3_02"
-            }
-          ]
-        },
-        {
-          "text": "layers.",
-          "start": 13.396,
-          "end": 13.796,
-          "words": [
-            {
-              "word": "layers.",
-              "start": 13.396,
-              "end": 13.796,
-              "segment": "s3_02"
-            }
-          ]
-        },
-        {
-          "text": "The process is",
-          "start": 14.337,
-          "end": 15.257,
-          "words": [
-            {
-              "word": "The",
-              "start": 14.337,
-              "end": 14.417,
-              "segment": "s3_02"
-            },
-            {
-              "word": "process",
-              "start": 14.457,
-              "end": 14.937,
-              "segment": "s3_02"
-            },
-            {
-              "word": "is",
-              "start": 15.157,
-              "end": 15.257,
-              "segment": "s3_02"
-            }
-          ]
-        },
-        {
-          "text": "MR-MUF.",
-          "start": 15.457,
-          "end": 16.558,
-          "words": [
-            {
-              "word": "MR-MUF.",
-              "start": 15.457,
-              "end": 16.558,
-              "segment": "s3_02"
-            }
-          ]
-        },
-        {
-          "text": "Heat dissipation",
-          "start": 17.059,
-          "end": 17.879,
-          "words": [
-            {
-              "word": "Heat",
-              "start": 17.059,
-              "end": 17.239,
-              "segment": "s3_02"
-            },
-            {
-              "word": "dissipation",
-              "start": 17.259,
-              "end": 17.879,
-              "segment": "s3_02"
-            }
-          ]
-        },
-        {
-          "text": "improved 36% and",
-          "start": 17.999,
-          "end": 20.121,
-          "words": [
-            {
-              "word": "improved",
-              "start": 17.999,
-              "end": 18.399,
-              "segment": "s3_02"
-            },
-            {
-              "word": "36%",
-              "start": 18.42,
-              "end": 19.6,
-              "segment": "s3_02"
-            },
-            {
-              "word": "and",
-              "start": 20.021,
-              "end": 20.121,
-              "segment": "s3_02"
-            }
-          ]
-        },
-        {
-          "text": "advanced MR-MUF",
-          "start": 20.161,
-          "end": 21.782,
-          "words": [
-            {
-              "word": "advanced",
-              "start": 20.161,
-              "end": 20.581,
-              "segment": "s3_02"
-            },
-            {
-              "word": "MR-MUF",
-              "start": 20.801,
-              "end": 21.782,
-              "segment": "s3_02"
-            }
-          ]
-        },
-        {
-          "text": "pushed",
-          "start": 21.942,
-          "end": 22.322,
-          "words": [
-            {
-              "word": "pushed",
-              "start": 21.942,
-              "end": 22.322,
-              "segment": "s3_02"
-            }
-          ]
-        },
-        {
-          "text": "it 1.6 times.",
-          "start": 22.823,
-          "end": 23.823,
-          "words": [
-            {
-              "word": "it",
-              "start": 22.823,
-              "end": 22.963,
-              "segment": "s3_02"
-            },
-            {
-              "word": "1.6",
-              "start": 23.063,
-              "end": 23.303,
-              "segment": "s3_02"
-            },
-            {
-              "word": "times.",
-              "start": 23.383,
-              "end": 23.823,
-              "segment": "s3_02"
-            }
-          ]
-        },
-        {
-          "text": "It cut pressure",
-          "start": 24.364,
-          "end": 25.044,
-          "words": [
             {
               "word": "It",
-              "start": 24.364,
-              "end": 24.424,
-              "segment": "s3_02"
+              "start": 12.561,
+              "end": 12.601,
+              "segment": "s3_01"
             },
             {
-              "word": "cut",
-              "start": 24.464,
-              "end": 24.624,
-              "segment": "s3_02"
+              "word": "meets",
+              "start": 12.641,
+              "end": 12.821,
+              "segment": "s3_01"
+            },
+            {
+              "word": "a",
+              "start": 12.861,
+              "end": 12.901,
+              "segment": "s3_01"
+            },
+            {
+              "word": "gentle",
+              "start": 12.941,
+              "end": 13.261,
+              "segment": "s3_01"
+            }
+          ]
+        },
+        {
+          "text": "squeeze. The pressure peak drops, and the tunnel",
+          "start": 13.301,
+          "end": 15.944,
+          "words": [
+            {
+              "word": "squeeze.",
+              "start": 13.301,
+              "end": 13.702,
+              "segment": "s3_01"
+            },
+            {
+              "word": "The",
+              "start": 14.102,
+              "end": 14.182,
+              "segment": "s3_01"
             },
             {
               "word": "pressure",
-              "start": 24.704,
-              "end": 25.044,
-              "segment": "s3_02"
-            }
-          ]
-        },
-        {
-          "text": "on each die.",
-          "start": 25.304,
-          "end": 25.985,
-          "words": [
-            {
-              "word": "on",
-              "start": 25.304,
-              "end": 25.364,
-              "segment": "s3_02"
+              "start": 14.222,
+              "end": 14.502,
+              "segment": "s3_01"
             },
             {
-              "word": "each",
-              "start": 25.444,
-              "end": 25.604,
-              "segment": "s3_02"
+              "word": "peak",
+              "start": 14.542,
+              "end": 14.743,
+              "segment": "s3_01"
             },
             {
-              "word": "die.",
-              "start": 25.705,
-              "end": 25.985,
-              "segment": "s3_02"
-            }
-          ]
-        },
-        {
-          "text": "Yield reached 70%.",
-          "start": 26.485,
-          "end": 27.546,
-          "words": [
-            {
-              "word": "Yield",
-              "start": 26.485,
-              "end": 26.765,
-              "segment": "s3_03"
+              "word": "drops,",
+              "start": 14.823,
+              "end": 15.143,
+              "segment": "s3_01"
             },
             {
-              "word": "reached",
-              "start": 26.825,
-              "end": 27.085,
-              "segment": "s3_03"
-            },
-            {
-              "word": "70%.",
-              "start": 27.165,
-              "end": 27.546,
-              "segment": "s3_03"
-            }
-          ]
-        },
-        {
-          "text": "In",
-          "start": 27.866,
-          "end": 28.066,
-          "words": [
-            {
-              "word": "In",
-              "start": 27.866,
-              "end": 28.066,
-              "segment": "s3_03"
-            }
-          ]
-        },
-        {
-          "text": "video gave SK",
-          "start": 28.666,
-          "end": 29.666,
-          "words": [
-            {
-              "word": "video",
-              "start": 28.666,
-              "end": 29.006,
-              "segment": "s3_03"
-            },
-            {
-              "word": "gave",
-              "start": 29.046,
-              "end": 29.206,
-              "segment": "s3_03"
-            },
-            {
-              "word": "SK",
-              "start": 29.366,
-              "end": 29.666,
-              "segment": "s3_03"
-            }
-          ]
-        },
-        {
-          "text": "Hynix the largest",
-          "start": 29.706,
-          "end": 30.627,
-          "words": [
-            {
-              "word": "Hynix",
-              "start": 29.706,
-              "end": 30.087,
-              "segment": "s3_03"
+              "word": "and",
+              "start": 15.443,
+              "end": 15.523,
+              "segment": "s3_01"
             },
             {
               "word": "the",
-              "start": 30.147,
-              "end": 30.227,
-              "segment": "s3_03"
+              "start": 15.543,
+              "end": 15.623,
+              "segment": "s3_01"
             },
             {
-              "word": "largest",
-              "start": 30.267,
-              "end": 30.627,
-              "segment": "s3_03"
+              "word": "tunnel",
+              "start": 15.663,
+              "end": 15.944,
+              "segment": "s3_01"
             }
           ]
         },
         {
-          "text": "HBM4 allocation.",
-          "start": 30.867,
-          "end": 32.347,
+          "text": "boom softens. The 500 series cut energy use",
+          "start": 15.984,
+          "end": 19.146,
           "words": [
             {
-              "word": "HBM4",
-              "start": 30.867,
-              "end": 31.347,
-              "segment": "s3_03"
+              "word": "boom",
+              "start": 15.984,
+              "end": 16.244,
+              "segment": "s3_01"
             },
             {
-              "word": "allocation.",
-              "start": 31.727,
-              "end": 32.347,
-              "segment": "s3_03"
+              "word": "softens.",
+              "start": 16.304,
+              "end": 16.764,
+              "segment": "s3_01"
+            },
+            {
+              "word": "The",
+              "start": 17.205,
+              "end": 17.285,
+              "segment": "s3_01"
+            },
+            {
+              "word": "500",
+              "start": 17.325,
+              "end": 17.845,
+              "segment": "s3_01"
+            },
+            {
+              "word": "series",
+              "start": 17.925,
+              "end": 18.345,
+              "segment": "s3_01"
+            },
+            {
+              "word": "cut",
+              "start": 18.426,
+              "end": 18.586,
+              "segment": "s3_01"
+            },
+            {
+              "word": "energy",
+              "start": 18.666,
+              "end": 18.926,
+              "segment": "s3_01"
+            },
+            {
+              "word": "use",
+              "start": 19.026,
+              "end": 19.146,
+              "segment": "s3_01"
             }
           ]
         },
         {
-          "text": "That is the",
-          "start": 32.808,
-          "end": 33.248,
+          "text": "and noise with reports of about 30% less",
+          "start": 19.206,
+          "end": 21.928,
           "words": [
             {
-              "word": "That",
-              "start": 32.808,
-              "end": 32.968,
-              "segment": "s3_03"
+              "word": "and",
+              "start": 19.206,
+              "end": 19.286,
+              "segment": "s3_01"
             },
             {
-              "word": "is",
-              "start": 33.028,
-              "end": 33.128,
-              "segment": "s3_03"
+              "word": "noise",
+              "start": 19.346,
+              "end": 19.647,
+              "segment": "s3_01"
             },
             {
-              "word": "the",
-              "start": 33.168,
-              "end": 33.248,
-              "segment": "s3_03"
+              "word": "with",
+              "start": 19.967,
+              "end": 20.107,
+              "segment": "s3_01"
+            },
+            {
+              "word": "reports",
+              "start": 20.147,
+              "end": 20.547,
+              "segment": "s3_01"
+            },
+            {
+              "word": "of",
+              "start": 20.587,
+              "end": 20.647,
+              "segment": "s3_01"
+            },
+            {
+              "word": "about",
+              "start": 20.687,
+              "end": 20.908,
+              "segment": "s3_01"
+            },
+            {
+              "word": "30%",
+              "start": 21.508,
+              "end": 21.688,
+              "segment": "s3_01"
+            },
+            {
+              "word": "less",
+              "start": 21.728,
+              "end": 21.928,
+              "segment": "s3_01"
             }
           ]
         },
         {
-          "text": "moat. Competition is",
-          "start": 33.308,
-          "end": 34.869,
+          "text": "noise. The train still compresses the air. It",
+          "start": 21.988,
+          "end": 24.851,
           "words": [
             {
-              "word": "moat.",
-              "start": 33.308,
-              "end": 33.588,
-              "segment": "s3_03"
+              "word": "noise.",
+              "start": 21.988,
+              "end": 22.269,
+              "segment": "s3_01"
             },
             {
-              "word": "Competition",
-              "start": 34.048,
-              "end": 34.708,
-              "segment": "s3_03"
+              "word": "The",
+              "start": 22.729,
+              "end": 22.809,
+              "segment": "s3_01"
             },
             {
-              "word": "is",
-              "start": 34.768,
-              "end": 34.869,
-              "segment": "s3_03"
-            }
-          ]
-        },
-        {
-          "text": "catching up, but",
-          "start": 34.929,
-          "end": 35.969,
-          "words": [
-            {
-              "word": "catching",
-              "start": 34.929,
-              "end": 35.309,
-              "segment": "s3_03"
-            },
-            {
-              "word": "up,",
-              "start": 35.429,
-              "end": 35.529,
-              "segment": "s3_03"
-            },
-            {
-              "word": "but",
-              "start": 35.869,
-              "end": 35.969,
-              "segment": "s3_03"
-            }
-          ]
-        },
-        {
-          "text": "Yield Curve still",
-          "start": 36.029,
-          "end": 37.029,
-          "words": [
-            {
-              "word": "Yield",
-              "start": 36.029,
-              "end": 36.309,
-              "segment": "s3_03"
-            },
-            {
-              "word": "Curve",
-              "start": 36.369,
-              "end": 36.709,
-              "segment": "s3_03"
+              "word": "train",
+              "start": 22.849,
+              "end": 23.149,
+              "segment": "s3_01"
             },
             {
               "word": "still",
-              "start": 36.769,
-              "end": 37.029,
-              "segment": "s3_03"
-            }
-          ]
-        },
-        {
-          "text": "holds. Tap the",
-          "start": 37.089,
-          "end": 38.31,
-          "words": [
-            {
-              "word": "holds.",
-              "start": 37.089,
-              "end": 37.45,
-              "segment": "s3_03"
+              "start": 23.209,
+              "end": 23.429,
+              "segment": "s3_01"
             },
             {
-              "word": "Tap",
-              "start": 37.91,
-              "end": 38.17,
-              "segment": "s3_03"
+              "word": "compresses",
+              "start": 23.47,
+              "end": 23.97,
+              "segment": "s3_01"
             },
             {
               "word": "the",
-              "start": 38.21,
-              "end": 38.31,
-              "segment": "s3_03"
+              "start": 24.03,
+              "end": 24.13,
+              "segment": "s3_01"
+            },
+            {
+              "word": "air.",
+              "start": 24.29,
+              "end": 24.43,
+              "segment": "s3_01"
+            },
+            {
+              "word": "It",
+              "start": 24.791,
+              "end": 24.851,
+              "segment": "s3_01"
             }
           ]
         },
         {
-          "text": "related video for",
-          "start": 38.35,
-          "end": 39.43,
+          "text": "just stops fighting it.",
+          "start": 24.871,
+          "end": 25.871,
           "words": [
             {
-              "word": "related",
-              "start": 38.35,
-              "end": 38.75,
-              "segment": "s3_03"
+              "word": "just",
+              "start": 24.871,
+              "end": 25.031,
+              "segment": "s3_01"
             },
             {
-              "word": "video",
-              "start": 38.81,
-              "end": 39.23,
-              "segment": "s3_03"
+              "word": "stops",
+              "start": 25.051,
+              "end": 25.331,
+              "segment": "s3_01"
             },
             {
-              "word": "for",
-              "start": 39.33,
-              "end": 39.43,
-              "segment": "s3_03"
+              "word": "fighting",
+              "start": 25.411,
+              "end": 25.771,
+              "segment": "s3_01"
+            },
+            {
+              "word": "it.",
+              "start": 25.811,
+              "end": 25.871,
+              "segment": "s3_01"
             }
           ]
         },
         {
-          "text": "the full breakdown.",
-          "start": 39.45,
-          "end": 40.451,
+          "text": "The invisible wall was reshaped, not removed. The",
+          "start": 26.712,
+          "end": 30.194,
           "words": [
             {
-              "word": "the",
-              "start": 39.45,
-              "end": 39.53,
-              "segment": "s3_03"
+              "word": "The",
+              "start": 26.712,
+              "end": 26.812,
+              "segment": "s3_01"
             },
             {
-              "word": "full",
-              "start": 39.59,
-              "end": 39.831,
-              "segment": "s3_03"
+              "word": "invisible",
+              "start": 26.852,
+              "end": 27.352,
+              "segment": "s3_01"
             },
             {
-              "word": "breakdown.",
-              "start": 39.891,
-              "end": 40.451,
-              "segment": "s3_03"
+              "word": "wall",
+              "start": 27.392,
+              "end": 27.713,
+              "segment": "s3_01"
+            },
+            {
+              "word": "was",
+              "start": 27.773,
+              "end": 27.913,
+              "segment": "s3_01"
+            },
+            {
+              "word": "reshaped,",
+              "start": 27.993,
+              "end": 28.553,
+              "segment": "s3_01"
+            },
+            {
+              "word": "not",
+              "start": 28.913,
+              "end": 29.053,
+              "segment": "s3_01"
+            },
+            {
+              "word": "removed.",
+              "start": 29.133,
+              "end": 29.654,
+              "segment": "s3_01"
+            },
+            {
+              "word": "The",
+              "start": 30.114,
+              "end": 30.194,
+              "segment": "s3_01"
+            }
+          ]
+        },
+        {
+          "text": "next wall is underwater, where bubbles collapse at",
+          "start": 30.234,
+          "end": 33.116,
+          "words": [
+            {
+              "word": "next",
+              "start": 30.234,
+              "end": 30.454,
+              "segment": "s3_01"
+            },
+            {
+              "word": "wall",
+              "start": 30.514,
+              "end": 30.794,
+              "segment": "s3_01"
+            },
+            {
+              "word": "is",
+              "start": 30.874,
+              "end": 30.975,
+              "segment": "s3_01"
+            },
+            {
+              "word": "underwater,",
+              "start": 31.095,
+              "end": 31.715,
+              "segment": "s3_01"
+            },
+            {
+              "word": "where",
+              "start": 32.035,
+              "end": 32.175,
+              "segment": "s3_01"
+            },
+            {
+              "word": "bubbles",
+              "start": 32.215,
+              "end": 32.555,
+              "segment": "s3_01"
+            },
+            {
+              "word": "collapse",
+              "start": 32.615,
+              "end": 33.036,
+              "segment": "s3_01"
+            },
+            {
+              "word": "at",
+              "start": 33.076,
+              "end": 33.116,
+              "segment": "s3_01"
+            }
+          ]
+        },
+        {
+          "text": "1,100 atmospheres.",
+          "start": 33.136,
+          "end": 33.736,
+          "words": [
+            {
+              "word": "1,100",
+              "start": 33.136,
+              "end": 33.316,
+              "segment": "s3_01"
+            },
+            {
+              "word": "atmospheres.",
+              "start": 33.336,
+              "end": 33.736,
+              "segment": "s3_01"
             }
           ]
         }
@@ -4252,139 +3841,12 @@
       "visuals": [
         {
           "type": "component",
-          "component": "YieldMeter",
-          "variant": null,
-          "beat": 1,
-          "label": "MR-MUF / +36%",
-          "focusX": 490,
-          "focusY": 340,
-          "scale": 1.1,
-          "start": 0.0,
-          "end": 3.3
-        },
-        {
-          "type": "asset",
-          "files": [
-            "assets/images/samsung_logo.png",
-            "assets/images/sk_hynix_logo.png"
-          ],
-          "layout": "split",
-          "label": "Samsung vs SK hynix",
-          "start": 3.3,
-          "end": 6.6
-        },
-        {
-          "type": "asset",
-          "files": [
-            "assets/images/hbm_package.jpg"
-          ],
-          "layout": "single",
-          "label": "HBM package",
-          "start": 6.6,
-          "end": 10.374
-        },
-        {
-          "type": "component",
-          "component": "YieldMeter",
+          "start": 0,
+          "end": 35.6,
+          "component": "MechanismBreakdown",
           "variant": null,
           "beat": 0,
-          "label": "70% yield gauge",
-          "focusX": 420,
-          "focusY": 330,
-          "scale": 1.55,
-          "start": 10.374,
-          "end": 13.5
-        },
-        {
-          "type": "component",
-          "component": "YieldMeter",
-          "variant": null,
-          "beat": 1,
-          "label": "MR-MUF heat",
-          "focusX": 490,
-          "focusY": 340,
-          "scale": 1.1,
-          "start": 13.5,
-          "end": 17.0
-        },
-        {
-          "type": "component",
-          "component": "YieldMeter",
-          "variant": null,
-          "beat": 2,
-          "label": "Nvidia allocation",
-          "focusX": 800,
-          "focusY": 400,
-          "scale": 1.15,
-          "start": 17.0,
-          "end": 20.5
-        },
-        {
-          "type": "asset",
-          "files": [
-            "assets/images/hbm_package.jpg"
-          ],
-          "layout": "single",
-          "label": "HBM stack",
-          "start": 20.5,
-          "end": 23.5
-        },
-        {
-          "type": "asset",
-          "files": [
-            "assets/images/data_center_racks.jpg"
-          ],
-          "layout": "single",
-          "label": "AI demand",
-          "start": 23.5,
-          "end": 26.185
-        },
-        {
-          "type": "asset",
-          "files": [
-            "assets/images/sk_hynix_mrdimm.jpg",
-            "assets/images/samsung_logo.png"
-          ],
-          "layout": "split",
-          "label": "yield gap",
-          "start": 26.185,
-          "end": 29.5
-        },
-        {
-          "type": "component",
-          "component": "YieldMeter",
-          "variant": null,
-          "beat": 2,
-          "label": "HBM4 allocation",
-          "focusX": 800,
-          "focusY": 400,
-          "scale": 1.15,
-          "start": 29.5,
-          "end": 33.0
-        },
-        {
-          "type": "asset",
-          "files": [
-            "assets/images/nvidia_logo.png",
-            "assets/images/sk_hynix_logo.png",
-            "assets/images/samsung_logo.png"
-          ],
-          "layout": "collage",
-          "label": "the moat",
-          "start": 33.0,
-          "end": 36.151
-        },
-        {
-          "type": "asset",
-          "files": [
-            "assets/backgrounds/cad_supply_chain.jpg",
-            "assets/images/sk_hynix_logo.png",
-            "assets/images/samsung_logo.png"
-          ],
-          "layout": "background",
-          "label": "CTA background",
-          "start": 36.151,
-          "end": 40.651
+          "label": "HIGH-VOLTAGE LAB // MechanismBreakdown"
         }
       ]
     }

@@ -1,0 +1,1 @@
+Think of a syringe. Push the plunger, and the fluid has one escape route: the needle. A train inside a tunnel is that plunger. The tunnel is the barrel. The air is the fluid. At low speed, air slips around the train. At high speed, it cannot move fast enough, so it piles up in front. The result is a pressure pulse that grows with every meter.

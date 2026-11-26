@@ -2,10 +2,10 @@
 set -euo pipefail
 
 usage() {
-	echo "Usage: $0 <input.wav> [output.wav]"
-	echo "Normalizes audio loudness to the YouTube standard (I=-14, TP=-1.5, LRA=11)."
-	echo "If output is omitted, the input file is normalized in place."
-	echo "Example: $0 public/voice_0.wav"
+	echo "Usage: $0 <input.wav | directory> [output.wav]"
+	echo "Normalizes audio to YouTube standard: I=-14 LUFS, True Peak=-1.0 dBTP, LRA=11."
+	echo "Directories are processed recursively in place (public/scenes, public/audio/shorts)."
+	echo "Example: $0 public/scenes"
 }
 
 if [ "$#" -lt 1 ]; then
@@ -14,11 +14,44 @@ if [ "$#" -lt 1 ]; then
 fi
 
 INPUT="$1"
-OUTPUT="${2:-$1}"
 
 if ! command -v ffmpeg >/dev/null 2>&1; then
 	echo "Error: ffmpeg is required." >&2
 	exit 1
+fi
+
+normalize_one() {
+	local src="$1"
+	local dst="$2"
+	local out_dir
+	out_dir="$(dirname "$dst")"
+	mkdir -p "$out_dir"
+	local tmp
+	tmp="$(mktemp "$out_dir/.normalize_XXXXXX.wav")"
+	echo "Normalizing: $src"
+	ffmpeg -y -hide_banner -loglevel error \
+		-i "$src" \
+		-af loudnorm=I=-14:TP=-1.0:LRA=11 \
+		-ar 24000 \
+		"$tmp"
+	mv -f "$tmp" "$dst"
+}
+
+if [ -d "$INPUT" ]; then
+	if [ "$#" -ge 2 ]; then
+		echo "Error: output path is not supported for directories." >&2
+		exit 1
+	fi
+	mapfile -t FILES < <(find "$INPUT" -type f -name '*.wav' | LC_ALL=C sort)
+	if [ "${#FILES[@]}" -eq 0 ]; then
+		echo "No .wav files found in $INPUT (skipped)."
+		exit 0
+	fi
+	for file in "${FILES[@]}"; do
+		normalize_one "$file" "$file"
+	done
+	echo "Done: normalized ${#FILES[@]} file(s) in $INPUT"
+	exit 0
 fi
 
 if [ ! -f "$INPUT" ]; then
@@ -26,19 +59,6 @@ if [ ! -f "$INPUT" ]; then
 	exit 1
 fi
 
-OUT_DIR="$(dirname "$OUTPUT")"
-mkdir -p "$OUT_DIR"
-TMP="$(mktemp "$OUT_DIR/.normalize_XXXXXX.wav")"
-trap 'rm -f "$TMP"' EXIT
-
-echo "Normalizing: $INPUT"
-ffmpeg -y -hide_banner -loglevel error \
-	-i "$INPUT" \
-	-af loudnorm=I=-14:TP=-1.5:LRA=11 \
-	-ar 24000 \
-	"$TMP"
-
-mv -f "$TMP" "$OUTPUT"
-trap - EXIT
-
+OUTPUT="${2:-$INPUT}"
+normalize_one "$INPUT" "$OUTPUT"
 echo "Done: $OUTPUT"

@@ -129,10 +129,10 @@ export const CADShell: React.FC<Props> = ({
 					}}
 				/>
 				<span style={{ color: C.white, fontSize: 17, fontWeight: 700, letterSpacing: 5 }}>
-					STACK LAYER
+					KINETIC LAB
 				</span>
 				<span style={{ color: C.dim, fontSize: 12, letterSpacing: 2.4, fontFamily: FONT_MONO }}>
-					AI INFRASTRUCTURE // EP.01
+					PHYSICS // EP.01
 				</span>
 			</div>
 
@@ -172,7 +172,7 @@ export const CADShell: React.FC<Props> = ({
 			>
 				<span>X 0000 — 1920</span>
 				<span>Y 0000 — 1080</span>
-				<span>MEM // HBM3E / HBM4</span>
+				<span>AIR // TUNNEL BOOM</span>
 			</div>
 
 			<div style={{ position: 'absolute', top: 132, left: 78, right: 78, bottom: 152, opacity: intro }}>
@@ -207,10 +207,10 @@ export const CADShell: React.FC<Props> = ({
 				</div>
 				<div style={{ textAlign: 'right', display: 'flex', flexDirection: 'column', gap: 6 }}>
 					<span style={{ color: 'rgba(159,179,200,0.5)', fontSize: 10, letterSpacing: 1.6 }}>
-						CAD // 1920 × 1080 // 30 FPS
+						CAD // 1920 × 1080 // 60 FPS
 					</span>
 					<span style={{ color: C.cyan, fontSize: 10, letterSpacing: 1.6 }}>
-						SOURCE: SK HYNIX / JEDEC / TRENDFORCE
+						SOURCE: JR WEST / WIKIPEDIA
 					</span>
 				</div>
 			</div>

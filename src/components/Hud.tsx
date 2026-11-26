@@ -24,7 +24,7 @@ export const Hud: React.FC = () => {
 				{`TC ${format(time)} / ${format(durationInFrames / fps)}`}
 			</div>
 			<div style={{ position: 'absolute', right: 24, bottom: 20, fontFamily: FONT_MONO, fontSize: 9, letterSpacing: 1.4, color: 'rgba(159,179,200,0.45)' }}>
-				STACK LAYER // EP.01 // HBM
+				KINETIC LAB // EP.01 // TUNNEL BOOM
 			</div>
 		</>
 	);

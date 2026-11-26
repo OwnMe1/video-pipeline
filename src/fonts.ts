@@ -24,7 +24,7 @@ const FACES: Face[] = [
 ];
 
 export const FontLoader: React.FC = () => {
-	const [handle] = useState(() => delayRender('Loading Stack Layer fonts'));
+	const [handle] = useState(() => delayRender('Loading Kinetic Lab fonts'));
 
 	useEffect(() => {
 		let cancelled = false;

@@ -1,7 +1,7 @@
 import React from 'react';
 import { interpolate, useCurrentFrame, useVideoConfig } from 'remotion';
-import captionsData from '../../public/subs_captions.json';
-import wordsData from '../../public/subs.json';
+import captionsData from '../../public/subs/captions.json';
+import wordsData from '../../public/subs/words.json';
 import { C, clamp, FONT_BODY, FONT_HEAD, FONT_MONO } from './theme';
 
 type Word = { word: string; start: number; end: number; scene: string };

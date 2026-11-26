@@ -1,0 +1,347 @@
+[
+  {
+    "word": "Engineers",
+    "start": 0.351,
+    "end": 0.832
+  },
+  {
+    "word": "call",
+    "start": 0.892,
+    "end": 1.072
+  },
+  {
+    "word": "the",
+    "start": 1.092,
+    "end": 1.172
+  },
+  {
+    "word": "gap",
+    "start": 1.212,
+    "end": 1.432
+  },
+  {
+    "word": "between",
+    "start": 1.492,
+    "end": 1.792
+  },
+  {
+    "word": "compute",
+    "start": 1.852,
+    "end": 2.273
+  },
+  {
+    "word": "and",
+    "start": 2.333,
+    "end": 2.433
+  },
+  {
+    "word": "memory",
+    "start": 2.473,
+    "end": 2.833
+  },
+  {
+    "word": "the",
+    "start": 2.953,
+    "end": 3.053
+  },
+  {
+    "word": "memory",
+    "start": 3.093,
+    "end": 3.414
+  },
+  {
+    "word": "wall.",
+    "start": 3.454,
+    "end": 3.754
+  },
+  {
+    "word": "For",
+    "start": 4.194,
+    "end": 4.314
+  },
+  {
+    "word": "decades,",
+    "start": 4.354,
+    "end": 4.835
+  },
+  {
+    "word": "caches",
+    "start": 5.135,
+    "end": 5.575
+  },
+  {
+    "word": "and",
+    "start": 5.635,
+    "end": 5.735
+  },
+  {
+    "word": "profetching",
+    "start": 5.775,
+    "end": 6.256
+  },
+  {
+    "word": "hid",
+    "start": 6.296,
+    "end": 6.456
+  },
+  {
+    "word": "it,",
+    "start": 6.496,
+    "end": 6.596
+  },
+  {
+    "word": "artificial",
+    "start": 7.056,
+    "end": 7.497
+  },
+  {
+    "word": "intelligence",
+    "start": 7.537,
+    "end": 8.117
+  },
+  {
+    "word": "broke",
+    "start": 8.217,
+    "end": 8.458
+  },
+  {
+    "word": "the",
+    "start": 8.478,
+    "end": 8.578
+  },
+  {
+    "word": "illusion.",
+    "start": 8.638,
+    "end": 9.098
+  },
+  {
+    "word": "A",
+    "start": 9.558,
+    "end": 9.598
+  },
+  {
+    "word": "large",
+    "start": 9.638,
+    "end": 9.919
+  },
+  {
+    "word": "model",
+    "start": 9.999,
+    "end": 10.299
+  },
+  {
+    "word": "streams",
+    "start": 10.359,
+    "end": 10.699
+  },
+  {
+    "word": "billions",
+    "start": 10.759,
+    "end": 11.16
+  },
+  {
+    "word": "of",
+    "start": 11.2,
+    "end": 11.26
+  },
+  {
+    "word": "parameters",
+    "start": 11.32,
+    "end": 11.92
+  },
+  {
+    "word": "through",
+    "start": 12.1,
+    "end": 12.32
+  },
+  {
+    "word": "the",
+    "start": 12.34,
+    "end": 12.401
+  },
+  {
+    "word": "chip",
+    "start": 12.461,
+    "end": 12.681
+  },
+  {
+    "word": "for",
+    "start": 12.701,
+    "end": 12.821
+  },
+  {
+    "word": "every",
+    "start": 12.901,
+    "end": 13.101
+  },
+  {
+    "word": "token",
+    "start": 13.161,
+    "end": 13.521
+  },
+  {
+    "word": "and",
+    "start": 13.902,
+    "end": 14.002
+  },
+  {
+    "word": "the",
+    "start": 14.022,
+    "end": 14.102
+  },
+  {
+    "word": "arithmetic",
+    "start": 14.202,
+    "end": 14.722
+  },
+  {
+    "word": "units",
+    "start": 14.822,
+    "end": 15.043
+  },
+  {
+    "word": "wait",
+    "start": 15.123,
+    "end": 15.303
+  },
+  {
+    "word": "for",
+    "start": 15.343,
+    "end": 15.463
+  },
+  {
+    "word": "data.",
+    "start": 15.503,
+    "end": 15.863
+  },
+  {
+    "word": "The",
+    "start": 16.264,
+    "end": 16.364
+  },
+  {
+    "word": "GPU",
+    "start": 16.384,
+    "end": 16.904
+  },
+  {
+    "word": "is",
+    "start": 17.004,
+    "end": 17.084
+  },
+  {
+    "word": "no",
+    "start": 17.144,
+    "end": 17.264
+  },
+  {
+    "word": "longer",
+    "start": 17.304,
+    "end": 17.565
+  },
+  {
+    "word": "the",
+    "start": 17.585,
+    "end": 17.665
+  },
+  {
+    "word": "scarce",
+    "start": 17.705,
+    "end": 18.025
+  },
+  {
+    "word": "resource.",
+    "start": 18.085,
+    "end": 18.565
+  },
+  {
+    "word": "The",
+    "start": 19.026,
+    "end": 19.106
+  },
+  {
+    "word": "scarce",
+    "start": 19.146,
+    "end": 19.446
+  },
+  {
+    "word": "resource",
+    "start": 19.526,
+    "end": 20.006
+  },
+  {
+    "word": "is",
+    "start": 20.347,
+    "end": 20.427
+  },
+  {
+    "word": "the",
+    "start": 20.467,
+    "end": 20.567
+  },
+  {
+    "word": "path",
+    "start": 20.587,
+    "end": 20.867
+  },
+  {
+    "word": "that",
+    "start": 20.947,
+    "end": 21.087
+  },
+  {
+    "word": "feeds",
+    "start": 21.187,
+    "end": 21.468
+  },
+  {
+    "word": "it.",
+    "start": 21.528,
+    "end": 21.608
+  },
+  {
+    "word": "That",
+    "start": 22.088,
+    "end": 22.268
+  },
+  {
+    "word": "path",
+    "start": 22.348,
+    "end": 22.648
+  },
+  {
+    "word": "begins",
+    "start": 22.769,
+    "end": 23.149
+  },
+  {
+    "word": "with",
+    "start": 23.209,
+    "end": 23.349
+  },
+  {
+    "word": "a",
+    "start": 23.389,
+    "end": 23.429
+  },
+  {
+    "word": "memory",
+    "start": 23.469,
+    "end": 23.789
+  },
+  {
+    "word": "architecture",
+    "start": 23.869,
+    "end": 24.43
+  },
+  {
+    "word": "called",
+    "start": 24.51,
+    "end": 24.79
+  },
+  {
+    "word": "HBM.",
+    "start": 25.09,
+    "end": 25.611
+  }
+]

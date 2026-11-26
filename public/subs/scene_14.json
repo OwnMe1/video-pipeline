@@ -1,0 +1,352 @@
+[
+  {
+    "word": "HBM3E",
+    "start": 0.451,
+    "end": 1.491
+  },
+  {
+    "word": "is",
+    "start": 1.832,
+    "end": 1.912
+  },
+  {
+    "word": "the",
+    "start": 1.952,
+    "end": 2.012
+  },
+  {
+    "word": "generation",
+    "start": 2.052,
+    "end": 2.572
+  },
+  {
+    "word": "that",
+    "start": 2.612,
+    "end": 2.732
+  },
+  {
+    "word": "powered",
+    "start": 2.792,
+    "end": 3.152
+  },
+  {
+    "word": "Nvidia's",
+    "start": 3.232,
+    "end": 3.712
+  },
+  {
+    "word": "Blackwell",
+    "start": 3.772,
+    "end": 4.192
+  },
+  {
+    "word": "accelerators.",
+    "start": 4.232,
+    "end": 4.933
+  },
+  {
+    "word": "A",
+    "start": 5.473,
+    "end": 5.513
+  },
+  {
+    "word": "12",
+    "start": 5.633,
+    "end": 5.813
+  },
+  {
+    "word": "high",
+    "start": 5.853,
+    "end": 6.013
+  },
+  {
+    "word": "stack",
+    "start": 6.073,
+    "end": 6.373
+  },
+  {
+    "word": "holds",
+    "start": 6.493,
+    "end": 6.733
+  },
+  {
+    "word": "36",
+    "start": 6.873,
+    "end": 7.073
+  },
+  {
+    "word": "gigabytes",
+    "start": 7.413,
+    "end": 7.874
+  },
+  {
+    "word": "and",
+    "start": 8.254,
+    "end": 8.334
+  },
+  {
+    "word": "delivers",
+    "start": 8.374,
+    "end": 8.714
+  },
+  {
+    "word": "about",
+    "start": 8.774,
+    "end": 8.974
+  },
+  {
+    "word": "1.2",
+    "start": 9.074,
+    "end": 9.654
+  },
+  {
+    "word": "terabytes",
+    "start": 9.694,
+    "end": 10.174
+  },
+  {
+    "word": "per",
+    "start": 10.234,
+    "end": 10.374
+  },
+  {
+    "word": "second.",
+    "start": 10.434,
+    "end": 10.835
+  },
+  {
+    "word": "Nvidia",
+    "start": 11.335,
+    "end": 11.695
+  },
+  {
+    "word": "pairs",
+    "start": 11.755,
+    "end": 11.995
+  },
+  {
+    "word": "4",
+    "start": 12.075,
+    "end": 12.295
+  },
+  {
+    "word": "to",
+    "start": 12.355,
+    "end": 12.415
+  },
+  {
+    "word": "8",
+    "start": 12.495,
+    "end": 12.655
+  },
+  {
+    "word": "stacks",
+    "start": 12.715,
+    "end": 13.055
+  },
+  {
+    "word": "around",
+    "start": 13.115,
+    "end": 13.355
+  },
+  {
+    "word": "the",
+    "start": 13.395,
+    "end": 13.475
+  },
+  {
+    "word": "GPU.",
+    "start": 13.495,
+    "end": 14.036
+  },
+  {
+    "word": "Total",
+    "start": 14.476,
+    "end": 14.776
+  },
+  {
+    "word": "bandwidth",
+    "start": 14.816,
+    "end": 15.296
+  },
+  {
+    "word": "reaches",
+    "start": 15.376,
+    "end": 15.676
+  },
+  {
+    "word": "8",
+    "start": 15.696,
+    "end": 15.956
+  },
+  {
+    "word": "terabytes",
+    "start": 16.016,
+    "end": 16.516
+  },
+  {
+    "word": "per",
+    "start": 16.576,
+    "end": 16.737
+  },
+  {
+    "word": "second",
+    "start": 16.797,
+    "end": 17.117
+  },
+  {
+    "word": "on",
+    "start": 17.177,
+    "end": 17.257
+  },
+  {
+    "word": "a",
+    "start": 17.277,
+    "end": 17.317
+  },
+  {
+    "word": "flagship",
+    "start": 17.357,
+    "end": 17.817
+  },
+  {
+    "word": "part.",
+    "start": 17.857,
+    "end": 18.097
+  },
+  {
+    "word": "That",
+    "start": 18.557,
+    "end": 18.677
+  },
+  {
+    "word": "is",
+    "start": 18.737,
+    "end": 18.817
+  },
+  {
+    "word": "10",
+    "start": 18.897,
+    "end": 19.097
+  },
+  {
+    "word": "times",
+    "start": 19.157,
+    "end": 19.517
+  },
+  {
+    "word": "a",
+    "start": 19.597,
+    "end": 19.637
+  },
+  {
+    "word": "consumer",
+    "start": 19.678,
+    "end": 20.158
+  },
+  {
+    "word": "graphics",
+    "start": 20.198,
+    "end": 20.638
+  },
+  {
+    "word": "card",
+    "start": 20.678,
+    "end": 20.998
+  },
+  {
+    "word": "in",
+    "start": 21.358,
+    "end": 21.438
+  },
+  {
+    "word": "a",
+    "start": 21.458,
+    "end": 21.498
+  },
+  {
+    "word": "package",
+    "start": 21.538,
+    "end": 21.938
+  },
+  {
+    "word": "that",
+    "start": 22.018,
+    "end": 22.158
+  },
+  {
+    "word": "fits",
+    "start": 22.238,
+    "end": 22.438
+  },
+  {
+    "word": "on",
+    "start": 22.498,
+    "end": 22.558
+  },
+  {
+    "word": "a",
+    "start": 22.598,
+    "end": 22.618
+  },
+  {
+    "word": "server",
+    "start": 22.699,
+    "end": 23.039
+  },
+  {
+    "word": "board.",
+    "start": 23.079,
+    "end": 23.399
+  },
+  {
+    "word": "But",
+    "start": 23.839,
+    "end": 23.959
+  },
+  {
+    "word": "stacking",
+    "start": 23.999,
+    "end": 24.399
+  },
+  {
+    "word": "8",
+    "start": 24.539,
+    "end": 24.599
+  },
+  {
+    "word": "around",
+    "start": 24.639,
+    "end": 24.899
+  },
+  {
+    "word": "one",
+    "start": 25.019,
+    "end": 25.119
+  },
+  {
+    "word": "die",
+    "start": 25.159,
+    "end": 25.419
+  },
+  {
+    "word": "is",
+    "start": 25.7,
+    "end": 25.78
+  },
+  {
+    "word": "a",
+    "start": 25.82,
+    "end": 25.86
+  },
+  {
+    "word": "packaging",
+    "start": 25.92,
+    "end": 26.38
+  },
+  {
+    "word": "nightmare.",
+    "start": 26.44,
+    "end": 26.86
+  }
+]

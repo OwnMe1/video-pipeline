@@ -1,0 +1,322 @@
+[
+  {
+    "word": "Highband",
+    "start": 0.311,
+    "end": 0.751
+  },
+  {
+    "word": "with",
+    "start": 0.771,
+    "end": 0.931
+  },
+  {
+    "word": "memory",
+    "start": 1.011,
+    "end": 1.351
+  },
+  {
+    "word": "evolved",
+    "start": 1.531,
+    "end": 1.891
+  },
+  {
+    "word": "through",
+    "start": 1.931,
+    "end": 2.151
+  },
+  {
+    "word": "several",
+    "start": 2.191,
+    "end": 2.491
+  },
+  {
+    "word": "generations.",
+    "start": 2.551,
+    "end": 3.252
+  },
+  {
+    "word": "The",
+    "start": 3.752,
+    "end": 3.832
+  },
+  {
+    "word": "first",
+    "start": 3.872,
+    "end": 4.112
+  },
+  {
+    "word": "arrived",
+    "start": 4.172,
+    "end": 4.532
+  },
+  {
+    "word": "in",
+    "start": 4.572,
+    "end": 4.632
+  },
+  {
+    "word": "2013.",
+    "start": 4.712,
+    "end": 5.432
+  },
+  {
+    "word": "HBM2",
+    "start": 5.972,
+    "end": 6.712
+  },
+  {
+    "word": "doubled",
+    "start": 6.792,
+    "end": 7.092
+  },
+  {
+    "word": "the",
+    "start": 7.132,
+    "end": 7.192
+  },
+  {
+    "word": "stack",
+    "start": 7.232,
+    "end": 7.492
+  },
+  {
+    "word": "height",
+    "start": 7.512,
+    "end": 7.732
+  },
+  {
+    "word": "and",
+    "start": 7.792,
+    "end": 7.872
+  },
+  {
+    "word": "data",
+    "start": 7.912,
+    "end": 8.192
+  },
+  {
+    "word": "rate.",
+    "start": 8.232,
+    "end": 8.452
+  },
+  {
+    "word": "HBM2E",
+    "start": 9.013,
+    "end": 9.653
+  },
+  {
+    "word": "added",
+    "start": 9.753,
+    "end": 9.933
+  },
+  {
+    "word": "12",
+    "start": 9.953,
+    "end": 10.253
+  },
+  {
+    "word": "high",
+    "start": 10.293,
+    "end": 10.473
+  },
+  {
+    "word": "stacks.",
+    "start": 10.513,
+    "end": 10.913
+  },
+  {
+    "word": "HBM3",
+    "start": 11.493,
+    "end": 11.913
+  },
+  {
+    "word": "pushed",
+    "start": 12.273,
+    "end": 12.493
+  },
+  {
+    "word": "one",
+    "start": 12.593,
+    "end": 12.713
+  },
+  {
+    "word": "stack",
+    "start": 12.773,
+    "end": 13.053
+  },
+  {
+    "word": "past",
+    "start": 13.113,
+    "end": 13.373
+  },
+  {
+    "word": "800",
+    "start": 13.673,
+    "end": 13.893
+  },
+  {
+    "word": "gigabytes",
+    "start": 13.933,
+    "end": 14.374
+  },
+  {
+    "word": "per",
+    "start": 14.434,
+    "end": 14.554
+  },
+  {
+    "word": "second.",
+    "start": 14.614,
+    "end": 14.954
+  },
+  {
+    "word": "Then",
+    "start": 15.354,
+    "end": 15.514
+  },
+  {
+    "word": "HBM3E",
+    "start": 15.714,
+    "end": 16.774
+  },
+  {
+    "word": "arrived",
+    "start": 16.814,
+    "end": 17.174
+  },
+  {
+    "word": "with",
+    "start": 17.214,
+    "end": 17.334
+  },
+  {
+    "word": "a",
+    "start": 17.354,
+    "end": 17.394
+  },
+  {
+    "word": "12",
+    "start": 17.434,
+    "end": 17.694
+  },
+  {
+    "word": "high",
+    "start": 17.734,
+    "end": 17.894
+  },
+  {
+    "word": "stack,",
+    "start": 17.954,
+    "end": 18.754
+  },
+  {
+    "word": "36",
+    "start": 18.874,
+    "end": 19.014
+  },
+  {
+    "word": "gigabytes,",
+    "start": 19.054,
+    "end": 19.534
+  },
+  {
+    "word": "and",
+    "start": 19.814,
+    "end": 19.914
+  },
+  {
+    "word": "1.2",
+    "start": 20.035,
+    "end": 20.575
+  },
+  {
+    "word": "terabytes",
+    "start": 20.615,
+    "end": 21.095
+  },
+  {
+    "word": "per",
+    "start": 21.155,
+    "end": 21.295
+  },
+  {
+    "word": "second.",
+    "start": 21.335,
+    "end": 21.715
+  },
+  {
+    "word": "Each",
+    "start": 22.255,
+    "end": 22.435
+  },
+  {
+    "word": "generation",
+    "start": 22.475,
+    "end": 23.055
+  },
+  {
+    "word": "demanded",
+    "start": 23.115,
+    "end": 23.495
+  },
+  {
+    "word": "thinner",
+    "start": 23.575,
+    "end": 23.855
+  },
+  {
+    "word": "dies,",
+    "start": 23.915,
+    "end": 24.295
+  },
+  {
+    "word": "more",
+    "start": 24.575,
+    "end": 24.735
+  },
+  {
+    "word": "wires,",
+    "start": 24.795,
+    "end": 25.195
+  },
+  {
+    "word": "and",
+    "start": 25.335,
+    "end": 25.435
+  },
+  {
+    "word": "better",
+    "start": 25.475,
+    "end": 25.736
+  },
+  {
+    "word": "packaging.",
+    "start": 25.796,
+    "end": 26.276
+  },
+  {
+    "word": "Packaging",
+    "start": 26.756,
+    "end": 27.216
+  },
+  {
+    "word": "became",
+    "start": 27.276,
+    "end": 27.596
+  },
+  {
+    "word": "the",
+    "start": 27.616,
+    "end": 27.696
+  },
+  {
+    "word": "hard",
+    "start": 27.736,
+    "end": 27.936
+  },
+  {
+    "word": "part.",
+    "start": 27.976,
+    "end": 28.256
+  }
+]

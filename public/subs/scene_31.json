@@ -1,0 +1,357 @@
+[
+  {
+    "word": "There",
+    "start": 0.271,
+    "end": 0.391
+  },
+  {
+    "word": "is",
+    "start": 0.411,
+    "end": 0.471
+  },
+  {
+    "word": "also",
+    "start": 0.531,
+    "end": 0.791
+  },
+  {
+    "word": "a",
+    "start": 0.831,
+    "end": 0.851
+  },
+  {
+    "word": "materials",
+    "start": 0.891,
+    "end": 1.392
+  },
+  {
+    "word": "layer",
+    "start": 1.452,
+    "end": 1.752
+  },
+  {
+    "word": "that",
+    "start": 1.812,
+    "end": 1.932
+  },
+  {
+    "word": "almost",
+    "start": 2.012,
+    "end": 2.312
+  },
+  {
+    "word": "nobody",
+    "start": 2.372,
+    "end": 2.773
+  },
+  {
+    "word": "sees.",
+    "start": 2.853,
+    "end": 3.213
+  },
+  {
+    "word": "The",
+    "start": 3.733,
+    "end": 3.833
+  },
+  {
+    "word": "most",
+    "start": 3.873,
+    "end": 4.053
+  },
+  {
+    "word": "advanced",
+    "start": 4.113,
+    "end": 4.514
+  },
+  {
+    "word": "lithography",
+    "start": 4.574,
+    "end": 5.194
+  },
+  {
+    "word": "depends",
+    "start": 5.334,
+    "end": 5.654
+  },
+  {
+    "word": "on",
+    "start": 5.714,
+    "end": 5.794
+  },
+  {
+    "word": "photoresists",
+    "start": 5.874,
+    "end": 6.555
+  },
+  {
+    "word": "from",
+    "start": 6.595,
+    "end": 6.715
+  },
+  {
+    "word": "a",
+    "start": 6.755,
+    "end": 6.795
+  },
+  {
+    "word": "handful",
+    "start": 6.835,
+    "end": 7.195
+  },
+  {
+    "word": "of",
+    "start": 7.215,
+    "end": 7.275
+  },
+  {
+    "word": "Japanese",
+    "start": 7.335,
+    "end": 7.795
+  },
+  {
+    "word": "suppliers,",
+    "start": 7.855,
+    "end": 8.396
+  },
+  {
+    "word": "including",
+    "start": 8.796,
+    "end": 9.216
+  },
+  {
+    "word": "JSR,",
+    "start": 9.296,
+    "end": 9.917
+  },
+  {
+    "word": "Tokyooka,",
+    "start": 10.137,
+    "end": 10.877
+  },
+  {
+    "word": "and",
+    "start": 10.937,
+    "end": 11.017
+  },
+  {
+    "word": "Shinetsu.",
+    "start": 11.097,
+    "end": 11.638
+  },
+  {
+    "word": "Those",
+    "start": 12.098,
+    "end": 12.318
+  },
+  {
+    "word": "chemicals",
+    "start": 12.358,
+    "end": 12.778
+  },
+  {
+    "word": "help",
+    "start": 12.838,
+    "end": 13.038
+  },
+  {
+    "word": "pattern",
+    "start": 13.098,
+    "end": 13.399
+  },
+  {
+    "word": "the",
+    "start": 13.419,
+    "end": 13.499
+  },
+  {
+    "word": "logic",
+    "start": 13.539,
+    "end": 13.819
+  },
+  {
+    "word": "and",
+    "start": 13.859,
+    "end": 13.959
+  },
+  {
+    "word": "memory",
+    "start": 14.019,
+    "end": 14.339
+  },
+  {
+    "word": "die.",
+    "start": 14.379,
+    "end": 14.639
+  },
+  {
+    "word": "A",
+    "start": 15.059,
+    "end": 15.099
+  },
+  {
+    "word": "disruption",
+    "start": 15.14,
+    "end": 15.66
+  },
+  {
+    "word": "in",
+    "start": 15.7,
+    "end": 15.78
+  },
+  {
+    "word": "Japan,",
+    "start": 15.82,
+    "end": 16.28
+  },
+  {
+    "word": "a",
+    "start": 16.62,
+    "end": 16.66
+  },
+  {
+    "word": "fire",
+    "start": 16.72,
+    "end": 17.001
+  },
+  {
+    "word": "in",
+    "start": 17.041,
+    "end": 17.121
+  },
+  {
+    "word": "a",
+    "start": 17.141,
+    "end": 17.161
+  },
+  {
+    "word": "single",
+    "start": 17.221,
+    "end": 17.521
+  },
+  {
+    "word": "plant,",
+    "start": 17.581,
+    "end": 17.881
+  },
+  {
+    "word": "or",
+    "start": 18.201,
+    "end": 18.281
+  },
+  {
+    "word": "an",
+    "start": 18.301,
+    "end": 18.361
+  },
+  {
+    "word": "export",
+    "start": 18.481,
+    "end": 18.822
+  },
+  {
+    "word": "control",
+    "start": 18.862,
+    "end": 19.282
+  },
+  {
+    "word": "can",
+    "start": 19.342,
+    "end": 19.482
+  },
+  {
+    "word": "ripple",
+    "start": 19.562,
+    "end": 19.802
+  },
+  {
+    "word": "through",
+    "start": 19.822,
+    "end": 20.022
+  },
+  {
+    "word": "Korea",
+    "start": 20.062,
+    "end": 20.443
+  },
+  {
+    "word": "and",
+    "start": 20.603,
+    "end": 20.683
+  },
+  {
+    "word": "Taiwan.",
+    "start": 20.743,
+    "end": 21.303
+  },
+  {
+    "word": "The",
+    "start": 21.763,
+    "end": 21.863
+  },
+  {
+    "word": "AI",
+    "start": 21.963,
+    "end": 22.304
+  },
+  {
+    "word": "supply",
+    "start": 22.344,
+    "end": 22.684
+  },
+  {
+    "word": "chain",
+    "start": 22.744,
+    "end": 23.024
+  },
+  {
+    "word": "is",
+    "start": 23.184,
+    "end": 23.244
+  },
+  {
+    "word": "not",
+    "start": 23.324,
+    "end": 23.484
+  },
+  {
+    "word": "a",
+    "start": 23.524,
+    "end": 23.564
+  },
+  {
+    "word": "triangle.",
+    "start": 23.644,
+    "end": 24.245
+  },
+  {
+    "word": "It",
+    "start": 24.725,
+    "end": 24.785
+  },
+  {
+    "word": "is",
+    "start": 24.845,
+    "end": 24.925
+  },
+  {
+    "word": "a",
+    "start": 24.965,
+    "end": 25.005
+  },
+  {
+    "word": "stack",
+    "start": 25.065,
+    "end": 25.385
+  },
+  {
+    "word": "of",
+    "start": 25.425,
+    "end": 25.485
+  },
+  {
+    "word": "dependencies.",
+    "start": 25.525,
+    "end": 26.246
+  }
+]

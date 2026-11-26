@@ -1,0 +1,352 @@
+[
+  {
+    "word": "And",
+    "start": 0.291,
+    "end": 0.371
+  },
+  {
+    "word": "that",
+    "start": 0.411,
+    "end": 0.551
+  },
+  {
+    "word": "is",
+    "start": 0.631,
+    "end": 0.712
+  },
+  {
+    "word": "where",
+    "start": 0.752,
+    "end": 0.912
+  },
+  {
+    "word": "the",
+    "start": 0.952,
+    "end": 1.012
+  },
+  {
+    "word": "story",
+    "start": 1.052,
+    "end": 1.372
+  },
+  {
+    "word": "turns.",
+    "start": 1.432,
+    "end": 1.812
+  },
+  {
+    "word": "Solving",
+    "start": 2.293,
+    "end": 2.633
+  },
+  {
+    "word": "HBM4",
+    "start": 2.833,
+    "end": 3.534
+  },
+  {
+    "word": "with",
+    "start": 3.574,
+    "end": 3.694
+  },
+  {
+    "word": "hybrid",
+    "start": 3.734,
+    "end": 4.114
+  },
+  {
+    "word": "bonding",
+    "start": 4.174,
+    "end": 4.555
+  },
+  {
+    "word": "does",
+    "start": 4.635,
+    "end": 4.795
+  },
+  {
+    "word": "not",
+    "start": 4.835,
+    "end": 4.995
+  },
+  {
+    "word": "end",
+    "start": 5.075,
+    "end": 5.195
+  },
+  {
+    "word": "the",
+    "start": 5.215,
+    "end": 5.295
+  },
+  {
+    "word": "bottleneck.",
+    "start": 5.335,
+    "end": 5.856
+  },
+  {
+    "word": "It",
+    "start": 6.336,
+    "end": 6.396
+  },
+  {
+    "word": "moves",
+    "start": 6.456,
+    "end": 6.676
+  },
+  {
+    "word": "the",
+    "start": 6.716,
+    "end": 6.796
+  },
+  {
+    "word": "constraint",
+    "start": 6.836,
+    "end": 7.257
+  },
+  {
+    "word": "to",
+    "start": 7.297,
+    "end": 7.377
+  },
+  {
+    "word": "advanced",
+    "start": 7.417,
+    "end": 7.797
+  },
+  {
+    "word": "packaging,",
+    "start": 7.877,
+    "end": 8.338
+  },
+  {
+    "word": "where",
+    "start": 8.638,
+    "end": 8.778
+  },
+  {
+    "word": "interposer",
+    "start": 8.798,
+    "end": 9.338
+  },
+  {
+    "word": "size,",
+    "start": 9.378,
+    "end": 9.779
+  },
+  {
+    "word": "CoWoS",
+    "start": 10.099,
+    "end": 10.679
+  },
+  {
+    "word": "capacity,",
+    "start": 10.719,
+    "end": 11.34
+  },
+  {
+    "word": "and",
+    "start": 11.68,
+    "end": 11.76
+  },
+  {
+    "word": "materials",
+    "start": 11.8,
+    "end": 12.301
+  },
+  {
+    "word": "purity",
+    "start": 12.361,
+    "end": 12.721
+  },
+  {
+    "word": "decide",
+    "start": 12.761,
+    "end": 13.101
+  },
+  {
+    "word": "how",
+    "start": 13.141,
+    "end": 13.241
+  },
+  {
+    "word": "fast",
+    "start": 13.322,
+    "end": 13.602
+  },
+  {
+    "word": "AI",
+    "start": 13.742,
+    "end": 14.022
+  },
+  {
+    "word": "can",
+    "start": 14.062,
+    "end": 14.222
+  },
+  {
+    "word": "scale.",
+    "start": 14.302,
+    "end": 14.703
+  },
+  {
+    "word": "The",
+    "start": 15.183,
+    "end": 15.263
+  },
+  {
+    "word": "next",
+    "start": 15.303,
+    "end": 15.503
+  },
+  {
+    "word": "episode",
+    "start": 15.563,
+    "end": 15.964
+  },
+  {
+    "word": "follows",
+    "start": 16.004,
+    "end": 16.344
+  },
+  {
+    "word": "that",
+    "start": 16.404,
+    "end": 16.564
+  },
+  {
+    "word": "trail.",
+    "start": 16.644,
+    "end": 17.004
+  },
+  {
+    "word": "How",
+    "start": 17.445,
+    "end": 17.545
+  },
+  {
+    "word": "TSMC's",
+    "start": 17.625,
+    "end": 18.366
+  },
+  {
+    "word": "packaging",
+    "start": 18.446,
+    "end": 18.846
+  },
+  {
+    "word": "lines",
+    "start": 18.906,
+    "end": 19.166
+  },
+  {
+    "word": "and",
+    "start": 19.206,
+    "end": 19.286
+  },
+  {
+    "word": "Japan's",
+    "start": 19.306,
+    "end": 19.787
+  },
+  {
+    "word": "photoresists",
+    "start": 20.107,
+    "end": 20.827
+  },
+  {
+    "word": "became",
+    "start": 20.928,
+    "end": 21.248
+  },
+  {
+    "word": "the",
+    "start": 21.268,
+    "end": 21.328
+  },
+  {
+    "word": "quiet",
+    "start": 21.388,
+    "end": 21.708
+  },
+  {
+    "word": "gatekeepers",
+    "start": 21.768,
+    "end": 22.409
+  },
+  {
+    "word": "of",
+    "start": 22.449,
+    "end": 22.509
+  },
+  {
+    "word": "the",
+    "start": 22.549,
+    "end": 22.629
+  },
+  {
+    "word": "AI",
+    "start": 22.749,
+    "end": 23.029
+  },
+  {
+    "word": "boom.",
+    "start": 23.069,
+    "end": 23.39
+  },
+  {
+    "word": "The",
+    "start": 23.83,
+    "end": 23.93
+  },
+  {
+    "word": "memory",
+    "start": 23.97,
+    "end": 24.31
+  },
+  {
+    "word": "wall",
+    "start": 24.35,
+    "end": 24.61
+  },
+  {
+    "word": "is",
+    "start": 24.731,
+    "end": 24.811
+  },
+  {
+    "word": "behind",
+    "start": 24.871,
+    "end": 25.271
+  },
+  {
+    "word": "us.",
+    "start": 25.351,
+    "end": 25.451
+  },
+  {
+    "word": "The",
+    "start": 25.932,
+    "end": 26.012
+  },
+  {
+    "word": "packaging",
+    "start": 26.052,
+    "end": 26.472
+  },
+  {
+    "word": "wall",
+    "start": 26.492,
+    "end": 26.752
+  },
+  {
+    "word": "is",
+    "start": 26.872,
+    "end": 26.972
+  },
+  {
+    "word": "next.",
+    "start": 27.052,
+    "end": 27.393
+  }
+]

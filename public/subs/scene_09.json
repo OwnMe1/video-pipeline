@@ -1,0 +1,362 @@
+[
+  {
+    "word": "So",
+    "start": 0.291,
+    "end": 0.391
+  },
+  {
+    "word": "why",
+    "start": 0.411,
+    "end": 0.531
+  },
+  {
+    "word": "not",
+    "start": 0.571,
+    "end": 0.691
+  },
+  {
+    "word": "bolt",
+    "start": 0.731,
+    "end": 0.952
+  },
+  {
+    "word": "more",
+    "start": 1.012,
+    "end": 1.192
+  },
+  {
+    "word": "GDDR",
+    "start": 1.232,
+    "end": 1.872
+  },
+  {
+    "word": "onto",
+    "start": 1.952,
+    "end": 2.112
+  },
+  {
+    "word": "the",
+    "start": 2.152,
+    "end": 2.212
+  },
+  {
+    "word": "board?",
+    "start": 2.252,
+    "end": 2.593
+  },
+  {
+    "word": "The",
+    "start": 3.013,
+    "end": 3.093
+  },
+  {
+    "word": "answer",
+    "start": 3.193,
+    "end": 3.493
+  },
+  {
+    "word": "is",
+    "start": 3.553,
+    "end": 3.633
+  },
+  {
+    "word": "pin",
+    "start": 3.713,
+    "end": 3.974
+  },
+  {
+    "word": "count,",
+    "start": 4.034,
+    "end": 4.354
+  },
+  {
+    "word": "board",
+    "start": 4.554,
+    "end": 4.794
+  },
+  {
+    "word": "area,",
+    "start": 4.874,
+    "end": 5.154
+  },
+  {
+    "word": "and",
+    "start": 5.234,
+    "end": 5.315
+  },
+  {
+    "word": "power.",
+    "start": 5.395,
+    "end": 5.775
+  },
+  {
+    "word": "Each",
+    "start": 6.335,
+    "end": 6.495
+  },
+  {
+    "word": "chip",
+    "start": 6.575,
+    "end": 6.796
+  },
+  {
+    "word": "needs",
+    "start": 6.836,
+    "end": 7.036
+  },
+  {
+    "word": "its",
+    "start": 7.096,
+    "end": 7.216
+  },
+  {
+    "word": "own",
+    "start": 7.336,
+    "end": 7.456
+  },
+  {
+    "word": "data",
+    "start": 7.516,
+    "end": 7.796
+  },
+  {
+    "word": "lanes,",
+    "start": 7.836,
+    "end": 8.196
+  },
+  {
+    "word": "power",
+    "start": 8.417,
+    "end": 8.697
+  },
+  {
+    "word": "delivery,",
+    "start": 8.717,
+    "end": 9.137
+  },
+  {
+    "word": "and",
+    "start": 9.397,
+    "end": 9.477
+  },
+  {
+    "word": "share",
+    "start": 9.537,
+    "end": 9.758
+  },
+  {
+    "word": "of",
+    "start": 9.798,
+    "end": 9.838
+  },
+  {
+    "word": "the",
+    "start": 9.878,
+    "end": 9.958
+  },
+  {
+    "word": "thermal",
+    "start": 9.998,
+    "end": 10.338
+  },
+  {
+    "word": "budget.",
+    "start": 10.398,
+    "end": 10.698
+  },
+  {
+    "word": "A",
+    "start": 11.198,
+    "end": 11.239
+  },
+  {
+    "word": "processor",
+    "start": 11.299,
+    "end": 11.819
+  },
+  {
+    "word": "can",
+    "start": 11.859,
+    "end": 11.979
+  },
+  {
+    "word": "only",
+    "start": 12.059,
+    "end": 12.239
+  },
+  {
+    "word": "drive",
+    "start": 12.299,
+    "end": 12.599
+  },
+  {
+    "word": "so",
+    "start": 12.679,
+    "end": 12.86
+  },
+  {
+    "word": "many",
+    "start": 12.88,
+    "end": 13.08
+  },
+  {
+    "word": "high-speed",
+    "start": 13.14,
+    "end": 13.72
+  },
+  {
+    "word": "pins",
+    "start": 13.78,
+    "end": 14.1
+  },
+  {
+    "word": "before",
+    "start": 14.401,
+    "end": 14.641
+  },
+  {
+    "word": "the",
+    "start": 14.661,
+    "end": 14.721
+  },
+  {
+    "word": "package",
+    "start": 14.761,
+    "end": 15.161
+  },
+  {
+    "word": "becomes",
+    "start": 15.201,
+    "end": 15.541
+  },
+  {
+    "word": "impractical,",
+    "start": 15.601,
+    "end": 16.242
+  },
+  {
+    "word": "widen",
+    "start": 16.722,
+    "end": 17.042
+  },
+  {
+    "word": "the",
+    "start": 17.062,
+    "end": 17.122
+  },
+  {
+    "word": "bus,",
+    "start": 17.162,
+    "end": 17.443
+  },
+  {
+    "word": "and",
+    "start": 17.783,
+    "end": 17.883
+  },
+  {
+    "word": "the",
+    "start": 17.903,
+    "end": 17.963
+  },
+  {
+    "word": "traces",
+    "start": 18.023,
+    "end": 18.383
+  },
+  {
+    "word": "get",
+    "start": 18.443,
+    "end": 18.583
+  },
+  {
+    "word": "longer,",
+    "start": 18.643,
+    "end": 18.984
+  },
+  {
+    "word": "and",
+    "start": 19.184,
+    "end": 19.284
+  },
+  {
+    "word": "the",
+    "start": 19.304,
+    "end": 19.364
+  },
+  {
+    "word": "signal",
+    "start": 19.424,
+    "end": 19.764
+  },
+  {
+    "word": "integrity",
+    "start": 19.804,
+    "end": 20.325
+  },
+  {
+    "word": "gets",
+    "start": 20.365,
+    "end": 20.565
+  },
+  {
+    "word": "worse.",
+    "start": 20.645,
+    "end": 20.945
+  },
+  {
+    "word": "The",
+    "start": 21.525,
+    "end": 21.605
+  },
+  {
+    "word": "architecture",
+    "start": 21.685,
+    "end": 22.226
+  },
+  {
+    "word": "runs",
+    "start": 22.306,
+    "end": 22.586
+  },
+  {
+    "word": "into",
+    "start": 22.646,
+    "end": 22.846
+  },
+  {
+    "word": "a",
+    "start": 22.886,
+    "end": 22.926
+  },
+  {
+    "word": "wall",
+    "start": 22.986,
+    "end": 23.267
+  },
+  {
+    "word": "made",
+    "start": 23.287,
+    "end": 23.467
+  },
+  {
+    "word": "of",
+    "start": 23.487,
+    "end": 23.547
+  },
+  {
+    "word": "copper,",
+    "start": 23.607,
+    "end": 23.967
+  },
+  {
+    "word": "not",
+    "start": 24.327,
+    "end": 24.487
+  },
+  {
+    "word": "ambition.",
+    "start": 24.587,
+    "end": 25.108
+  }
+]

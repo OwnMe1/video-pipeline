@@ -1,0 +1,362 @@
+[
+  {
+    "word": "Beyond",
+    "start": 0.291,
+    "end": 0.611
+  },
+  {
+    "word": "HBM4,",
+    "start": 0.791,
+    "end": 1.552
+  },
+  {
+    "word": "the",
+    "start": 1.872,
+    "end": 1.972
+  },
+  {
+    "word": "industry",
+    "start": 2.032,
+    "end": 2.432
+  },
+  {
+    "word": "is",
+    "start": 2.472,
+    "end": 2.552
+  },
+  {
+    "word": "preparing",
+    "start": 2.612,
+    "end": 3.012
+  },
+  {
+    "word": "to",
+    "start": 3.052,
+    "end": 3.132
+  },
+  {
+    "word": "remove",
+    "start": 3.192,
+    "end": 3.532
+  },
+  {
+    "word": "the",
+    "start": 3.572,
+    "end": 3.653
+  },
+  {
+    "word": "solder",
+    "start": 3.713,
+    "end": 4.033
+  },
+  {
+    "word": "bumps",
+    "start": 4.073,
+    "end": 4.333
+  },
+  {
+    "word": "entirely.",
+    "start": 4.413,
+    "end": 5.013
+  },
+  {
+    "word": "The",
+    "start": 5.493,
+    "end": 5.573
+  },
+  {
+    "word": "technique",
+    "start": 5.613,
+    "end": 6.034
+  },
+  {
+    "word": "is",
+    "start": 6.114,
+    "end": 6.194
+  },
+  {
+    "word": "called",
+    "start": 6.254,
+    "end": 6.474
+  },
+  {
+    "word": "hybrid",
+    "start": 6.514,
+    "end": 6.894
+  },
+  {
+    "word": "bonding.",
+    "start": 6.954,
+    "end": 7.334
+  },
+  {
+    "word": "Instead",
+    "start": 7.754,
+    "end": 8.054
+  },
+  {
+    "word": "of",
+    "start": 8.074,
+    "end": 8.134
+  },
+  {
+    "word": "connecting",
+    "start": 8.174,
+    "end": 8.595
+  },
+  {
+    "word": "chips",
+    "start": 8.655,
+    "end": 8.915
+  },
+  {
+    "word": "through",
+    "start": 8.955,
+    "end": 9.155
+  },
+  {
+    "word": "microscopic",
+    "start": 9.195,
+    "end": 9.795
+  },
+  {
+    "word": "solder",
+    "start": 9.835,
+    "end": 10.155
+  },
+  {
+    "word": "balls,",
+    "start": 10.175,
+    "end": 10.495
+  },
+  {
+    "word": "hybrid",
+    "start": 10.856,
+    "end": 11.196
+  },
+  {
+    "word": "bonding",
+    "start": 11.236,
+    "end": 11.576
+  },
+  {
+    "word": "presses",
+    "start": 11.636,
+    "end": 11.976
+  },
+  {
+    "word": "two",
+    "start": 12.056,
+    "end": 12.196
+  },
+  {
+    "word": "surfaces",
+    "start": 12.256,
+    "end": 12.676
+  },
+  {
+    "word": "together,",
+    "start": 12.736,
+    "end": 13.096
+  },
+  {
+    "word": "so",
+    "start": 13.337,
+    "end": 13.457
+  },
+  {
+    "word": "copper",
+    "start": 13.497,
+    "end": 13.777
+  },
+  {
+    "word": "pads",
+    "start": 13.817,
+    "end": 14.117
+  },
+  {
+    "word": "fuse",
+    "start": 14.217,
+    "end": 14.477
+  },
+  {
+    "word": "directly",
+    "start": 14.537,
+    "end": 14.957
+  },
+  {
+    "word": "to",
+    "start": 15.017,
+    "end": 15.097
+  },
+  {
+    "word": "copper.",
+    "start": 15.137,
+    "end": 15.518
+  },
+  {
+    "word": "The",
+    "start": 15.978,
+    "end": 16.058
+  },
+  {
+    "word": "pitch",
+    "start": 16.098,
+    "end": 16.298
+  },
+  {
+    "word": "shrinks",
+    "start": 16.338,
+    "end": 16.598
+  },
+  {
+    "word": "from",
+    "start": 16.618,
+    "end": 16.758
+  },
+  {
+    "word": "around",
+    "start": 16.798,
+    "end": 17.038
+  },
+  {
+    "word": "20",
+    "start": 17.198,
+    "end": 17.358
+  },
+  {
+    "word": "microns",
+    "start": 17.398,
+    "end": 17.919
+  },
+  {
+    "word": "to",
+    "start": 17.999,
+    "end": 18.099
+  },
+  {
+    "word": "below",
+    "start": 18.119,
+    "end": 18.419
+  },
+  {
+    "word": "one",
+    "start": 18.499,
+    "end": 18.599
+  },
+  {
+    "word": "micron.",
+    "start": 18.639,
+    "end": 19.159
+  },
+  {
+    "word": "That",
+    "start": 19.599,
+    "end": 19.719
+  },
+  {
+    "word": "means",
+    "start": 19.759,
+    "end": 19.979
+  },
+  {
+    "word": "more",
+    "start": 20.019,
+    "end": 20.199
+  },
+  {
+    "word": "connections,",
+    "start": 20.239,
+    "end": 20.86
+  },
+  {
+    "word": "shorter",
+    "start": 21.22,
+    "end": 21.52
+  },
+  {
+    "word": "paths,",
+    "start": 21.56,
+    "end": 21.94
+  },
+  {
+    "word": "less",
+    "start": 22.16,
+    "end": 22.34
+  },
+  {
+    "word": "heat,",
+    "start": 22.38,
+    "end": 22.6
+  },
+  {
+    "word": "and",
+    "start": 22.961,
+    "end": 23.041
+  },
+  {
+    "word": "16",
+    "start": 23.101,
+    "end": 23.621
+  },
+  {
+    "word": "or",
+    "start": 23.681,
+    "end": 23.781
+  },
+  {
+    "word": "more",
+    "start": 23.821,
+    "end": 24.001
+  },
+  {
+    "word": "dies.",
+    "start": 24.041,
+    "end": 24.421
+  },
+  {
+    "word": "SK",
+    "start": 25.102,
+    "end": 25.362
+  },
+  {
+    "word": "high-necks",
+    "start": 25.402,
+    "end": 25.802
+  },
+  {
+    "word": "has",
+    "start": 25.862,
+    "end": 26.002
+  },
+  {
+    "word": "already",
+    "start": 26.102,
+    "end": 26.382
+  },
+  {
+    "word": "validated",
+    "start": 26.442,
+    "end": 27.022
+  },
+  {
+    "word": "12",
+    "start": 27.222,
+    "end": 27.403
+  },
+  {
+    "word": "high",
+    "start": 27.443,
+    "end": 27.643
+  },
+  {
+    "word": "hybrid",
+    "start": 27.683,
+    "end": 28.043
+  },
+  {
+    "word": "bonding.",
+    "start": 28.083,
+    "end": 28.443
+  }
+]

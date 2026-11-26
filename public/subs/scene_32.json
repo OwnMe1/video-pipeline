@@ -1,0 +1,362 @@
+[
+  {
+    "word": "That",
+    "start": 0.291,
+    "end": 0.431
+  },
+  {
+    "word": "is",
+    "start": 0.491,
+    "end": 0.591
+  },
+  {
+    "word": "the",
+    "start": 0.631,
+    "end": 0.731
+  },
+  {
+    "word": "real",
+    "start": 0.771,
+    "end": 0.951
+  },
+  {
+    "word": "lesson.",
+    "start": 0.991,
+    "end": 1.351
+  },
+  {
+    "word": "The",
+    "start": 1.732,
+    "end": 1.832
+  },
+  {
+    "word": "AI",
+    "start": 1.932,
+    "end": 2.252
+  },
+  {
+    "word": "boom",
+    "start": 2.312,
+    "end": 2.572
+  },
+  {
+    "word": "is",
+    "start": 2.632,
+    "end": 2.712
+  },
+  {
+    "word": "usually",
+    "start": 2.812,
+    "end": 3.092
+  },
+  {
+    "word": "told",
+    "start": 3.152,
+    "end": 3.432
+  },
+  {
+    "word": "as",
+    "start": 3.512,
+    "end": 3.612
+  },
+  {
+    "word": "a",
+    "start": 3.652,
+    "end": 3.692
+  },
+  {
+    "word": "story",
+    "start": 3.752,
+    "end": 4.092
+  },
+  {
+    "word": "about",
+    "start": 4.132,
+    "end": 4.372
+  },
+  {
+    "word": "compute,",
+    "start": 4.412,
+    "end": 4.893
+  },
+  {
+    "word": "but",
+    "start": 5.293,
+    "end": 5.413
+  },
+  {
+    "word": "every",
+    "start": 5.493,
+    "end": 5.693
+  },
+  {
+    "word": "leap",
+    "start": 5.733,
+    "end": 5.913
+  },
+  {
+    "word": "in",
+    "start": 5.953,
+    "end": 6.033
+  },
+  {
+    "word": "compute",
+    "start": 6.073,
+    "end": 6.433
+  },
+  {
+    "word": "exposes",
+    "start": 6.613,
+    "end": 7.173
+  },
+  {
+    "word": "a",
+    "start": 7.233,
+    "end": 7.273
+  },
+  {
+    "word": "new",
+    "start": 7.333,
+    "end": 7.473
+  },
+  {
+    "word": "physical",
+    "start": 7.534,
+    "end": 7.894
+  },
+  {
+    "word": "limit",
+    "start": 7.954,
+    "end": 8.214
+  },
+  {
+    "word": "somewhere",
+    "start": 8.294,
+    "end": 8.654
+  },
+  {
+    "word": "else,",
+    "start": 8.734,
+    "end": 8.914
+  },
+  {
+    "word": "moving",
+    "start": 9.374,
+    "end": 9.654
+  },
+  {
+    "word": "memory",
+    "start": 9.694,
+    "end": 10.034
+  },
+  {
+    "word": "onto",
+    "start": 10.154,
+    "end": 10.334
+  },
+  {
+    "word": "the",
+    "start": 10.354,
+    "end": 10.414
+  },
+  {
+    "word": "package",
+    "start": 10.454,
+    "end": 10.835
+  },
+  {
+    "word": "solved",
+    "start": 10.895,
+    "end": 11.195
+  },
+  {
+    "word": "bandwidth,",
+    "start": 11.275,
+    "end": 11.735
+  },
+  {
+    "word": "but",
+    "start": 12.015,
+    "end": 12.135
+  },
+  {
+    "word": "created",
+    "start": 12.175,
+    "end": 12.535
+  },
+  {
+    "word": "a",
+    "start": 12.575,
+    "end": 12.615
+  },
+  {
+    "word": "packaging",
+    "start": 12.655,
+    "end": 13.075
+  },
+  {
+    "word": "bottleneck,",
+    "start": 13.135,
+    "end": 13.656
+  },
+  {
+    "word": "stacking",
+    "start": 14.116,
+    "end": 14.516
+  },
+  {
+    "word": "more",
+    "start": 14.556,
+    "end": 14.756
+  },
+  {
+    "word": "dies",
+    "start": 14.796,
+    "end": 15.096
+  },
+  {
+    "word": "solved",
+    "start": 15.156,
+    "end": 15.496
+  },
+  {
+    "word": "capacity,",
+    "start": 15.576,
+    "end": 16.216
+  },
+  {
+    "word": "but",
+    "start": 16.517,
+    "end": 16.637
+  },
+  {
+    "word": "created",
+    "start": 16.677,
+    "end": 17.057
+  },
+  {
+    "word": "a",
+    "start": 17.097,
+    "end": 17.137
+  },
+  {
+    "word": "heat",
+    "start": 17.217,
+    "end": 17.437
+  },
+  {
+    "word": "and",
+    "start": 17.577,
+    "end": 17.677
+  },
+  {
+    "word": "yield",
+    "start": 17.717,
+    "end": 17.977
+  },
+  {
+    "word": "problem.",
+    "start": 18.037,
+    "end": 18.417
+  },
+  {
+    "word": "Hybrid",
+    "start": 18.837,
+    "end": 19.217
+  },
+  {
+    "word": "bonding",
+    "start": 19.277,
+    "end": 19.678
+  },
+  {
+    "word": "solves",
+    "start": 19.758,
+    "end": 20.138
+  },
+  {
+    "word": "the",
+    "start": 20.198,
+    "end": 20.298
+  },
+  {
+    "word": "solder",
+    "start": 20.338,
+    "end": 20.678
+  },
+  {
+    "word": "bump,",
+    "start": 20.738,
+    "end": 20.978
+  },
+  {
+    "word": "but",
+    "start": 21.298,
+    "end": 21.398
+  },
+  {
+    "word": "creates",
+    "start": 21.458,
+    "end": 21.778
+  },
+  {
+    "word": "a",
+    "start": 21.818,
+    "end": 21.858
+  },
+  {
+    "word": "cleanliness",
+    "start": 21.918,
+    "end": 22.478
+  },
+  {
+    "word": "and",
+    "start": 22.759,
+    "end": 22.839
+  },
+  {
+    "word": "copper",
+    "start": 22.899,
+    "end": 23.199
+  },
+  {
+    "word": "expansion",
+    "start": 23.259,
+    "end": 23.799
+  },
+  {
+    "word": "problem.",
+    "start": 23.859,
+    "end": 24.239
+  },
+  {
+    "word": "Each",
+    "start": 24.779,
+    "end": 24.919
+  },
+  {
+    "word": "answer",
+    "start": 25.079,
+    "end": 25.379
+  },
+  {
+    "word": "becomes",
+    "start": 25.439,
+    "end": 25.82
+  },
+  {
+    "word": "the",
+    "start": 25.86,
+    "end": 25.96
+  },
+  {
+    "word": "next",
+    "start": 26.0,
+    "end": 26.2
+  },
+  {
+    "word": "question.",
+    "start": 26.28,
+    "end": 26.7
+  }
+]
